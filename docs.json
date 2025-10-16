@@ -22,21 +22,21 @@
           {
             "group": "Emma",
             "pages": [
-              "docs/fr/Emma/emma-fr-guide-de-tarification.mdx",
-              "docs/fr/Emma/emma-fr-sommaire-produit-assurance-vie.mdx",
-              "docs/fr/Emma/emma-fr-specimen-de-contrat.mdx"
+              "fr/Emma/emma-fr-guide-de-tarification",
+              "fr/Emma/emma-fr-sommaire-produit-assurance-vie",
+              "fr/Emma/emma-fr-specimen-de-contrat"
             ]
           },
           {
             "group": "Assomption",
             "pages": [
-              "docs/fr/Assomption/assomption-fr-formulaire-assurance-vie-simplifiee.mdx"
+              "fr/Assomption/assomption-fr-formulaire-assurance-vie-simplifiee"
             ]
           },
           {
             "group": "UV",
             "pages": [
-              "docs/fr/UV/uv-fr-assurance-sommaire-des-protections-complementaires.mdx"
+              "fr/UV/uv-fr-assurance-sommaire-des-protections-complementaires"
             ]
           }
         ]
