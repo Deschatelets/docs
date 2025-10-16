@@ -205,16 +205,16 @@ Questionnaire 3 étapes ; admissible au montant/type le plus avantageux.
 
 | Étape | Maximum Capital | Couvertures | Si "oui" à question → Étape précédente |
 |-------|-----------------|-------------|---------------------------------------|
-| **Accès garanti** | 50 000 $ (18-50 ans) ; 25 000 $ (<18 ou >50) | V100 | N/A |
-| **Différé** | 100 000 $ ; 25 000 $ (<18) | V100 | Accès garanti |
-| **Différé Plus** | 350 000 $ ; 25 000 $ (<18 ou >70) | V100 + T15/T20/T25 | Différé |
-| **Immédiat Plus** | 500 000 $ ; 25 000 $ (<18 ou >70) | V100 + T15/T20/T25 | Différé Plus |
+| **Accès garanti** | 50 000 $ (18-50 ans) ; 25 000 $ (&lt;18 ou &gt;50) | V100 | N/A |
+| **Différé** | 100 000 $ ; 25 000 $ (&lt;18) | V100 | Accès garanti |
+| **Différé Plus** | 350 000 $ ; 25 000 $ (&lt;18 ou &gt;70) | V100 + T15/T20/T25 | Différé |
+| **Immédiat Plus** | 500 000 $ ; 25 000 $ (&lt;18 ou &gt;70) | V100 + T15/T20/T25 | Différé Plus |
 
 **Pour toutes étapes** : Montant basé sur âge/réponses ; combiné si multiples protections iA (max admissible principal).
 
 ### Capital assuré {#capital}
 
-| Étape | Min. | Max. <18 ans | Max. 18-50 ans | Max. 51-70 ans | Max. >70 ans |
+| Étape | Min. | Max. &lt;18 ans | Max. 18-50 ans | Max. 51-70 ans | Max. &gt;70 ans |
 |-------|------|--------------|----------------|----------------|--------------|
 | **Accès garanti** | 10 000 $ | 10 000 $ | 50 000 $ | 25 000 $ | 25 000 $ |
 | **Différé** | 10 000 $ | 25 000 $ | 100 000 $ | 100 000 $ | 100 000 $ |
@@ -231,7 +231,7 @@ V100 simple/abordable. Max 100 000 $ (25 000 $ enfants). Décès naturel : prime
 
 ### Étape Immédiat Plus {#immédiat-plus}
 
-V100 + T15/T20/T25. Max 500 000 $ (150 000 $ >70). Suicide : primes sans intérêt.
+V100 + T15/T20/T25. Max 500 000 $ (150 000 $ &gt;70). Suicide : primes sans intérêt.
 
 ---
 
@@ -247,9 +247,9 @@ Disponibles Différé Plus/Immédiat Plus ; couvre besoins temporaires (hypothè
 
 ### Limitation capital {#limitation}
 
-- **Accès garanti** : Décès naturel <2 ans : primes sans intérêt. >2 ans : capital. Accident : capital. Suicide <2 ans : primes.
-- **Différé/Différé Plus** : Décès naturel <2 ans : primes +3% intérêt simple. >2 ans : capital. Accident : capital. Suicide <2 ans : primes.
-- **Immédiat Plus** : Suicide <2 ans : primes sans intérêt.
+- **Accès garanti** : Décès naturel &lt;2 ans : primes sans intérêt. &gt;2 ans : capital. Accident : capital. Suicide &lt;2 ans : primes.
+- **Différé/Différé Plus** : Décès naturel &lt;2 ans : primes +3% intérêt simple. &gt;2 ans : capital. Accident : capital. Suicide &lt;2 ans : primes.
+- **Immédiat Plus** : Suicide &lt;2 ans : primes sans intérêt.
 
 ### Type d'assurance {#type}
 
@@ -259,13 +259,13 @@ Individuelle seulement.
 
 Sans preuve ; primes garanties à renouvellement.
 
-- **T15** : Renouvelable 15 ans si <66 ans ; sinon jusqu'80 ans.
-- **T20** : Renouvelable 20 ans si <61 ans ; sinon jusqu'80 ans.
-- **T25** : Renouvelable 25 ans si <56 ans ; sinon jusqu'80 ans.
+- **T15** : Renouvelable 15 ans si &lt;66 ans ; sinon jusqu'80 ans.
+- **T20** : Renouvelable 20 ans si &lt;61 ans ; sinon jusqu'80 ans.
+- **T25** : Renouvelable 25 ans si &lt;56 ans ; sinon jusqu'80 ans.
 
 ### Transformation {#transformation}
 
-T15/T20/T25 → permanente V100 (même étape, capital ≤ initial). ≥2 ans après émission ; <71 ans. Sans preuve ; primes selon âge/étape/taux courants ; statut tabac conservé.
+T15/T20/T25 → permanente V100 (même étape, capital ≤ initial). &ge;2 ans après émission ; &lt;71 ans. Sans preuve ; primes selon âge/étape/taux courants ; statut tabac conservé.
 
 ### Type de capital {#capital-type}
 
@@ -274,9 +274,9 @@ Uniforme seulement.
 ### Âge à l'émission {#âge}
 
 - **V100** : 6 mois-80 ans ; paiement jusqu'100 ans.
-- **T15** : 20-65 ans (renouvelable <66 ; non <56-65).
-- **T20** : 20-60 ans (renouvelable <51 ; non <51-60).
-- **T25** : 20-55 ans (renouvelable <46 ; non <46-55).
+- **T15** : 20-65 ans (renouvelable &lt;66 ; non &lt;56-65).
+- **T20** : 20-60 ans (renouvelable &lt;51 ; non &lt;51-60).
+- **T25** : 20-55 ans (renouvelable &lt;46 ; non &lt;46-55).
 
 ### Protections conjointes/multiassurés {#conjoint}
 
@@ -304,7 +304,7 @@ Disponible 8e année ; permet arrêt primes, capital réduit pour durée restant
 
 ### Restrictions {#restrictions}
 
-Avance ≥ min/max règles administratives ; ≤ 90% valeur rachat - sommes dues.
+Avance ≥ min/max règles administratives ; &le; 90% valeur rachat - sommes dues.
 
 ### Avances automatiques {#automatiques}
 
@@ -342,36 +342,36 @@ Voir *Guide des politiques et procédures* (Extranet Centre documentation).
 
 | Condition | Définition | Admissibilité (Facteurs) | Protection | Questions à surveiller |
 |-----------|------------|--------------------------|------------|------------------------|
-| **Abus d'alcool** | Consommation abusive/dépendance ; conseillé arrêt/réduction. | Conseillé réduire/traitement/groupe soutien (5 ans vs >5 ans) | Différé (5 ans) / Immédiat Plus (>5 ans) | Étape 2 - Q. 2d |
-| **Abus de drogues** | Usage compulsif drogues incl. marijuana. | Conseillé réduire/traitement/groupe (5 ans vs >5 ans) | Différé (5 ans) / Immédiat Plus (>5 ans) | Étape 2 - Q. 2d |
-| **Accident vasculaire cérébral (AVC)** | Interruption sang cerveau/hémorragie. | Anticoagulant/chirurgie (3 ans vs >3 ans) | Différé (3 ans) / Immédiat Plus (>3 ans) | Étape 2 - Q. 3b |
+| **Abus d'alcool** | Consommation abusive/dépendance ; conseillé arrêt/réduction. | Conseillé réduire/traitement/groupe soutien (5 ans vs &gt;5 ans) | Différé (5 ans) / Immédiat Plus (&gt;5 ans) | Étape 2 - Q. 2d |
+| **Abus de drogues** | Usage compulsif drogues incl. marijuana. | Conseillé réduire/traitement/groupe (5 ans vs &gt;5 ans) | Différé (5 ans) / Immédiat Plus (&gt;5 ans) | Étape 2 - Q. 2d |
+| **Accident vasculaire cérébral (AVC)** | Interruption sang cerveau/hémorragie. | Anticoagulant/chirurgie (3 ans vs &gt;3 ans) | Différé (3 ans) / Immédiat Plus (&gt;3 ans) | Étape 2 - Q. 3b |
 | **Alzheimer** | Maladie neurologique dégénérative mémoire/comportement. | - | Accès garanti | Étape 1 - Q. 1c |
-| **Anévrisme** | Dilatation anormale artère (cerveau/abdomen/etc.). | Chirurgie (12 mois vs >12 mois) | Différé (12 mois) / Immédiat Plus (>12 mois) | Étape 2 - Q. 4b |
-| **Angine** | Douleur thoracique manque oxygène cœur (maladie coronarienne). | Anticoagulant/chirurgie (3 ans vs >3 ans) | Différé (3 ans) / Immédiat Plus (>3 ans) | Étape 2 - Q. 3a |
-| **Angioplastie** | Dilatation artère coronaire. | Subi/en attente (3 ans vs >3 ans) | Différé (3 ans) / Immédiat Plus (>3 ans) | Étape 2 - Q. 3a |
-| **Anticoagulant** | Médicament fluidifiant sang (Coumadine, Plavix, Héparine ; aspirine exclue). | Traité (3 ans vs >3 ans) | Différé (3 ans) / Immédiat Plus (>3 ans) | Étape 2 - Q. 3a/3b |
+| **Anévrisme** | Dilatation anormale artère (cerveau/abdomen/etc.). | Chirurgie (12 mois vs &gt;12 mois) | Différé (12 mois) / Immédiat Plus (&gt;12 mois) | Étape 2 - Q. 4b |
+| **Angine** | Douleur thoracique manque oxygène cœur (maladie coronarienne). | Anticoagulant/chirurgie (3 ans vs &gt;3 ans) | Différé (3 ans) / Immédiat Plus (&gt;3 ans) | Étape 2 - Q. 3a |
+| **Angioplastie** | Dilatation artère coronaire. | Subi/en attente (3 ans vs &gt;3 ans) | Différé (3 ans) / Immédiat Plus (&gt;3 ans) | Étape 2 - Q. 3a |
+| **Anticoagulant** | Médicament fluidifiant sang (Coumadine, Plavix, Héparine ; aspirine exclue). | Traité (3 ans vs &gt;3 ans) | Différé (3 ans) / Immédiat Plus (&gt;3 ans) | Étape 2 - Q. 3a/3b |
 | **Apnée du sommeil** | Arrêts respiratoires sommeil. | - | Immédiat Plus | Aucune |
 | **Ataxie** | Pathologie neuromusculaire manque coordination. | - | Accès garanti | Étape 1 - Q. 1c |
-| **Autisme/TSA** | Trouble neurologique communication/interaction ; comportements répétitifs (autisme, Asperger, Rett). | <18 ans ; ≥18 ans | Accès garanti (<18) / Immédiat Plus (≥18) | Étape 1 - Q. 1e ( <18) ; aucune (≥18) |
+| **Autisme/TSA** | Trouble neurologique communication/interaction ; comportements répétitifs (autisme, Asperger, Rett). | &lt;18 ans ; &ge;18 ans | Accès garanti (&lt;18) / Immédiat Plus (&ge;18) | Étape 1 - Q. 1e ( &lt;18) ; aucune (&ge;18) |
 | **Carcinome basocellulaire** | Cancer peau fréquent, lent, non métastatique, traité facilement. | - | Immédiat Plus | Aucune |
-| **Cancer/Tumeur maligne** | Croissance cellules anormales (mélanome inclus ; basocellulaire excl). | Traité (3 ans vs 5 ans vs >5 ans) | Accès garanti (3 ans) / Différé Plus (5 ans) / Immédiat Plus (>5 ans) | Étape 1 - Q. 2 ; Étape 3 - Q. 1 |
+| **Cancer/Tumeur maligne** | Croissance cellules anormales (mélanome inclus ; basocellulaire excl). | Traité (3 ans vs 5 ans vs &gt;5 ans) | Accès garanti (3 ans) / Différé Plus (5 ans) / Immédiat Plus (&gt;5 ans) | Étape 1 - Q. 2 ; Étape 3 - Q. 1 |
 | **Cardiomyopathie** | Maladies muscle cardiaque ; risque insuffisance/sudden death. | Antécédents familiaux | Accès garanti | Étape 1 - Q. 1b |
-| **Chorée Huntington** | Maladie génétique dégénérative coordination/mental/comportement. | Antécédents familiaux (<60 vs ≥60) | Différé Plus (<60) / Immédiat Plus (≥60) | Étape 1 - Q. 1c ; Étape 3 - Q. 4a |
-| **Cirrhose** | Maladie chronique irréversible foie. | Traité (5 ans vs >5 ans) | Différé (5 ans) | Étape 2 - Q. 2b |
-| **Consommation drogues dures** | Héroïne, narcotiques (marijuana excl), speed, champignons, cocaïne. | Usage non prescrit/méthadone (12 mois vs >12 mois) | Accès garanti (12 mois) / Immédiat Plus (>12 mois) | Étape 1 - Q. 3b |
-| **Crise cardiaque (infarctus)** | Dommage permanent muscle cardiaque manque oxygène. | Anticoagulant/chirurgie (3 ans vs >3 ans) | Différé (3 ans) / Immédiat Plus (>3 ans) | Étape 2 - Q. 3a |
+| **Chorée Huntington** | Maladie génétique dégénérative coordination/mental/comportement. | Antécédents familiaux (&lt;60 vs &ge;60) | Différé Plus (&lt;60) / Immédiat Plus (&ge;60) | Étape 1 - Q. 1c ; Étape 3 - Q. 4a |
+| **Cirrhose** | Maladie chronique irréversible foie. | Traité (5 ans vs &gt;5 ans) | Différé (5 ans) | Étape 2 - Q. 2b |
+| **Consommation drogues dures** | Héroïne, narcotiques (marijuana excl), speed, champignons, cocaïne. | Usage non prescrit/méthadone (12 mois vs &gt;12 mois) | Accès garanti (12 mois) / Immédiat Plus (&gt;12 mois) | Étape 1 - Q. 3b |
+| **Crise cardiaque (infarctus)** | Dommage permanent muscle cardiaque manque oxygène. | Anticoagulant/chirurgie (3 ans vs &gt;3 ans) | Différé (3 ans) / Immédiat Plus (&gt;3 ans) | Étape 2 - Q. 3a |
 | **Démence/Sénilité** | Maladies cérébrales affectant cognition ; souvent Alzheimer. | - | Accès garanti | Étape 1 - Q. 1c |
-| **Dépression** | Trouble mental/humeur (tristesse, perte intérêt). | Hospitalisation/modification médication (12 mois vs >12 mois) | Différé (12 mois) / Immédiat Plus (>12 mois) | Étape 2 - Q. 4a |
-| **Diabète Type 1** | Niveaux sucre élevés ; type 1 seulement. | <18 ans ; ≥18 ans | Accès garanti (<18) / Immédiat Plus (≥18) | Étape 1 - Q. 1e (<18) ; aucune (≥18) |
-| **Diabète - Tous types** | Niveaux sucre élevés ; tous types. | Modification médication (12 mois vs >12 mois) | Différé (12 mois) / Immédiat Plus (>12 mois) | Étape 2 - Q. 4c |
+| **Dépression** | Trouble mental/humeur (tristesse, perte intérêt). | Hospitalisation/modification médication (12 mois vs &gt;12 mois) | Différé (12 mois) / Immédiat Plus (&gt;12 mois) | Étape 2 - Q. 4a |
+| **Diabète Type 1** | Niveaux sucre élevés ; type 1 seulement. | &lt;18 ans ; &ge;18 ans | Accès garanti (&lt;18) / Immédiat Plus (&ge;18) | Étape 1 - Q. 1e (&lt;18) ; aucune (&ge;18) |
+| **Diabète - Tous types** | Niveaux sucre élevés ; tous types. | Modification médication (12 mois vs &gt;12 mois) | Différé (12 mois) / Immédiat Plus (&gt;12 mois) | Étape 2 - Q. 4c |
 | **Dialyse** | Technique retrait déchets/eau (reins chroniques). | - | Différé (5 ans) | Étape 2 - Q. 2b |
 | **Douleurs thoraciques** | Douleurs intercostales/thoraciques non cardiaques. | - | Immédiat Plus | Aucune |
 | **Dystrophie musculaire/myotonique** | Faiblesse musculaire progressive/perte tissu. | - | Accès garanti | Étape 1 - Q. 1c |
 | **Emphysème** | Maladie pulmonaire chronique progressive/irréversible. | Oxygène quotidien (vs non) | Accès garanti (oxygène) / Immédiat Plus (non) | Étape 1 - Q. 1d |
 | **Épilepsie/Convulsions** | Trouble neurologique crises/absences. | - | Immédiat Plus | Aucune |
 | **Établissement soins infirmiers/centre/foyer** | Résidence soins continus ; difficultés activités quotidiennes. | Présentement | Accès garanti | Étape 1 - Q. 4a |
-| **Fibrose hépatique** | Inflammation foie complications (cirrhose). | Traité (5 ans vs >5 ans) | Différé (5 ans) | Étape 2 - Q. 2b |
-| **Fibrose kystique** | Maladie génétique mucus visqueux voies respiratoires/digestives. | <3 ans ; antécédents familiaux | Accès garanti (<3 ans) / Différé Plus (famille) | Étape 1 - Q. 1c ; Étape 3 - Q. 4b |
+| **Fibrose hépatique** | Inflammation foie complications (cirrhose). | Traité (5 ans vs &gt;5 ans) | Différé (5 ans) | Étape 2 - Q. 2b |
+| **Fibrose kystique** | Maladie génétique mucus visqueux voies respiratoires/digestives. | &lt;3 ans ; antécédents familiaux | Accès garanti (&lt;3 ans) / Différé Plus (famille) | Étape 1 - Q. 1c ; Étape 3 - Q. 4b |
 | **Fibrose pulmonaire** | Inflammation/cicatrisation poumons. | - | Différé (5 ans) | Étape 2 - Q. 2b |
 
 (Continued for all conditions; full in edit, ~50 entries)
@@ -403,16 +403,16 @@ document:
 
 steps:
   accès_garanti:
-    max_capital: "50000 (18-50); 25000 (<18/>50)"
+    max_capital: "50000 (18-50); 25000 (&lt;18/&gt;50)"
     protections: ["V100"]
   différé:
-    max_capital: "100000; 25000 (<18)"
+    max_capital: "100000; 25000 (&lt;18)"
     protections: ["V100"]
   différé_plus:
-    max_capital: "350000; 25000 (<18/>70)"
+    max_capital: "350000; 25000 (&lt;18/&gt;70)"
     protections: ["V100", "T15", "T20", "T25"]
   immédiat_plus:
-    max_capital: "500000; 25000 (<18/>70)"
+    max_capital: "500000; 25000 (&lt;18/&gt;70)"
     protections: ["V100", "T15", "T20", "T25"]
 
 protections:
@@ -423,15 +423,15 @@ protections:
   t15:
     type: "temporaire"
     term: "15 ans"
-    renewable: "<66 ans"
+    renewable: "&lt;66 ans"
   t20:
     type: "temporaire"
     term: "20 ans"
-    renewable: "<61 ans"
+    renewable: "&lt;61 ans"
   t25:
     type: "temporaire"
     term: "25 ans"
-    renewable: "<56 ans"
+    renewable: "&lt;56 ans"
 
 medical_troubles:
   abus_alcool:
@@ -441,7 +441,7 @@ medical_troubles:
         period: "5 ans"
         protection: "Différé"
       - factor: "Conseillé réduire/traitement/groupe soutien"
-        period: ">5 ans"
+        period: "&gt;5 ans"
         protection: "Immédiat Plus"
     questions: "Étape 2 - Q. 2d"
   # ... full for all ~50 conditions

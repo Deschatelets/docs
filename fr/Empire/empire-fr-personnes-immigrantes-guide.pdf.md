@@ -235,8 +235,8 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 #### Documents requis
 - Résident au Canada depuis au moins 3 mois
-- Permis de travail valide (ou demande de prolongation si expire < 3 mois ; ou accusé de réception de demande de RP)
-- Lettre d'intention de rester au Canada de façon permanente (demandes ≤ 500 000 $)
+- Permis de travail valide (ou demande de prolongation si expire &lt; 3 mois ; ou accusé de réception de demande de RP)
+- Lettre d'intention de rester au Canada de façon permanente (demandes &le; 500 000 $)
 - Copie d'accusé de réception de demande de RP (demandes > 500 000 $)
 
 ---
@@ -290,7 +290,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 - Résider au Canada depuis un an et travailler à temps plein
 - Copie de documentation confirmant le statut (ex. : statut de réfugié)
 - Copie d'accusé de réception de demande de RP
-- Permis de travail valide (ou demande de prolongation si expire < 3 mois)
+- Permis de travail valide (ou demande de prolongation si expire &lt; 3 mois)
 
 ---
 
@@ -311,7 +311,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 - **Assurance Vie** : Aucune exigence minimale de résidence
 - **MG** : Résider au Canada depuis 3 mois
 - Permis de travail valide et intention de rester au Canada de façon permanente
-- Si permis expire < 3 mois : Demande de prolongation
+- Si permis expire &lt; 3 mois : Demande de prolongation
 - **Médecins** : Copie du contrat de travail + participation à un programme provincial
 - **Autres** : Copie de document valide sur le statut (ex. : NAS, papiers d'immigration)
 
@@ -406,7 +406,7 @@ immigration_statuses:
       additional_guarantees: "all_offered"
       preferred_rates: true
     requirements:
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Canadian citizenship or permanent resident card"
       - "Letter of acceptance (if card not received)"
@@ -418,7 +418,7 @@ immigration_statuses:
       additional_guarantees: "not_offered"
     requirements:
       residency: ">=3 months"
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Valid work permit (or extension request/acknowledgment of RP application)"
       - "Letter of intent to stay permanently (<=500000 CAD)"
@@ -431,7 +431,7 @@ immigration_statuses:
       additional_guarantees: "not_offered"
     requirements:
       residency: ">=3 months"
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Letter of intent to stay permanently"
       - "Valid post-graduation work permit (or extension/acknowledgment)"
@@ -443,7 +443,7 @@ immigration_statuses:
       additional_guarantees: "not_offered"
     requirements:
       residency: ">=3 months"
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Study program details (institution, duration)"
       - "Letter of intent to stay permanently post-graduation"
@@ -456,7 +456,7 @@ immigration_statuses:
       additional_guarantees: "not_offered"
     requirements:
       residency: ">=1 year + full-time work"
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Documentation confirming refugee status"
       - "Acknowledgment of RP application"
@@ -469,10 +469,10 @@ immigration_statuses:
       premium_waiver: "offered (disability/death of payer)"
       preferred_rates: true
     requirements:
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Valid work permit + intent to stay permanently"
-      - "Work permit extension if expiring <3 months"
+      - "Work permit extension if expiring &lt;3 months"
       - "Doctors: Employment contract + provincial program"
       - "Others: Valid status document (e.g., SIN, immigration papers)"
   
@@ -484,7 +484,7 @@ immigration_statuses:
     requirements:
       residency_life: "none"
       residency_ci: ">=6 months"
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Participation in Live-in Caregiver Program + employment as caregiver"
       - "Documentation at underwriter's discretion"
@@ -498,7 +498,7 @@ immigration_statuses:
     requirements:
       residency_life: "none"
       residency_ci: ">=3 months"
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Letter of acceptance to Provincial Nominee Program or Quebec Selection Certificate"
   
@@ -507,14 +507,14 @@ immigration_statuses:
       life_ci: "50% of principal's coverage"
       additional_guarantees: "per principal's status"
     requirements:
-      blood_profile: "if <1 year in Canada, age 18+"
+      blood_profile: "if &lt;1 year in Canada, age 18+"
     documents:
       - "Principal's residency status"
       - "Acknowledgment of RP application"
       - "Reside in Canada"
 
 common_requirements:
-  blood_profile: "Includes hepatitis B and C screening for age 18+, <1 year in Canada"
+  blood_profile: "Includes hepatitis B and C screening for age 18+, &lt;1 year in Canada"
   routine: "Based on age and coverage amount"
 
 contact:

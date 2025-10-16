@@ -199,13 +199,13 @@ Pour être admissible à l'avenant Assurance dette, l'assuré doit être couvert
 
 | Caractéristique | Express | Immédiate | Régulière |
 |-----------------|---------|-----------|-----------|
-| **Assurance vie temporaire** | 20 000 $ à 150 000 $<br>*25 000 $ pour la T-10 et T-15 | 150 001 $ à 499 999 $ (18 à 45 ans)<br>150 001 $ à 350 000 $ (46 à 55 ans)<br>150 001 $ à 250 000 $ (56 à 60 ans) | 500 000 $ et plus (18 à 45 ans)<br>350 001 $ et plus (46 à 55 ans)<br>250 001 $ et plus (56 à 60 ans) |
+| **Assurance vie temporaire** | 20 000 $ à 150 000 $<br />*25 000 $ pour la T-10 et T-15 | 150 001 $ à 499 999 $ (18 à 45 ans)<br />150 001 $ à 350 000 $ (46 à 55 ans)<br />150 001 $ à 250 000 $ (56 à 60 ans) | 500 000 $ et plus (18 à 45 ans)<br />350 001 $ et plus (46 à 55 ans)<br />250 001 $ et plus (56 à 60 ans) |
 | **Assurance vie permanente** | 20 000 $ à 150 000 $ | - | 150 001 $ et plus |
-| **Durée de la prestation** | 2 ans | 2 et 5 ans | 2 et 5 ans<br>Jusqu'à 65 ans |
-| **Âge à la souscription** | 18 à 55 ans | 18 à 55 ans | 18 à 55 ans<br>18 à 60 ans |
+| **Durée de la prestation** | 2 ans | 2 et 5 ans | 2 et 5 ans<br />Jusqu'à 65 ans |
+| **Âge à la souscription** | 18 à 55 ans | 18 à 55 ans | 18 à 55 ans<br />18 à 60 ans |
 | **Délai de carence** | 30 jours (blessure corporelle, hospitalisation >18h, chirurgie d'un jour) | 90 jours (rétroactif à la 31e journée) | 90 jours |
 | **Fin de la protection** | 65e anniversaire | 65e anniversaire | 65e anniversaire |
-| **Prestation** | Min 300 $/mois, Max 3 500 $/mois<br>(ne peut excéder 1,5% du montant d'assurance vie) | Min 300 $/mois, Max 3 500 $/mois | Min 300 $/mois, Max 3 500 $/mois |
+| **Prestation** | Min 300 $/mois, Max 3 500 $/mois<br />(ne peut excéder 1,5% du montant d'assurance vie) | Min 300 $/mois, Max 3 500 $/mois | Min 300 $/mois, Max 3 500 $/mois |
 | **Prêts admissibles** | Prêts personnels et commerciaux émis par une institution financière | Prêts personnels et commerciaux émis par une institution financière | Prêts personnels et commerciaux émis par une institution financière |
 | **Primes** | Fixes et garanties pendant toute la durée de la protection | Fixes et garanties pendant toute la durée de la protection | Fixes et garanties pendant toute la durée de la protection |
 
@@ -219,7 +219,7 @@ Pour être admissible à l'avenant Assurance dette, l'assuré doit être couvert
 |-----------------|---------|
 | **Montant** | 20 000 $ |
 | **Transformable** | À l'âge de 25 ans jusqu'à 100 000 $ |
-| **Prime annuelle** | 50 $ par enfant pour les deux premiers enfants<br>Gratuit pour les enfants additionnels |
+| **Prime annuelle** | 50 $ par enfant pour les deux premiers enfants<br />Gratuit pour les enfants additionnels |
 | **Protection** | Une protection par enfant |
 
 ### Exonération des primes (18 à 55 ans)
@@ -296,7 +296,7 @@ Pour être admissible à l'avenant Assurance dette, l'assuré doit être couvert
 
 ### Protections complémentaires par produit
 
-| Protection complémentaire | Temporaires Supérieur+<br>T-10, T-15, T-20, T-25, T-30 | Vie entière<br>Valeurs Élevées, L'Adaptable<br>et Vie entière Payable à 100 ans | L'AdapSanté<br>Adulte 10 000 $ et plus<br>Enfant 25 000 $ et plus | Juvénile 30/100 |
+| Protection complémentaire | Temporaires Supérieur+<br />T-10, T-15, T-20, T-25, T-30 | Vie entière<br />Valeurs Élevées, L'Adaptable<br />et Vie entière Payable à 100 ans | L'AdapSanté<br />Adulte 10 000 $ et plus<br />Enfant 25 000 $ et plus | Juvénile 30/100 |
 |---------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------|-----------------|
 | **Avenant Assurance dette** | 2 et 5 ans | 2 ans | • | • |
 | **Avenant enfant (assurance vie)** | • | • | • | • |

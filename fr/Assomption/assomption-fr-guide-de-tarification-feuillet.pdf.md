@@ -166,17 +166,17 @@ Avec **plus de 25 ans d'expérience** sur le marché de l'émission simplifiée,
 
 | Condition Médicale | Flexibilité de Couverture | Code Système |
 |---|---|---|
-| **Diabète type 1 ou 2** | • Quel que soit l'âge au moment du diagnostic<br>• État actuel d'insulinodépendance accepté<br>• Changement récent de médicament ou dosage accepté | Endocrinien |
-| **Accident vasculaire cérébral (AVC)** | • Quel que soit l'âge au moment du diagnostic<br>• Traitement en cours accepté<br>• Consultations de suivi acceptées | Cardiovasculaire |
-| **Crise cardiaque** | • Quel que soit l'âge au moment du diagnostic<br>• Traitement en cours accepté<br>• Consultations de suivi acceptées | Cardiovasculaire |
-| **Apnée du sommeil** | • Même si le diagnostic est récent<br>• Aucune restriction de délai | Respiratoire |
-| **Cancer** | • Quel que soit le type<br>• Présence ou non de métastases<br>• Récidive acceptée<br>• Cancers multiples acceptés | Oncologie |
-| **Surpoids** | • Charte taille/poids parmi les plus généreuses de l'industrie<br>• Limites de poids élevées | Métabolique |
-| **Dépression ou anxiété** | • Client en arrêt de travail accepté<br>• Changement de médication accepté<br>• Augmentation de posologie acceptée<br>• Nouveau médicament accepté<br>• Arrêt de médicament accepté | Santé mentale |
+| **Diabète type 1 ou 2** | • Quel que soit l'âge au moment du diagnostic<br />• État actuel d'insulinodépendance accepté<br />• Changement récent de médicament ou dosage accepté | Endocrinien |
+| **Accident vasculaire cérébral (AVC)** | • Quel que soit l'âge au moment du diagnostic<br />• Traitement en cours accepté<br />• Consultations de suivi acceptées | Cardiovasculaire |
+| **Crise cardiaque** | • Quel que soit l'âge au moment du diagnostic<br />• Traitement en cours accepté<br />• Consultations de suivi acceptées | Cardiovasculaire |
+| **Apnée du sommeil** | • Même si le diagnostic est récent<br />• Aucune restriction de délai | Respiratoire |
+| **Cancer** | • Quel que soit le type<br />• Présence ou non de métastases<br />• Récidive acceptée<br />• Cancers multiples acceptés | Oncologie |
+| **Surpoids** | • Charte taille/poids parmi les plus généreuses de l'industrie<br />• Limites de poids élevées | Métabolique |
+| **Dépression ou anxiété** | • Client en arrêt de travail accepté<br />• Changement de médication accepté<br />• Augmentation de posologie acceptée<br />• Nouveau médicament accepté<br />• Arrêt de médicament accepté | Santé mentale |
 | **MPOC (Maladie pulmonaire obstructive chronique)** | • Couverture disponible | Respiratoire |
 | **Hypertension artérielle** | • Couverture disponible | Cardiovasculaire |
 | **Trouble bipolaire** | • Couverture disponible | Santé mentale |
-| **Handicaps physiques** | • En fauteuil roulant accepté<br>• Autres handicaps acceptés | Mobilité |
+| **Handicaps physiques** | • En fauteuil roulant accepté<br />• Autres handicaps acceptés | Mobilité |
 | **Chirurgie d'un jour en attente** | • Couverture disponible | Général |
 
 ---
@@ -185,8 +185,8 @@ Avec **plus de 25 ans d'expérience** sur le marché de l'émission simplifiée,
 
 | Condition Non Médicale | Détails de Couverture | Montant Maximum |
 |---|---|---|
-| **Nouveaux arrivants au Canada** | • Couverture complète disponible<br>• Processus simplifié | **Jusqu'à 750 000 $** |
-| **Faillite** | • Aucun obstacle à la couverture<br>• Montants élevés disponibles | **Jusqu'à 750 000 $** |
+| **Nouveaux arrivants au Canada** | • Couverture complète disponible<br />• Processus simplifié | **Jusqu'à 750 000 $** |
+| **Faillite** | • Aucun obstacle à la couverture<br />• Montants élevés disponibles | **Jusqu'à 750 000 $** |
 
 ---
 
@@ -196,10 +196,10 @@ Avec **plus de 25 ans d'expérience** sur le marché de l'émission simplifiée,
 
 | Produit | Type de Couverture | Questions Médicales | Caractéristiques Principales |
 |---|---|---|---|
-| **Protection Platine** | Immédiate | 19 questions | • Meilleures primes<br>• Couverture jusqu'à 750 000 $ |
-| **Protection Or** | Immédiate | 13 questions | • Couverture intermédiaire<br>• Processus simplifié |
-| **Protection Argent** | Différée progressive | 9 questions | • Souscription allégée<br>• Jusqu'à 50 000 $ |
-| **Protection Bronze** | Différée | 0 question (Émission garantie) | • Aucune question médicale<br>• Jusqu'à 50 000 $ |
+| **Protection Platine** | Immédiate | 19 questions | • Meilleures primes<br />• Couverture jusqu'à 750 000 $ |
+| **Protection Or** | Immédiate | 13 questions | • Couverture intermédiaire<br />• Processus simplifié |
+| **Protection Argent** | Différée progressive | 9 questions | • Souscription allégée<br />• Jusqu'à 50 000 $ |
+| **Protection Bronze** | Différée | 0 question (Émission garantie) | • Aucune question médicale<br />• Jusqu'à 50 000 $ |
 
 ---
 

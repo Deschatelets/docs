@@ -734,7 +734,7 @@ Certains risques traditionnellement associés aux voyages à l'étranger incluen
 
 ### Avantages indirects
 - **Travailleurs autonomes et représentants à commission** : 20% du revenu net jusqu'à 40 000$ par année
-- **Modification coordonnatrice** : Réduction de prime de 10% si excedant ≥ 1 000$
+- **Modification coordonnatrice** : Réduction de prime de 10% si excedant &ge; 1 000$
 
 ### Lettre d'accompagnement
 - Utile pour les problèmes de santé importants

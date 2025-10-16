@@ -224,15 +224,15 @@ Ce guide pratique aide à évaluer la tarification pour l'assurance vie et malad
 - Accepte dès naissance ; déclarations signées par parents biologiques et garde actuelle.
 - Max 50 000 $.
 
-**Adoption Internationale (Canada <3 ans)** :
+**Adoption Internationale (Canada &lt;3 ans)** :
 - Acte d'adoption.
 - NAS permanent ou carte résident permanent.
-- Si Canada <1 an : Rapport médical.
+- Si Canada &lt;1 an : Rapport médical.
 - Possible taux régulier selon info.
 - Si >50 000 $ et pas RMT canadien : Refus ; reconsidération après examen pédiatre canadien.
 
 **Famille d'Accueil** :
-- Dans famille ≥3 ans.
+- Dans famille &ge;3 ans.
 - Signature père/mère biologique ou tuteur.
 - Max 50 000 $.
 - Possible taux régulier.
@@ -254,12 +254,12 @@ Ce guide pratique aide à évaluer la tarification pour l'assurance vie et malad
 | Conditions | Exigences | Lignes Directrices |
 |------------|-----------|---------------------|
 | Adultes AVEC revenu | Questions financières proposition. | Âge 18-30: 30x revenu annuel canadien (salaire, bonis, commissions) + Valeur Nette. 31-40: 25x. 41-50: 20x. 51-60: 15x. 61-65: 10x. 66-70: 5x. >70: Max 200k $ (voir Personnes Âgées). |
-| Adultes SANS revenu | Questions financières ; Valeur Nette Personnelle. | <50 ans: 500k $ ou 50% conjoint qualifié. 51-70: 250k $ ou 50% conjoint. |
+| Adultes SANS revenu | Questions financières ; Valeur Nette Personnelle. | &lt;50 ans: 500k $ ou 50% conjoint qualifié. 51-70: 250k $ ou 50% conjoint. |
 | Personnes Âgées | Questions financières. | >70: Max 200k $. Additionnel selon Valeur Nette Canadienne/Étrangère ; cas par cas > avec lettre justification. |
 | Étudiants | Questions financières ; >500k $: Lettre présentation. | Général max 500k $ ; cas par cas > avec lettre. |
 | Enfants/Adolescents | Questions financières ; >500k $ et/ou grands-parents preneurs: Lettre. | Général max 500k $ ; cas par cas > avec lettre. |
 | Dons Charité | Questions financières ; Lettre présentation. | Cas par cas > avec lettre. |
-| Valeur Nette Étrangère | Questions financières ; Documents officiels (<6 mois, FR/EN): Comptes, investissements, T1/T1135. | Justifie 50% capital ; max 5M $. Calcul: 25% avoirs non-vérifiés ; 50% vérifiés. |
+| Valeur Nette Étrangère | Questions financières ; Documents officiels (&lt;6 mois, FR/EN): Comptes, investissements, T1/T1135. | Justifie 50% capital ; max 5M $. Calcul: 25% avoirs non-vérifiés ; 50% vérifiés. |
 
 **Valeur Nette Étrangère** : Justifie jusqu'à 50% capital, max 5M $.
 
@@ -314,7 +314,7 @@ Vols plaisance/affaires, permis privé/commercial (hélico inclus), élèves-pil
 **Exigences** : Questions Sports/Voyage, Questionnaire général non-médical, ou Aviation examen paramédical/entrevue.
 
 **Vie** :
-- Meilleurs cas: ≥27 ans, >100h solo, <200h/an: Régulier.
+- Meilleurs cas: &ge;27 ans, &gt;100h solo, &lt;200h/an: Régulier.
 - Autrement: Régulier à 5$/M/an.
 
 **Élève-Pilote** : Général 3.5$/M/an (sauf critères meilleurs).
@@ -395,7 +395,7 @@ Anémie chronique héréditaire grave ; thromboses, douleurs.
 
 **Exigences** : RMT ; *profil si pas récents.
 
-**Vie** : <30 ans refus ; > +200% à refus.
+**Vie** : &lt;30 ans refus ; > +200% à refus.
 
 **Maladie Grave** : Refus.
 
@@ -408,7 +408,7 @@ Destruction accélérée globules rouges.
 **Exigences** : RMT ; *profil si pas récents.
 
 **Vie** :
-- Présente/splénectomie <1 an: Remis.
+- Présente/splénectomie &lt;1 an: Remis.
 - Rétablissement/splénectomie >1 an: Tarification type/cause.
 
 **Maladie Grave** :
@@ -450,7 +450,7 @@ Anémie formes gravité variées.
 **Exigences** : RMT ; *profil si pas récents.
 
 **Vie** :
-- Sans splénectomie: <18 refus ; ≥18 meilleur cas (légère, anémie légère, sans crise): +50-100% ; Autrement +50% +5$/M/an post-1 an dernière crise à refus.
+- Sans splénectomie: &lt;18 refus ; &ge;18 meilleur cas (légère, anémie légère, sans crise): +50-100% ; Autrement +50% +5$/M/an post-1 an dernière crise à refus.
 - Avec splénectomie: Possible >1 an +75% sans récurrence.
 
 **Maladie Grave** :
@@ -466,7 +466,7 @@ Pauses respiratoires sommeil (complètes/incomplètes).
 **Notes** : Mauvaise réponse traitement: Somnolence diurne, perturbation activités, HTA, troubles mémoire, dépression.
 
 **Exigences** :
-- ≤1M $: RMT selon info Apnée Sommeil proposition/paramédical/entrevue.
+- &le;1M $: RMT selon info Apnée Sommeil proposition/paramédical/entrevue.
 - >1M $: RMT.
 
 **Vie** :
@@ -507,11 +507,11 @@ Procédure altérant digestion pour obésité (gastroplastie, sleeve, etc.).
 
 Inflammation chronique muqueuse intestin.
 
-**Éléments** : Âge diagnostic, coloscopie <2 ans, perte poids dernière année, chirurgie, médication, fréquence épisodes.
+**Éléments** : Âge diagnostic, coloscopie &lt;2 ans, perte poids dernière année, chirurgie, médication, fréquence épisodes.
 
 **Exigences** : RMT.
 
-**Vie** : <20 ans remis ; Autrement +0-refus (sévérité/complications/temps diagnostic).
+**Vie** : &lt;20 ans remis ; Autrement +0-refus (sévérité/complications/temps diagnostic).
 
 **Maladie Grave** : Attente 6 mois ; chirurgie attente/en attente refus ; traité médical +25-+75% exclusions (niveau/gravité/symptômes, coloscopie récente) ; chirurgie attente 1 an +25% exclusions à remis (complications).
 
@@ -519,11 +519,11 @@ Inflammation chronique muqueuse intestin.
 
 Inflammation chronique paroi intestinale.
 
-**Éléments** : Âge diagnostic, coloscopie <2 ans, perte poids, chirurgie, médication, fréquence épisodes.
+**Éléments** : Âge diagnostic, coloscopie &lt;2 ans, perte poids, chirurgie, médication, fréquence épisodes.
 
 **Exigences** : RMT.
 
-**Vie** : <20 ans remis ; ≥20 ans médication seule léger/modéré attente 6 mois-1 an +0-+150% (sévérité) ; sévère refus ; chirurgie léger/modéré attente 1 an +0-+200% ; sévère/≥3 chirurgies refus.
+**Vie** : &lt;20 ans remis ; &ge;20 ans médication seule léger/modéré attente 6 mois-1 an +0-+150% (sévérité) ; sévère refus ; chirurgie léger/modéré attente 1 an +0-+200% ; sévère/&ge;3 chirurgies refus.
 
 **Maladie Grave** : Attente 6 mois ; symptômes légers/atteinte limitée/coloscopie favorable récente/pas symptômes 5 ans: Standard ; sévères/étendue +25-+75% exclusions à refus.
 
@@ -533,7 +533,7 @@ Commotion: Anomalie transitoire cerveau (perte conscience, équilibre, vue). Pas
 
 **Éléments** : Hospitalisation, épisodes, fracture crâne, invalidité, condition actuelle, date, complications (neurologique/épilepsie/post-commotionnel).
 
-**Exigences** : RMT si <6 ans, <2 ans + hospitalisation >24h, limitation activités, post-commotionnel présent, épilepsie/séquelles, >1 épisode.
+**Exigences** : RMT si &lt;6 ans, &lt;2 ans + hospitalisation >24h, limitation activités, post-commotionnel présent, épilepsie/séquelles, >1 épisode.
 
 **Vie** : Meilleur cas (>6 ans, 1 épisode, rétabli, sans fracture/post-commotionnel): Régulier ; Autrement remis 6 mois-1 an ; surprime si complications persistantes.
 
@@ -557,11 +557,11 @@ Rétablissement: Années depuis fin traitement (chirurgie, radio, chimio).
 
 **Éléments** : Diagnostic, stade, degré, traitement, récidives, fin traitements, complications.
 
-**Exigences** : RMT + colpocytologie <6 mois.
+**Exigences** : RMT + colpocytologie &lt;6 mois.
 
 **Vie** : In situ régulier (contrôle normal post-conisation/hystérectomie/etc.) ; Autrement 5-15$/M/3-5 ans.
 
-**Maladie Grave** : In situ régulier (contrôle normal ≥6 mois post-excision complète/absence invasion) ; invasif stade 0/1 <40 refus ≥40 0-10 ans remis >10 exclusion ; >1 refus.
+**Maladie Grave** : In situ régulier (contrôle normal &ge;6 mois post-excision complète/absence invasion) ; invasif stade 0/1 &lt;40 refus &ge;40 0-10 ans remis &gt;10 exclusion ; &gt;1 refus.
 
 #### Cancer du Côlon {#cancer-colon}
 
@@ -569,7 +569,7 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Éléments** : Diagnostic, stade, degré, traitement, récidives, fin traitements, complications.
 
-**Exigences** : RMT + coloscopie <12 mois.
+**Exigences** : RMT + coloscopie &lt;12 mois.
 
 **Vie** : Attente 1 an post-rétablissement ; 7.5-15$/M/4-5 ans.
 
@@ -579,15 +579,15 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Éléments** : Diagnostic, type, stade, degré, traitement, récidives, fin traitements, complications.
 
-**Vie** : Meilleur cas (excision <2.5cm, >50 ans, peu profonde, sans récidive): Régulier ; Autrement +50% à refus.
+**Vie** : Meilleur cas (excision &lt;2.5cm, >50 ans, peu profonde, sans récidive): Régulier ; Autrement +50% à refus.
 
-**Maladie Grave** : Meilleur cas (<4 stade, <5 tumeurs, sans ganglions): Régulier ; Autrement refus.
+**Maladie Grave** : Meilleur cas (&lt;4 stade, &lt;5 tumeurs, sans ganglions): Régulier ; Autrement refus.
 
 #### Cancer de la Peau - Carcinome Spinocellulaire {#cancer-peau-spinocellulaire}
 
 **Éléments** : Identiques.
 
-**Vie** : Meilleur cas (excision <1.5cm, >50 ans, peu profonde, sans récidive): Régulier ; Autrement 7.5-10$/M/4-5 ans.
+**Vie** : Meilleur cas (excision &lt;1.5cm, >50 ans, peu profonde, sans récidive): Régulier ; Autrement 7.5-10$/M/4-5 ans.
 
 **Maladie Grave** : In situ (Bowen) traité régulier ; non-traité refus ; Autrement refus-exclusion (stade/temps).
 
@@ -603,17 +603,17 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Éléments** : Diagnostic, stade, Gleason, traitement, récidives, fin traitements, complications.
 
-**Exigences** : RMT + PSA <6 mois.
+**Exigences** : RMT + PSA &lt;6 mois.
 
-**Vie** : <75 ans hormonale/absence traitement refus ; radio/chirurgie 5-15$/M/3-5 ans ; ≥76 cas individuels.
+**Vie** : &lt;75 ans hormonale/absence traitement refus ; radio/chirurgie 5-15$/M/3-5 ans ; &ge;76 cas individuels.
 
-**Maladie Grave** : T1a/T1b <40 refus ≥40 0-10 ans remis >10 exclusion ; >T1b refus.
+**Maladie Grave** : T1a/T1b &lt;40 refus &ge;40 0-10 ans remis &gt;10 exclusion ; &gt;T1b refus.
 
 #### Cancer du Sein {#cancer-sein}
 
 **Éléments** : Diagnostic, stade, degré, traitement, récidives, fin traitements, complications.
 
-**Exigences** : RMT + mammographie <6 mois + anatomo-pathologique.
+**Exigences** : RMT + mammographie &lt;6 mois + anatomo-pathologique.
 
 **Vie** : In situ attente 1 an 7.5$/M/4 ans + possible +50% permanente ; invasif/sarcome attente 2 ans 10-15$/M/4-5 ans + possible +50-100% permanente.
 
@@ -623,7 +623,7 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 #### Diabète Type I (DID) {#diabete-type-i}
 
-Insulinodépendant, <20 ans, injection insuline.
+Insulinodépendant, &lt;20 ans, injection insuline.
 
 **Éléments** : Âge diagnostic, durée, contrôle, poids/taille, TA, suivi, complications (rétinopathie/néphropathie/neuropathie/coronarienne/AVC/périphérique).
 
@@ -639,11 +639,11 @@ Non insulinodépendant, >40 ans, diète/médication, rare insuline.
 
 **Éléments** : Âge diagnostic, durée, contrôle, poids/taille, TA, suivi, complications (identiques).
 
-**Exigences** : RMT si >1M $, <40 ans, >10 ans diagnostic, surpoids/TA tarifables paramédical, insuline ; Autrement urine (microalbuminurie) + profil (HbA1c).
+**Exigences** : RMT si >1M $, &lt;40 ans, >10 ans diagnostic, surpoids/TA tarifables paramédical, insuline ; Autrement urine (microalbuminurie) + profil (HbA1c).
 
 **Vie** : Meilleur cas (50-69 ans, suivi, médication orale/diète, sans complication): Régulier ; Autrement +75%-refus (âge/durée/contrôle/complications) ; 0-15 refus.
 
-**Maladie Grave** : ≥40 ans ≤15 ans diagnostic, excellent contrôle, sans complication +50-+150% ; Autrement refus.
+**Maladie Grave** : &ge;40 ans &le;15 ans diagnostic, excellent contrôle, sans complication +50-+150% ; Autrement refus.
 
 #### Diabète de Grossesse (Gestationnel) {#diabete-grossesse}
 
@@ -651,7 +651,7 @@ Intolérance glucose première fois grossesse ; risque type II.
 
 **Éléments** : Grossesse actuelle/passée, suivi post-partum, poids actuel, histoire familiale.
 
-**Exigences** : Grossesse cours/<24 sem ou antécédent + grossesse >24 sem: Profil (HbA1c) + urine (microalbuminurie) ; Antécédent sans grossesse: Suivi diabète/hypoglycémiants voir type II ; actuel/familiale: Possible profil (HbA1c).
+**Exigences** : Grossesse cours/&lt;24 sem ou antécédent + grossesse >24 sem: Profil (HbA1c) + urine (microalbuminurie) ; Antécédent sans grossesse: Suivi diabète/hypoglycémiants voir type II ; actuel/familiale: Possible profil (HbA1c).
 
 **Vie** : Actuel +75%-refus (âge/contrôle/complications) ; Antécédent régulier (contrôle post-partum normal).
 
@@ -663,12 +663,12 @@ Intolérance glucose première fois grossesse ; risque type II.
 
 **Éléments** : Âge, temps premières manifestations, type (partielle/généralisée grand/petit mal), contrôle/fréquence crises, idiopathique/secondaire, activités/loisirs dangereux, conduite, complications (intellectuels/neurologiques/mental).
 
-**Exigences** : RMT si >500k $, >1 crise/an, EEG/scan/IRM <1 an, >1 consultation/an, post-traumatique/complications, changement médication <1 an (non réduction).
+**Exigences** : RMT si >500k $, >1 crise/an, EEG/scan/IRM &lt;1 an, >1 consultation/an, post-traumatique/complications, changement médication &lt;1 an (non réduction).
 
 **Vie** :
-- Fébriles (≥4 ans): Régulier 2 ans post-événement.
-- Généralisée: 0-11 ans possible 2 ans post-manifestations/contrôle +0-+250% ; 12-35 1 an post +0-+250% ; ≥35 1 an post +0-+100% ; mal contrôlée refus.
-- Partielle/petit mal: 0-11 2 ans post +0-+100% ; ≥12 1 an post +0-+100% ; mal contrôlée refus.
+- Fébriles (&ge;4 ans): Régulier 2 ans post-événement.
+- Généralisée: 0-11 ans possible 2 ans post-manifestations/contrôle +0-+250% ; 12-35 1 an post +0-+250% ; &ge;35 1 an post +0-+100% ; mal contrôlée refus.
+- Partielle/petit mal: 0-11 2 ans post +0-+100% ; &ge;12 1 an post +0-+100% ; mal contrôlée refus.
 
 **Maladie Grave** :
 - Fébriles: Régulier.
@@ -685,7 +685,7 @@ Douleurs musculo-squelettiques, raideur, sensibilité, fatigue, maux tête, inso
 
 **Vie** : Meilleurs cas (léger/modéré sans perturbation): Régulier ; Autrement +50%-refus.
 
-**Maladie Grave** : Sous traitement +50% ; cessé ≥1 an régulier.
+**Maladie Grave** : Sous traitement +50% ; cessé &ge;1 an régulier.
 
 ### Hépatite {#hepatite}
 
@@ -711,14 +711,14 @@ Infectieuse virus B.
 
 **Éléments** : Âge infection, lab (fonction hépatique, AST/ALT), suivi, traitement, alcool, inflammation/fibrose, temps guérison.
 
-**Exigences** : RMT ; profil si pas fonction hépatique <6 mois.
+**Exigences** : RMT ; profil si pas fonction hépatique &lt;6 mois.
 
 **Vie** :
-- AgHBs +: Aiguë <6 mois remis ; Chronique/porteur fonction/suivi normaux régulier ; Autrement régulier-refus.
+- AgHBs +: Aiguë &lt;6 mois remis ; Chronique/porteur fonction/suivi normaux régulier ; Autrement régulier-refus.
 - AgHBs -: Fonction/suivi normaux régulier ; Autrement régulier-refus.
 
 **Maladie Grave** :
-- AgHBs +: Aiguë <6 mois remis ; Chronique/porteur fonction/suivi normaux +50-+75% ; Autrement refus.
+- AgHBs +: Aiguë &lt;6 mois remis ; Chronique/porteur fonction/suivi normaux +50-+75% ; Autrement refus.
 - AgHBs -: Fonction/suivi normaux +50-+75% ; Autrement refus.
 
 #### Hépatite C {#hepatite-c}
@@ -727,7 +727,7 @@ Infectieuse virus C ; asymptomatique → chronique/fibrose/cirrhose.
 
 **Éléments** : Identiques Hépatite B.
 
-**Exigences** : RMT ; profil si pas fonction hépatique <6 mois.
+**Exigences** : RMT ; profil si pas fonction hépatique &lt;6 mois.
 
 **Vie/Maladie Grave** : Général refus ; possible traité/suivi gastro/hépatologue/tests guérison, sans complications.
 
@@ -745,7 +745,7 @@ Primaire/essentielle (cause inconnue) ; secondaire (connue).
 
 **Éléments** : Âge diagnostic/actuel, traitement, contrôle, TA courante/dernière année, observance, complications (encéphalopathie/rétinopathie/rénaux/hypertrophie cardiaque).
 
-**Exigences** : Sous traitement (médication stable <1 an, suivi, bon contrôle): Aucune ; Autrement signes vitaux (sans paramédical) ou RMT (consult spécialiste/condition, >1M $).
+**Exigences** : Sous traitement (médication stable &lt;1 an, suivi, bon contrôle): Aucune ; Autrement signes vitaux (sans paramédical) ou RMT (consult spécialiste/condition, >1M $).
 
 **Vie/Maladie Grave** : Dépend maîtrise ; sans complications contrôle: Régulier.
 
@@ -783,9 +783,9 @@ Inflammatoire auto-immune multiple organes.
 
 **Exigences** : RMT.
 
-**Vie** : 0-19 ans possible 5 ans post-diagnostic +300% ; ≥20 1 an post +50-+300%.
+**Vie** : 0-19 ans possible 5 ans post-diagnostic +300% ; &ge;20 1 an post +50-+300%.
 
-**Maladie Grave** : Possible rétablissement/cessation traitement ≥5 ans ; Autrement refus.
+**Maladie Grave** : Possible rétablissement/cessation traitement &ge;5 ans ; Autrement refus.
 
 #### Lupus Médicamenteux {#lupus-medicamenteux}
 
@@ -877,9 +877,9 @@ Nécrose myocarde manque sang/oxygène ; crise cardiaque.
 
 **Traitements** : Facteurs risque modifiables, pharmacologique, chirurgie (angioplastie ballonnet/tuteur, pontage).
 
-**Exigences** : Rapport cardiologue/famille ; inclut examens (coronarographie, ECG, lab, perfusion), consultations ; suivi récent ; impossible évaluer <6 mois événement.
+**Exigences** : Rapport cardiologue/famille ; inclut examens (coronarographie, ECG, lab, perfusion), consultations ; suivi récent ; impossible évaluer &lt;6 mois événement.
 
-**Vie** : <40 ans refus ; progression refus probable ; 3 vaisseaux refus probable ; >1 infarctus refus ; tabagisme post-diagnostic refus ; Autrement +100%-refus (âge/sévérité/contrôle/progression).
+**Vie** : &lt;40 ans refus ; progression refus probable ; 3 vaisseaux refus probable ; >1 infarctus refus ; tabagisme post-diagnostic refus ; Autrement +100%-refus (âge/sévérité/contrôle/progression).
 
 **Maladie Grave** : Refus.
 
@@ -954,7 +954,7 @@ Peur/inquiétude excessive évitant déclencheurs ; perturbation relations/profe
 
 **Vie/Maladie Grave** : Arrêt travail remis 6 mois retour temps complet.
 
-**Vie (Travail)** : <20 ans remis 2 ans ; 20-69 léger régulier ; modéré remis 6 mois > régulier stabilisé ; sévère remis 1 an > régulier-+100% stabilisation ; >70 mêmes <70 sans autre condition.
+**Vie (Travail)** : &lt;20 ans remis 2 ans ; 20-69 léger régulier ; modéré remis 6 mois > régulier stabilisé ; sévère remis 1 an > régulier-+100% stabilisation ; >70 mêmes &lt;70 sans autre condition.
 
 **Maladie Grave** : Meilleur cas (aucun arrêt >diagnostic initial, sans autre trouble): Régulier ; Autrement remis.
 
@@ -968,9 +968,9 @@ Humeur dépressive, incapacité intérêt quotidien/plaisir, désespoir/inutilit
 
 **Vie/Maladie Grave** : Arrêt travail remis 6 mois retour temps complet.
 
-**Vie (Travail)** : <20 ans remis 2 ans ; 20-69 léger +50-+150% >3 ans régulier ; modéré remis 1 an > +50-+150% stabilisation >5 ans régulier ; sévère remis 1 an > +50-+200% stabilisation.
+**Vie (Travail)** : &lt;20 ans remis 2 ans ; 20-69 léger +50-+150% >3 ans régulier ; modéré remis 1 an > +50-+150% stabilisation >5 ans régulier ; sévère remis 1 an > +50-+200% stabilisation.
 
-**Maladie Grave** : Présents remis ; absence symptômes/retour complet 1 épisode régulier ; ≥2 remis 1 an post-dernier > standard.
+**Maladie Grave** : Présents remis ; absence symptômes/retour complet 1 épisode régulier ; &ge;2 remis 1 an post-dernier &gt; standard.
 
 #### Dépression Mineure {#depression-mineure}
 
@@ -996,7 +996,7 @@ Manie/dépression alternant humeur stable.
 
 **Vie/Maladie Grave** : Arrêt travail remis 6 mois retour temps complet.
 
-**Vie (Travail)** : <20 ans remis 2 ans ; 20-69 léger +50-+150% >3 ans régulier ; modéré remis 1 an > +50-+150% >5 ans régulier ; sévère remis 1 an > +50-+200% stabilisation.
+**Vie (Travail)** : &lt;20 ans remis 2 ans ; 20-69 léger +50-+150% >3 ans régulier ; modéré remis 1 an > +50-+150% >5 ans régulier ; sévère remis 1 an > +50-+200% stabilisation.
 
 **Maladie Grave** : Présents remis ; absence/retour complet 1 épisode régulier ; ≥2 remis 1 an post-dernier > standard.
 
@@ -1042,11 +1042,11 @@ Applique vie temporaire >2M $ (15-80 ans) ; avenants/ajouts existants.
 
 **Classes** : Privilège/Élite (fumeurs/non-fumeurs) risque inférieur/beaucoup inférieur ; sinon non-préferentielle.
 
-**Avantage Vente** : Présenter ≥2 scénarios ; réduction prime facile > augmentation post-proposition.
+**Avantage Vente** : Présenter &ge;2 scénarios ; réduction prime facile &gt; augmentation post-proposition.
 
 **Critères** :
 
-1. **Tabac** (non-fumeurs*): Aucun usage tabac/nicotine ≥3 ans (Privilège) ; ≥5 ans (Élite).
+1. **Tabac** (non-fumeurs*): Aucun usage tabac/nicotine &ge;3 ans (Privilège) ; &ge;5 ans (Élite).
 
 2. **Taille/Poids** : ≤ poids max tableau âge (Privilège/Élite diffèrent légèrement).
 
@@ -1066,24 +1066,24 @@ Applique vie temporaire >2M $ (15-80 ans) ; avenants/ajouts existants.
 
 | Âge | Privilège Max (mg/dL mmol/L) | Élite Max (mg/dL mmol/L) |
 |-----|------------------------------|---------------------------|
-| <45 | 210/5.4 | 200/5.1 |
+| &lt;45 | 210/5.4 | 200/5.1 |
 | ... | ... | ... |
 
 5. **Antécédents Médicaux** : Aucun diabète/cancer/CV.
 
-6. **Familiaux** : Aucun proche (père/mère/frère/sœur) décès naturel/inconnue ou diagnostic cancer/CV/diabète/AVC <60 ans (Privilège) ; <65 (Élite). Non admissible Privilège si parent proche décès TA <60 ; Élite <65.
+6. **Familiaux** : Aucun proche (père/mère/frère/sœur) décès naturel/inconnue ou diagnostic cancer/CV/diabète/AVC &lt;60 ans (Privilège) ; &lt;65 (Élite). Non admissible Privilège si parent proche décès TA &lt;60 ; Élite &lt;65.
 
-7. **Alcool** : Aucun traitement/abuse <10 ans (Privilège/Élite).
+7. **Alcool** : Aucun traitement/abuse &lt;10 ans (Privilège/Élite).
 
-8. **Drogues** : Aucun traitement/consommation <10 ans (Privilège/Élite).
+8. **Drogues** : Aucun traitement/consommation &lt;10 ans (Privilège/Élite).
 
-9. **Conduite** : Aucune arrestation conduite affaiblie <5 ans max 5 infractions <5 ans (Privilège) ; <10 ans max 3 infractions (Élite).
+9. **Conduite** : Aucune arrestation conduite affaiblie &lt;5 ans max 5 infractions &lt;5 ans (Privilège) ; &lt;10 ans max 3 infractions (Élite).
 
-10. **Criminel** : Aucune infraction <10 ans (Privilège/Élite).
+10. **Criminel** : Aucune infraction &lt;10 ans (Privilège/Élite).
 
 11. **Vie** : Aucune occupation/aviation/sports/voyage surprime/exclusion (Privilège/Élite).
 
-*Non-fumeur: Aucun tabac/nicotine ≥12 mois.
+*Non-fumeur: Aucun tabac/nicotine &ge;12 mois.
 
 **Notes** : Cancer excl. sein (homme)/prostate (femme).
 
@@ -1091,7 +1091,7 @@ Applique vie temporaire >2M $ (15-80 ans) ; avenants/ajouts existants.
 
 ## Foire Aux Questions {#foire-questions}
 
-1. **Réassurance?** : Partage risque élevé/taré ; réponse <5 jours ouvrables.
+1. **Réassurance?** : Partage risque élevé/taré ; réponse &lt;5 jours ouvrables.
 
 2. **Remplacement (F6/F4) requis?** : Résiliation protection remplacée vigueur nouvelle effet ; évite double paiement/litiges.
 

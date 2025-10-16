@@ -504,7 +504,7 @@ statistics:
 #### Question 1.A.7 – Antécédents familiaux
 **ID**: `flexterm-q1-a-7`  
 **Type**: Oui/Non  
-**Applicable**: SEULEMENT pour assurés ≤ 50 ans  
+**Applicable**: SEULEMENT pour assurés &le; 50 ans  
 **Catégorie**: Antécédents familiaux  
 **Famille biologique**: Père, mère, frère, sœur  
 **Seuil d'âge**: Diagnostic avant 60 ans
@@ -529,33 +529,33 @@ statistics:
 
 ##### Condition A – Jeunes adultes (18-45 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 500 000 $
+- Capital assuré: &ge; 500 000 $
 - Âge: 18-45 ans
-- Plafond: < 2 000 001 $
+- Plafond: &lt; 2 000 001 $
 
 **Questions applicables**: 1.A.8, 1.A.9
 
 ##### Condition B – Adultes (46-50 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 250 000 $
+- Capital assuré: &ge; 250 000 $
 - Âge: 46-50 ans
-- Plafond: < 1 000 000 $
+- Plafond: &lt; 1 000 000 $
 
 **Questions applicables**: 1.A.8, 1.A.9
 
 ##### Condition C – Adultes (51-55 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 250 000 $
+- Capital assuré: &ge; 250 000 $
 - Âge: 51-55 ans
-- Plafond: < 500 000 $
+- Plafond: &lt; 500 000 $
 
 **Questions applicables**: 1.A.8, 1.A.9
 
 ##### Condition D – Adultes (56-60 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 250 000 $
+- Capital assuré: &ge; 250 000 $
 - Âge: 56-60 ans
-- Plafond: < 300 001 $
+- Plafond: &lt; 300 001 $
 
 **Questions applicables**: 1.A.8, 1.A.9
 
@@ -746,25 +746,25 @@ statistics:
 
 ##### Condition E – Capital assuré élevé (18-60 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 500 000 $
+- Capital assuré: &ge; 500 000 $
 - Âge: 18-60 ans
-- Plafond: < 3 000 001 $
+- Plafond: &lt; 3 000 001 $
 
 **Questions applicables**: 1.C.19
 
 ##### Condition F – Capital assuré élevé (61-69 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 250 000 $
+- Capital assuré: &ge; 250 000 $
 - Âge: 61-69 ans
-- Plafond: < 3 000 001 $
+- Plafond: &lt; 3 000 001 $
 
 **Questions applicables**: 1.C.19
 
 ##### Condition G – Capital assuré élevé (70-80 ans)
 **Critères d'application**:
-- Capital assuré: ≥ 250 000 $
+- Capital assuré: &ge; 250 000 $
 - Âge: 70-80 ans
-- Plafond: < 2 000 001 $
+- Plafond: &lt; 2 000 001 $
 
 **Questions applicables**: 1.C.19
 
@@ -929,7 +929,7 @@ statistics:
 
 #### Question 2.A.7 – Antécédents familiaux
 **ID**: `platine-temp-q2-a-7`  
-**Applicable**: SEULEMENT pour assurés ≤ 50 ans  
+**Applicable**: SEULEMENT pour assurés &le; 50 ans  
 [Identique à FlexTerm 1.A.7]
 
 ---

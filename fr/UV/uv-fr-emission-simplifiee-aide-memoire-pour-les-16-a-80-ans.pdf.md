@@ -236,9 +236,9 @@ Inclut: anxiété, dépression, trouble d'adaptation, fatigue chronique, choc po
 | Condition | Assurance vie Express | Assurance vie Immédiate | Assurance invalidité Avenant dette |
 |-----------|----------------------|------------------------|-----------------------------------|
 | **Consommation d'alcool** | ✅ | ✅ | ✅ |
-| **Drogues dures** | ⚠️ Accepté si 2 ans minimum sans consommation | ⚠️ Accepté si 5 ans minimum sans consommation | ⚠️ Express: accepté si 2 ans minimum sans consommation<br>Immédiate: accepté si 10 ans minimum sans consommation |
+| **Drogues dures** | ⚠️ Accepté si 2 ans minimum sans consommation | ⚠️ Accepté si 5 ans minimum sans consommation | ⚠️ Express: accepté si 2 ans minimum sans consommation<br />Immédiate: accepté si 10 ans minimum sans consommation |
 | **Consommation de marijuana¹** | ✅ | ✅ | ✅ |
-| **Traitement, séjour en résidence ou conseils médicaux** | ⚠️ Recul de 2 ans nécessaire suite à l'événement | ⚠️ Recul de 5 ans nécessaire suite à l'événement | ⚠️ Express: recul de 2 ans<br>Immédiate: recul de 10 ans |
+| **Traitement, séjour en résidence ou conseils médicaux** | ⚠️ Recul de 2 ans nécessaire suite à l'événement | ⚠️ Recul de 5 ans nécessaire suite à l'événement | ⚠️ Express: recul de 2 ans<br />Immédiate: recul de 10 ans |
 
 ### Notes importantes
 ¹ **Statut non-fumeur** si non mélangé avec des produits du tabac.
@@ -251,15 +251,15 @@ Inclut: anxiété, dépression, trouble d'adaptation, fatigue chronique, choc po
 
 | Condition | Assurance vie Express | Assurance vie Immédiate | Assurance invalidité Avenant dette |
 |-----------|----------------------|------------------------|-----------------------------------|
-| **Antécédents criminels** | Accepté 3 ans après des accusations ou avoir été reconnu coupable | Accepté 5 ans après des accusations ou avoir été reconnu coupable | Express: accepté 3 ans après des accusations ou avoir été reconnu coupable<br>Immédiate: accepté 10 ans après des accusations ou avoir été reconnu coupable |
+| **Antécédents criminels** | Accepté 3 ans après des accusations ou avoir été reconnu coupable | Accepté 5 ans après des accusations ou avoir été reconnu coupable | Express: accepté 3 ans après des accusations ou avoir été reconnu coupable<br />Immédiate: accepté 10 ans après des accusations ou avoir été reconnu coupable |
 | **Antécédents familiaux** | - | Refusé si antécédents familiaux de maladie de Huntington et de maladie polykystique des reins non investiguée | - |
 | **Arrêt de travail et invalidité** | - | - | Exclusion ou refus |
 | **Aviation** | - | - | Les professions liées à l'aviation ne sont pas éligibles; voir les exclusions générales de l'avenant Assurance dette |
 | **Catégorie ou type d'emploi** | - | - | Certains emplois sont refusés ou sont limités à 2 ans de prestations |
-| **Infractions au Code de la route** | - | Accepté si 3 infractions ou moins au cours des 12 derniers mois | Express: aucune question<br>Immédiate: accepté si 3 infractions ou moins au cours des 12 derniers mois |
-| **Permis de conduire suspendu ou révoqué** | - | Accepté 24 mois après révocation du permis de conduire | Express: aucune question<br>Immédiate: accepté 24 mois après révocation du permis de conduire |
+| **Infractions au Code de la route** | - | Accepté si 3 infractions ou moins au cours des 12 derniers mois | Express: aucune question<br />Immédiate: accepté si 3 infractions ou moins au cours des 12 derniers mois |
+| **Permis de conduire suspendu ou révoqué** | - | Accepté 24 mois après révocation du permis de conduire | Express: aucune question<br />Immédiate: accepté 24 mois après révocation du permis de conduire |
 | **Sports dangereux** | - | - | Aucune question, mais voir les exclusions générales de l'avenant Assurance dette |
-| **Taille et poids** | - | Voir le tableau de constitution ci-dessous | Express: aucune question<br>Immédiate: Voir le tableau de constitution ci-dessous |
+| **Taille et poids** | - | Voir le tableau de constitution ci-dessous | Express: aucune question<br />Immédiate: Voir le tableau de constitution ci-dessous |
 | **Voyages à l'étranger** | - | Accepté si voyage de moins de 12 semaines au cours des 12 prochains mois | - |
 
 ---

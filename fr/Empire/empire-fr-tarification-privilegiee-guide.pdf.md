@@ -196,7 +196,7 @@ Ce guide inclut les renseignements essentiels sur les critères de tarification 
 - **Standard non-fumeur** : Santé moyenne, mode de vie à risque moyen, sans tabac/nicotine (180 derniers mois)
 - **Standard fumeur** : Santé moyenne, mode de vie à risque moyen, fumeur standard
 
-#### Pour protections ≥ 1 000 001 $
+#### Pour protections &ge; 1 000 001 $
 | Catégorie | Description | Applicabilité |
 |-----------|-------------|---------------|
 | **Élite non-fumeur** | Santé exceptionnelle, mode de vie à risque minimal | Non-fumeurs uniquement |
@@ -221,7 +221,7 @@ Une personne est considérée comme **fumeuse standard** si, au cours des 12 der
 
 ### Offre de tarification privilégiée {#offre-de-tarification-privilégiée}
 
-Les catégories Privilégié et Élite s'appliquent aux protections Solution 10, 15, 20, 25 et 30 ≥ 1 000 001 $.
+Les catégories Privilégié et Élite s'appliquent aux protections Solution 10, 15, 20, 25 et 30 &ge; 1 000 001 $.
 
 - **1 000 001 $ - 2 000 000 $** :
   - Option : Privilégié/Élite avec analyse de fluides + exigences du tableau "Assurance vie – exigences d'appréciation des risques"
@@ -253,7 +253,7 @@ Les critères s'appliquent aux hommes et femmes (sauf indication contraire). Év
 | **Usage tabac/nicotine** | Aucun (180 derniers mois) | Non-fumeur : Aucun (24 derniers mois) ; Fumeur : Définition standard |
 | **Tension artérielle** | Sans traitement : Âge 18-39 : 125/75 ; 40-55 : 130/80 ; 56-75 : 140/85 | Avec/sans traitement : Âge 18-39 : 135/80 ; 40-55 : 140/85 ; 56-75 : 145/90 |
 | **Cholestérol total / Ratio mauvais/bon** | Sans traitement : Âge Homme/Femme 18-39 : 200/4.5-4.0 ; 40-55 : 200/5.0-4.5 ; 56-75 : 220/5.5-5.0 | Avec/sans traitement : Âge 18-39 : 210/5.0 ; 40-55 : 220/5.5 ; 56-75 : 230/6.0 |
-| **Antécédents familiaux** (coronaropathie, AVC, TIA, cancer sauf basocellulaire) | Aucun diagnostic <65 ans ; Cancers spécifiques au sexe possibles | 1 membre famille <60 ans ; Cancers spécifiques au sexe possibles |
+| **Antécédents familiaux** (coronaropathie, AVC, TIA, cancer sauf basocellulaire) | Aucun diagnostic &lt;65 ans ; Cancers spécifiques au sexe possibles | 1 membre famille &lt;60 ans ; Cancers spécifiques au sexe possibles |
 | **Antécédents personnels** | Aucun cancer (sauf basocellulaire), diabète, coronaropathie, AVC, TIA | - |
 | **Sports/passe-temps/aviation** | Aucune surprime | Aucune surprime |
 | **Abus alcool/drogues** | Aucun antécédent/traitement (10 dernières années) | Aucun antécédent/traitement (5 dernières années) |
@@ -334,8 +334,8 @@ Les critères s'appliquent aux hommes et femmes (sauf indication contraire). Év
 
 Les primes sont basées sur l'**âge équivalent unique** (calculé par type de régime, âge, sexe, statut fumeur, catégorie de risque).
 
-- **< 1 000 001 $** : Catégorie Standard
-- **≥ 1 000 001 $** : Privilégié/Élite/Standard ; Basé sur la catégorie la plus faible risque si critères variés
+- **&lt; 1 000 001 $** : Catégorie Standard
+- **&ge; 1 000 001 $** : Privilégié/Élite/Standard ; Basé sur la catégorie la plus faible risque si critères variés
 
 **Exemple** :
 | Scénario | Personne 1 | Personne 2 | Âge équivalent | Catégorie conjointe |
@@ -345,14 +345,14 @@ Les primes sont basées sur l'**âge équivalent unique** (calculé par type de 
 
 ### Changement de catégorie de risque {#changement-de-catégorie-de-risque}
 
-- Possible pour protections en vigueur ≥ 1 an
+- Possible pour protections en vigueur &ge; 1 an
 - Soumettre demande de modification ; Critères Élite/Privilégié appliqués
 - Exigences additionnelles possibles selon âge/montant
 
 ### Diminution du montant de protection {#diminution-du-montant-de-protection}
 
-- Si reste ≥ 1 000 001 $ : Catégorie Élite/Privilégié maintenue
-- Si < 1 000 001 $ : Passe à Standard
+- Si reste &ge; 1 000 001 $ : Catégorie Élite/Privilégié maintenue
+- Si &lt; 1 000 001 $ : Passe à Standard
 
 ### Transformation d'assurance temporaire {#transformation-dassurance-temporaire}
 
@@ -372,7 +372,7 @@ Les primes sont basées sur l'**âge équivalent unique** (calculé par type de 
 
 ## Équipe d'Appréciation des risques {#équipe-dappréciation-des-risques}
 
-L'équipe évalue santé et mode de vie pour offrir la meilleure catégorie possible (≥ 1 000 001 $). Critères appliqués sans exception pour rabais optimaux.
+L'équipe évalue santé et mode de vie pour offrir la meilleure catégorie possible (&ge; 1 000 001 $). Critères appliqués sans exception pour rabais optimaux.
 
 ---
 
@@ -460,8 +460,8 @@ criteria_elite_preferred:
       all_ages: "18-39: 210/5.0; 40-55: 220/5.5; 56-75: 230/6.0"
       treatment: "Avec/sans"
   family_history:
-    elite: "Aucun <65 ans; cancers spécifiques au sexe possibles"
-    preferred: "1 membre <60 ans; cancers spécifiques au sexe possibles"
+    elite: "Aucun &lt;65 ans; cancers spécifiques au sexe possibles"
+    preferred: "1 membre &lt;60 ans; cancers spécifiques au sexe possibles"
   personal_history:
     elite: "Aucun cancer (sauf basocellulaire), diabète, coronaropathie, AVC, TIA"
     preferred: "N/A"
@@ -592,7 +592,7 @@ special_cases:
     above_1M: "Basé sur catégorie la plus faible risque"
     age_equivalent: "Calculé par régime, âge, sexe, fumeur, catégorie"
   risk_category_change:
-    eligibility: "En vigueur ≥1 an"
+    eligibility: "En vigueur &ge;1 an"
     process: "Demande de modification; exigences additionnelles possibles"
   coverage_reduction:
     if_above_1M: "Catégorie maintenue"

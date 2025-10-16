@@ -256,7 +256,7 @@ Ce guide de présélection vise à informer les représentants sur :
 
 ### Avant de soumettre une vente {#avant-de-soumettre-une-vente}
 
-- **Statut de résidence** : Citoyens canadiens ou résidents permanents ; résidents temporaires ≥ 3 ans (excluant : visiteur, touriste, demandeur d'asile, diplomate)
+- **Statut de résidence** : Citoyens canadiens ou résidents permanents ; résidents temporaires &ge; 3 ans (excluant : visiteur, touriste, demandeur d'asile, diplomate)
 - **Langue** : Client doit comprendre/s'exprimer en français ou anglais (pas d'interprète)
 
 ### Admissibilité {#admissibilité}
@@ -284,7 +284,7 @@ Non admissible en maladie si :
 | **Apnée du sommeil** | Âge, date diagnostic, type, traitement CPAP/chirurgie, compliance, dernière étude | RMT | Centrale: refus. Traité: standard à +50% selon âge/sévérité. Non traité: +50% à refus. En attente polysomnographie: différé. |
 | **Arthrite rhumatoïde / Juvénile** | Âge, date diagnostic, limitation, médication | RMT | DC 90j min; +25% exclusion arthrite (5 ans) à refus. Différé 2-5 ans selon degré. |
 | **Asthme** | Âge, date, sévérité, médication, tabac | Questionnaire asthme, RMT | Non-fumeur: léger standard-+25%; modéré +25-50%; sévère refus. Fumeur: +25% supplémentaire, durée limitée; avenant restrictif possible. |
-| **Bipolarité** | Épisodes, date dernier, arrêt, traitement, hospitalisation, suicide | Questionnaire troubles nerveux, RMT | <12 mois: différé; ensuite +50-100%, DC 90j (5 ans), exclusion troubles nerveux. |
+| **Bipolarité** | Épisodes, date dernier, arrêt, traitement, hospitalisation, suicide | Questionnaire troubles nerveux, RMT | &lt;12 mois: différé; ensuite +50-100%, DC 90j (5 ans), exclusion troubles nerveux. |
 | **Cancer de la peau / Tumeur maligne / Carcinome basocellulaire/squameux** | Date, type, traitement, pathologie, récidive | RMT | Basocellulaire: 0-1 an exclusion, ensuite standard. Squameux: 0-1 an exclusion, ensuite standard. Tumeur maligne: selon stade/traitement +50% à refus/exclusion. |
 | **Cancer de la prostate** | Âge, date, traitement, pathologie, récidive | RMT | Selon stade/traitement: 0-3 ans refus; ensuite +50% à refus/exclusion. |
 | **Cancer des poumons** | - | - | Refus. |
@@ -293,9 +293,9 @@ Non admissible en maladie si :
 | **Cancer de la thyroïde** | Âge, date, type, traitement, récidive | RMT | 6 premiers mois: différé; ensuite selon stade/traitement: standard à refus. |
 | **Chirurgie bariatrique** | Poids avant, date, type, complications, poids actuel | RMT | 12 premiers mois: différé; ensuite basé sur taille/poids actuel sans complication. |
 | **Côlon irritable / Colite ulcéreuse / Crohn** | Âge, date, symptômes/sévérité, traitement, chirurgie, récidive | Questionnaire gastro-intestinal, RMT | Côlon irritable: standard. Colite/Crohn: différé 6 mois; ensuite +50% à refus; exclusion maladie inflammatoire possible. |
-| **Coronopathie / Crise cardiaque / Pontage / Angioplastie** | Âge, date, sévérité, symptômes, traitement, tabac | RMT | 35-40: +175% à refus; 41-50: +100-225%; 51-60: +50-150%; 61-69: +50-100%. Multiples: refus. Infarctus: différé 6 mois. <35 ans: refus. |
+| **Coronopathie / Crise cardiaque / Pontage / Angioplastie** | Âge, date, sévérité, symptômes, traitement, tabac | RMT | 35-40: +175% à refus; 41-50: +100-225%; 51-60: +50-150%; 61-69: +50-100%. Multiples: refus. Infarctus: différé 6 mois. &lt;35 ans: refus. |
 | **Dépression majeure** | Épisodes, date dernier, arrêt, traitement, hospitalisation, suicide | Questionnaire troubles nerveux, RMT | En invalidité: différé; ensuite +50-100%, DC 90j (5 ans), exclusion troubles nerveux possible. |
-| **Diabète Type 1 et 2** | Âge, date, traitement, compliance, tabac | Profil sanguin/urine, signes vitaux, RMT | Type 1: <20 ans refus; ≥20 +125% à refus. Type 2: +50% à refus. ≥60 ans bon contrôle: standard possible. |
+| **Diabète Type 1 et 2** | Âge, date, traitement, compliance, tabac | Profil sanguin/urine, signes vitaux, RMT | Type 1: &lt;20 ans refus; &ge;20 +125% à refus. Type 2: +50% à refus. &ge;60 ans bon contrôle: standard possible. |
 | **Embolie pulmonaire** | Date, épisodes, sévérité | RMT | Différé 6 mois; standard ensuite sans complication. |
 | **Épilepsie** | Date, type, traitement, crises, dernière crise | RMT | Selon type: standard à +150%. |
 | **Fibrillation auriculaire** | Date, traitement, investigations | RMT | Épisode unique: standard avec investigations normales. Autre: +50% à refus. |
@@ -320,7 +320,7 @@ Non admissible en maladie si :
 | **Dépendance alcool / Alcoolisme** | Âge, usage passé/courant, traitement, cessation | Questionnaire alcool, RMT, profil sanguin | >7 ans sans: standard. 5-7 ans: +50-100% (2 ans). Courant: refus. |
 | **Escalade / Alpinisme / Randonnée montagne** | Type, endroit, altitude, intention | Questionnaire escalade | Salle: standard. Randonnée/trekking: standard. Parois/rocheuse/glace: exclusion. |
 | **Parachutisme** | Date, endroit, intention | Questionnaire parachutisme | Pas d'intention future: standard. Autre: exclusion. |
-| **Plongée sous-marine** | Certification, fréquence, endroit, profondeur, antécédents | Questionnaire plongée | Snorkeling/apnée: standard. Non certifié/seul: refus. <100 pieds sans risques: standard. Autre: exclusion. |
+| **Plongée sous-marine** | Certification, fréquence, endroit, profondeur, antécédents | Questionnaire plongée | Snorkeling/apnée: standard. Non certifié/seul: refus. &lt;100 pieds sans risques: standard. Autre: exclusion. |
 | **Usage de drogue** | Âge, type, fréquence, traitement | Questionnaire drogues, urine | Marijuana: standard à refus (non-fumeur). Autre: courant refus. |
 | **Voyages à l'étranger** | Destination, durée, raison | Questionnaire voyages | Amérique Nord/Europe Ouest: standard. Autre: standard/refus/exclusion. Humanitaire: refus. |
 

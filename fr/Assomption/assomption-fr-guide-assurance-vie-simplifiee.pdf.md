@@ -335,7 +335,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 | Produit | Éligibilité | Conditions |
 |---|---|---|
-| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br>• **OU** Si plus de **2 ans** depuis des changements de médicaments |
+| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br />• **OU** Si plus de **2 ans** depuis des changements de médicaments |
 | **Protection Or** | ✓ Admissible | Aucune condition |
 | **Protection Argent** | ✓ Admissible | Aucune condition |
 | **Protection Bronze** | ✓ Admissible | Aucune condition |
@@ -479,7 +479,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 | Produit | Éligibilité | Conditions |
 |---|---|---|
-| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br>• **OU** Si plus de **2 ans** depuis des changements de médicaments |
+| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br />• **OU** Si plus de **2 ans** depuis des changements de médicaments |
 | **Protection Or** | ✓ Admissible | Aucune condition |
 | **Protection Argent** | ✓ Admissible | Aucune condition |
 | **Protection Bronze** | ✓ Admissible | Aucune condition |
@@ -503,7 +503,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 | Produit | Éligibilité | Conditions |
 |---|---|---|
-| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br>• **Pour les assurés de 50 ans et moins:** Aucun membre de la famille biologique n'ayant reçu un diagnostic de maladie polykystique des reins sans investigation |
+| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br />• **Pour les assurés de 50 ans et moins:** Aucun membre de la famille biologique n'ayant reçu un diagnostic de maladie polykystique des reins sans investigation |
 | **Protection Or** | » Admissible avec conditions | Si plus de **3 ans** depuis le diagnostic ou l'hospitalisation |
 | **Protection Argent** | » Admissible avec conditions | Si plus de **2 ans** depuis le diagnostic ou l'hospitalisation |
 | **Protection Bronze** | ✓ Admissible | Aucune condition |
@@ -529,7 +529,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 | Produit | Éligibilité | Conditions |
 |---|---|---|
-| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br>• **OU** Si plus de **2 ans** depuis des changements de médicaments |
+| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br />• **OU** Si plus de **2 ans** depuis des changements de médicaments |
 | **Protection Or** | ✓ Admissible | Aucune condition |
 | **Protection Argent** | ✓ Admissible | Aucune condition |
 | **Protection Bronze** | ✓ Admissible | Aucune condition |
@@ -551,7 +551,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 | Produit | Éligibilité | Conditions |
 |---|---|---|
-| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br>• **OU** Si plus de **2 ans** depuis des changements de médicaments |
+| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br />• **OU** Si plus de **2 ans** depuis des changements de médicaments |
 | **Protection Or** | ✓ Admissible | Aucune condition |
 | **Protection Argent** | ✓ Admissible | Aucune condition |
 | **Protection Bronze** | ✓ Admissible | Aucune condition |
@@ -562,7 +562,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 | Produit | Éligibilité | Conditions |
 |---|---|---|
-| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br>• **OU** Si plus de **2 ans** depuis des changements de médicaments |
+| **Protection Platine** | » Admissible avec conditions | • Si plus de **5 ans** depuis le diagnostic ou l'hospitalisation<br />• **OU** Si plus de **2 ans** depuis des changements de médicaments |
 | **Protection Or** | ✓ Admissible | Aucune condition |
 | **Protection Argent** | ✓ Admissible | Aucune condition |
 | **Protection Bronze** | ✓ Admissible | Aucune condition |
@@ -804,7 +804,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 | **Infraction conduite alcool/drogue** | » Si > 3 ans | » Si > 2 ans | ✓ | ✓ |
 | **Sports dangereux/aviation privée** | » Si 12 proch. mois | ✓ | ✓ | ✓ |
 | **Nouveaux résidents Canada** | ✓ (voir guide) | ✓ (voir guide) | ✓ (voir guide) | ✓ (voir guide) |
-| **Voyage international** | » Si < 12 sem. consécutives | ✓ | ✓ | ✓ |
+| **Voyage international** | » Si &lt; 12 sem. consécutives | ✓ | ✓ | ✓ |
 
 **Légende abrégée:** hosp. = hospitalisation, méd. = changements de médicaments, proch. = prochains, sem. = semaines
 

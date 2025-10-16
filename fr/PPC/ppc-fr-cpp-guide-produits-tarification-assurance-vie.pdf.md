@@ -444,14 +444,14 @@ Plan de Protection du Canada offre des produits d'assurance vie sans exigence m�
 
 | Âge | Non-fumeur | Fumeur |
 |-----|------------|--------|
-| ≤ 45 ans | 140/90 | 140/90 |
+| &le; 45 ans | 140/90 | 140/90 |
 | 46-80 ans | 150/90 | 150/90 |
 
 **Cholestérol** (égal ou inférieur à):
 
 | Âge | Non-fumeur | Fumeur |
 |-----|------------|--------|
-| ≤ 45 ans | 220/5,5 C ou 5,7/5,5 UI | 220/5,5 C ou 5,7/5,5 UI |
+| &le; 45 ans | 220/5,5 C ou 5,7/5,5 UI | 220/5,5 C ou 5,7/5,5 UI |
 | 46-80 ans | 240/6,0 C ou 6,2/6,0 UI | 240/6,0 C ou 6,2/6,0 UI |
 
 **Antécédents familiaux**:

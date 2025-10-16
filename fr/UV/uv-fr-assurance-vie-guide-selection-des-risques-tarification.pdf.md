@@ -186,8 +186,8 @@ Ce guide présente les critères de sélection des risques et les attentes en ma
 
 | Condition | Assurance Vie | Assurance Dette | Maladie Grave |
 |-----------|---------------|-----------------|---------------|
-| **AVC et hémorragie cérébrale** | Différé 12 mois suite à l'événement<br>Par la suite : Entre +75 et +300 | Refus | Refus |
-| **AIT** | Différé 6 mois suite à l'événement<br>Par la suite, si séquelles mineures : Entre standard et +125 | Refus | Refus |
+| **AVC et hémorragie cérébrale** | Différé 12 mois suite à l'événement<br />Par la suite : Entre +75 et +300 | Refus | Refus |
+| **AIT** | Différé 6 mois suite à l'événement<br />Par la suite, si séquelles mineures : Entre standard et +125 | Refus | Refus |
 | **Hémorragie cérébrale sans chirurgie** | Entre +75 et +150 | Refus | Refus |
 | **Hémorragie cérébrale avec chirurgie** | Entre standard et +100 | Refus | Refus |
 | **Événements multiples** | Refus | Refus | Refus |
@@ -287,9 +287,9 @@ Ce guide présente les critères de sélection des risques et les attentes en ma
 
 | Stade | Assurance Vie | Assurance Dette | Maladie Grave |
 |-------|---------------|-----------------|---------------|
-| **Stade 0** | Entre 3,00 $ et 7,50 $/mille | Différé entre 2 ans et 10 ans<br>Par la suite : Exclusion | Jusqu'à 5 ans : Refus<br>Par la suite : Possibilité d'exclusion |
-| **Stade 1** | Différé entre 1 an et 5 ans<br>Par la suite : Entre 6,00 $ et 15,00 $/mille x 5 ans | Différé entre 2 ans et 10 ans<br>Par la suite : Exclusion | Jusqu'à 7 ans : Refus<br>Par la suite : Possibilité d'exclusion |
-| **Stade 2A** | Différé entre 1 an et 5 ans<br>Par la suite : Entre 6,00 $ et 15,00 $/mille x 5 ans | Différé entre 2 ans et 10 ans<br>Par la suite : Exclusion | Refus |
+| **Stade 0** | Entre 3,00 $ et 7,50 $/mille | Différé entre 2 ans et 10 ans<br />Par la suite : Exclusion | Jusqu'à 5 ans : Refus<br />Par la suite : Possibilité d'exclusion |
+| **Stade 1** | Différé entre 1 an et 5 ans<br />Par la suite : Entre 6,00 $ et 15,00 $/mille x 5 ans | Différé entre 2 ans et 10 ans<br />Par la suite : Exclusion | Jusqu'à 7 ans : Refus<br />Par la suite : Possibilité d'exclusion |
+| **Stade 2A** | Différé entre 1 an et 5 ans<br />Par la suite : Entre 6,00 $ et 15,00 $/mille x 5 ans | Différé entre 2 ans et 10 ans<br />Par la suite : Exclusion | Refus |
 | **Stade plus haut que 2A** | Refus | Refus | Refus |
 
 ##### Cancer de la prostate
@@ -307,7 +307,7 @@ Ce guide présente les critères de sélection des risques et les attentes en ma
 
 | Stade | Assurance Vie | Assurance Dette | Maladie Grave |
 |-------|---------------|-----------------|---------------|
-| **Selon le stade** | Différé entre 1 an et 3 ans<br>Par la suite : 5,00 $/mille x 5 ans ou moins | Différé entre 1 an et 10 ans<br>Par la suite : Exclusion ou refus | Stade 1 avec prostatectomie totale<br>Différé jusqu'à 10 ans<br>Par la suite : Exclusion |
+| **Selon le stade** | Différé entre 1 an et 3 ans<br />Par la suite : 5,00 $/mille x 5 ans ou moins | Différé entre 1 an et 10 ans<br />Par la suite : Exclusion ou refus | Stade 1 avec prostatectomie totale<br />Différé jusqu'à 10 ans<br />Par la suite : Exclusion |
 | **Stade 3 ou plus** | Refus | Refus | Stade plus haut que 1 : Refus |
 
 ##### Cancer du sein
@@ -326,8 +326,8 @@ Ce guide présente les critères de sélection des risques et les attentes en ma
 
 | Type | Assurance Vie | Assurance Dette | Maladie Grave |
 |------|---------------|-----------------|---------------|
-| **Carcinome in situ** | Entre 1,50 $ et 6,00 $/mille x 4 ans | Différé 1 an<br>Entre 2 ans et 4 ans : Exclusion<br>Après 4 ans : Possibilité de standard | Refus |
-| **Autres tumeurs selon stade** | Différé entre 1 an et 5 ans<br>Par la suite : Entre 5,00 $ et 20,00 $/mille | Différé entre 4 ans et 10 ans<br>Par la suite : Entre +50 et exclusion | Refus |
+| **Carcinome in situ** | Entre 1,50 $ et 6,00 $/mille x 4 ans | Différé 1 an<br />Entre 2 ans et 4 ans : Exclusion<br />Après 4 ans : Possibilité de standard | Refus |
+| **Autres tumeurs selon stade** | Différé entre 1 an et 5 ans<br />Par la suite : Entre 5,00 $ et 20,00 $/mille | Différé entre 4 ans et 10 ans<br />Par la suite : Entre +50 et exclusion | Refus |
 | **Stade 3 et 4** | Possibilité de refus | - | - |
 
 #### Diabète Type 1 et 2 / Intolérance au glucose
@@ -347,8 +347,8 @@ Ce guide présente les critères de sélection des risques et les attentes en ma
 | Type | Assurance Vie | Assurance Dette | Maladie Grave |
 |------|---------------|-----------------|---------------|
 | **Diabète Type 1** | Selon l'âge et la durée avec bon contrôle, sans complication : Entre standard et +300 | Refus | Refus |
-| **Diabète Type 2** | Selon l'âge et la durée avec bon contrôle, sans complication : Entre standard et +250 | Moins de 40 ans : Refus<br>40 ans et plus : Selon l'âge et la durée | Moins de 40 ans : Refus<br>40 ans et plus : Selon l'âge et la durée |
-| **Intolérance au glucose** | Selon l'âge : Entre standard et +75 | Moins de 40 ans : Refus<br>40 ans et plus : Selon l'âge | Moins de 30 ans : Refus<br>30 ans et plus : Entre +50 et +100 |
+| **Diabète Type 2** | Selon l'âge et la durée avec bon contrôle, sans complication : Entre standard et +250 | Moins de 40 ans : Refus<br />40 ans et plus : Selon l'âge et la durée | Moins de 40 ans : Refus<br />40 ans et plus : Selon l'âge et la durée |
+| **Intolérance au glucose** | Selon l'âge : Entre standard et +75 | Moins de 40 ans : Refus<br />40 ans et plus : Selon l'âge | Moins de 30 ans : Refus<br />30 ans et plus : Entre +50 et +100 |
 
 #### Épilepsie
 

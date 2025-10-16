@@ -148,7 +148,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
    - **b** Trouble du rythme cardiaque (arythmies) nécessitant pacemaker, insuffisance cardiaque ou cardiomyopathie ?
    - **c** Fibrose kystique, Alzheimer, démence, chorée de Huntington, Parkinson, SLA (maladie de Lou Gehrig), dystrophie musculaire, myotonique, ou ataxie ?
    - **d** Maladie respiratoire chronique requérant oxygène quotidien (excluant apnée du sommeil) ?
-   - **e** (Pour <18 ans) Diabète type 1, paralysie cérébrale, trouble cardiaque congénital, trisomie 21 ou TSA ?
+   - **e** (Pour &lt;18 ans) Diabète type 1, paralysie cérébrale, trouble cardiaque congénital, trisomie 21 ou TSA ?
 
 2. **Au cours des 3 dernières années**, avez-vous souffert de ou été traité pour leucémie, lymphome, tumeur maligne ou cancer (sauf carcinome basocellulaire) ?
 
@@ -236,7 +236,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 
 1. **Au cours des 5 dernières années**, leucémie, lymphome, tumeur maligne ou cancer (sauf basocellulaire) ?
 
-2. **Au cours des 12 derniers mois**, poids diminué ≥10 % (sauf régime/accouchement) ?
+2. **Au cours des 12 derniers mois**, poids diminué &ge;10 % (sauf régime/accouchement) ?
 
 3. **Au cours des 2 prochaines années** :
    - **a** Voyage en régions guerre/conflit/haut risque ? (Réf. avertissements voyage Canada : https://voyage.gc.ca/voyager/avertissements)
@@ -244,7 +244,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 
 4. **Antécédents familiaux** : Membre immédiat (père/mère/frère/sœur) diagnostiqué :
    - **a** Huntington ou polykystique reins avant 60 ans ?
-   - **b** (Pour <3 ans) Fibrose kystique ?
+   - **b** (Pour &lt;3 ans) Fibrose kystique ?
 
 ## Guide de Référence Rapide {#guide-reference}
 

@@ -817,16 +817,16 @@ Sont exclus du revenu gagné tous les revenus ne provenant pas directement d'un 
 | Statut d'emploi | Définition du revenu gagné |
 |-----------------|----------------------------|
 | Salarié | Revenu d'emploi brut tel qu'indiqué dans le dernier rapport d'impôt fédéral (case 14 du formulaire T4 ou ligne 10100 du formulaire T1). |
-| Travailleur autonome | Le revenu gagné est le maximum entre : <br> **Calcul 1** : Bénéfice net de l'entreprise (case 13500, 13700, 13900, 14100 ou 14300). <br> **Calcul 2** : 50 % de la quote-part du bénéfice brut de l'entreprise* (chiffre d'affaires moins coûts, gains hors normal, dépenses salariales excluant l'assuré). |
-| Propriétaire d'entreprise | Le revenu gagné est le maximum entre : <br> **Calcul 1** : Bénéfice net + autres revenus d'emploi. <br> **Calcul 2** : 50 % de la quote-part du bénéfice brut*. |
+| Travailleur autonome | Le revenu gagné est le maximum entre : <br /> **Calcul 1** : Bénéfice net de l'entreprise (case 13500, 13700, 13900, 14100 ou 14300). <br /> **Calcul 2** : 50 % de la quote-part du bénéfice brut de l'entreprise* (chiffre d'affaires moins coûts, gains hors normal, dépenses salariales excluant l'assuré). |
+| Propriétaire d'entreprise | Le revenu gagné est le maximum entre : <br /> **Calcul 1** : Bénéfice net + autres revenus d'emploi. <br /> **Calcul 2** : 50 % de la quote-part du bénéfice brut*. |
 
 * L'utilisation du bénéfice brut de l'entreprise n'est pas permise si le bénéfice net d'entreprise est déficitaire pour deux (2) années consécutives ou plus immédiatement avant l'invalidité.
 
 | Statut d'emploi | Preuves requises |
 |-----------------|------------------|
 | Salarié | T4 ou T1 le plus récent |
-| Travailleurs autonomes | T1 général le plus récent <br> Rapport des revenus et dépenses |
-| Propriétaires d'entreprise | T1 général personnel le plus récent <br> États financiers d'entreprise complets des 2 dernières années |
+| Travailleurs autonomes | T1 général le plus récent <br /> Rapport des revenus et dépenses |
+| Propriétaires d'entreprise | T1 général personnel le plus récent <br /> États financiers d'entreprise complets des 2 dernières années |
 
 #### Définition du revenu gagné mensuel moyen
 
@@ -1089,7 +1089,7 @@ Le contrat comporte des conditions particulières pour les assurés qui sont san
 ### À la souscription
 
 - Déclarer le revenu gagné en ligne.
-- Pour indemnité ≥ 6 001 $, preuve de revenus exigée.
+- Pour indemnité &ge; 6 001 $, preuve de revenus exigée.
 
 ### À la réclamation
 
@@ -1099,8 +1099,8 @@ Le contrat comporte des conditions particulières pour les assurés qui sont san
 | Statut d'emploi | Preuves |
 |-----------------|---------|
 | Salarié | T4 ou T1 récent |
-| Travailleurs autonomes | T1 général récent <br> Rapport revenus/dépenses |
-| Propriétaires d'entreprise | T1 personnel récent <br> États financiers 2 ans |
+| Travailleurs autonomes | T1 général récent <br /> Rapport revenus/dépenses |
+| Propriétaires d'entreprise | T1 personnel récent <br /> États financiers 2 ans |
 
 #### Précisions sur les preuves acceptables
 
@@ -1119,30 +1119,30 @@ Statuts admissibles :
 
 - Citoyens canadiens
 - Résidents permanents
-- Résidents temporaires ≥3 ans avec demande de RP (excl. visiteur, touriste, asile, diplomate).
+- Résidents temporaires &ge;3 ans avec demande de RP (excl. visiteur, touriste, asile, diplomate).
 
 ## Exigences de sélection
 
 Assurance invalidité accident/maladie
 
-| Âge | 0 $ - 3 000 $ | 3 001 $ - 4 000 $ | 4 001 $ - 5 000 $ | ≥ 5 001 $ |
+| Âge | 0 $ - 3 000 $ | 3 001 $ - 4 000 $ | 4 001 $ - 5 000 $ | &ge; 5 001 $ |
 |-----|---------------|-------------------|-------------------|-----------|
 | 18-49 ans | Télé-entrevue | Télé-entrevue + Urine VIH | Télé-entrevue + Urine VIH + Signes vitaux + Profil sanguin | + Rapport d'enquête |
 | 50 ans | Télé-entrevue | + Signes vitaux | + Profil sanguin | + Rapport d'enquête |
 | 51-64 ans | Télé-entrevue | + Signes vitaux | + Profil sanguin | + Rapport médecin traitant + Rapport d'enquête |
 
-Additionner pour indemnité : 100 % invalidité totale + 100 % autres invalidités <12 mois + 50 % option additionnelle.
+Additionner pour indemnité : 100 % invalidité totale + 100 % autres invalidités &lt;12 mois + 50 % option additionnelle.
 
 Droit d'exiger examens supplémentaires.
 
-Preuve revenus pour ≥6 001 $.
+Preuve revenus pour &ge;6 001 $.
 
 ## Rabais de stabilité d'emploi
 
 Admissible si :
 
 - Revenus >35 000 $ (cols bleus/gris) ou >60 000 $ (cols blancs) sur 2 ans
-- ≥3 ans expérience même industrie
+- &ge;3 ans expérience même industrie
 
 Excl. chauffeurs, pêcheurs, fermiers, forestiers, industries risquées.
 
@@ -1168,5 +1168,5 @@ Rabais pour durée du contrat.
 
 ### Remplacement interne
 
-- <5 ans : Prime remplacée à renouvellement, augmentation 1re année.
-- ≥5 ans : Nouvelle police 1re année complète.
+- &lt;5 ans : Prime remplacée à renouvellement, augmentation 1re année.
+- &ge;5 ans : Nouvelle police 1re année complète.

@@ -627,7 +627,7 @@ Réduction >25% capital : prime rétroactive pour période.
 
 - Annulation écrite ;
 - Délai grâce prime ;
-- Indemnité versée <20 ans restants.
+- Indemnité versée &lt;20 ans restants.
 
 ## Information Générale {#information-générale}
 
