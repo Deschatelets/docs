@@ -194,7 +194,7 @@ statistics:
 
 ## Tableau Comparatif des Produits Principaux
 
-<!-- MACHINE_READABLE_DATA: product_comparison_matrix -->
+{/* MACHINE_READABLE_DATA: product_comparison_matrix */}
 ```json
 {
   "table_id": "main_products_comparison",
@@ -285,7 +285,7 @@ statistics:
   ]
 }
 ```
-<!-- END_MACHINE_READABLE_DATA -->
+{/* END_MACHINE_READABLE_DATA */}
 
 | Caractéristique | Emma T100 | Emma Temporaire |
 |---|---|---|
@@ -606,7 +606,7 @@ Si la personne assurée fait **faillite en cours d'invalidité**, plus aucune pr
 
 ## Résumé des Garanties Optionnelles
 
-<!-- MACHINE_READABLE_DATA: riders_summary_matrix -->
+{/* MACHINE_READABLE_DATA: riders_summary_matrix */}
 ```json
 {
   "table_id": "riders_summary",
@@ -714,7 +714,7 @@ Si la personne assurée fait **faillite en cours d'invalidité**, plus aucune pr
   ]
 }
 ```
-<!-- END_MACHINE_READABLE_DATA -->
+{/* END_MACHINE_READABLE_DATA */}
 
 | Avenant | Âge d'établissement | Montants | Durée | Particularités |
 |---|---|---|---|---|
@@ -805,7 +805,7 @@ L'Autorité des marchés financiers peut vous fournir de l'information **neutre 
 
 Cette section fournit un aperçu quantitatif du contenu du sommaire pour faciliter la navigation et l'analyse.
 
-<!-- MACHINE_READABLE_DATA: document_statistics -->
+{/* MACHINE_READABLE_DATA: document_statistics */}
 ```json
 {
   "statistics_id": "emma_product_summary_stats",
@@ -1012,7 +1012,7 @@ Cette section fournit un aperçu quantitatif du contenu du sommaire pour facilit
   }
 }
 ```
-<!-- END_MACHINE_READABLE_DATA -->
+{/* END_MACHINE_READABLE_DATA */}
 
 ### Aperçu des Statistiques
 

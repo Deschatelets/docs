@@ -18,27 +18,21 @@
             "pages": [
               "index"
             ]
-          }
-        ],
-        "groups": [
+          },
           {
             "group": "Emma",
             "pages": [
               "fr/Emma/emma-fr-guide-de-tarification.pdf.md",
               "fr/Emma/emma-fr-sommaire-produit-assurance-vie.pdf.md",
-              "fr/emma-fr-specimen-de-contrat.pdf.md"
+              "fr/Emma/emma-fr-specimen-de-contrat.pdf.md"
             ]
-          }
-        ],
-        "groups": [
+          },
           {
             "group": "Assomption",
             "pages": [
               "fr/Assomption/assomption-fr-formulaire-assurance-vie-simplifiee.pdf.md"
             ]
-          }
-        ],
-        "groups": [
+          },
           {
             "group": "UV",
             "pages": [
