@@ -4,7 +4,7 @@
   "name": "Emma Docs",
   "colors": {
     "primary": "#FF9981",
-    "light": "#07C983",
+    "light": "#f9f3f1",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
@@ -19,31 +19,39 @@
               "index"
             ]
           }
+        ],
+        "groups": [
+          {
+            "group": "Emma",
+            "pages": [
+              "fr/Emma/emma-fr-guide-de-tarification.pdf.md",
+              "fr/Emma/emma-fr-sommaire-produit-assurance-vie.pdf.md",
+              "fr/emma-fr-specimen-de-contrat.pdf.md"
+            ]
+          }
+        ],
+        "groups": [
+          {
+            "group": "Assomption",
+            "pages": [
+              "fr/Assomption/assomption-fr-formulaire-assurance-vie-simplifiee.pdf.md"
+            ]
+          }
+        ],
+        "groups": [
+          {
+            "group": "UV",
+            "pages": [
+              "fr/UV/uv-fr-assurance-sommaire-des-protections-complementaires.pdf.md"
+            ]
+          }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": []
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://github.com/Deschatelets/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://emma.ca/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://cdn.prod.website-files.com/59dbe1c25428050001926167/60355a2a0fac09ecc5285c05_emma-wordmark-white.svg",
+    "dark": "https://cdn.prod.website-files.com/59dbe1c25428050001926167/60355a2a0fac09ecc5285c05_emma-wordmark-white.svg"
   },
   "navbar": {
     "links": [
