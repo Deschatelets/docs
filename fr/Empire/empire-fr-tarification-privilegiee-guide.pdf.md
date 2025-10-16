@@ -192,7 +192,7 @@ Ce guide inclut les renseignements essentiels sur les critères de tarification 
 
 ### Catégories de risque {#catégories-de-risque}
 
-#### Pour protections < 1 000 001 $
+#### Pour protections moins de 1 000 001 $
 - **Standard non-fumeur** : Santé moyenne, mode de vie à risque moyen, sans tabac/nicotine (180 derniers mois)
 - **Standard fumeur** : Santé moyenne, mode de vie à risque moyen, fumeur standard
 

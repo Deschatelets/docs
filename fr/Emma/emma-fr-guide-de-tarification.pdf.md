@@ -479,7 +479,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ### Maladies Cardiovasculaires
 
-#### Accident Ischémique Transitoire (AIT) / Accident Vasculaire Cérébral (AVC)
+#### Accident Ischémique Transitoire (AIT) ou Accident Vasculaire Cérébral (AVC)
 
 **Facteurs influant sur la décision:**
 - Âge actuel
@@ -500,7 +500,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ---
 
-#### Coronopathie / Crise Cardiaque / Infarctus du Myocarde / Pontage / Angioplastie
+#### Coronopathie ou Crise Cardiaque ou Infarctus du Myocarde ou Pontage ou Angioplastie
 
 **Facteurs influant sur la décision:**
 - Âge actuel
@@ -582,7 +582,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ---
 
-#### Maladie Pulmonaire Obstructive Chronique (MPOC) / Emphysème / Bronchite Chronique
+#### Maladie Pulmonaire Obstructive Chronique (MPOC) ou Emphysème ou Bronchite Chronique
 
 **Facteurs influant sur la décision:**
 - Date du diagnostic
@@ -601,7 +601,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ### Troubles Métaboliques
 
-#### Diabète (Type 1 et 2) / Diabète Gestationnel
+#### Diabète (Type 1 et 2) ou Diabète Gestationnel
 
 **Facteurs influant sur la décision:**
 - Âge actuel
@@ -641,7 +641,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ### Cancers
 
-#### Cancer de la Peau / Tumeur Maligne / Carcinome
+#### Cancer de la Peau ou Tumeur Maligne ou Carcinome
 
 **Facteurs influant sur la décision:**
 - Date du diagnostic
@@ -773,7 +773,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ### Troubles Gastro-intestinaux
 
-#### Colite Ulcéreuse / Maladie de Crohn / Côlon Irritable
+#### Colite Ulcéreuse ou Maladie de Crohn ou Côlon Irritable
 
 **Facteurs influant sur la décision:**
 - Âge actuel
@@ -1058,7 +1058,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ### Troubles Musculo-squelettiques
 
-#### Arthrite Rhumatoïde / Arthrite Psoriasique
+#### Arthrite Rhumatoïde ou Arthrite Psoriasique
 
 **Facteurs influant sur la décision:**
 - Âge actuel
@@ -1154,7 +1154,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ---
 
-#### Escalade / Alpinisme
+#### Escalade ou Alpinisme
 
 **Facteurs influant sur la décision:**
 - Type d'escalade
@@ -1172,7 +1172,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ---
 
-#### Parachutisme / Paravoile / Deltaplane / Parapente / Saut à l'Élastique / Héliski / Kitesurf
+#### Parachutisme ou Paravoile ou Deltaplane ou Parapente ou Saut à l'Élastique ou Héliski ou Kitesurf
 
 **Facteurs influant sur la décision:**
 - Date
@@ -1346,7 +1346,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 ---
 
-#### Q: Pouvons-nous demander et/ou utiliser les résultats de tests génétiques?
+#### Q: Pouvons-nous demander et ou utiliser les résultats de tests génétiques
 
 **R:** Non, nous nous conformons à la loi visant à interdire et à prévenir la discrimination génétique.
 

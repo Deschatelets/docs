@@ -242,7 +242,7 @@ Les exigences sont déterminées en fonction du montant total de toute assurance
 
 ### Remarques spécifiques - Assurance Vie
 
-#### Assurance temporaire Série Solution<sup>MC</sup>
+#### Assurance temporaire Série Solution MC
 
 Pour les catégories de tarification **Privilégié** et **Élite** (capital assuré de 1 000 001 $ et plus) :
 - Un **profil sanguin (PS)** et un **examen des signes vitaux (ESV)** sont nécessaires
