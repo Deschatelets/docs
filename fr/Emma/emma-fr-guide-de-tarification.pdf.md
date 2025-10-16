@@ -1,3 +1,4 @@
+---
 # Document Metadata
 document_id: "emma-fr-guide-tarification-v1.0"
 document_type: underwriting_guide
@@ -248,6 +249,7 @@ Le présent **guide de tarification et de présélection** (underwriting guide) 
 
 ### Matrice des Exigences par Montant et Âge
 
+<!-- MACHINE_READABLE_DATA: underwriting_requirements_matrix -->
 ```json
 {
   "table_id": "requirements_by_age_amount",
@@ -366,6 +368,7 @@ Le présent **guide de tarification et de présélection** (underwriting guide) 
   ]
 }
 ```
+<!-- END_MACHINE_READABLE_DATA -->
 
 | Montant d'Assurance ($) | 18-40 ans | 41-50 ans | 51-55 ans | 56-60 ans | 61 ans et plus |
 |-------------------------|-----------|-----------|-----------|-----------|----------------|
@@ -1369,6 +1372,7 @@ Humania Assurance n'assure pas les personnes faisant usage de:
 
 Cette section fournit un aperçu quantitatif du contenu du guide pour faciliter la navigation et l'analyse.
 
+<!-- MACHINE_READABLE_DATA: document_statistics -->
 ```json
 {
   "statistics_id": "emma_underwriting_guide_stats",
@@ -1614,6 +1618,7 @@ Cette section fournit un aperçu quantitatif du contenu du guide pour faciliter 
   }
 }
 ```
+<!-- END_MACHINE_READABLE_DATA -->
 
 ### Aperçu des Statistiques
 
