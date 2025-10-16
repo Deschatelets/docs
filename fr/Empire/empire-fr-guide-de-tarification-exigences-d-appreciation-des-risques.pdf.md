@@ -124,10 +124,6 @@ statistics:
 
 # Exigences d'Appréciation des Risques - Assurance Vie et Maladies Graves
 
-**L'Empire, Compagnie d'Assurance-Vie**
-
----
-
 ## Table des matières
 
 1. [Aperçu du document](#aperçu-du-document)

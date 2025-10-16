@@ -98,12 +98,10 @@ statistics:
     lettre_presentation: true
     documents_financiers: true
 ---
-# Tarification Financière - Assurance Vie iA {#tarification_financiere_assurance_vie}
-
+# Tarification Financière - Assurance Vie iA
 Ce document détaille les exigences financières pour l'assurance vie personnelle et d'affaires chez iA. Les montants totaux (en vigueur + demandés) déterminent les documents requis. iA se réserve le droit de demander des informations supplémentaires pour évaluer le risque.
 
-## Assurance Personnelle {#assurance_personnelle}
-
+## Assurance Personnelle
 - **Questionnaire financier** : Requis pour montants entre 5 000 001 $ et 10 000 000 $.
 - **Rapport d'enquête** : Requis pour montants supérieurs à 10 000 000 $.
 - **Lettre de présentation** : Obligatoire pour toute nouvelle demande supérieure à 10 000 000 $ ; justifie le montant total d'assurance demandé et en vigueur.
@@ -112,8 +110,7 @@ Ce document détaille les exigences financières pour l'assurance vie personnell
 
 **Note importante** : iA se réserve le droit de demander des informations supplémentaires si nécessaire pour tarifer votre client.
 
-## Lignes Directrices pour l'Assurance Personnelle {#lignes_directrices_personnelle}
-
+## Lignes Directrices pour l'Assurance Personnelle
 | Conditions | Exigences | Lignes Directrices |
 |------------|-----------|
 | **Adultes avec revenu** | Réponses aux questions financières de la section Admissibilité de la proposition. | Âge 18-30: 30x revenu annuel canadien (salaire, bonis, commissions) + valeur nette canadienne. 31-40: 25x. 41-50: 20x. 51-60: 15x. 61-65: 10x. 66-70: 5x. >70: Maximum 200 000 $ (voir section Personnes âgées). |
@@ -124,16 +121,14 @@ Ce document détaille les exigences financières pour l'assurance vie personnell
 | **Dons de charité** | Réponses aux questions financières de la section Admissibilité de la proposition. Lettre de présentation. | Au cas par cas pour les montants plus élevés avec une lettre de présentation. |
 | **Avoirs étrangers (Valeur nette étrangère)** | Réponses aux questions financières de la section Admissibilité de la proposition. Documents officiels pour vérification provenant d'une institution internationale, en français ou en anglais, datant de moins de 6 mois: Comptes bancaires, Investissements, Déclaration canadienne de revenus (T1 et T1135). | Peut justifier jusqu'à 50 % du capital assuré et jusqu'à un maximum de 5 000 000 $. Calcul de la valeur nette étrangère applicable: 25 % des avoirs étrangers non-vérifiés (sans documents officiels) et 50 % des avoirs étrangers vérifiés (avec documents officiels). |
 
-## Assurance Affaires {#assurance_affaires}
-
+## Assurance Affaires
 Les exigences pour l'assurance vie d'affaires suivent des lignes directrices similaires à celles de l'assurance personnelle, adaptées au contexte professionnel (prêts, achat/vente, personne clé, etc.). Consultez les tableaux spécifiques pour les calculs basés sur les parts, revenus, et valeurs d'entreprise. Une lettre de présentation est souvent requise pour justifier les montants.
 
 **Note** : Les exigences de tarification sont basées sur le montant total de toutes les assurances vie en cours et en vigueur auprès d'iA et de toute autre compagnie au cours des 12 derniers mois.
 
 **iA se réserve le droit de demander des informations supplémentaires si nécessaire pour tarifer votre client.**
 
-## Conclusion {#conclusion}
-
+## Conclusion
 Ce guide facilite l'évaluation financière pour l'assurance vie. Pour des détails sur l'assurance affaires (prêts, conventions achat/vente, personne clé, entreprises agricoles/démarrage), reportez-vous aux sections dédiées dans le guide complet de tarification.
 
 **ON S'INVESTIT, POUR VOUS.**

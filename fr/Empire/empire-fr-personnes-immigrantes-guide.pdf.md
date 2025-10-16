@@ -181,8 +181,7 @@ Ce guide présente les directives spécifiques pour l'évaluation des demandes d
 
 ---
 
-## Aperçu {#aperçu}
-
+## Aperçu
 L'Empire Vie offre une couverture d'assurance vie et maladies graves aux personnes immigrantes selon leur statut de résidence. Les limites de capital assuré, les exigences d'appréciation des risques et les documents requis varient par catégorie.
 
 **Exigences médicales communes :**
@@ -191,8 +190,7 @@ L'Empire Vie offre une couverture d'assurance vie et maladies graves aux personn
 
 ---
 
-## Glossaire {#glossaire}
-
+## Glossaire
 | Terme | Définition |
 |-------|------------|
 | **Résident permanent** | Personne ayant obtenu la citoyenneté canadienne ou une carte de résident permanent |
@@ -204,10 +202,8 @@ L'Empire Vie offre une couverture d'assurance vie et maladies graves aux personn
 
 ---
 
-## Statuts de résidence {#statuts_de_residence}
-
-### Résident permanent {#resident_permanent}
-
+## Statuts de résidence
+### Résident permanent
 #### Limites de couverture
 - **Vie** : Capital assuré maximal pour le régime
 - **MG** : Capital assuré maximal pour le régime
@@ -223,8 +219,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Résident temporaire {#resident_temporaire}
-
+### Résident temporaire
 #### Limites de couverture
 - **Vie** : Jusqu'à 500 000 $ (toutes sociétés) ; jusqu'à 1 000 000 $ si résident au Canada > 2 ans
 - **MG** : Jusqu'à 100 000 $ (toutes sociétés)
@@ -241,8 +236,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Programme de travail post-diplôme {#programme_de_travail_post_diplome}
-
+### Programme de travail post-diplôme
 #### Limites de couverture
 - **Vie** : Jusqu'à 500 000 $ (toutes sociétés)
 - **MG** : Jusqu'à 100 000 $ (toutes sociétés)
@@ -258,8 +252,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Permis d'études {#permis_detudes}
-
+### Permis d'études
 #### Limites de couverture
 - **Vie** : Jusqu'à 250 000 $ (toutes sociétés) ; 18 ans et plus
 - **MG** : Non offerte
@@ -276,8 +269,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Réfugiés au sens de la Convention {#refugies_au_sens_de_la_convention}
-
+### Réfugiés au sens de la Convention
 #### Limites de couverture
 - **Vie** : Jusqu'à 250 000 $ (toutes sociétés)
 - **MG** : Non offerte
@@ -294,8 +286,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Médecins formés à l'étranger et travailleurs qualifiés {#medecins_formes_a_letranger_et_travailleurs_qualifies}
-
+### Médecins formés à l'étranger et travailleurs qualifiés
 *Exemples : infirmiers, avocats, ingénieurs, pharmaciens*
 
 #### Limites de couverture
@@ -317,8 +308,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Programme concernant les aides familiaux résidants {#programme_concernant_les_aides_familiaux_residants}
-
+### Programme concernant les aides familiaux résidants
 #### Limites de couverture
 - **Vie** : Jusqu'à 250 000 $ (toutes sociétés)
 - **MG** : Jusqu'à 100 000 $ (toutes sociétés)
@@ -335,8 +325,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Programme des candidats des provinces {#programme_des_candidats_des_provinces}
-
+### Programme des candidats des provinces
 #### Limites de couverture
 - **Vie** : Jusqu'à 2 000 000 $ (toutes sociétés)
 - **MG** : Jusqu'à 500 000 $ (toutes sociétés)
@@ -353,8 +342,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-### Conjointe ou conjoint et enfants à charge {#conjointe_ou_conjoint_et_enfants_a_charge}
-
+### Conjointe ou conjoint et enfants à charge
 #### Limites de couverture
 - **Vie et MG** : Maximum 50 % du montant offert sur la vie du conjoint/parent
 - **Garanties complémentaires** : Consulter le statut du conjoint/parent
@@ -369,8 +357,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-## Ressources et contacts {#ressources_et_contacts}
-
+## Ressources et contacts
 **L'Empire, Compagnie d'Assurance-Vie**  
 259, rue King Est, Kingston ON K7L 3A8  
 [https://empire.ca](https://empire.ca) | [info@empire.ca](mailto:info@empire.ca) | 1 877 548-1881  
@@ -380,8 +367,7 @@ Exigences de routine selon l'âge et le montant. Profil sanguin (hépatites B et
 
 ---
 
-## Notes légales {#notes_legales}
-
+## Notes légales
 > **RÉSERVÉ AUX CONSEILLÈRES ET AUX CONSEILLERS**  
 > <sup>MD</sup> Marque déposée de L'Empire, Compagnie d'Assurance-Vie. Les polices sont établies par L'Empire, Compagnie d'Assurance-Vie. Toutes les autres marques de commerce sont la propriété de leurs détenteurs respectifs.
 

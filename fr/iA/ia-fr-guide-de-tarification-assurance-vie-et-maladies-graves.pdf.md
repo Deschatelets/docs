@@ -312,8 +312,7 @@ Vols plaisance/affaires, permis privé/commercial (hélico inclus), élèves-pil
 - Meilleurs cas (non montagne/éloigné): Régulier.
 - Autrement: +25%/exclusion.
 
-#### Aviation Commerciale {#aviation_commerciale}
-
+#### Aviation Commerciale
 Ambulance aérienne, épandage, hélico, brousse, ligne, affrètement, surveillance circulation, rémunérés.
 
 **Éléments à Considérer** : Type vol, expérience, ATR, IFR, appareil/taille, horaires fixes/non, heures/an, absence risques.
@@ -327,8 +326,7 @@ Ambulance aérienne, épandage, hélico, brousse, ligne, affrètement, surveilla
 
 **Maladie Grave** : Régulier à +25% selon compagnie.
 
-#### Autres Activités Aériennes {#autres_activites_aeriennes}
-
+#### Autres Activités Aériennes
 Ultra-léger, deltaplane, voltige, course, montgolfière.
 
 **Éléments à Considérer** : Type sport/appareil, permis, motorisé/non, altitude, heures/an, construction, absence non-médicaux.
@@ -339,12 +337,9 @@ Ultra-léger, deltaplane, voltige, course, montgolfière.
 
 **Maladie Grave** : Régulier/surprime/exclusion selon activité.
 
-## Risques Médicaux {#risques_medicaux}
-
-### Anémie {#anemie}
-
-#### Alpha Thalassémie Mineure, Trait Thalassémique Bêta, Trait Falciforme {#thalassemie_trait}
-
+## Risques Médicaux
+### Anémie
+#### Alpha Thalassémie Mineure, Trait Thalassémique Bêta, Trait Falciforme
 Anémie légère sans conséquences santé.
 
 **Éléments** : Bilan sanguin, complications, symptômes, anomalies hémoglobine, absence traitement anémie.
@@ -355,8 +350,7 @@ Anémie légère sans conséquences santé.
 
 **Maladie Grave** : Régulier.
 
-#### Anémie Ferriprive {#anemie_ferriprive}
-
+#### Anémie Ferriprive
 Anémie manque fer.
 
 **Éléments** : Bilan sanguin, sévérité, âge, investigations (cause/saignement).
@@ -374,8 +368,7 @@ Anémie manque fer.
 - Investigation complète/cause identifiée: Régulier si corrigée.
 - Autrement: +25% à remis (sévérité).
 
-#### Anémies à Hématies Falciformes (Drépanocytose, Hémoglobine S) {#anemies_falciformes}
-
+#### Anémies à Hématies Falciformes (Drépanocytose, Hémoglobine S)
 Anémie chronique héréditaire grave ; thromboses, douleurs.
 
 **Éléments** : Bilan sanguin, sévérité, âge, complications, symptômes, anomalies hémoglobine, temps depuis dernier épisode.
@@ -386,8 +379,7 @@ Anémie chronique héréditaire grave ; thromboses, douleurs.
 
 **Maladie Grave** : Refus.
 
-#### Anémie Hémolytique {#anemie_hemolytique}
-
+#### Anémie Hémolytique
 Destruction accélérée globules rouges.
 
 **Éléments** : Formules sanguines normales post-rétablissement, traitement, temps écoulé, splénectomie, 1 épisode.
@@ -402,8 +394,7 @@ Destruction accélérée globules rouges.
 - Meilleurs cas (secondaire médication, rétablissement complet, sans splénectomie/traitement continu): Régulier.
 - Autrement: Refus.
 
-#### Anémie Mégaloblastique/Pernicieuse {#anemie_megaloblastique}
-
+#### Anémie Mégaloblastique/Pernicieuse
 Carence B12/acide folique malabsorption.
 
 **Éléments** : Bilan sanguin, sévérité, complications, traitement, cause sous-jacente.
@@ -416,8 +407,7 @@ Carence B12/acide folique malabsorption.
 - Rétablissement sans anémie/traitement adéquat: Régulier à +50%.
 - Autrement: Remis à refus.
 
-#### Anémie Sidéroblastique {#anemie_sideroblastique}
-
+#### Anémie Sidéroblastique
 Problème moelle osseuse.
 
 **Éléments** : Bilan sanguin, sévérité, âge, héréditaire/acquise, traitement, cause sous-jacente.
@@ -428,8 +418,7 @@ Problème moelle osseuse.
 
 **Maladie Grave** : Présent/idiopathique refus ; complet: Régulier.
 
-#### Microsphérocytose Héréditaire, Elliptocytose, Stomatocytose {#microspherocytose}
-
+#### Microsphérocytose Héréditaire, Elliptocytose, Stomatocytose
 Anémie formes gravité variées.
 
 **Éléments** : Bilan sanguin, sévérité, âge, complications, symptômes, splénectomie.
@@ -444,8 +433,7 @@ Anémie formes gravité variées.
 - Sans splénectomie: Présent remis ; complet: Régulier.
 - Avec: Complet considération ; Autrement refus.
 
-### Apnée du Sommeil {#apnee_sommeil}
-
+### Apnée du Sommeil
 Pauses respiratoires sommeil (complètes/incomplètes).
 
 **Éléments** : Âge, type (centrale/obstructive/mixte), sévérité (polysomnographie ou info questions), traitement/efficacité, observance, surpoids, complications (coronarienne/arythmie/AVC/MPOC).
@@ -464,8 +452,7 @@ Pauses respiratoires sommeil (complètes/incomplètes).
 - Centrale: Refus.
 - Mixte/Obstructive: Sans complications/autres: Léger régulier ; Modéré 0-+75% ; Sévère 0-refus (observance).
 
-### Asthme {#asthme}
-
+### Asthme
 Affection respiratoire: Obstruction, inflammation, hyperréactivité ; respiration sifflante, toux, dyspnée.
 
 **Éléments** : Âge, limitation activités, traitement/efficacité, observance, hospitalisations/urgences, symptômes diurnes/nocturnes, tabagisme, complications (coronarienne/psychiatrique/MPOC).
@@ -476,8 +463,7 @@ Affection respiratoire: Obstruction, inflammation, hyperréactivité ; respirati
 
 **Maladie Grave** : Léger régulier-+25% (tabagique) ; Modéré +75-100% ; Sévère refus.
 
-### Chirurgie Bariatrique {#chirurgie_bariatrique}
-
+### Chirurgie Bariatrique
 Procédure altérant digestion pour obésité (gastroplastie, sleeve, etc.).
 
 **Éléments** : Temps écoulé, type chirurgie, complications (ulcère, hernie, diarrhée, déficits nutrition, cirrhose/fibrose foie, malabsorption).
@@ -488,10 +474,8 @@ Procédure altérant digestion pour obésité (gastroplastie, sleeve, etc.).
 
 **Maladie Grave** : Attente 6 mois ; tarification poids courant/temps écoulé.
 
-### Colite Ulcéreuse/Maladie de Crohn {#colite_ulcereuse_crohn}
-
-#### Colite Ulcéreuse {#colite_ulcereuse}
-
+### Colite Ulcéreuse/Maladie de Crohn
+#### Colite Ulcéreuse
 Inflammation chronique muqueuse intestin.
 
 **Éléments** : Âge diagnostic, coloscopie &lt;2 ans, perte poids dernière année, chirurgie, médication, fréquence épisodes.
@@ -502,8 +486,7 @@ Inflammation chronique muqueuse intestin.
 
 **Maladie Grave** : Attente 6 mois ; chirurgie attente/en attente refus ; traité médical +25-+75% exclusions (niveau/gravité/symptômes, coloscopie récente) ; chirurgie attente 1 an +25% exclusions à remis (complications).
 
-#### Maladie de Crohn {#maladie_crohn}
-
+#### Maladie de Crohn
 Inflammation chronique paroi intestinale.
 
 **Éléments** : Âge diagnostic, coloscopie &lt;2 ans, perte poids, chirurgie, médication, fréquence épisodes.
@@ -514,8 +497,7 @@ Inflammation chronique paroi intestinale.
 
 **Maladie Grave** : Attente 6 mois ; symptômes légers/atteinte limitée/coloscopie favorable récente/pas symptômes 5 ans: Standard ; sévères/étendue +25-+75% exclusions à refus.
 
-### Commotion Cérébrale et Fracture du Crâne {#commotion_cerebrale}
-
+### Commotion Cérébrale et Fracture du Crâne
 Commotion: Anomalie transitoire cerveau (perte conscience, équilibre, vue). Pas lésions structurelles.
 
 **Éléments** : Hospitalisation, épisodes, fracture crâne, invalidité, condition actuelle, date, complications (neurologique/épilepsie/post-commotionnel).
@@ -528,8 +510,7 @@ Commotion: Anomalie transitoire cerveau (perte conscience, équilibre, vue). Pas
 
 * >70 ans événement: Non assurable.
 
-### Cancer - Généralités {#cancer_generalites}
-
+### Cancer - Généralités
 Pronostic varie par type, envahissement (stade), malignité (degré).
 
 Rétablissement: Années depuis fin traitement (chirurgie, radio, chimio).
@@ -540,8 +521,7 @@ Rétablissement: Années depuis fin traitement (chirurgie, radio, chimio).
 
 **Vie/Maladie Grave** : Varie par type/temps ; exérèse complète ; attente 1-5 ans ; surprime temporaire diminuant ; pas métastases.
 
-#### Cancer du Col Utérin {#cancer_col_uterin}
-
+#### Cancer du Col Utérin
 **Éléments** : Diagnostic, stade, degré, traitement, récidives, fin traitements, complications.
 
 **Exigences** : RMT + colpocytologie &lt;6 mois.
@@ -550,8 +530,7 @@ Rétablissement: Années depuis fin traitement (chirurgie, radio, chimio).
 
 **Maladie Grave** : In situ régulier (contrôle normal &ge;6 mois post-excision complète/absence invasion) ; invasif stade 0/1 &lt;40 refus &ge;40 0-10 ans remis &gt;10 exclusion ; &gt;1 refus.
 
-#### Cancer du Côlon {#cancer_colon}
-
+#### Cancer du Côlon
 Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Éléments** : Diagnostic, stade, degré, traitement, récidives, fin traitements, complications.
@@ -562,32 +541,28 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Maladie Grave** : Refus.
 
-#### Cancer de la Peau - Carcinome Basocellulaire {#cancer_peau_basocellulaire}
-
+#### Cancer de la Peau - Carcinome Basocellulaire
 **Éléments** : Diagnostic, type, stade, degré, traitement, récidives, fin traitements, complications.
 
 **Vie** : Meilleur cas (excision &lt;2.5cm, >50 ans, peu profonde, sans récidive): Régulier ; Autrement +50% à refus.
 
 **Maladie Grave** : Meilleur cas (&lt;4 stade, &lt;5 tumeurs, sans ganglions): Régulier ; Autrement refus.
 
-#### Cancer de la Peau - Carcinome Spinocellulaire {#cancer_peau_spinocellulaire}
-
+#### Cancer de la Peau - Carcinome Spinocellulaire
 **Éléments** : Identiques.
 
 **Vie** : Meilleur cas (excision &lt;1.5cm, >50 ans, peu profonde, sans récidive): Régulier ; Autrement 7.5-10$/M/4-5 ans.
 
 **Maladie Grave** : In situ (Bowen) traité régulier ; non-traité refus ; Autrement refus-exclusion (stade/temps).
 
-#### Cancer de la Peau - Mélanome Malin {#cancer_peau_melanome}
-
+#### Cancer de la Peau - Mélanome Malin
 **Éléments** : Identiques.
 
 **Vie** : In situ régulier ; Autrement dépend épaisseur/localisation/ulcération ; attente possible ; surprime 5-15$/M/3-5 ans ; antécédents familiaux +100% ; type tumeur +25-+75% permanente.
 
 **Maladie Grave** : Meilleur cas (0/1A, excision >2 ans, suivi dermatologie, sans récidive): Exclusion ; Autrement refus.
 
-#### Cancer de la Prostate {#cancer_prostate}
-
+#### Cancer de la Prostate
 **Éléments** : Diagnostic, stade, Gleason, traitement, récidives, fin traitements, complications.
 
 **Exigences** : RMT + PSA &lt;6 mois.
@@ -596,8 +571,7 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Maladie Grave** : T1a/T1b &lt;40 refus &ge;40 0-10 ans remis &gt;10 exclusion ; &gt;T1b refus.
 
-#### Cancer du Sein {#cancer_sein}
-
+#### Cancer du Sein
 **Éléments** : Diagnostic, stade, degré, traitement, récidives, fin traitements, complications.
 
 **Exigences** : RMT + mammographie &lt;6 mois + anatomo-pathologique.
@@ -606,10 +580,8 @@ Excl. Polypose adénomateuse familiale (PAF), HNPCC, polypes malins.
 
 **Maladie Grave** : Refus.
 
-### Diabète {#diabete}
-
-#### Diabète Type I (DID) {#diabete_type_i}
-
+### Diabète
+#### Diabète Type I (DID)
 Insulinodépendant, &lt;20 ans, injection insuline.
 
 **Éléments** : Âge diagnostic, durée, contrôle, poids/taille, TA, suivi, complications (rétinopathie/néphropathie/neuropathie/coronarienne/AVC/périphérique).
@@ -620,8 +592,7 @@ Insulinodépendant, &lt;20 ans, injection insuline.
 
 **Maladie Grave** : Refus.
 
-#### Diabète Type II (DNID) {#diabete_type_ii}
-
+#### Diabète Type II (DNID)
 Non insulinodépendant, >40 ans, diète/médication, rare insuline.
 
 **Éléments** : Âge diagnostic, durée, contrôle, poids/taille, TA, suivi, complications (identiques).
@@ -632,8 +603,7 @@ Non insulinodépendant, >40 ans, diète/médication, rare insuline.
 
 **Maladie Grave** : &ge;40 ans &le;15 ans diagnostic, excellent contrôle, sans complication +50-+150% ; Autrement refus.
 
-#### Diabète de Grossesse (Gestationnel) {#diabete_grossesse}
-
+#### Diabète de Grossesse (Gestationnel)
 Intolérance glucose première fois grossesse ; risque type II.
 
 **Éléments** : Grossesse actuelle/passée, suivi post-partum, poids actuel, histoire familiale.
@@ -644,8 +614,7 @@ Intolérance glucose première fois grossesse ; risque type II.
 
 **Maladie Grave** : Actuel remis post-accouchement/contrôle post-partum ; ensuite régulier si résolu.
 
-### Épilepsie {#epilepsie}
-
+### Épilepsie
 Épisodes activité électrique anormale cerveau ; convulsions, absences, etc.
 
 **Éléments** : Âge, temps premières manifestations, type (partielle/généralisée grand/petit mal), contrôle/fréquence crises, idiopathique/secondaire, activités/loisirs dangereux, conduite, complications (intellectuels/neurologiques/mental).
@@ -662,8 +631,7 @@ Intolérance glucose première fois grossesse ; risque type II.
 - Généralisée: Régulier-+75% (crises/an) ; attente 6 mois post-diagnostic ; mal contrôlée remis.
 - Partielle/petit mal: Régulier-+25% (crises/an) ; attente 6 mois ; mal contrôlée remis.
 
-### Fibromyalgie {#fibromyalgie}
-
+### Fibromyalgie
 Douleurs musculo-squelettiques, raideur, sensibilité, fatigue, maux tête, insomnie, dépression, anxiété.
 
 **Éléments** : Durée, sévérité, traitement, invalidité, trouble associé.
@@ -674,10 +642,8 @@ Douleurs musculo-squelettiques, raideur, sensibilité, fatigue, maux tête, inso
 
 **Maladie Grave** : Sous traitement +50% ; cessé &ge;1 an régulier.
 
-### Hépatite {#hepatite}
-
-#### Hépatite A et E {#hepatite_a_e}
-
+### Hépatite
+#### Hépatite A et E
 Infectieuse virus A/E, bénigne.
 
 **Éléments** : Âge diagnostic, lab (fonction hépatique, AST/ALT), suivi, traitement, alcool, inflammation/fibrose, temps guérison complète.
@@ -688,8 +654,7 @@ Infectieuse virus A/E, bénigne.
 
 **Maladie Grave** : Actuel refus ; Guérison >3 mois régulier.
 
-#### Hépatite B {#hepatite_b}
-
+#### Hépatite B
 Infectieuse virus B.
 
 **Porteurs** : Contact virus non éliminé ; asymptomatiques, transmettables.
@@ -708,8 +673,7 @@ Infectieuse virus B.
 - AgHBs +: Aiguë &lt;6 mois remis ; Chronique/porteur fonction/suivi normaux +50-+75% ; Autrement refus.
 - AgHBs -: Fonction/suivi normaux +50-+75% ; Autrement refus.
 
-#### Hépatite C {#hepatite_c}
-
+#### Hépatite C
 Infectieuse virus C ; asymptomatique → chronique/fibrose/cirrhose.
 
 **Éléments** : Identiques Hépatite B.
@@ -718,16 +682,14 @@ Infectieuse virus C ; asymptomatique → chronique/fibrose/cirrhose.
 
 **Vie/Maladie Grave** : Général refus ; possible traité/suivi gastro/hépatologue/tests guérison, sans complications.
 
-#### Autres Types Hépatites {#autres_hepatites}
-
+#### Autres Types Hépatites
 **Éléments** : Lab (fonction hépatique, AST/ALT), suivi, traitement, alcool, inflammation/fibrose, temps guérison.
 
 **Exigences** : RMT ; profil selon critères (âge/montant/suivi).
 
 **Vie/Maladie Grave** : Refus probable.
 
-### Hypertension Artérielle (HTA) {#hypertension_arterielle}
-
+### Hypertension Artérielle (HTA)
 Primaire/essentielle (cause inconnue) ; secondaire (connue).
 
 **Éléments** : Âge diagnostic/actuel, traitement, contrôle, TA courante/dernière année, observance, complications (encéphalopathie/rétinopathie/rénaux/hypertrophie cardiaque).
@@ -736,10 +698,8 @@ Primaire/essentielle (cause inconnue) ; secondaire (connue).
 
 **Vie/Maladie Grave** : Dépend maîtrise ; sans complications contrôle: Régulier.
 
-### Maladie Auto-Immune {#maladie_auto_immune}
-
-#### Fasciite à Éosinophiles {#fasciite_eosinophiles}
-
+### Maladie Auto-Immune
+#### Fasciite à Éosinophiles
 Sclérodermie localisée cutanée/sous-cutanée.
 
 **Éléments** : Temps diagnostic, complications, investigation éliminer généralisée.
@@ -750,8 +710,7 @@ Sclérodermie localisée cutanée/sous-cutanée.
 
 **Maladie Grave** : Refus.
 
-#### Lupus Discoïde {#lupus_discoide}
-
+#### Lupus Discoïde
 Chronique peau (visage, cou, bras, cuir chevelu).
 
 **Éléments** : Temps diagnostic, traitement, investigation éliminer LED.
@@ -762,8 +721,7 @@ Chronique peau (visage, cou, bras, cuir chevelu).
 
 **Maladie Grave** : Régulier à +50% (médication).
 
-#### Lupus Érythémateux Disséminé (LED) {#lupus_erythemateux}
-
+#### Lupus Érythémateux Disséminé (LED)
 Inflammatoire auto-immune multiple organes.
 
 **Éléments** : Âge actuel, temps diagnostic/rémission, symptômes, activité, traitement/réponse, cérébral/rénal, facteurs risque CV/respiratoire.
@@ -774,8 +732,7 @@ Inflammatoire auto-immune multiple organes.
 
 **Maladie Grave** : Possible rétablissement/cessation traitement &ge;5 ans ; Autrement refus.
 
-#### Lupus Médicamenteux {#lupus_medicamenteux}
-
+#### Lupus Médicamenteux
 Induit médicaments ; rétablissement quelques mois post-interruption.
 
 **Éléments** : Temps diagnostic.
@@ -786,8 +743,7 @@ Induit médicaments ; rétablissement quelques mois post-interruption.
 
 **Maladie Grave** : Possible 1 an post-rétablissement.
 
-#### Polyarthrite Rhumatoïde {#polyarthrite_rhumatoide}
-
+#### Polyarthrite Rhumatoïde
 Inflammatoire articulations.
 
 **Éléments** : Sévérité (limitations), traitement/durée, temps rétablissement, symptômes, complications, atteinte visuelle.
@@ -798,8 +754,7 @@ Inflammatoire articulations.
 
 **Maladie Grave** : Présent remis ; rétablissement sans perte vision/séquelles 0-3 ans remis >3 standard ; séquelles refus.
 
-#### Sclérodermie Généralisée {#sclerodermie_generale}
-
+#### Sclérodermie Généralisée
 Fibrose diffuse peau/organes.
 
 **Éléments** : Temps diagnostic, complications, organes atteints.
@@ -810,8 +765,7 @@ Fibrose diffuse peau/organes.
 
 **Maladie Grave** : Refus.
 
-#### Sclérodermie Circonscrite (Morphée) {#sclerodermie_circonscrite}
-
+#### Sclérodermie Circonscrite (Morphée)
 Plaques fibrose cutanée.
 
 **Éléments** : Temps diagnostic, complications, investigation éliminer généralisée.
@@ -822,8 +776,7 @@ Plaques fibrose cutanée.
 
 **Maladie Grave** : Régulier-refus.
 
-#### Sclérose en Plaques {#sclerose_plaques}
-
+#### Sclérose en Plaques
 Inflammatoire système nerveux central ; troubles visuels, engourdissement, faiblesse, vessie/intestins ; évolution variable → confinement.
 
 **Éléments** : Âge, échelle EDSS, durée, fréquence épisodes, rémission durée, médication.
@@ -834,8 +787,7 @@ Inflammatoire système nerveux central ; troubles visuels, engourdissement, faib
 
 **Maladie Grave** : Refus.
 
-#### Syndrome de Thibierge-Weissenbach (CRST/CREST) {#syndrome_thibierge_weissenbach}
-
+#### Syndrome de Thibierge-Weissenbach (CRST/CREST)
 Sclérodermie localisée: Calcinose, Raynaud, dysfonction œsophagienne, sclérodactylie, télangiectasies.
 
 **Éléments** : Diagnostic.
@@ -844,18 +796,14 @@ Sclérodermie localisée: Calcinose, Raynaud, dysfonction œsophagienne, scléro
 
 **Vie/Maladie Grave** : Refus.
 
-### Maladie Coronarienne {#maladie_coronarienne}
-
-#### Ischémie Silencieuse {#ischemie_silencieuse}
-
+### Maladie Coronarienne
+#### Ischémie Silencieuse
 Apport insuffisant sang cœur, asymptomatique ; détectée ECG Holter/tapis.
 
-#### Angine de Poitrine {#angine_poitrine}
-
+#### Angine de Poitrine
 Apport insuffisant, gêne/malaise poitrine.
 
-#### Infarctus Myocarde {#infarctus_myocarde}
-
+#### Infarctus Myocarde
 Nécrose myocarde manque sang/oxygène ; crise cardiaque.
 
 **Éléments** : Âge diagnostic/actuel, famille, diabète, hypercholestérolémie, HTA, AVC, vasculaire périphérique, obésité, observance, progression, sévérité (vaisseaux/obstruction/fraction éjection), tabagisme, sédentarité.
@@ -870,10 +818,8 @@ Nécrose myocarde manque sang/oxygène ; crise cardiaque.
 
 **Maladie Grave** : Refus.
 
-### Poids et Taille {#poids_taille}
-
-#### Sous-Poids {#sous_poids}
-
+### Poids et Taille
+#### Sous-Poids
 Prononcé signe mauvais santé ; cancer, CV, alcool/toxicomanie, MPOC, infections.
 
 **Éléments** : Âge, diabète, troubles alimentaires, coronarienne, MPOC, HTA, variation récente inexpliquée.
@@ -886,8 +832,7 @@ Prononcé signe mauvais santé ; cancer, CV, alcool/toxicomanie, MPOC, infection
 
 **Maladie Grave** : Importance surprime/report.
 
-#### Obésité/Embonpoint {#obesite_embonpoint}
-
+#### Obésité/Embonpoint
 Accumulation graisses ; problèmes santé court/long terme.
 
 **Embonpoint** : Surcharge pondérale moins importante.
@@ -929,10 +874,8 @@ Accumulation graisses ; problèmes santé court/long terme.
 
 *Standard: Decline sous valeurs ; Standard limites: Decline. Possibilité standard/surprime évaluation. Sous: Refus. Standard: Absence problèmes. Inside Substandard: Standard programme réduction surprime absence problèmes. Surprime: Croissante absence problèmes. Au-dessus: Refus.*
 
-### Troubles Nerveux {#troubles_nerveux}
-
-#### Anxiété/Stress {#anxiete_stress}
-
+### Troubles Nerveux
+#### Anxiété/Stress
 Peur/inquiétude excessive évitant déclencheurs ; perturbation relations/professionnel/social ; incl. panique, phobies, post-traumatique, obsessionnel-compulsif.
 
 **Éléments** : Âge, amélioration/détérioration récente, alcool/drogues, stabilisation durée (absence interférence quotidien), médication, sévérité, hospitalisation, fréquence épisodes.
@@ -945,8 +888,7 @@ Peur/inquiétude excessive évitant déclencheurs ; perturbation relations/profe
 
 **Maladie Grave** : Meilleur cas (aucun arrêt >diagnostic initial, sans autre trouble): Régulier ; Autrement remis.
 
-#### Dépression Majeure {#depression_majeure}
-
+#### Dépression Majeure
 Humeur dépressive, incapacité intérêt quotidien/plaisir, désespoir/inutilité, perturbations sommeil/appétit, etc.
 
 **Éléments** : Âge, amélioration/détérioration, alcool/drogues, stabilisation durée, médication/hospitalisation, épisodes nombre, sévérité, suicide tentative.
@@ -959,8 +901,7 @@ Humeur dépressive, incapacité intérêt quotidien/plaisir, désespoir/inutilit
 
 **Maladie Grave** : Présents remis ; absence symptômes/retour complet 1 épisode régulier ; &ge;2 remis 1 an post-dernier &gt; standard.
 
-#### Dépression Mineure {#depression_mineure}
-
+#### Dépression Mineure
 Symptômes majeurs mais moindre intensité.
 
 **Éléments** : Identiques majeure.
@@ -973,8 +914,7 @@ Symptômes majeurs mais moindre intensité.
 
 **Maladie Grave** : Présents remis ; absence/retour complet 1 épisode régulier ; ≥2 remis 1 an post-dernier > standard.
 
-#### Maladie Bipolaire (Maniaco-Dépressive) {#maladie_bipolaire}
-
+#### Maladie Bipolaire (Maniaco-Dépressive)
 Manie/dépression alternant humeur stable.
 
 **Éléments** : Identiques dépression majeure.
@@ -987,8 +927,7 @@ Manie/dépression alternant humeur stable.
 
 **Maladie Grave** : Présents remis ; absence/retour complet 1 épisode régulier ; ≥2 remis 1 an post-dernier > standard.
 
-#### Troubles d'Adaptation (Situationnelle) {#troubles_adaptation}
-
+#### Troubles d'Adaptation (Situationnelle)
 Réponse mal adaptée stress (décès, divorce, etc.) ; normale 3-6 mois post-perturbateur ; récidives personnalité troubles.
 
 **Éléments** : Âge, anxiété/dépression composante, alcool/drogues, durée, médication, épisodes nombre.
@@ -1001,8 +940,7 @@ Réponse mal adaptée stress (décès, divorce, etc.) ; normale 3-6 mois post-pe
 
 **Maladie Grave** : Absence symptômes/travail complet régulier.
 
-## Glossaire {#glossaire}
-
+## Glossaire
 | Terme | Définition |
 |-------|------------|
 | Abus d'Alcool | Consommation abusive/dépendance ; conseillé arrêt/réduction. |
@@ -1021,8 +959,7 @@ Réponse mal adaptée stress (décès, divorce, etc.) ; normale 3-6 mois post-pe
 
 *Glossaire complet préservé ; abrégé ici pour exemple.*
 
-## Critères d'Admissibilité à la Tarification Préférentielle {#criteres_tarification_preferentielle}
-
+## Critères d'Admissibilité à la Tarification Préférentielle
 **Définition** : Tarification personnalisée 6 classes risque ; facteurs: Taille/poids, TA, cholestérol, médicaux/familiaux, vie (tabac, alcool, drogues, conduite, criminel, occupation/aviation/sports/voyage).
 
 Applique vie temporaire >2M $ (15-80 ans) ; avenants/ajouts existants.
@@ -1076,8 +1013,7 @@ Applique vie temporaire >2M $ (15-80 ans) ; avenants/ajouts existants.
 
 **Tableaux TA/Cholestérol/Poids** : Préservés complets (abrégés ici).
 
-## Foire Aux Questions {#foire_questions}
-
+## Foire Aux Questions
 1. **Réassurance?** : Partage risque élevé/taré ; réponse &lt;5 jours ouvrables.
 
 2. **Remplacement (F6/F4) requis?** : Résiliation protection remplacée vigueur nouvelle effet ; évite double paiement/litiges.

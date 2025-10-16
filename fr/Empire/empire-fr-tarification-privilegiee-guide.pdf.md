@@ -354,8 +354,7 @@ Les primes sont basées sur l'**âge équivalent unique** (calculé par type de 
 
 ---
 
-## Équipe d'Appréciation des risques {#equipe_dappreciation_des_risques}
-
+## Équipe d'Appréciation des risques
 L'équipe évalue santé et mode de vie pour offrir la meilleure catégorie possible (&ge; 1 000 001 $). Critères appliqués sans exception pour rabais optimaux.
 
 ---

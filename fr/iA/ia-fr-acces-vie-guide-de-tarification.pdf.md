@@ -185,10 +185,8 @@ Accès Vie est une assurance vie simplifiée pour clientèle de 6 mois à 80 ans
 
 ---
 
-## Introduction {#introduction}
-
-### Clientèle cible {#clientèle}
-
+## Introduction
+### Clientèle cible
 Accès Vie cible :
 - **Clients refusés** : Difficultés médicales/non-médicales ; couverture sans refus via Accès garanti (50 000 $ max).
 - **Enfants avec condition santé** : Protection pour asth me, TDAH, etc.
@@ -199,10 +197,8 @@ Questionnaire 3 étapes ; admissible au montant/type le plus avantageux.
 
 ---
 
-## Caractéristiques principales {#caractéristiques}
-
-### Étapes d'admissibilité {#étapes}
-
+## Caractéristiques principales
+### Étapes d'admissibilité
 | Étape | Maximum Capital | Couvertures | Si "oui" à question → Étape précédente |
 |-------|-----------------|-------------|---------------------------------------|
 | **Accès garanti** | 50 000 $ (18-50 ans) ; 25 000 $ (&lt;18 ou &gt;50) | V100 | N/A |
@@ -212,8 +208,7 @@ Questionnaire 3 étapes ; admissible au montant/type le plus avantageux.
 
 **Pour toutes étapes** : Montant basé sur âge/réponses ; combiné si multiples protections iA (max admissible principal).
 
-### Capital assuré {#capital}
-
+### Capital assuré
 | Étape | Min. | Max. &lt;18 ans | Max. 18-50 ans | Max. 51-70 ans | Max. &gt;70 ans |
 |-------|------|--------------|----------------|----------------|--------------|
 | **Accès garanti** | 10 000 $ | 10 000 $ | 50 000 $ | 25 000 $ | 25 000 $ |
@@ -221,125 +216,98 @@ Questionnaire 3 étapes ; admissible au montant/type le plus avantageux.
 | **Différé Plus** | 10 000 $ | 25 000 $ | 350 000 $ | 350 000 $ | 150 000 $ |
 | **Immédiat Plus** | 10 000 $ | 25 000 $ | 500 000 $ | 500 000 $ | 150 000 $ |
 
-### Accès garanti {#acces_garanti}
-
+### Accès garanti
 V100 simple ; couvre besoins de base. Décès naturel : primes remboursées (sans intérêt 2 ans). Suicide : primes remboursées. Accident : capital plein.
 
-### Étapes Différé et Différé Plus {#différé}
-
+### Étapes Différé et Différé Plus
 V100 simple/abordable. Max 100 000 $ (25 000 $ enfants). Décès naturel : primes +3% intérêt simple (2 ans). Suicide : primes sans intérêt.
 
-### Étape Immédiat Plus {#immediat_plus}
-
+### Étape Immédiat Plus
 V100 + T15/T20/T25. Max 500 000 $ (150 000 $ &gt;70). Suicide : primes sans intérêt.
 
 ---
 
-## La protection {#protection}
-
-### V100 permanente {#v100}
-
+## La protection
+### V100 permanente
 Vie entière V100 ; valeurs rachat garanties (5e année), libérée (8e année). Disponible toutes étapes/Accès garanti.
 
-### T15/T20/T25 temporaires {#temporaires}
-
+### T15/T20/T25 temporaires
 Disponibles Différé Plus/Immédiat Plus ; couvre besoins temporaires (hypothèque, enfants). Transformables/renouvelables.
 
-### Limitation capital {#limitation}
-
+### Limitation capital
 - **Accès garanti** : Décès naturel &lt;2 ans : primes sans intérêt. &gt;2 ans : capital. Accident : capital. Suicide &lt;2 ans : primes.
 - **Différé/Différé Plus** : Décès naturel &lt;2 ans : primes +3% intérêt simple. &gt;2 ans : capital. Accident : capital. Suicide &lt;2 ans : primes.
 - **Immédiat Plus** : Suicide &lt;2 ans : primes sans intérêt.
 
-### Type d'assurance {#type}
-
+### Type d'assurance
 Individuelle seulement.
 
-### Renouvellement {#renouvellement}
-
+### Renouvellement
 Sans preuve ; primes garanties à renouvellement.
 
 - **T15** : Renouvelable 15 ans si &lt;66 ans ; sinon jusqu'80 ans.
 - **T20** : Renouvelable 20 ans si &lt;61 ans ; sinon jusqu'80 ans.
 - **T25** : Renouvelable 25 ans si &lt;56 ans ; sinon jusqu'80 ans.
 
-### Transformation {#transformation}
-
+### Transformation
 T15/T20/T25 → permanente V100 (même étape, capital ≤ initial). &ge;2 ans après émission ; &lt;71 ans. Sans preuve ; primes selon âge/étape/taux courants ; statut tabac conservé.
 
-### Type de capital {#capital_type}
-
+### Type de capital
 Uniforme seulement.
 
-### Âge à l'émission {#âge}
-
+### Âge à l'émission
 - **V100** : 6 mois-80 ans ; paiement jusqu'100 ans.
 - **T15** : 20-65 ans (renouvelable &lt;66 ; non &lt;56-65).
 - **T20** : 20-60 ans (renouvelable &lt;51 ; non &lt;51-60).
 - **T25** : 20-55 ans (renouvelable &lt;46 ; non &lt;46-55).
 
-### Protections conjointes/multiassurés {#conjoint}
-
+### Protections conjointes/multiassurés
 Non disponibles.
 
-### Taux {#taux}
-
+### Taux
 Selon âge/sexe/tabagisme/réponses médicales. Garantis/uniformes. Voir formulaire F35.
 
-### Paiement primes {#primes}
-
+### Paiement primes
 Annuel ou mensuel (facteur 0.09).
 
-### Valeur rachat V100 {#rachat}
-
+### Valeur rachat V100
 Garantie 5e année. Retrait complet termine protection.
 
-### Assurance libérée V100 {#libérée}
-
+### Assurance libérée V100
 Disponible 8e année ; permet arrêt primes, capital réduit pour durée restante. Âge 100 ans : capital maintenu (franchise impôts). Après utilisation : plus de rachat.
 
 ---
 
-## Avances sur police {#avances}
-
-### Restrictions {#restrictions}
-
+## Avances sur police
+### Restrictions
 Avance ≥ min/max règles administratives ; &le; 90% valeur rachat - sommes dues.
 
-### Avances automatiques {#automatiques}
-
+### Avances automatiques
 Si primes non payées ; acquitte primes.
 
-### Intérêts {#intérêts}
-
+### Intérêts
 Taux annuel déterminé par iA ; calcul quotidien, capitalisé anniversaire police.
 
-### Remboursement {#remboursement}
-
+### Remboursement
 Tout temps ; appliqué d'abord intérêts impayés, puis solde avances.
 
 ---
 
-## Fin de l'assurance {#fin}
-
+## Fin de l'assurance
 À la première : décès, rachat complet V100, résiliation, fin temporaire T15/T20/T25.
 
 ---
 
-## Frais {#frais}
-
-### Frais de police {#police_frais}
-
+## Frais
+### Frais de police
 60 $ par contrat (toutes protections). 2 polices = 2 frais. Garantis tant protections non libérées.
 
-### Frais de transaction {#transaction_frais}
-
+### Frais de transaction
 Voir *Guide des politiques et procédures* (Extranet Centre documentation).
 
 ---
 
-## Guide des troubles médicaux {#troubles}
-
+## Guide des troubles médicaux
 | Condition | Définition | Admissibilité (Facteurs) | Protection | Questions à surveiller |
 |-----------|------------|--------------------------|------------|------------------------|
 | **Abus d'alcool** | Consommation abusive/dépendance ; conseillé arrêt/réduction. | Conseillé réduire/traitement/groupe soutien (5 ans vs &gt;5 ans) | Différé (5 ans) / Immédiat Plus (&gt;5 ans) | Étape 2 - Q. 2d |
@@ -378,8 +346,7 @@ Voir *Guide des politiques et procédures* (Extranet Centre documentation).
 
 ---
 
-## Ressources et notes légales {#ressources}
-
+## Ressources et notes légales
 **iA Groupe financier**  
 [https://www.ia.ca](https://www.ia.ca) (site principal pour conseillers).
 

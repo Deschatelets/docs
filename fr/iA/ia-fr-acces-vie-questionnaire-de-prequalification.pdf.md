@@ -294,8 +294,7 @@ Information indicative. Consultez questionnaire pour admissibilité complète.
 - Décès accidentel : Capital assuré dès émission.
 - Suicide : Remboursement primes sans intérêt (2 premières années).
 
-## Avantages du Produit {#avantages}
-
+## Avantages du Produit
 - **Accessible** : Qualification simple sans examen médical.
 - **Simple** : Questionnaire rapide.
 - **Pratique** : Remplissage proposition en minutes via EVO ; livraison contrat en 1 semaine.

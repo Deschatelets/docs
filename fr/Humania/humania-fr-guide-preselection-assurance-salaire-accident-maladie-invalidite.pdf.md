@@ -219,17 +219,14 @@ category: "preselection-guide"
 
 ---
 
-## Introduction {#introduction-section}
-
-### À propos du guide {#a_propos_du_guide}
-
+## Introduction
+### À propos du guide
 Ce guide de présélection vise à informer les représentants sur :
 - Les particularités du produit Assurance Salaire
 - Les informations nécessaires pour les études de cas
 - Les conditions médicales ou non médicales influençant la tarification
 
-### Liste des exigences de tarification {#liste_des_exigences_de_tarification}
-
+### Liste des exigences de tarification
 | Exigence | Description |
 |----------|-------------|
 | Analyse d'urine HIV | Test VIH |
@@ -244,8 +241,7 @@ Ce guide de présélection vise à informer les représentants sur :
 | Signes vitaux | Taille, poids, tension artérielle |
 | Télé-entrevue | Entrevue téléphonique |
 
-### Décisions de tarification {#decisions_de_tarification}
-
+### Décisions de tarification
 | Décision | Description |
 |----------|-------------|
 | Accepté standard | Couverture normale |
@@ -254,13 +250,11 @@ Ce guide de présélection vise à informer les représentants sur :
 | Différé | Reconsidération future sous conditions |
 | Refus | Aucune couverture possible |
 
-### Avant de soumettre une vente {#avant_de_soumettre_une_vente}
-
+### Avant de soumettre une vente
 - **Statut de résidence** : Citoyens canadiens ou résidents permanents ; résidents temporaires &ge; 3 ans (excluant : visiteur, touriste, demandeur d'asile, diplomate)
 - **Langue** : Client doit comprendre/s'exprimer en français ou anglais (pas d'interprète)
 
-### Admissibilité {#admissibilité}
-
+### Admissibilité
 Non admissible en maladie si :
 - Condamnation conduite affaiblie (1 an)
 - Sentence (2 ans)
@@ -275,8 +269,7 @@ Non admissible en maladie si :
 
 ---
 
-## Conditions médicales {#conditions_medicales}
-
+## Conditions médicales
 | Condition | Facteurs influençant | Exigences probables | Décisions possibles en invalidité |
 |-----------|----------------------|---------------------|-----------------------------------|
 | **Accident ischémique transitoire (AIT) / Accident vasculaire cérébral (AVC)** | Âge, date diagnostic, nombre AVC, tabac | RMT | AIT: 0-2 ans refus; 2-5 ans DC 90j +50-100% (5 ans); &gt;5 ans DC 30j +50-125% (5 ans). AVC: 0-5 ans refus; 5-10 ans DC 90j +50-150% (2 ans); &gt;10 ans +50-100% (2 ans). Multiples/séquelles: refus. |
@@ -308,8 +301,7 @@ Non admissible en maladie si :
 | **Sclérose en plaques** | - | - | Refus. |
 | **Thrombophlébite** | Épisodes, date dernier, traitement | RMT | Standard à +50%. |
 
-### Conditions non médicales {#conditions_non_medicales}
-
+### Conditions non médicales
 | Condition | Facteurs influençant | Exigences probables | Décisions possibles en invalidité |
 |-----------|----------------------|---------------------|-----------------------------------|
 | **Activités criminelles** | Date, nombre, sentence, fin sentence | Recherche dossier criminel possible | En attente/probation: refus. Une offense: différé 2 ans post-probation. Multiples: refus. |
@@ -326,10 +318,8 @@ Non admissible en maladie si :
 
 ---
 
-## Tables de référence {#tables_de_reference}
-
-### Table taille et poids {#table_taille_poids}
-
+## Tables de référence
+### Table taille et poids
 #### Standard
 | Pieds | Mètre | Livres | Kilo |
 |-------|-------|--------|------|
@@ -378,8 +368,7 @@ Non admissible en maladie si :
 | 6'6"  | 1.98  | 373    | 169  |
 | 6'7"  | 2.00  | 383    | 174  |
 
-### Table des exigences de sélection {#table_exigences}
-
+### Table des exigences de sélection
 #### Assurance invalidité accident ou maladie
 | Âge | 0 $ - 3 000 $ | 3 001 $ - 4 000 $ | 4 001 $ - 5 000 $ | 5 001 $ et plus |
 |-----|---------------|-------------------|-------------------|-----------------|
@@ -391,45 +380,43 @@ Non admissible en maladie si :
 
 ---
 
-## Foire aux questions (FAQ) {#faq}
-
-### Montant maximum d'Assurance salaire ? {#montant_maximum}
+## Foire aux questions (FAQ)
+### Montant maximum d'Assurance salaire ?
 **R.** : 10 000 $ mensuel sur autres contrats invalidité individuelle (excluant créances bancaires).
 
-### Définition du taux fumeur ? {#taux_fumeur}
+### Définition du taux fumeur ?
 **R.** : Usage (12 mois) de tabac/nicotine : gomme, e-cig, patchs, médication/therapie cessation.
 
-### Vapoteuse pour marijuana = fumeur ? {#vapoteuse_marijuana}
+### Vapoteuse pour marijuana = fumeur ?
 **R.** : Non, si sans tabac.
 
-### Patients VIH acceptés ? {#vih}
+### Patients VIH acceptés ?
 **R.** : Oui, accident seulement.
 
-### Femme enceinte assurée ? {#enceinte}
+### Femme enceinte assurée ?
 **R.** : Accident: oui. Maladie: 6 premiers mois avec exclusion (sans complication). Après: différé jusqu'au retour travail (sans antécédents risque).
 
-### Congé maternité ? {#maternité}
+### Congé maternité ?
 **R.** : Accident seulement.
 
-### Lettre/courriel d'accompagnement ? {#accompagnement}
+### Lettre/courriel d'accompagnement ?
 **R.** : Oui, si pertinent, avec numéro police.
 
-### Tests génétiques ? {#génétiques}
+### Tests génétiques ?
 **R.** : Non (loi S-201). Déclarer tests médicaux (5 ans), mais pas génétiques.
 
-### Dossier criminel/activités passées ? {#criminel}
+### Dossier criminel/activités passées ?
 **R.** : Accident seulement.
 
-### Ligne directrice voyages ? {#voyages}
+### Ligne directrice voyages ?
 **R.** : Fréquents en zone risque: non assurables. Pas de directive fixe (géopolitique variable).
 
-### Faillite/proposition consommateur ? {#faillite}
+### Faillite/proposition consommateur ?
 **R.** : Faillite: après libération. Proposition: après règlement dettes.
 
 ---
 
-## Descriptions des occupations assurables {#occupations}
-
+## Descriptions des occupations assurables
 1. **Professionnels/cadres supérieurs/cols blancs (bureau/admin/clérical)** : Travail bureau uniquement.
 2. **Cols blancs (bureau/gestion/supervision/inspection sans participation travaux)** : Représentants sans livraison.
 3. **Travailleurs professionnels/ouvriers spécialisés** : Commis/vente/supervision/services.
@@ -439,8 +426,7 @@ Non admissible en maladie si :
 
 ---
 
-## Ressources et notes légales {#ressources}
-
+## Ressources et notes légales
 **Humania Assurance Inc.**  
 1555, rue Girouard Ouest, Saint-Hyacinthe (Québec) J2S 2Z6  
 Tél. : 450 774-3120 • Sans frais : 1 877 569-3120 • [https://www.humania.ca](https://www.humania.ca)

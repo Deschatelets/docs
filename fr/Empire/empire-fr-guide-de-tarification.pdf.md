@@ -144,7 +144,7 @@ statistics:
 # Guide d'Appréciation des Risques
 ## Assurance Vie et Maladies Graves
 
-#### Nouveautés
+### Nouveautés
 
 Septembre 2024
 

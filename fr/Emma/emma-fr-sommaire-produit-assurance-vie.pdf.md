@@ -170,9 +170,6 @@ statistics:
 ---
 
 # Sommaire des Produits d'Assurance Vie Emma
-## Humania Assurances Inc.
-
----
 
 ## Informations sur les Organisations
 

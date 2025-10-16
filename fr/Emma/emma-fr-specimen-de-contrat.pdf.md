@@ -32,8 +32,6 @@ issuer_address: "1555, rue Girouard Ouest, Saint-Hyacinthe (Québec) J2S 2Z6"
 
 # Spécimen de Contrat d'Assurance Vie Emma
 
----
-
 ## Informations sur le Document
 
 **Assureur / Émetteur:** Humania Assurance Inc.  
@@ -41,12 +39,6 @@ issuer_address: "1555, rue Girouard Ouest, Saint-Hyacinthe (Québec) J2S 2Z6"
 **Type de document:** Spécimen de police d'assurance  
 **Langue:** Français  
 **Audience:** Titulaires de police, représentants, souscripteurs  
-
-**Siège social:**  
-1555, rue Girouard Ouest  
-Saint-Hyacinthe (Québec) J2S 2Z6
-
----
 
 ## À Propos de ce Spécimen
 

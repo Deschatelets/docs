@@ -168,13 +168,10 @@ statistics:
 ---
 
 # Guide de Tarification et de Présélection
+
 ## Produit d'Assurance Vie Emma
 
-### Humania Assurance Inc.
-
----
-
-## Informations sur le Document
+### Informations sur le document
 
 **Assureur / Émetteur:** Humania Assurance Inc.  
 **Produit:** Emma (Produit d'assurance vie)  
