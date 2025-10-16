@@ -176,7 +176,7 @@ Ce guide fournit les critères clés pour évaluer l'admissibilité aux catégor
 
 ---
 
-## À propos de ce guide {#à-propos-de-ce-guide}
+## À propos de ce guide {#a_propos_de_ce_guide}
 
 Ce guide inclut les renseignements essentiels sur les critères de tarification Privilégié et Élite pour les protections Solution 10, 15, 20, 25 et 30. Il permet de :
 
@@ -188,9 +188,9 @@ Ce guide inclut les renseignements essentiels sur les critères de tarification 
 
 ---
 
-## Concepts clés {#concepts-clés}
+## Concepts clés {#concepts_cles}
 
-### Catégories de risque {#catégories-de-risque}
+### Catégories de risque {#categories_de_risque}
 
 #### Pour protections moins de 1 000 001 $
 - **Standard non-fumeur** : Santé moyenne, mode de vie à risque moyen, sans tabac/nicotine (180 derniers mois)
@@ -205,7 +205,7 @@ Ce guide inclut les renseignements essentiels sur les critères de tarification 
 | **Standard non-fumeur** | Santé moyenne, risque moyen | Non-fumeurs |
 | **Standard fumeur** | Santé moyenne, risque moyen | Fumeurs standard |
 
-### Définition de fumeur standard {#définition-de-fumeur-standard}
+### Définition de fumeur standard {#definition_de_fumeur_standard}
 
 Une personne est considérée comme **fumeuse standard** si, au cours des 12 derniers mois, elle a :
 - Fumé plus de 12 cigares, ou
@@ -217,9 +217,9 @@ Une personne est considérée comme **fumeuse standard** si, au cours des 12 der
 
 ---
 
-## Admissibilité et exigences {#admissibilité-et-exigences}
+## Admissibilité et exigences {#admissibilite_et_exigences}
 
-### Offre de tarification privilégiée {#offre-de-tarification-privilégiée}
+### Offre de tarification privilégiée {#offre_de_tarification_privilegiee}
 
 Les catégories Privilégié et Élite s'appliquent aux protections Solution 10, 15, 20, 25 et 30 &ge; 1 000 001 $.
 
@@ -232,7 +232,7 @@ Les catégories Privilégié et Élite s'appliquent aux protections Solution 10,
 
 **Paiement** : Prime Standard initiale ; excédent appliqué à la prochaine prime si catégorie améliorée.
 
-### Exigences selon l'âge et le montant {#exigences-selon-lâge-et-le-montant}
+### Exigences selon l'âge et le montant {#exigences_selon_lage_et_le_montant}
 
 Les exigences sont basées sur l'âge et le montant. Consultez :
 - "Assurance vie – Exigences d'appréciation des risques"
@@ -242,11 +242,11 @@ Accès : [https://www.empire.ca/fr/advisor/support/underwriting](https://www.emp
 
 ---
 
-## Critères de tarification {#critères-de-tarification}
+## Critères de tarification {#criteres_de_tarification}
 
 Les critères s'appliquent aux hommes et femmes (sauf indication contraire). Évaluation globale incluant santé, famille, conduite, mode de vie.
 
-### Aperçu des critères Élite et Privilégié {#aperçu-des-critères-élite-et-privilégié}
+### Aperçu des critères Élite et Privilégié {#apercu_des_criteres_elite_et_privilegie}
 
 | Critère | Élite non-fumeur | Privilégié non-fumeur et fumeur |
 |---------|------------------|---------------------------------|
@@ -262,7 +262,7 @@ Les critères s'appliquent aux hommes et femmes (sauf indication contraire). Év
 | **Voyage/résidence étrangère** | Résident permanent Canada ; Aucune surprime voyages | Résident permanent Canada ; Aucune surprime voyages |
 | **Profession** | Aucune surprime | Aucune surprime |
 
-### Constitution physique {#constitution-physique}
+### Constitution physique {#constitution_physique}
 
 **Poids maximal (livres) selon taille (pieds/pouces)**
 
@@ -328,9 +328,9 @@ Les critères s'appliquent aux hommes et femmes (sauf indication contraire). Év
 
 ---
 
-## Cas spéciaux {#cas-spéciaux}
+## Cas spéciaux {#cas_speciaux}
 
-### Protection conjointe {#protection-conjointe}
+### Protection conjointe {#protection_conjointe}
 
 Les primes sont basées sur l'**âge équivalent unique** (calculé par type de régime, âge, sexe, statut fumeur, catégorie de risque).
 
@@ -343,24 +343,24 @@ Les primes sont basées sur l'**âge équivalent unique** (calculé par type de 
 | **A** | Homme non-fumeur 35 ans, Élite | Femme fumeuse 30 ans, Privilégié | Homme non-fumeur 42 ans | Privilégié |
 | **B** | Homme fumeur 35 ans, Privilégié | Femme fumeuse 30 ans, Standard | Homme fumeur 39 ans | Standard |
 
-### Changement de catégorie de risque {#changement-de-catégorie-de-risque}
+### Changement de catégorie de risque {#changement_de_categorie_de_risque}
 
 - Possible pour protections en vigueur &ge; 1 an
 - Soumettre demande de modification ; Critères Élite/Privilégié appliqués
 - Exigences additionnelles possibles selon âge/montant
 
-### Diminution du montant de protection {#diminution-du-montant-de-protection}
+### Diminution du montant de protection {#diminution_du_montant_de_protection}
 
 - Si reste &ge; 1 000 001 $ : Catégorie Élite/Privilégié maintenue
 - Si &lt; 1 000 001 $ : Passe à Standard
 
-### Transformation d'assurance temporaire {#transformation-dassurance-temporaire}
+### Transformation d'assurance temporaire {#transformation_dassurance_temporaire}
 
 - Nouvelle protection permanente : Catégorie Standard appliquée
 
 ---
 
-## Gestion des attentes {#gestion-des-attentes}
+## Gestion des attentes {#gestion_des_attentes}
 
 - **Confirmation** : Seule l'équipe d'Appréciation des risques confirme l'admissibilité (évaluation globale : santé, famille, conduite, mode de vie)
 - **Recommandation** : Présenter primes multiples (Élite, Privilégié, Standard) pour réalisme
@@ -370,13 +370,13 @@ Les primes sont basées sur l'**âge équivalent unique** (calculé par type de 
 
 ---
 
-## Équipe d'Appréciation des risques {#équipe-dappréciation-des-risques}
+## Équipe d'Appréciation des risques {#equipe_dappreciation_des_risques}
 
 L'équipe évalue santé et mode de vie pour offrir la meilleure catégorie possible (&ge; 1 000 001 $). Critères appliqués sans exception pour rabais optimaux.
 
 ---
 
-## Ressources et contacts {#ressources-et-contacts}
+## Ressources et contacts {#ressources_et_contacts}
 
 **L'Empire, Compagnie d'Assurance-Vie**  
 259, rue King Est, Kingston ON K7L 3A8
@@ -387,7 +387,7 @@ L'équipe évalue santé et mode de vie pour offrir la meilleure catégorie poss
 
 ---
 
-## Notes légales {#notes-légales}
+## Notes légales {#notes_legales}
 
 > **RÉSERVÉ AUX CONSEILLÈRES ET AUX CONSEILLERS**  
 > <sup>MD/MC</sup> Marque déposée et de commerce de L'Empire, Compagnie d'Assurance-Vie. Les polices sont établies par L'Empire, Compagnie d'Assurance-Vie.

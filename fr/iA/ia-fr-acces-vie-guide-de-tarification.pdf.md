@@ -221,7 +221,7 @@ Questionnaire 3 étapes ; admissible au montant/type le plus avantageux.
 | **Différé Plus** | 10 000 $ | 25 000 $ | 350 000 $ | 350 000 $ | 150 000 $ |
 | **Immédiat Plus** | 10 000 $ | 25 000 $ | 500 000 $ | 500 000 $ | 150 000 $ |
 
-### Accès garanti {#accès-garanti}
+### Accès garanti {#acces_garanti}
 
 V100 simple ; couvre besoins de base. Décès naturel : primes remboursées (sans intérêt 2 ans). Suicide : primes remboursées. Accident : capital plein.
 
@@ -229,7 +229,7 @@ V100 simple ; couvre besoins de base. Décès naturel : primes remboursées (san
 
 V100 simple/abordable. Max 100 000 $ (25 000 $ enfants). Décès naturel : primes +3% intérêt simple (2 ans). Suicide : primes sans intérêt.
 
-### Étape Immédiat Plus {#immédiat-plus}
+### Étape Immédiat Plus {#immediat_plus}
 
 V100 + T15/T20/T25. Max 500 000 $ (150 000 $ &gt;70). Suicide : primes sans intérêt.
 
@@ -267,7 +267,7 @@ Sans preuve ; primes garanties à renouvellement.
 
 T15/T20/T25 → permanente V100 (même étape, capital ≤ initial). &ge;2 ans après émission ; &lt;71 ans. Sans preuve ; primes selon âge/étape/taux courants ; statut tabac conservé.
 
-### Type de capital {#capital-type}
+### Type de capital {#capital_type}
 
 Uniforme seulement.
 
@@ -328,11 +328,11 @@ Tout temps ; appliqué d'abord intérêts impayés, puis solde avances.
 
 ## Frais {#frais}
 
-### Frais de police {#police-frais}
+### Frais de police {#police_frais}
 
 60 $ par contrat (toutes protections). 2 polices = 2 frais. Garantis tant protections non libérées.
 
-### Frais de transaction {#transaction-frais}
+### Frais de transaction {#transaction_frais}
 
 Voir *Guide des politiques et procédures* (Extranet Centre documentation).
 

@@ -163,13 +163,13 @@ category: "preselection-guide"
 
 ## Table des matières
 
-1. [Introduction](#introduction)
-   - [À propos du guide](#à-propos-du-guide)
-   - [Liste des exigences de tarification](#liste-des-exigences-de-tarification)
-   - [Décisions de tarification](#décisions-de-tarification)
-   - [Avant de soumettre une vente](#avant-de-soumettre-une-vente)
+1. [Introduction](#introduction-section)
+   - [À propos du guide](#a_propos_du_guide)
+   - [Liste des exigences de tarification](#liste_des_exigences_de_tarification)
+   - [Décisions de tarification](#decisions_de_tarification)
+   - [Avant de soumettre une vente](#avant_de_soumettre_une_vente)
    - [Admissibilité](#admissibilité)
-2. [Conditions médicales](#conditions-médicales)
+2. [Conditions médicales](#conditions_medicales)
    - [Accident ischémique transitoire (AIT) / Accident vasculaire cérébral (AVC)](#ait-avc)
    - [Anxiété](#anxiété)
    - [Apnée du sommeil](#apnée-du-sommeil)
@@ -198,7 +198,7 @@ category: "preselection-guide"
    - [Schizophrénie](#schizophrénie)
    - [Sclérose en plaques](#sclérose)
    - [Thrombophlébite](#thrombophlébite)
-3. [Conditions non médicales](#conditions-non-médicales)
+3. [Conditions non médicales](#conditions_non_medicales)
    - [Activités criminelles](#activités-criminelles)
    - [Aviation - Pilote de ligne / Commerciale](#aviation-ligne)
    - [Aviation - Pilote privé](#aviation-privé)
@@ -210,25 +210,25 @@ category: "preselection-guide"
    - [Plongée sous-marine](#plongée)
    - [Usage de drogue](#usage-drogue)
    - [Voyages à l'étranger](#voyages)
-4. [Tables de référence](#tables-de-référence)
-   - [Table taille et poids](#table-taille-poids)
-   - [Table des exigences de sélection](#table-exigences)
+4. [Tables de référence](#tables_de_reference)
+   - [Table taille et poids](#table_taille_poids)
+   - [Table des exigences de sélection](#table_exigences)
 5. [Foire aux questions (FAQ)](#faq)
 6. [Descriptions des occupations assurables](#occupations)
 7. [Ressources et notes légales](#ressources)
 
 ---
 
-## Introduction {#introduction}
+## Introduction {#introduction-section}
 
-### À propos du guide {#à-propos-du-guide}
+### À propos du guide {#a_propos_du_guide}
 
 Ce guide de présélection vise à informer les représentants sur :
 - Les particularités du produit Assurance Salaire
 - Les informations nécessaires pour les études de cas
 - Les conditions médicales ou non médicales influençant la tarification
 
-### Liste des exigences de tarification {#liste-des-exigences-de-tarification}
+### Liste des exigences de tarification {#liste_des_exigences_de_tarification}
 
 | Exigence | Description |
 |----------|-------------|
@@ -244,7 +244,7 @@ Ce guide de présélection vise à informer les représentants sur :
 | Signes vitaux | Taille, poids, tension artérielle |
 | Télé-entrevue | Entrevue téléphonique |
 
-### Décisions de tarification {#décisions-de-tarification}
+### Décisions de tarification {#decisions_de_tarification}
 
 | Décision | Description |
 |----------|-------------|
@@ -254,7 +254,7 @@ Ce guide de présélection vise à informer les représentants sur :
 | Différé | Reconsidération future sous conditions |
 | Refus | Aucune couverture possible |
 
-### Avant de soumettre une vente {#avant-de-soumettre-une-vente}
+### Avant de soumettre une vente {#avant_de_soumettre_une_vente}
 
 - **Statut de résidence** : Citoyens canadiens ou résidents permanents ; résidents temporaires &ge; 3 ans (excluant : visiteur, touriste, demandeur d'asile, diplomate)
 - **Langue** : Client doit comprendre/s'exprimer en français ou anglais (pas d'interprète)
@@ -275,11 +275,11 @@ Non admissible en maladie si :
 
 ---
 
-## Conditions médicales {#conditions-médicales}
+## Conditions médicales {#conditions_medicales}
 
 | Condition | Facteurs influençant | Exigences probables | Décisions possibles en invalidité |
 |-----------|----------------------|---------------------|-----------------------------------|
-| **Accident ischémique transitoire (AIT) / Accident vasculaire cérébral (AVC)** | Âge, date diagnostic, nombre AVC, tabac | RMT | AIT: 0-2 ans refus; 2-5 ans DC 90j +50-100% (5 ans); >5 ans DC 30j +50-125% (5 ans). AVC: 0-5 ans refus; 5-10 ans DC 90j +50-150% (2 ans); >10 ans +50-100% (2 ans). Multiples/séquelles: refus. |
+| **Accident ischémique transitoire (AIT) / Accident vasculaire cérébral (AVC)** | Âge, date diagnostic, nombre AVC, tabac | RMT | AIT: 0-2 ans refus; 2-5 ans DC 90j +50-100% (5 ans); &gt;5 ans DC 30j +50-125% (5 ans). AVC: 0-5 ans refus; 5-10 ans DC 90j +50-150% (2 ans); &gt;10 ans +50-100% (2 ans). Multiples/séquelles: refus. |
 | **Anxiété** | Épisodes, date dernier, arrêt travail, traitement, hospitalisation, suicide | Questionnaire troubles nerveux, RMT | Standard sans complication; DC 90j, exclusion troubles nerveux (90j, 5 ans). |
 | **Apnée du sommeil** | Âge, date diagnostic, type, traitement CPAP/chirurgie, compliance, dernière étude | RMT | Centrale: refus. Traité: standard à +50% selon âge/sévérité. Non traité: +50% à refus. En attente polysomnographie: différé. |
 | **Arthrite rhumatoïde / Juvénile** | Âge, date diagnostic, limitation, médication | RMT | DC 90j min; +25% exclusion arthrite (5 ans) à refus. Différé 2-5 ans selon degré. |
@@ -308,7 +308,7 @@ Non admissible en maladie si :
 | **Sclérose en plaques** | - | - | Refus. |
 | **Thrombophlébite** | Épisodes, date dernier, traitement | RMT | Standard à +50%. |
 
-### Conditions non médicales {#conditions-non-médicales}
+### Conditions non médicales {#conditions_non_medicales}
 
 | Condition | Facteurs influençant | Exigences probables | Décisions possibles en invalidité |
 |-----------|----------------------|---------------------|-----------------------------------|
@@ -317,7 +317,7 @@ Non admissible en maladie si :
 | **Aviation - Pilote privé** | Âge, heures, expérience, licence, avion, survol | Questionnaire aviation | Étudiant: standard/exclusion. Privée: exclusion. |
 | **Conduite** | Infractions 3 ans, affaiblie, suspension | Dossier conduite | Mineure: standard. Selon dossier: standard à refus. Suspension affaiblie/antidémarreur: refus. |
 | **Course automobile** | Véhicule, type course | Questionnaire courses | Exclusion. |
-| **Dépendance alcool / Alcoolisme** | Âge, usage passé/courant, traitement, cessation | Questionnaire alcool, RMT, profil sanguin | >7 ans sans: standard. 5-7 ans: +50-100% (2 ans). Courant: refus. |
+| **Dépendance alcool / Alcoolisme** | Âge, usage passé/courant, traitement, cessation | Questionnaire alcool, RMT, profil sanguin | &gt;7 ans sans: standard. 5-7 ans: +50-100% (2 ans). Courant: refus. |
 | **Escalade / Alpinisme / Randonnée montagne** | Type, endroit, altitude, intention | Questionnaire escalade | Salle: standard. Randonnée/trekking: standard. Parois/rocheuse/glace: exclusion. |
 | **Parachutisme** | Date, endroit, intention | Questionnaire parachutisme | Pas d'intention future: standard. Autre: exclusion. |
 | **Plongée sous-marine** | Certification, fréquence, endroit, profondeur, antécédents | Questionnaire plongée | Snorkeling/apnée: standard. Non certifié/seul: refus. &lt;100 pieds sans risques: standard. Autre: exclusion. |
@@ -326,9 +326,9 @@ Non admissible en maladie si :
 
 ---
 
-## Tables de référence {#tables-de-référence}
+## Tables de référence {#tables_de_reference}
 
-### Table taille et poids {#table-taille-poids}
+### Table taille et poids {#table_taille_poids}
 
 #### Standard
 | Pieds | Mètre | Livres | Kilo |
@@ -378,7 +378,7 @@ Non admissible en maladie si :
 | 6'6"  | 1.98  | 373    | 169  |
 | 6'7"  | 2.00  | 383    | 174  |
 
-### Table des exigences de sélection {#table-exigences}
+### Table des exigences de sélection {#table_exigences}
 
 #### Assurance invalidité accident ou maladie
 | Âge | 0 $ - 3 000 $ | 3 001 $ - 4 000 $ | 4 001 $ - 5 000 $ | 5 001 $ et plus |
@@ -393,13 +393,13 @@ Non admissible en maladie si :
 
 ## Foire aux questions (FAQ) {#faq}
 
-### Montant maximum d'Assurance salaire ? {#montant-maximum}
+### Montant maximum d'Assurance salaire ? {#montant_maximum}
 **R.** : 10 000 $ mensuel sur autres contrats invalidité individuelle (excluant créances bancaires).
 
-### Définition du taux fumeur ? {#taux-fumeur}
+### Définition du taux fumeur ? {#taux_fumeur}
 **R.** : Usage (12 mois) de tabac/nicotine : gomme, e-cig, patchs, médication/therapie cessation.
 
-### Vapoteuse pour marijuana = fumeur ? {#vapoteuse-marijuana}
+### Vapoteuse pour marijuana = fumeur ? {#vapoteuse_marijuana}
 **R.** : Non, si sans tabac.
 
 ### Patients VIH acceptés ? {#vih}
@@ -445,7 +445,7 @@ Non admissible en maladie si :
 1555, rue Girouard Ouest, Saint-Hyacinthe (Québec) J2S 2Z6  
 Tél. : 450 774-3120 • Sans frais : 1 877 569-3120 • [https://www.humania.ca](https://www.humania.ca)
 
-> **Notes** : Document informatif. En cas de divergence, le texte de la police prévaut. Humania protège >200 000 personnes avec service exceptionnel.
+> **Notes** : Document informatif. En cas de divergence, le texte de la police prévaut. Humania protège &gt;200 000 personnes avec service exceptionnel.
 
 ---
 
@@ -486,7 +486,7 @@ medical_conditions:
   AIT_AVC:
     factors: ["Âge", "Date diagnostic", "Nombre AVC", "Tabac"]
     requirements: ["RMT"]
-    decisions: "AIT: 0-2y refus; 2-5y DC90 +50-100% (5y); >5y DC30 +50-125% (5y). AVC: 0-5y refus; 5-10y DC90 +50-150% (2y); >10y +50-100% (2y). Multi/séquelles: refus."
+    decisions: "AIT: 0-2y refus; 2-5y DC90 +50-100% (5y); &gt;5y DC30 +50-125% (5y). AVC: 0-5y refus; 5-10y DC90 +50-150% (2y); &gt;10y +50-100% (2y). Multi/séquelles: refus."
   Anxiété:
     factors: ["Épisodes", "Date dernier", "Arrêt travail", "Traitement", "Hospitalisation", "Suicide"]
     requirements: ["Questionnaire troubles nerveux", "RMT"]

@@ -341,7 +341,7 @@ La police prend fin à la première des dates suivantes :
 - cessation de résidence canadienne ;
 - décès de l'assuré.
 
-## Sommaire de l'Assurance Vie {#sommaire-de-lassurance-vie}
+## Sommaire de l'Assurance Vie {#sommaire_de_lassurance_vie}
 
 | Aspect | Détails |
 |--------|---------|
@@ -358,7 +358,7 @@ La police prend fin à la première des dates suivantes :
 
 L'assurance est disponible via conseiller autorisé.
 
-## Paiement de l'Indemnité de la Police d'Assurance Vie {#paiement-de-lindemnité-de-la-police-dassurance-vie}
+## Paiement de l'Indemnité de la Police d'Assurance Vie {#paiement_de_lindemnite_de_la_police_dassurance_vie}
 
 Si décès non lié à affection préexistante : paiement de l'indemnité sous réserve des restrictions.
 
@@ -372,7 +372,7 @@ Max 500 000 $ pour toutes polices vie ASSEM. Excédent : paiement max + rembours
 
 Pour T100 : max 100 000 $.
 
-## Sommaire de l'Assurance Maladies Graves {#sommaire-de-lassurance-maladies-graves}
+## Sommaire de l'Assurance Maladies Graves {#sommaire_de_lassurance_maladies_graves}
 
 | Aspect | Détails |
 |--------|---------|
@@ -392,7 +392,7 @@ Pour T100 : max 100 000 $.
 
 Disponible via conseiller.
 
-## Paiement de l'Indemnité de la Police d'Assurance Maladies Graves {#paiement-de-lindemnité-de-la-police-dassurance-maladies-graves}
+## Paiement de l'Indemnité de la Police d'Assurance Maladies Graves {#paiement_de_lindemnite_de_la_police_dassurance_maladies_graves}
 
 Paiement si maladie grave non liée préexistante, survie 30 jours.
 
@@ -418,7 +418,7 @@ Aucune si préexistante dans période.
 
 Max 100 000 $ pour toutes polices maladies graves ASSEM.
 
-## Liste des Maladies Graves Couvertes et Leur Définition {#liste-des-maladies-graves-couvertes-et-leur-définition}
+## Liste des Maladies Graves Couvertes et Leur Définition {#liste_des_maladies_graves_couvertes_et_leur_definition}
 
 ### L'Accident Vasculaire Cérébral (AVC)
 
@@ -446,7 +446,7 @@ Chirurgie pour rétrécissement/obstruction artère coronaire. Exclut angioplast
 
 Nécrose muscle cardiaque par insuffisance sanguine, avec ECG et marqueurs biochimiques. Inclut pendant angioplastie avec nouvelles ondes Q. Exclut découverte fortuite sans symptômes.
 
-## Sommaire de l'Assurance Revenu en Cas d'Invalidité {#sommaire-de-lassurance-revenu-en-cas-dinvalidité}
+## Sommaire de l'Assurance Revenu en Cas d'Invalidité {#sommaire_de_lassurance_revenu_en_cas_dinvalidite}
 
 | Aspect | Détails |
 |--------|---------|
@@ -469,7 +469,7 @@ Nécrose muscle cardiaque par insuffisance sanguine, avec ECG et marqueurs bioch
 
 Disponible via conseiller.
 
-## Paiement de l'Indemnité de la Police d'Assurance Revenu en Cas d'Invalidité {#paiement-de-lindemnité-de-la-police-dassurance-revenu-en-cas-dinvalidité}
+## Paiement de l'Indemnité de la Police d'Assurance Revenu en Cas d'Invalidité {#paiement_de_lindemnite_de_la_police_dassurance_revenu_en_cas_dinvalidite}
 
 Paiement mensuel après 90 jours carence, max 24 mois, si invalidité totale non liée préexistante.
 
@@ -536,7 +536,7 @@ Perte totale/permanente de 2 membres/sens : considérée invalide sans emploi/so
 
 Max 2 500 $/mois pour toutes polices invalidité/créance ASSEM.
 
-## Sommaire de l'Assurance Dettes en Cas d'Invalidité {#sommaire-de-lassurance-dettes-en-cas-dinvalidité}
+## Sommaire de l'Assurance Dettes en Cas d'Invalidité {#sommaire_de_lassurance_dettes_en_cas_dinvalidite}
 
 | Aspect | Détails |
 |--------|---------|
@@ -558,7 +558,7 @@ Max 2 500 $/mois pour toutes polices invalidité/créance ASSEM.
 
 Disponible via conseiller.
 
-## Paiement de l'Indemnité de la Police d'Assurance Dettes en Cas d'Invalidité {#paiement-de-lindemnité-de-la-police-dassurance-dettes-en-cas-dinvalidité}
+## Paiement de l'Indemnité de la Police d'Assurance Dettes en Cas d'Invalidité {#paiement_de_lindemnite_de_la_police_dassurance_dettes_en_cas_dinvalidite}
 
 Similaire à revenu : paiement après 90 jours, max 24 mois, si non liée préexistante.
 
@@ -574,7 +574,7 @@ Exonération, rétroactive, présomption identiques.
 
 Max 2 500 $/mois total.
 
-## Établissement du Montant Assurable et des Indemnités Payables {#établissement-du-montant-assurable-et-des-indemnités-payables}
+## Établissement du Montant Assurable et des Indemnités Payables {#etablissement_du_montant_assurable_et_des_indemnites_payables}
 
 ASSEM Dettes couvre créances (dettes, prêts). Basé sur créances admissibles, non revenu. Preuves requises à réclamation.
 
@@ -613,7 +613,7 @@ Faillite en invalidité : 0 $, fin prestations.
 
 **Pas de paiements anticipés/forfaitaires. Assureur non responsable retards/intérêts/frais.**
 
-## Avenant (Option) {#avenant-option}
+## Avenant (Option) {#avenant_option}
 
 **Garantie de Remboursement de Primes Tous les 20 Ans** (optionnelle, non avec vie).
 
@@ -629,7 +629,7 @@ Réduction >25% capital : prime rétroactive pour période.
 - Délai grâce prime ;
 - Indemnité versée &lt;20 ans restants.
 
-## Information Générale {#information-générale}
+## Information Générale {#information_generale}
 
 Produit distribué via conseiller autorisé, souscription via https://assem.humania.ca/accueil. Pas de papier.
 
@@ -637,7 +637,7 @@ Conseiller doit avoir contrat Humania et approbation portail.
 
 [www.humania.ca/conseillers/distribuer-les-produits-humania/](https://www.humania.ca/conseillers/distribuer-les-produits-humania/)
 
-## Titulaire Assuré et Payeur {#titulaire-assuré-et-payeur}
+## Titulaire Assuré et Payeur {#titulaire_assure_et_payeur}
 
 À souscription : même personne. Pas corporations. Post-émission : modifiable.
 
@@ -651,7 +651,7 @@ Une police par protection. Prime min 10 $/mois/police.
 
 Max payable : 2 500 $/mois total invalidité/créance ; 300/500k $ vie selon police.
 
-## Droit de Transformation {#droit-de-transformation}
+## Droit de Transformation {#droit_de_transformation}
 
 Pour vie T10/T20 : transformer en T100 avant 65 ans, sans assurabilité, max 50 000 $.
 
@@ -661,7 +661,7 @@ Si surprime/restrictions : appliquées à nouvelle.
 
 Voir police pour détails.
 
-## Modification Après la Vente {#modification-après-la-vente}
+## Modification Après la Vente {#modification_apres_la_vente}
 
 ### Modifications Autorisées
 
@@ -676,7 +676,7 @@ Voir police pour détails.
 | Réduction taux (amélioration santé) | | ✓ |
 | Transformation T10/T20 en T100 | Avant 65 ans | ✓ |
 
-## Preuve de Revenu - Police Assurance Invalidité {#preuve-de-revenu---police-assurance-invalidité}
+## Preuve de Revenu - Police Assurance Invalidité {#preuve_de_revenu_police_assurance_invalidite}
 
 ### Aucune Preuve à la Souscription
 
