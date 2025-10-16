@@ -22,9 +22,9 @@
           {
             "group": "Emma",
             "pages": [
-              "fr/Emma/emma-fr-guide-de-tarification.pdf.md",
-              "fr/Emma/emma-fr-sommaire-produit-assurance-vie.pdf.md",
-              "fr/Emma/emma-fr-specimen-de-contrat.pdf.md"
+              "fr/Emma/emma-fr-guide-de-tarification.pdf.mdx",
+              "fr/Emma/emma-fr-sommaire-produit-assurance-vie.pdf.mdx",
+              "fr/Emma/emma-fr-specimen-de-contrat.pdf.mdx"
             ]
           },
           {
