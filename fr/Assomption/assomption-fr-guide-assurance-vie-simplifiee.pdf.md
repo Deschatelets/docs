@@ -897,7 +897,7 @@ Protection Bronze (Émission garantie) → Toujours disponible
 
 ### Assomption Vie
 
-**Site web:** <https://www.assomption.ca>
+**Site web:** [https://www.assomption.ca](https://www.assomption.ca)
 
 **Ligne d'assistance pour conseillers:** 1-800-455-7337
 

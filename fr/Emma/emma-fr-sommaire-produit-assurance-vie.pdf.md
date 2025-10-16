@@ -181,14 +181,14 @@ statistics:
 **Humania Assurances Inc.**
 - **Adresse:** 1555 Rue Girouard O, Saint-Hyacinthe, QC J2S 7C8
 - **Inscription AMF:** [Numéro 2000737703](https://lautorite.qc.ca/grand-public/registres/registre-assureurs-institutions-de-depots-et-societe-de-fiducie)
-- **Plaintes:** <https://www.humania.ca/formuler-plainte>
+- **Plaintes:** [https://www.humania.ca/formuler-plainte](https://www.humania.ca/formuler-plainte)
 
 ### Distributeur
 
 **Emma Services financiers Inc.**
 - **Adresse:** 7900-300, Boul Pierre-Bertrand, Québec (QC) G2J 0C5
 - **Inscription AMF:** [Numéro 603236](https://lautorite.qc.ca/grand-public/registres/registre-des-entreprises-et-des-individus-autorises-a-exercer)
-- **Spécimen de police:** <https://emma.ca/specimen-de-police>
+- **Spécimen de police:** [https://emma.ca/specimen-de-police](https://emma.ca/specimen-de-police)
 
 ---
 
@@ -788,16 +788,16 @@ Lorsque le coût de l'assurance est ajouté au montant du financement et que vou
 
 L'Autorité des marchés financiers peut vous fournir de l'information **neutre et objective**.
 
-- **Site web:** <https://www.lautorite.qc.ca>
+- **Site web:** [https://www.lautorite.qc.ca](https://www.lautorite.qc.ca)
 - **Téléphone:** 1 877 525-0337
 
 ### Documents de Référence
 
-- **Spécimen de police Emma:** <https://emma.ca/specimen-de-police>
+- **Spécimen de police Emma:** [https://emma.ca/specimen-de-police](https://emma.ca/specimen-de-police)
 
 ### Formuler une Plainte
 
-- **Humania Assurances:** <https://www.humania.ca/formuler-plainte>
+- **Humania Assurances:** [https://www.humania.ca/formuler-plainte](https://www.humania.ca/formuler-plainte)
 
 ---
 

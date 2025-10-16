@@ -993,7 +993,7 @@ Je renonce au droit de recevoir un avis de 10 jours dans le cas d'une augmentati
 Assomption Vie annulera cet accord de débit préautorisé sur réception d'un avis écrit d'annulation d'au moins 10 jours avant la date d'annulation demandée.
 
 **Vos droits:**
-Contactez votre institution financière à propos de vos droits concernant l'annulation d'un DPA. (Un formulaire d'annulation standard est disponible à <www.cdnpay.ca>)
+Contactez votre institution financière à propos de vos droits concernant l'annulation d'un DPA. (Un formulaire d'annulation standard est disponible à [www.cdnpay.ca](https://www.cdnpay.ca))
 
 **Mode de paiement:**
 L'annulation de cet accord de débit préautorisé n'affectera en aucune façon l'accord en vigueur entre vous et Assomption Vie pourvu que le paiement soit soumis d'une autre manière.
@@ -1004,7 +1004,7 @@ Vous avez certains droits de recours si un débit n'est pas conforme au présent
 
 **Pour obtenir plus d'information sur vos droits de recours:**
 - Communiquez avec votre institution financière
-- Visitez <www.cdnpay.ca>
+- Visitez [www.cdnpay.ca](https://www.cdnpay.ca)
 
 ### Droits Exclusifs
 
@@ -1103,7 +1103,7 @@ _______________________________________________________________________________
 
 ### Assomption Vie
 
-**Site web:** <https://www.assomption.ca>
+**Site web:** [https://www.assomption.ca](https://www.assomption.ca)
 
 **Centre d'appel:** 1-800-455-7337
 

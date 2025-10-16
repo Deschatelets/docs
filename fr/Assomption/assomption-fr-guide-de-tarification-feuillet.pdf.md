@@ -292,7 +292,7 @@ Avec **plus de 25 ans d'expérience** sur le marché de l'émission simplifiée,
 
 ### Assomption Vie
 
-**Site web:** <https://www.assomption.ca>
+**Site web:** [https://www.assomption.ca](https://www.assomption.ca)
 
 **Ligne d'assistance pour conseillers:** 1-800-455-7337
 
