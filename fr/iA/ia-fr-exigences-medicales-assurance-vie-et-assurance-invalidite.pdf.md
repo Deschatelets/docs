@@ -107,8 +107,7 @@ statistics:
 
 Ce document détaille les exigences médicales pour les protections d'assurance invalidité (y compris frais généraux) et d'assurance vie chez iA. Les exigences sont basées sur l'âge et le montant total de couverture (en vigueur et à l'étude au cours des 12 derniers mois). iA se réserve le droit de demander des tests ou rapports supplémentaires selon les besoins de tarification.
 
-## Exigences pour Assurance Invalidité et Frais Généraux {#exigences_invalidite}
-
+## Exigences pour Assurance Invalidité et Frais Généraux
 - **A** : Pour assurance invalidité (Programme Supérieur ou Assurance Prêt Universelle) : Additionner tous les montants à l'étude et en vigueur au cours des 12 derniers mois.
 - **B** : Pour protection frais généraux (Programme Supérieur) : Additionner tous les montants à l'étude et en vigueur au cours des 12 derniers mois.
 
@@ -120,8 +119,7 @@ Ce document détaille les exigences médicales pour les protections d'assurance 
 | 41-50     | A           | A               | E               | E               | G            |
 | 51 et +   | A           | F               | F               | F               | H            |
 
-### Légende {#legende_invalidite}
-
+### Légende
 | Code | Exigence |
 |------|----------|
 | A    | Déclaration d'assurabilité |
@@ -138,8 +136,7 @@ Ce document détaille les exigences médicales pour les protections d'assurance 
 **Profil sanguin** : Inclut VIH et urine.  
 **Entrevue téléphonique et signes vitaux** : Peuvent être remplacés par examen paramédical.
 
-## Exigences pour Assurance Vie {#exigences_vie}
-
+## Exigences pour Assurance Vie
 Les exigences sont basées sur le **montant total de l'assurance vie** en cours et en vigueur auprès d'iA et d'autres compagnies au cours des 12 derniers mois.
 
 | Âge       | 0 - 99 999 $ | 100 000 - 300 000 $ | 300 001 - 499 999 $ | 500 000 - 1 000 000 $ | 1 000 001 - 2 000 000 $ |
@@ -151,8 +148,7 @@ Les exigences sont basées sur le **montant total de l'assurance vie** en cours 
 | 66-69     | E            | E                   | E                   | F                     | F                       |
 | 70 et +   | B            | F                   | F                   | F                     | F                       |
 
-### Légende {#legende_vie}
-
+### Légende
 | Code | Exigence |
 |------|----------|
 | A    | Déclaration d'assurabilité. L'analyse prédictive est effectuée par iA. Pour la plupart des clients, seule la déclaration est nécessaire, mais des exigences supplémentaires peuvent s'appliquer selon les résultats. |

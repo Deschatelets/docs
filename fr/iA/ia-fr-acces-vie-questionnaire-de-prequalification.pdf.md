@@ -121,8 +121,7 @@ statistics:
 
 Le processus de préqualification est rapide et facile, permettant de qualifier les clients en quelques minutes via EVO. Une fois qualifié, remplissez la proposition et recevez le contrat dans une semaine.
 
-## Structure des Étapes de Qualification {#structure_des_etapes}
-
+## Structure des Étapes de Qualification
 Le questionnaire détermine l'admissibilité aux niveaux suivants :
 
 - **Étape 1 : Différé** - Protection permanente (V100), max 100 000 $.
@@ -130,8 +129,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 - **Étape 3 : Immédiat Plus** - Protections permanente (V100) et temporaires (T15, T20, T25), max 500 000 $.
 - **Accès Garanti** - Couverture limitée pour cas non admissibles.
 
-## Étape 1 : Différé {#etape_1_differe}
-
+## Étape 1 : Différé
 **Protection** : Permanente (V100), max 100 000 $.
 
 ### Réponses Affirmatives
@@ -141,8 +139,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 - Admissible à 100 000 $ (V100).
 - Passer à Étape 2.
 
-### Questions de Qualification {#questions_etape_1}
-
+### Questions de Qualification
 1. **Au cours de votre vie**, avez-vous reçu un diagnostic et/ou été traité pour l'une des maladies suivantes :
    - **a** Syndrome immunodéficitaire acquis (SIDA) ou subi des tests séropositifs au VIH ?
    - **b** Trouble du rythme cardiaque (arythmies) nécessitant pacemaker, insuffisance cardiaque ou cardiomyopathie ?
@@ -174,8 +171,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 | 6'2" – 6'4"   | 390            | 1,88 – 1,95     | 177        |
 | 6'5" – 6'7"   | 415            | 1,96 – 2,01     | 188        |
 
-## Étape 2 : Différé Plus {#etape_2_differe_plus}
-
+## Étape 2 : Différé Plus
 **Protection** : Permanente (V100) et temporaires (T15, T20, T25), max 350 000 $.
 
 ### Réponses Affirmatives
@@ -185,8 +181,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 - Admissible à 350 000 $ (V100, T15/T20/T25).
 - Passer à Étape 3.
 
-### Questions de Qualification {#questions_etape_2}
-
+### Questions de Qualification
 1. **Pour 15 ans et +**, votre poids dépasse-t-il le tableau ci-dessous ?
 
 | Taille (pieds) | Poids (livres) | Taille (mètres) | Poids (kg) |
@@ -222,8 +217,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
    - **b** Chirurgie anévrisme ou en attente ?
    - **c** (Diabète) Médication modifiée (ajout/remplacement, dosage) ?
 
-## Étape 3 : Immédiat Plus {#etape_3_immediat_plus}
-
+## Étape 3 : Immédiat Plus
 **Protection** : Permanente (V100) et temporaires (T15, T20, T25), max 500 000 $.
 
 ### Réponses Affirmatives
@@ -232,8 +226,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
 ### Réponses Négatives
 - Admissible à 500 000 $ (V100, T15/T20/T25) avec protection immédiate décès.
 
-### Questions de Qualification {#questions_etape_3}
-
+### Questions de Qualification
 1. **Au cours des 5 dernières années**, leucémie, lymphome, tumeur maligne ou cancer (sauf basocellulaire) ?
 
 2. **Au cours des 12 derniers mois**, poids diminué &ge;10 % (sauf régime/accouchement) ?
@@ -246,8 +239,7 @@ Le questionnaire détermine l'admissibilité aux niveaux suivants :
    - **a** Huntington ou polykystique reins avant 60 ans ?
    - **b** (Pour &lt;3 ans) Fibrose kystique ?
 
-## Guide de Référence Rapide {#guide_reference}
-
+## Guide de Référence Rapide
 Information indicative. Consultez questionnaire pour admissibilité complète.
 
 ### État de Santé ou Affections
@@ -285,8 +277,7 @@ Information indicative. Consultez questionnaire pour admissibilité complète.
 | Voyage pays dangereux | ✓ | ✓ | ✓ | Risque évaluer (cond. q.3a Étape 3) |
 | Immigrants | ✓ | ✓ | ✓ | ✓ |
 
-## Limites de la Prestation de Décès {#limites_prestation_deces}
-
+## Limites de la Prestation de Décès
 *** Note : Limites applicables.
 
 ### Accès Garanti

@@ -147,8 +147,7 @@ statistics:
 ---
 # Guide de Tarification - Assurance Vie et Maladies Graves iA
 
-## Table des Matières {#table_des_matieres}
-
+## Table des Matières
 - [Grille des Exigences - Vie et Maladie Grave](#grille-des-exigences)
   - [Enfants (Conditions Particulières)](#enfants-conditions-particulieres)
   - [Risques Financiers](#risques-financiers)
@@ -206,18 +205,14 @@ statistics:
 - [Critères d'Admissibilité à la Tarification Préférentielle](#criteres-tarification-preferentielle)
 - [Foire Aux Questions](#foire-questions)
 
-## Introduction {#introduction}
-
+## Introduction
 Ce guide pratique aide à évaluer la tarification pour l'assurance vie et maladies graves. Il décrit les maladies/situations, éléments à considérer, exigences, et aperçu de tarification. Utilisez-le pour informer les clients sur exigences et surprimes potentielles, et accélérer le traitement des demandes.
 
 **Note** : Estimations de surprimes ; chaque dossier évalué individuellement. Utilisez la version la plus récente ; modifications possibles sans préavis.
 
-## Grille des Exigences - Vie et Maladie Grave {#grille_des_exigences}
-
-### Enfants (Conditions Particulières) {#enfants_conditions_particulieres}
-
-#### Enfants Adoptés {#enfants_adoptes}
-
+## Grille des Exigences - Vie et Maladie Grave
+### Enfants (Conditions Particulières)
+#### Enfants Adoptés
 **Exigences et Tarification Vie/Maladie Grave** :
 - Consentement père/mère biologique ou tuteur légal (si adoption non officielle).
 - Acte d'adoption (si disponible).
@@ -239,12 +234,9 @@ Ce guide pratique aide à évaluer la tarification pour l'assurance vie et malad
 - Nombre enfants placés ; tous assurés même montant.
 - Enfants biologiques assurés ≥ montant demandé.
 
-## Risques Financiers {#risques_financiers}
-
-### Assurance Vie - Personnelle et Affaires {#assurance_vie_personnelle_affaires}
-
-#### Assurance Personnelle {#vie_personnelle}
-
+## Risques Financiers
+### Assurance Vie - Personnelle et Affaires
+#### Assurance Personnelle
 - Questionnaire financier : 5M-10M $.
 - Rapport d'enquête : >10M $.
 - Lettre présentation : >10M $ (justifie montant total, calcul, connaissance client).
@@ -263,8 +255,7 @@ Ce guide pratique aide à évaluer la tarification pour l'assurance vie et malad
 
 **Valeur Nette Étrangère** : Justifie jusqu'à 50% capital, max 5M $.
 
-#### Assurance Maladie Grave - Personnelle et Affaires {#maladie_grave_personnelle_affaires}
-
+#### Assurance Maladie Grave - Personnelle et Affaires
 - Lettre présentation/questionnaire financier : Montant difficile justifier.
 - Inclut montant en vigueur.
 
@@ -274,8 +265,7 @@ Ce guide pratique aide à évaluer la tarification pour l'assurance vie et malad
 | Adultes SANS revenu | Questions financières. | Époux/Épouses foyer: 250k $ ou 4x revenu conjoint ou montant conjoint vigueur. |
 | Enfants | Questions financières. | Adultes: 250k $. 250k-500k $: Tous enfants même montant. |
 
-#### Lettre de Présentation {#lettre_presentation}
-
+#### Lettre de Présentation
 Objectif : Fournir info supplémentaire pour tarificateur (besoins assurance, montant total vigueur, raison, calcul, connaissance client/activité/style vie).
 
 | Assurance | Infos à Inclure |
@@ -292,14 +282,11 @@ Objectif : Fournir info supplémentaire pour tarificateur (besoins assurance, mo
 | Entreprises Agricoles | Actionnaires: Nom, titre, % ; Montant demandé ; Raison disproportion %. Info ferme: Type élevage/animaux/valeur (quotas, bêtes) ; Terres: Type culture/hectares/revenus location ; Valeur machinerie/bâtiments. |
 | Entreprises Démarrage | Actionnaires: Nom, titre, % ; Montant demandé/prêt ; Raison disproportion %. Financement (prêt personnel/affaire/montant) ; Contrats signés ; États pro forma. |
 
-## Risques Non Médicaux {#risques_non_medicaux}
-
-### Aviation {#aviation}
-
+## Risques Non Médicaux
+### Aviation
 Exclusion aviation possible au lieu de surprime (sauf vols rémunérés).
 
-#### Aviation Privée {#aviation_privee}
-
+#### Aviation Privée
 Vols plaisance/affaires, permis privé/commercial (hélico inclus), élèves-pilotes, loisir.
 
 **Éléments à Considérer** :
