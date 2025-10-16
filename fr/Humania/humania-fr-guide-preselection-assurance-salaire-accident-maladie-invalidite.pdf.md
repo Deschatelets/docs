@@ -130,25 +130,16 @@ statistics:
     ecg: true
     driving_record: true
 ---
----
-title: "Assurance Salaire - Guide de Présélection pour Invalidité Accident et Maladie"
-provider: "Humania Assurance Inc."
-document_type: "Guide de présélection"
-product_line: "Assurance Salaire - Accident, Maladie, Invalidité"
-language: "fr-CA"
-version: "1.0"
-last_updated: "2024"
-target_audience: "Représentants en assurance"
-keywords:
-  - "assurance salaire"
-  - "invalidité accident"
-  - "invalidité maladie"
-  - "présélection"
-  - "conditions médicales"
-  - "conditions non médicales"
-  - "Humania"
-category: "preselection-guide"
----
+
+# Assurance Salaire - Guide de Présélection pour Invalidité Accident et Maladie
+
+**Assureur:** Humania Assurance Inc.  
+**Type de document:** Guide de présélection  
+**Produit:** Assurance Salaire - Accident, Maladie, Invalidité  
+**Langue:** Français (Canada)  
+**Version:** 1.0  
+**Dernière mise à jour:** 2024  
+**Audience:** Représentants en assurance
 
 # Assurance Salaire - Guide de Présélection
 
