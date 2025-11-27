@@ -1,0 +1,1597 @@
+---
+# ═══════════════════════════════════════════════════════════════════════
+# UNIFIED INSURER DOCUMENT
+# ═══════════════════════════════════════════════════════════════════════
+
+# Document Metadata
+document_id: "ia-fr-unified-products-v1.0"
+document_type: unified_insurer_guide
+schema_version: "3.0"
+version: 1.0
+document_title: "Guide Unifié des Produits - iA Groupe financier"
+last_updated: "2024-01-01"
+effective_date: "2024-01-01"
+language: fr-CA
+region: QC
+
+# ═══════════════════════════════════════════════════════════════════════
+# INSURER PROFILE
+# ═══════════════════════════════════════════════════════════════════════
+insurer:
+  id: "ia"
+  name: "iA Groupe financier"
+  legal_name: "Industrial Alliance Insurance and Financial Services Inc."
+  type: "public_company"
+  website: "https://www.ia.ca"
+  portal: "EVO (Extranet Centre documentation)"
+  slogan: "ON S'INVESTIT, POUR VOUS."
+
+# ═══════════════════════════════════════════════════════════════════════
+# PRODUCTS CATALOG
+# ═══════════════════════════════════════════════════════════════════════
+products:
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 1: Accès Vie - Simplified Issue Life Insurance
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "ia-acces-vie"
+    name: "Accès Vie"
+    name_en: "Accès Vie Simplified Issue Life Insurance"
+    category: "simplified_life_insurance"
+    underwriting_type: "simplified"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - brokers
+      secondary:
+        - clients
+        - seniors
+        - immigrants
+    
+    use_cases:
+      - "Clients refusés ailleurs"
+      - "Enfants avec conditions de santé"
+      - "Personnes âgées (70+)"
+      - "Immigrants nouveaux arrivants"
+      - "Frais funéraires"
+      - "Héritage"
+    
+    eligibility:
+      age_range: [0.5, 80]
+      age_description: "6 mois à 80 ans"
+      residency: "Canadian resident"
+      guaranteed_acceptance: true
+    
+    variants:
+      - id: "v100"
+        name: "V100 Permanente"
+        type: "permanent_life"
+        age_range: [0.5, 80]
+        payment_until_age: 100
+        cash_value: true
+        cash_value_from_year: 5
+        paid_up_from_year: 8
+        available_steps: ["Accès garanti", "Différé", "Différé Plus", "Immédiat Plus"]
+      - id: "t15"
+        name: "T15 Temporaire"
+        type: "term_life"
+        term_length: 15
+        age_range: [20, 65]
+        renewable: true
+        renewable_until_age: 80
+        convertible: true
+        available_steps: ["Différé Plus", "Immédiat Plus"]
+      - id: "t20"
+        name: "T20 Temporaire"
+        type: "term_life"
+        term_length: 20
+        age_range: [20, 60]
+        renewable: true
+        renewable_until_age: 80
+        convertible: true
+        available_steps: ["Différé Plus", "Immédiat Plus"]
+      - id: "t25"
+        name: "T25 Temporaire"
+        type: "term_life"
+        term_length: 25
+        age_range: [20, 55]
+        renewable: true
+        renewable_until_age: 80
+        convertible: true
+        available_steps: ["Différé Plus", "Immédiat Plus"]
+    
+    coverage:
+      min_amount: 10000
+      max_amount: 500000
+      currency: CAD
+    
+    eligibility_steps:
+      - id: "acces-garanti"
+        name: "Accès Garanti"
+        max_capital_18_50: 50000
+        max_capital_under_18: 10000
+        max_capital_over_50: 25000
+        protections: ["V100"]
+        death_benefit_limit:
+          natural_death_under_2_years: "Remboursement primes sans intérêt"
+          accidental_death: "Capital assuré dès émission"
+          suicide_under_2_years: "Remboursement primes sans intérêt"
+      - id: "differe"
+        name: "Différé"
+        max_capital_18_plus: 100000
+        max_capital_under_18: 25000
+        protections: ["V100"]
+        death_benefit_limit:
+          natural_death_under_2_years: "Remboursement primes + 3% intérêt simple"
+          accidental_death: "Capital assuré dès émission"
+          suicide_under_2_years: "Remboursement primes sans intérêt"
+      - id: "differe-plus"
+        name: "Différé Plus"
+        max_capital_18_70: 350000
+        max_capital_under_18: 25000
+        max_capital_over_70: 150000
+        protections: ["V100", "T15", "T20", "T25"]
+        death_benefit_limit:
+          natural_death_under_2_years: "Remboursement primes + 3% intérêt simple"
+          accidental_death: "Capital assuré dès émission"
+          suicide_under_2_years: "Remboursement primes sans intérêt"
+      - id: "immediat-plus"
+        name: "Immédiat Plus"
+        max_capital_18_70: 500000
+        max_capital_under_18: 25000
+        max_capital_over_70: 150000
+        protections: ["V100", "T15", "T20", "T25"]
+        death_benefit_limit:
+          natural_death: "Capital assuré dès émission"
+          accidental_death: "Capital assuré dès émission"
+          suicide_under_2_years: "Remboursement primes sans intérêt"
+    
+    features:
+      no_medical_exam: true
+      questionnaire_based: true
+      electronic_application: true
+      fast_decision: true
+      renewal:
+        available: true
+        evidence_required: false
+        guaranteed_premiums: true
+      conversion:
+        available: true
+        target: "V100 permanente même étape"
+        min_years_after_issue: 2
+        max_age: 70
+        evidence_required: false
+    
+    policy_fees:
+      per_contract: 60
+      currency: CAD
+    
+    policy_loans:
+      available: true
+      min_amount: "Règles administratives"
+      max_amount: "90% valeur rachat - sommes dues"
+      automatic_loans: true
+      interest_calculation: "Quotidien, capitalisé à l'anniversaire"
+    
+    source_documents:
+      - document_id: "ia-fr-acces-vie-guide-de-tarification.mdx"
+        type: "underwriting_guide"
+      - document_id: "ia-fr-acces-vie-questionnaire-de-prequalification.mdx"
+        type: "questionnaire"
+    
+    tags:
+      - assurance-vie-simplifiee
+      - acces-vie
+      - emission-garantie
+      - permanent
+      - temporaire
+      - ia
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 2: Assurance Vie (Fully Underwritten)
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "ia-vie-traditionnelle"
+    name: "Assurance Vie Traditionnelle"
+    name_en: "Traditional Life Insurance"
+    category: "life_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+        - business_owners
+    
+    use_cases:
+      - "Protection familiale"
+      - "Planification successorale"
+      - "Protection hypothécaire"
+      - "Assurance affaires"
+      - "Personne clé"
+      - "Convention achat/vente"
+    
+    eligibility:
+      age_range: [0, 80]
+      residency: "Canadian resident"
+    
+    coverage:
+      min_amount: 50000
+      max_amount: 10000000
+      currency: CAD
+    
+    features:
+      preferred_rating_available: true
+      preferred_threshold: 2000000
+      mib_verification: true
+      electronic_application: true
+    
+    rating_categories:
+      - id: "elite-non-smoker"
+        name: "Élite Non-fumeur"
+        tobacco_free_years: 5
+        description: "Risque très inférieur à la moyenne"
+      - id: "privilege-non-smoker"
+        name: "Privilège Non-fumeur"
+        tobacco_free_years: 3
+        description: "Risque inférieur à la moyenne"
+      - id: "elite-smoker"
+        name: "Élite Fumeur"
+        description: "Fumeur avec risque inférieur"
+      - id: "privilege-smoker"
+        name: "Privilège Fumeur"
+        description: "Fumeur avec risque moindre"
+      - id: "standard-non-smoker"
+        name: "Standard Non-fumeur"
+        tobacco_free_months: 12
+      - id: "standard-smoker"
+        name: "Standard Fumeur"
+    
+    source_documents:
+      - document_id: "ia-fr-guide-de-tarification-assurance-vie-et-maladies-graves.mdx"
+        type: "underwriting_guide"
+      - document_id: "ia-fr-tarification-financiere-assurance-vie.mdx"
+        type: "financial_underwriting_guide"
+      - document_id: "ia-fr-exigences-medicales-assurance-vie-et-assurance-invalidite.mdx"
+        type: "medical_requirements_guide"
+    
+    tags:
+      - assurance-vie
+      - tarification-complete
+      - preferentielle
+      - ia
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 3: Assurance Maladies Graves
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "ia-maladies-graves"
+    name: "Assurance Maladies Graves"
+    name_en: "Critical Illness Insurance"
+    category: "critical_illness_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+    
+    use_cases:
+      - "Paiement forfaitaire au diagnostic"
+      - "Couverture des coûts de traitement"
+      - "Remplacement de revenu pendant récupération"
+      - "Modifications style de vie"
+    
+    eligibility:
+      age_range: [0, 80]
+      residency: "Canadian resident"
+    
+    coverage:
+      min_amount: 50000
+      max_amount: 10000000
+      currency: CAD
+    
+    features:
+      preferred_rating_available: true
+      mib_verification: true
+      electronic_application: true
+    
+    source_documents:
+      - document_id: "ia-fr-guide-de-tarification-assurance-vie-et-maladies-graves.mdx"
+        type: "underwriting_guide"
+    
+    tags:
+      - maladies-graves
+      - critical-illness
+      - ia
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 4: Assurance Invalidité
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "ia-invalidite"
+    name: "Assurance Invalidité"
+    name_en: "Disability Insurance"
+    category: "disability_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - professionals
+        - business_owners
+    
+    use_cases:
+      - "Remplacement de revenu"
+      - "Protection des frais généraux"
+      - "Protection prêt"
+    
+    eligibility:
+      age_range: [18, 70]
+      residency: "Canadian resident"
+      employment_required: true
+    
+    variants:
+      - id: "programme-superieur"
+        name: "Programme Supérieur"
+        type: "income_replacement"
+      - id: "assurance-pret-universelle"
+        name: "Assurance Prêt Universelle"
+        type: "loan_protection"
+      - id: "frais-generaux"
+        name: "Frais Généraux"
+        type: "overhead_expenses"
+    
+    coverage:
+      min_monthly: 0
+      max_monthly: 7000
+      currency: CAD
+    
+    source_documents:
+      - document_id: "ia-fr-exigences-medicales-assurance-vie-et-assurance-invalidite.mdx"
+        type: "medical_requirements_guide"
+    
+    tags:
+      - assurance-invalidite
+      - disability
+      - income-replacement
+      - ia
+
+# ═══════════════════════════════════════════════════════════════════════
+# UNDERWRITING REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════════════
+underwriting:
+  mib_verification: true
+  fast_decision_available: true
+  electronic_application: true
+  predictive_analytics: true
+  
+  abbreviations:
+    A: "Déclaration d'assurabilité"
+    B: "Déclaration d'assurabilité + Rapport du médecin traitant"
+    C: "Entrevue téléphonique"
+    E: "Entrevue téléphonique + Signes vitaux + Profil sanguin"
+    F: "Entrevue téléphonique + Signes vitaux + Profil sanguin + Rapport du médecin traitant"
+    G: "Entrevue téléphonique + Signes vitaux + Profil sanguin + Enquête"
+    H: "Entrevue téléphonique + Signes vitaux + Profil sanguin + Rapport du médecin traitant + Enquête"
+    RMT: "Rapport du Médecin Traitant"
+  
+  requirements_matrix_life:
+    description: "Exigences selon l'âge et le montant de couverture pour l'assurance vie"
+    note: "Basé sur le total de toute assurance vie au cours des 12 derniers mois"
+    tiers:
+      - amount_range: [0, 99999]
+        age_0_14: ["A"]
+        age_15_50: ["A"]
+        age_51_60: ["A"]
+        age_61_65: ["C"]
+        age_66_69: ["E"]
+        age_70_plus: ["B"]
+      - amount_range: [100000, 300000]
+        age_0_14: ["A"]
+        age_15_50: ["A"]
+        age_51_60: ["A"]
+        age_61_65: ["E"]
+        age_66_69: ["E"]
+        age_70_plus: ["F"]
+      - amount_range: [300001, 499999]
+        age_0_14: ["A"]
+        age_15_50: ["A"]
+        age_51_60: ["A"]
+        age_61_65: ["E"]
+        age_66_69: ["E"]
+        age_70_plus: ["F"]
+      - amount_range: [500000, 1000000]
+        age_0_14: ["A"]
+        age_15_50: ["A"]
+        age_51_60: ["A ou C"]
+        age_61_65: ["E"]
+        age_66_69: ["F"]
+        age_70_plus: ["F"]
+      - amount_range: [1000001, 2000000]
+        age_0_14: ["A"]
+        age_15_50: ["A"]
+        age_51_60: ["E"]
+        age_61_65: ["E"]
+        age_66_69: ["F"]
+        age_70_plus: ["F"]
+  
+  requirements_matrix_disability:
+    description: "Exigences selon l'âge et le montant pour l'assurance invalidité"
+    note: "Utiliser le montant le plus élevé entre invalidité et frais généraux"
+    tiers:
+      - amount_range: [0, 4000]
+        age_18_40: ["A"]
+        age_41_50: ["A"]
+        age_51_plus: ["A"]
+      - amount_range: [4001, 5000]
+        age_18_40: ["A"]
+        age_41_50: ["A"]
+        age_51_plus: ["F"]
+      - amount_range: [5001, 6000]
+        age_18_40: ["A"]
+        age_41_50: ["E"]
+        age_51_plus: ["F"]
+      - amount_range: [6001, 6999]
+        age_18_40: ["E"]
+        age_41_50: ["E"]
+        age_51_plus: ["F"]
+      - amount_range: [7000, "plus"]
+        age_18_40: ["G"]
+        age_41_50: ["G"]
+        age_51_plus: ["H"]
+  
+  immigrant_guidelines:
+    less_than_1_year_canada:
+      life:
+        age_0_60_up_to_100k: ["A"]
+        age_over_60_or_over_100k: ["E"]
+      disability:
+        age_18_50_up_to_1000_monthly: ["A"]
+        other: ["E"]
+  
+  decision_types:
+    - id: "regulier"
+      name: "Régulier"
+      description: "Police émise aux taux standards"
+    - id: "surprime"
+      name: "Surprime"
+      description: "Police émise avec surprime temporaire ou permanente"
+    - id: "exclusion"
+      name: "Exclusion"
+      description: "Police émise avec exclusion de certaines conditions"
+    - id: "remis"
+      name: "Remis"
+      description: "Décision différée pour reconsidération future"
+    - id: "refus"
+      name: "Refus"
+      description: "Aucune offre ne peut être faite"
+  
+  smoker_definition: "Un non-fumeur est une personne qui n'a fait aucun usage de tabac ou de nicotine au cours des 12 derniers mois."
+
+# ═══════════════════════════════════════════════════════════════════════
+# PREFERRED RATING CRITERIA
+# ═══════════════════════════════════════════════════════════════════════
+preferred_rating:
+  minimum_coverage: 2000000
+  applicable_products: ["Vie Temporaire"]
+  age_range: [15, 80]
+  
+  categories:
+    - id: "elite"
+      name: "Élite"
+      description: "Risque beaucoup inférieur à la moyenne"
+      applies_to: ["Fumeurs", "Non-fumeurs"]
+    - id: "privilege"
+      name: "Privilège"
+      description: "Risque inférieur à la moyenne"
+      applies_to: ["Fumeurs", "Non-fumeurs"]
+  
+  criteria:
+    tobacco:
+      privilege_non_smoker:
+        requirement: "Aucun usage tabac/nicotine"
+        period_years: 3
+      elite_non_smoker:
+        requirement: "Aucun usage tabac/nicotine"
+        period_years: 5
+    
+    build:
+      description: "Poids selon tableau par âge"
+      privilege_stricter: true
+      elite_strictest: true
+    
+    blood_pressure:
+      privilege:
+        age_15_34: "130/80"
+        age_35_49: "135/85"
+        age_50_plus: "140/90"
+      elite:
+        age_15_34: "125/75"
+        age_35_49: "130/80"
+        age_50_plus: "135/85"
+      medication: "Non admissible si sous médication"
+    
+    cholesterol:
+      privilege:
+        under_45: "210 mg/dL (5.4 mmol/L)"
+        age_45_plus: "220 mg/dL (5.7 mmol/L)"
+      elite:
+        under_45: "200 mg/dL (5.1 mmol/L)"
+        age_45_plus: "210 mg/dL (5.4 mmol/L)"
+      medication: "Non admissible si sous médication"
+    
+    medical_history:
+      prohibited:
+        - "Diabète"
+        - "Cancer"
+        - "Maladie cardiovasculaire"
+        - "AVC"
+    
+    family_history:
+      privilege:
+        requirement: "Aucun membre proche décédé ou diagnostiqué < 60 ans"
+        conditions: ["Cancer", "Maladie CV", "Diabète", "AVC"]
+      elite:
+        requirement: "Aucun membre proche décédé ou diagnostiqué < 65 ans"
+        conditions: ["Cancer", "Maladie CV", "Diabète", "AVC"]
+    
+    alcohol:
+      requirement: "Aucun traitement ou abus"
+      period_years: 10
+    
+    drugs:
+      requirement: "Aucun traitement ou consommation"
+      period_years: 10
+    
+    driving:
+      privilege:
+        max_infractions: 5
+        period_years: 5
+        no_impaired_driving_years: 5
+      elite:
+        max_infractions: 3
+        period_years: 5
+        no_impaired_driving_years: 10
+    
+    criminal:
+      requirement: "Aucune infraction"
+      period_years: 10
+    
+    lifestyle:
+      requirement: "Aucune surprime ou exclusion pour occupation, aviation, sports ou voyage"
+
+# ═══════════════════════════════════════════════════════════════════════
+# FINANCIAL UNDERWRITING
+# ═══════════════════════════════════════════════════════════════════════
+financial_underwriting:
+  personal_insurance:
+    requirements:
+      - amount_range: [5000001, 10000000]
+        documents: ["Questionnaire financier"]
+      - amount_range: [10000001, "plus"]
+        documents: ["Rapport d'enquête", "Lettre de présentation"]
+    
+    guidelines_with_income:
+      age_18_30: "30x revenu annuel canadien + valeur nette"
+      age_31_40: "25x revenu annuel canadien + valeur nette"
+      age_41_50: "20x revenu annuel canadien + valeur nette"
+      age_51_60: "15x revenu annuel canadien + valeur nette"
+      age_61_65: "10x revenu annuel canadien + valeur nette"
+      age_66_70: "5x revenu annuel canadien + valeur nette"
+      age_over_70: "Maximum 200 000 $ (voir personnes âgées)"
+    
+    guidelines_without_income:
+      under_50: "500 000 $ ou 50% du montant conjoint qualifié"
+      age_51_70: "250 000 $ ou 50% du montant conjoint qualifié"
+    
+    students: "Maximum 500 000 $ (cas par cas > avec lettre)"
+    children: "Maximum 500 000 $ (cas par cas > avec lettre)"
+    
+    foreign_assets:
+      max_coverage: 5000000
+      justifies_percent: 50
+      unverified_assets_calculation: "25%"
+      verified_assets_calculation: "50%"
+  
+  business_insurance:
+    types:
+      - "Convention achat/vente"
+      - "Assurance prêt"
+      - "Personne clé"
+      - "Entreprises agricoles"
+      - "Entreprises en démarrage"
+    letter_required: true
+
+# ═══════════════════════════════════════════════════════════════════════
+# MEDICAL CONDITIONS SUMMARY - ACCÈS VIE
+# ═══════════════════════════════════════════════════════════════════════
+medical_conditions_acces_vie:
+  description: "Guide des troubles médicaux pour Accès Vie (Émission simplifiée)"
+  total_conditions: 50
+  
+  categories:
+    cardiovascular:
+      conditions:
+        - name: "Angine / Crise cardiaque / Angioplastie"
+          acces_garanti: true
+          differe: "Si anticoagulant/chirurgie ≤3 ans"
+          immediat_plus: "Si >3 ans"
+          questions: "Étape 2 - Q. 3a"
+        - name: "AVC"
+          acces_garanti: true
+          differe: "Si anticoagulant/chirurgie ≤3 ans"
+          immediat_plus: "Si >3 ans"
+          questions: "Étape 2 - Q. 3b"
+        - name: "Anévrisme"
+          differe: "Si chirurgie ≤12 mois"
+          immediat_plus: "Si >12 mois"
+          questions: "Étape 2 - Q. 4b"
+        - name: "Pacemaker / Insuffisance cardiaque / Cardiomyopathie"
+          acces_garanti: true
+          questions: "Étape 1 - Q. 1b"
+    
+    respiratory:
+      conditions:
+        - name: "Apnée du sommeil"
+          immediat_plus: true
+          questions: "Aucune"
+        - name: "Emphysème"
+          acces_garanti: "Si oxygène quotidien"
+          immediat_plus: "Si pas d'oxygène quotidien"
+          questions: "Étape 1 - Q. 1d"
+    
+    metabolic:
+      conditions:
+        - name: "Diabète (adulte)"
+          acces_garanti: true
+          differe: "Si modification médication ≤12 mois"
+          immediat_plus: "Si pas de modification >12 mois"
+          questions: "Étape 2 - Q. 4c"
+        - name: "Diabète Type 1 (enfant <18 ans)"
+          acces_garanti: true
+          questions: "Étape 1 - Q. 1e"
+    
+    cancer:
+      conditions:
+        - name: "Cancer / Tumeur maligne (sauf basocellulaire)"
+          acces_garanti: "Si ≤3 ans"
+          differe_plus: "Si 3-5 ans"
+          immediat_plus: "Si >5 ans"
+          questions: "Étape 1 - Q. 2; Étape 3 - Q. 1"
+        - name: "Carcinome basocellulaire"
+          immediat_plus: true
+          questions: "Aucune"
+    
+    neurological:
+      conditions:
+        - name: "Alzheimer / Démence"
+          acces_garanti: true
+          questions: "Étape 1 - Q. 1c"
+        - name: "Parkinson"
+          acces_garanti: true
+          questions: "Étape 1 - Q. 1c"
+        - name: "Épilepsie / Convulsions"
+          immediat_plus: true
+          questions: "Aucune"
+    
+    mental_health:
+      conditions:
+        - name: "Dépression"
+          acces_garanti: true
+          differe: "Si hospitalisation ou modification médication ≤12 mois"
+          immediat_plus: "Si >12 mois sans changement"
+          questions: "Étape 2 - Q. 4a"
+    
+    hepatic_renal:
+      conditions:
+        - name: "Cirrhose / Fibrose hépatique"
+          acces_garanti: true
+          differe: "≤5 ans"
+          questions: "Étape 2 - Q. 2b"
+        - name: "Hépatite C / Chronique"
+          acces_garanti: true
+          differe: "Inadmissible Différé Plus / Immédiat Plus"
+          questions: "Étape 2 - Q. 2b"
+        - name: "Dialyse"
+          differe: "≤5 ans"
+          questions: "Étape 2 - Q. 2b"
+    
+    lifestyle:
+      conditions:
+        - name: "Abus d'alcool"
+          differe: "Si traitement/groupe soutien ≤5 ans"
+          immediat_plus: "Si >5 ans"
+          questions: "Étape 2 - Q. 2d"
+        - name: "Abus de drogues"
+          differe: "Si traitement/groupe soutien ≤5 ans"
+          immediat_plus: "Si >5 ans"
+          questions: "Étape 2 - Q. 2d"
+        - name: "Consommation drogues dures"
+          acces_garanti: "Si ≤12 mois"
+          immediat_plus: "Si >12 mois"
+          questions: "Étape 1 - Q. 3b"
+    
+    children:
+      conditions:
+        - name: "TDA/H"
+          immediat_plus: true
+        - name: "Asthme important"
+          immediat_plus: true
+        - name: "Autisme/TSA (<18 ans)"
+          acces_garanti: true
+          questions: "Étape 1 - Q. 1e"
+        - name: "Autisme/TSA (≥18 ans)"
+          immediat_plus: true
+    
+    non_medical:
+      conditions:
+        - name: "Refus 2 dernières années"
+          all_steps: true
+        - name: "Sports dangereux"
+          all_steps: true
+        - name: "Immigrants"
+          all_steps: true
+        - name: "Voyage pays dangereux"
+          acces_garanti: true
+          differe: true
+          differe_plus: true
+          immediat_plus: "Risque à évaluer (Q. 3a Étape 3)"
+
+# ═══════════════════════════════════════════════════════════════════════
+# MEDICAL CONDITIONS SUMMARY - FULL UNDERWRITING
+# ═══════════════════════════════════════════════════════════════════════
+medical_conditions_full:
+  description: "Guide des conditions médicales pour tarification complète"
+  total_conditions: 50
+  
+  categories:
+    anemia:
+      count: 7
+      conditions:
+        - name: "Trait thalassémique / Trait falciforme"
+          life_decision: "Régulier"
+          ci_decision: "Régulier"
+        - name: "Anémie ferriprive"
+          life_decision: "Régulier à refus selon cause/sévérité"
+          ci_decision: "Régulier si corrigée"
+        - name: "Drépanocytose"
+          life_decision: "<30 ans refus; >30 ans +200% à refus"
+          ci_decision: "Refus"
+    
+    respiratory:
+      count: 2
+      conditions:
+        - name: "Apnée du sommeil"
+          life_decision: "Centrale: Refus; Obstructive: Régulier à +100%"
+          ci_decision: "Centrale: Refus; Obstructive: Régulier à refus selon sévérité"
+          requirements: "RMT si >1M$"
+        - name: "Asthme"
+          life_decision: "Non-fumeur léger: Régulier; Sévère: +50% à refus"
+          ci_decision: "Léger: Régulier-+25%; Sévère: Refus"
+    
+    gastrointestinal:
+      count: 2
+      conditions:
+        - name: "Colite ulcéreuse"
+          life_decision: "<20 ans remis; Autrement +0 à refus selon sévérité"
+          ci_decision: "Chirurgie: Refus; Médical: +25-+75% avec exclusions"
+        - name: "Maladie de Crohn"
+          life_decision: "<20 ans remis; ≥20 ans +0-+200% selon sévérité"
+          ci_decision: "Léger: Standard; Sévère: +25-+75% avec exclusions à refus"
+    
+    metabolic:
+      count: 3
+      conditions:
+        - name: "Diabète Type 1"
+          life_decision: "0-15 ans refus; Adulte +50% à refus selon contrôle"
+          ci_decision: "Refus"
+          requirements: "RMT obligatoire + urine + profil HbA1c"
+        - name: "Diabète Type 2"
+          life_decision: "50-69 ans bien contrôlé: Régulier possible; Autrement +75% à refus"
+          ci_decision: "≥40 ans ≤15 ans diagnostic excellent contrôle: +50-+150%; Autrement refus"
+        - name: "Diabète gestationnel"
+          life_decision: "Actuel: +75% à refus; Antécédent contrôle normal: Régulier"
+          ci_decision: "Remis post-accouchement; Régulier si résolu"
+    
+    cancer:
+      count: 8
+      conditions:
+        - name: "Cancer du col utérin"
+          life_decision: "In situ: Régulier; Invasif: 5-15$/M/3-5 ans"
+          ci_decision: "In situ: Régulier; Invasif stade 0/1: Exclusion après 10 ans"
+        - name: "Cancer du côlon"
+          life_decision: "Attente 1 an; 7.5-15$/M/4-5 ans"
+          ci_decision: "Refus"
+        - name: "Carcinome basocellulaire"
+          life_decision: "Meilleur cas: Régulier; Autrement +50% à refus"
+          ci_decision: "Meilleur cas: Régulier; Autrement refus"
+        - name: "Mélanome"
+          life_decision: "In situ: Régulier; Autrement surprime 5-15$/M/3-5 ans"
+          ci_decision: "Stade 0/1A: Exclusion après 2 ans; Autrement refus"
+        - name: "Cancer de la prostate"
+          life_decision: "<75 ans hormonale: Refus; Radio/chirurgie: 5-15$/M/3-5 ans"
+          ci_decision: "T1a/T1b: Exclusion après 10 ans; >T1b: Refus"
+        - name: "Cancer du sein"
+          life_decision: "In situ: 7.5$/M/4 ans; Invasif: 10-15$/M/4-5 ans"
+          ci_decision: "Refus"
+    
+    cardiovascular:
+      count: 3
+      conditions:
+        - name: "Hypertension artérielle"
+          life_decision: "Bien contrôlée: Régulier"
+          ci_decision: "Bien contrôlée: Régulier"
+          requirements: "Aucune si médication stable <1 an"
+        - name: "Maladie coronarienne (angine/infarctus)"
+          life_decision: "<40 ans refus; >1 infarctus refus; Autrement +100% à refus"
+          ci_decision: "Refus"
+          requirements: "Rapport cardiologue; impossible évaluer <6 mois événement"
+    
+    neurological:
+      count: 1
+      conditions:
+        - name: "Épilepsie"
+          life_decision: "Fébrile >4 ans: Régulier 2 ans post; Généralisée: +0-+250%; Mal contrôlée: Refus"
+          ci_decision: "Fébrile: Régulier; Contrôlée: Régulier-+75%; Mal contrôlée: Remis"
+    
+    autoimmune:
+      count: 9
+      conditions:
+        - name: "Lupus érythémateux disséminé (LED)"
+          life_decision: "0-19 ans: 5 ans post +300%; ≥20 ans: 1 an post +50-+300%"
+          ci_decision: "Rétablissement ≥5 ans possible; Autrement refus"
+        - name: "Polyarthrite rhumatoïde"
+          life_decision: "+0 à refus selon sévérité"
+          ci_decision: "Présent: Remis; Rétablissement: Standard; Séquelles: Refus"
+        - name: "Sclérose en plaques"
+          life_decision: "+0 à refus selon sévérité/rémission"
+          ci_decision: "Refus"
+    
+    mental_health:
+      count: 5
+      conditions:
+        - name: "Anxiété/Stress"
+          life_decision: "Arrêt travail: Remis 6 mois; Léger: Régulier; Sévère: +100%"
+          ci_decision: "Meilleur cas: Régulier; Autrement remis"
+        - name: "Dépression majeure"
+          life_decision: "<20 ans: Remis 2 ans; 20-69 léger: +50-+150%; Sévère: +50-+200%"
+          ci_decision: "1 épisode: Régulier; ≥2: Remis 1 an > standard"
+        - name: "Maladie bipolaire"
+          life_decision: "<20 ans: Remis 2 ans; Léger: +50-+150%; Sévère: +50-+200%"
+          ci_decision: "1 épisode: Régulier; ≥2: Remis 1 an > standard"
+
+# ═══════════════════════════════════════════════════════════════════════
+# NON-MEDICAL RISKS
+# ═══════════════════════════════════════════════════════════════════════
+non_medical_risks:
+  aviation:
+    private:
+      best_case: "≥27 ans, >100h solo, <200h/an: Régulier"
+      other: "Régulier à 5$/M/an"
+      student_pilot: "3.5$/M/an"
+      recreational_permit: "2.5-3.5$/M/an"
+      ci: "Meilleur cas: Régulier; Autrement +25%/exclusion"
+    commercial:
+      regular_airline: "Régulier (base Canada/USA)"
+      charter: "Régulier (>30 passagers); Autrement 2.5-5$/M/an"
+      other: "2.5-7.5$/M/an"
+    other_activities:
+      ultralight_hanggliding: "Régulier à 7.5$/M/an; exclusion possible"
+  
+  build_table:
+    description: "Poids/taille - limites pour tarification vie (15+ ans)"
+    entries:
+      - height: "5'0\""
+        standard_min_lb: 88
+        standard_max_lb: 188
+        substandard_max_lb: 209
+      - height: "5'5\""
+        standard_min_lb: 103
+        standard_max_lb: 222
+        substandard_max_lb: 246
+      - height: "5'10\""
+        standard_min_lb: 120
+        standard_max_lb: 258
+        substandard_max_lb: 286
+      - height: "6'0\""
+        standard_min_lb: 126
+        standard_max_lb: 273
+        substandard_max_lb: 303
+      - height: "6'5\""
+        standard_min_lb: 145
+        standard_max_lb: 313
+        substandard_max_lb: 347
+
+# ═══════════════════════════════════════════════════════════════════════
+# BUILD TABLES - ACCÈS VIE
+# ═══════════════════════════════════════════════════════════════════════
+build_tables_acces_vie:
+  etape_1_differe:
+    description: "Poids maximum pour admissibilité Étape 1 (Différé)"
+    entries:
+      - height_range: "4'8\" – 4'10\""
+        max_weight_lb: 230
+        max_weight_kg: 105
+      - height_range: "4'11\" – 5'1\""
+        max_weight_lb: 260
+        max_weight_kg: 118
+      - height_range: "5'2\" – 5'4\""
+        max_weight_lb: 285
+        max_weight_kg: 129
+      - height_range: "5'5\" – 5'7\""
+        max_weight_lb: 310
+        max_weight_kg: 141
+      - height_range: "5'8\" – 5'10\""
+        max_weight_lb: 335
+        max_weight_kg: 152
+      - height_range: "5'11\" – 6'1\""
+        max_weight_lb: 365
+        max_weight_kg: 165
+      - height_range: "6'2\" – 6'4\""
+        max_weight_lb: 390
+        max_weight_kg: 177
+      - height_range: "6'5\" – 6'7\""
+        max_weight_lb: 415
+        max_weight_kg: 188
+  
+  etape_2_differe_plus:
+    description: "Poids maximum pour admissibilité Étape 2 (Différé Plus)"
+    entries:
+      - height_range: "4'8\" – 4'10\""
+        max_weight_lb: 190
+        max_weight_kg: 86
+      - height_range: "4'11\" – 5'1\""
+        max_weight_lb: 200
+        max_weight_kg: 91
+      - height_range: "5'2\" – 5'4\""
+        max_weight_lb: 220
+        max_weight_kg: 100
+      - height_range: "5'5\" – 5'7\""
+        max_weight_lb: 240
+        max_weight_kg: 109
+      - height_range: "5'8\" – 5'10\""
+        max_weight_lb: 260
+        max_weight_kg: 118
+      - height_range: "5'11\" – 6'1\""
+        max_weight_lb: 280
+        max_weight_kg: 127
+      - height_range: "6'2\" – 6'4\""
+        max_weight_lb: 300
+        max_weight_kg: 136
+      - height_range: "6'5\" – 6'7\""
+        max_weight_lb: 330
+        max_weight_kg: 149
+
+# ═══════════════════════════════════════════════════════════════════════
+# SPECIAL CASES
+# ═══════════════════════════════════════════════════════════════════════
+special_cases:
+  children_adopted:
+    requirements:
+      - "Consentement père/mère biologique ou tuteur légal"
+      - "Acte d'adoption (si disponible)"
+    max_coverage: 50000
+    international_adoption:
+      canada_less_than_3_years:
+        - "Acte d'adoption"
+        - "NAS permanent ou carte résident permanent"
+        - "Si Canada <1 an: Rapport médical"
+      decision: "Possible taux régulier selon info"
+  
+  foster_children:
+    requirements:
+      - "Dans famille ≥3 ans"
+      - "Signature père/mère biologique ou tuteur"
+    max_coverage: 50000
+    condition: "Enfants biologiques assurés ≥ montant demandé"
+  
+  requirements_validity:
+    age_0_69: "12 mois"
+    age_70_plus: "6 mois"
+  
+  reassurance:
+    description: "Partage risque élevé/taré avec réassureur"
+    response_time: "< 5 jours ouvrables"
+
+# ═══════════════════════════════════════════════════════════════════════
+# FAQ
+# ═══════════════════════════════════════════════════════════════════════
+faq:
+  - question: "Réassurance - Qu'est-ce que c'est?"
+    answer: "Partage du risque élevé/taré avec un réassureur. Réponse en moins de 5 jours ouvrables."
+  
+  - question: "Validité des exigences médicales?"
+    answer: "12 mois pour 0-69 ans; 6 mois pour 70 ans et plus avant acceptation."
+  
+  - question: "Comment accélérer l'obtention du RMT?"
+    answer: "Fournir info précise nom/adresse/téléphone médecin; appel du client peut aider."
+  
+  - question: "Prédéclarations disponibles?"
+    answer: "Oui, accélère la demande du RMT."
+  
+  - question: "Client demeure/travaille à l'étranger admissible?"
+    answer: "Non."
+  
+  - question: "Les utilisateurs de marijuana peuvent-ils obtenir les taux non-fumeur?"
+    answer: "La marijuana n'est pas considérée comme tabac pour la définition fumeur."
+  
+  - question: "Refus maladie grave mais accepté vie - pourquoi?"
+    answer: "Éléments différents; vie = mortalité, maladie grave = incidence de la maladie."
+  
+  - question: "Nicotine positif dans urine à cause de fumée ambiante?"
+    answer: "Non; les seuils de détection sont supérieurs à ceux causés par la fumée ambiante."
+  
+  - question: "Tests médicaux en attente - soumettre la demande?"
+    answer: "Préférable d'attendre que l'investigation soit terminée et le diagnostic posé."
+
+# ═══════════════════════════════════════════════════════════════════════
+# DOCUMENT STATISTICS
+# ═══════════════════════════════════════════════════════════════════════
+statistics:
+  total_products: 4
+  main_products: 4
+  riders: 0
+  product_categories:
+    simplified_life: 1
+    traditional_life: 1
+    critical_illness: 1
+    disability: 1
+  coverage_range:
+    min: 10000
+    max: 10000000
+    currency: "CAD"
+  age_ranges:
+    acces_vie: [0.5, 80]
+    life_traditional: [0, 80]
+    critical_illness: [0, 80]
+    disability: [18, 70]
+  eligibility_steps_acces_vie: 4
+  medical_conditions_documented: 50
+  rating_categories: 6
+
+# ═══════════════════════════════════════════════════════════════════════
+# SOURCE DOCUMENTS
+# ═══════════════════════════════════════════════════════════════════════
+source_documents:
+  - id: "ia-fr-acces-vie-guide-de-tarification.mdx"
+    type: "underwriting_guide"
+    description: "Guide de tarification Accès Vie - Émission simplifiée"
+  - id: "ia-fr-acces-vie-questionnaire-de-prequalification.mdx"
+    type: "questionnaire"
+    description: "Questionnaire de préqualification Accès Vie"
+  - id: "ia-fr-guide-de-tarification-assurance-vie-et-maladies-graves.mdx"
+    type: "underwriting_guide"
+    description: "Guide complet de tarification vie et maladies graves"
+  - id: "ia-fr-tarification-financiere-assurance-vie.mdx"
+    type: "financial_underwriting_guide"
+    description: "Guide de tarification financière"
+  - id: "ia-fr-exigences-medicales-assurance-vie-et-assurance-invalidite.mdx"
+    type: "medical_requirements_guide"
+    description: "Exigences médicales vie et invalidité"
+
+# Tags for Searchability
+tags:
+  - ia
+  - ia-groupe-financier
+  - industrial-alliance
+  - assurance-vie
+  - maladies-graves
+  - invalidite
+  - acces-vie
+  - emission-simplifiee
+  - tarification-preferentielle
+  - tarification-complete
+  - underwriting
+  - unified-guide
+---
+
+# iA Groupe financier - Guide Unifié des Produits
+
+## Vue d'ensemble
+
+**iA Groupe financier** (Industrial Alliance Insurance and Financial Services Inc.) est l'un des plus grands groupes d'assurance et de services financiers au Canada. Ce guide unifié regroupe toutes les informations essentielles pour les conseillers.
+
+### Informations sur l'Assureur
+
+| Élément | Détails |
+|---------|---------|
+| **Nom légal** | Industrial Alliance Insurance and Financial Services Inc. |
+| **Nom commercial** | iA Groupe financier |
+| **Site web** | [ia.ca](https://www.ia.ca) |
+| **Portail conseillers** | EVO (Extranet Centre documentation) |
+| **Slogan** | ON S'INVESTIT, POUR VOUS. |
+
+---
+
+## Catalogue des Produits
+
+### Tableau Comparatif - Produits Principaux
+
+| Produit | Type | Souscription | Âge | Couverture |
+|---------|------|--------------|-----|------------|
+| **Accès Vie** | Vie simplifiée | Émission simplifiée | 6 mois - 80 ans | 10K$ - 500K$ |
+| **Assurance Vie Traditionnelle** | Vie | Pleine sélection | 0 - 80 ans | 50K$ - 10M$ |
+| **Assurance Maladies Graves** | Maladies graves | Pleine sélection | 0 - 80 ans | 50K$ - 10M$ |
+| **Assurance Invalidité** | Invalidité | Pleine sélection | 18 - 70 ans | Jusqu'à 7 000$/mois |
+
+---
+
+## 1. Accès Vie - Assurance Vie Simplifiée
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie à émission simplifiée |
+| **Âge d'établissement** | 6 mois à 80 ans |
+| **Capital minimum** | 10 000 $ |
+| **Capital maximum** | 500 000 $ |
+| **Examen médical** | Non requis |
+| **Acceptation** | Garantie (aucun refus) |
+
+### Clientèle Cible
+
+- **Clients refusés ailleurs** - Difficultés médicales/non-médicales
+- **Enfants avec conditions de santé** - Asthme, TDAH, etc.
+- **Personnes âgées (70+)** - Frais funéraires, héritage
+- **Immigrants** - Nouveaux arrivants, couverture complète
+
+### Protections Disponibles
+
+| Protection | Type | Disponibilité |
+|------------|------|---------------|
+| **V100** | Permanente | Toutes les étapes |
+| **T15** | Temporaire 15 ans | Différé Plus, Immédiat Plus |
+| **T20** | Temporaire 20 ans | Différé Plus, Immédiat Plus |
+| **T25** | Temporaire 25 ans | Différé Plus, Immédiat Plus |
+
+### Étapes d'Admissibilité
+
+| Étape | Capital Maximum | Protections | Limitation Décès |
+|-------|-----------------|-------------|------------------|
+| **Accès Garanti** | 50K$ (18-50); 25K$ (autres) | V100 | Primes remboursées (2 ans) |
+| **Différé** | 100K$; 25K$ (<18) | V100 | Primes + 3% intérêt (2 ans) |
+| **Différé Plus** | 350K$; 25K$ (<18/>70) | V100 + T15/T20/T25 | Primes + 3% intérêt (2 ans) |
+| **Immédiat Plus** | 500K$; 25K$ (<18/>70) | V100 + T15/T20/T25 | Capital dès émission |
+
+### Limites de Capital par Âge
+
+| Âge | Accès Garanti | Différé | Différé Plus | Immédiat Plus |
+|-----|---------------|---------|--------------|---------------|
+| **<18 ans** | 10 000 $ | 25 000 $ | 25 000 $ | 25 000 $ |
+| **18-50 ans** | 50 000 $ | 100 000 $ | 350 000 $ | 500 000 $ |
+| **51-70 ans** | 25 000 $ | 100 000 $ | 350 000 $ | 500 000 $ |
+| **>70 ans** | 25 000 $ | 100 000 $ | 150 000 $ | 150 000 $ |
+
+### Limites de la Prestation de Décès
+
+#### Accès Garanti
+
+| Cause du décès | Années 1-2 | Après 2 ans |
+|----------------|------------|-------------|
+| **Décès naturel** | Remboursement primes (sans intérêt) | Capital assuré |
+| **Décès accidentel** | Capital assuré | Capital assuré |
+| **Suicide** | Remboursement primes (sans intérêt) | Capital assuré |
+
+#### Différé et Différé Plus
+
+| Cause du décès | Années 1-2 | Après 2 ans |
+|----------------|------------|-------------|
+| **Décès naturel** | Remboursement primes + 3% intérêt simple | Capital assuré |
+| **Décès accidentel** | Capital assuré | Capital assuré |
+| **Suicide** | Remboursement primes (sans intérêt) | Capital assuré |
+
+#### Immédiat Plus
+
+| Cause du décès | Années 1-2 | Après 2 ans |
+|----------------|------------|-------------|
+| **Décès naturel** | Capital assuré | Capital assuré |
+| **Décès accidentel** | Capital assuré | Capital assuré |
+| **Suicide** | Remboursement primes (sans intérêt) | Capital assuré |
+
+### Caractéristiques V100 Permanente
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Valeur de rachat** | Garantie dès la 5e année |
+| **Assurance libérée** | Disponible dès la 8e année |
+| **Paiement des primes** | Jusqu'à 100 ans |
+| **À 100 ans** | Capital maintenu (franchise impôts) |
+
+### Transformation des Protections Temporaires
+
+| Aspect | Détails |
+|--------|---------|
+| **Vers** | V100 Permanente (même étape) |
+| **Disponible après** | 2 ans après émission |
+| **Âge maximum** | 70 ans |
+| **Preuve d'assurabilité** | Non requise |
+| **Statut tabac** | Conservé |
+
+---
+
+## 2. Assurance Vie Traditionnelle
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie à pleine sélection |
+| **Âge d'établissement** | 0 à 80 ans |
+| **Capital minimum** | 50 000 $ |
+| **Capital maximum** | 10 000 000 $ et plus |
+| **Tarification préférentielle** | Disponible (≥ 2 000 000 $) |
+
+### Catégories de Risque
+
+| Catégorie | Description | Sans Tabac |
+|-----------|-------------|------------|
+| **Élite Non-fumeur** | Risque très inférieur | 5 ans |
+| **Privilège Non-fumeur** | Risque inférieur | 3 ans |
+| **Élite Fumeur** | Fumeur risque inférieur | N/A |
+| **Privilège Fumeur** | Fumeur risque moindre | N/A |
+| **Standard Non-fumeur** | Risque moyen | 12 mois |
+| **Standard Fumeur** | Risque moyen | N/A |
+
+---
+
+## 3. Assurance Maladies Graves
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance maladies graves à pleine sélection |
+| **Âge d'établissement** | 0 à 80 ans |
+| **Capital minimum** | 50 000 $ |
+| **Capital maximum** | 10 000 000 $ |
+
+---
+
+## 4. Assurance Invalidité
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance invalidité |
+| **Âge d'établissement** | 18 à 70 ans |
+| **Prestation maximale** | 7 000 $/mois |
+
+### Variantes
+
+| Programme | Description |
+|-----------|-------------|
+| **Programme Supérieur** | Remplacement de revenu |
+| **Assurance Prêt Universelle** | Protection des prêts |
+| **Frais Généraux** | Protection des frais d'entreprise |
+
+---
+
+## Exigences de Tarification
+
+### Assurance Vie - Par Montant et Âge
+
+| Montant ($) | 0-14 | 15-50 | 51-60 | 61-65 | 66-69 | 70+ |
+|-------------|------|-------|-------|-------|-------|-----|
+| 0 - 100K | A | A | A | C | E | B |
+| 100K - 300K | A | A | A | E | E | F |
+| 300K - 500K | A | A | A | E | E | F |
+| 500K - 1M | A | A | A ou C | E | F | F |
+| 1M - 2M | A | A | E | E | F | F |
+
+### Assurance Invalidité - Par Montant et Âge
+
+| Montant mensuel ($) | 18-40 | 41-50 | 51+ |
+|---------------------|-------|-------|-----|
+| 0 - 4 000 | A | A | A |
+| 4 001 - 5 000 | A | A | F |
+| 5 001 - 6 000 | A | E | F |
+| 6 001 - 6 999 | E | E | F |
+| 7 000 + | G | G | H |
+
+### Légende des Exigences
+
+| Code | Signification |
+|------|---------------|
+| **A** | Déclaration d'assurabilité (analyse prédictive par iA) |
+| **B** | Déclaration + Rapport du médecin traitant |
+| **C** | Entrevue téléphonique |
+| **E** | Entrevue téléphonique + Signes vitaux + Profil sanguin |
+| **F** | Entrevue + Signes vitaux + Profil sanguin + RMT |
+| **G** | Entrevue + Signes vitaux + Profil sanguin + Enquête |
+| **H** | Entrevue + Signes vitaux + Profil sanguin + RMT + Enquête |
+
+> **Note:** L'entrevue téléphonique et signes vitaux peuvent être remplacés par un examen paramédical.  
+> **Profil sanguin** inclut VIH et urine.
+
+---
+
+## Tarification Préférentielle
+
+### Critères d'Admissibilité
+
+> ⚠️ **Seuil minimum:** Applicable aux protections vie temporaire de **2 000 000 $ et plus** (15-80 ans).
+
+### Aperçu des Critères
+
+| Critère | Privilège | Élite |
+|---------|-----------|-------|
+| **Tabac/Nicotine** | Aucun (3 ans) | Aucun (5 ans) |
+| **Tension artérielle** | Sans médication | Sans médication |
+| **Cholestérol** | Sans médication | Sans médication |
+| **Antécédents médicaux** | Aucun diabète/cancer/CV | Aucun diabète/cancer/CV |
+| **Antécédents familiaux** | Aucun membre < 60 ans | Aucun membre < 65 ans |
+| **Abus alcool/drogues** | Aucun (10 ans) | Aucun (10 ans) |
+| **Dossier de conduite** | Max 5 infractions (5 ans) | Max 3 infractions (5 ans) |
+| **Conduite affaiblie** | Aucune (5 ans) | Aucune (10 ans) |
+| **Criminel** | Aucune infraction (10 ans) | Aucune infraction (10 ans) |
+
+### Tension Artérielle - Limites (sans médication)
+
+| Groupe d'Âge | Privilège | Élite |
+|--------------|-----------|-------|
+| 15-34 ans | 130/80 | 125/75 |
+| 35-49 ans | 135/85 | 130/80 |
+| 50+ ans | 140/90 | 135/85 |
+
+### Cholestérol - Limites (sans médication)
+
+| Groupe d'Âge | Privilège | Élite |
+|--------------|-----------|-------|
+| < 45 ans | 210 mg/dL (5.4 mmol/L) | 200 mg/dL (5.1 mmol/L) |
+| ≥ 45 ans | 220 mg/dL (5.7 mmol/L) | 210 mg/dL (5.4 mmol/L) |
+
+---
+
+## Tarification Financière
+
+### Assurance Personnelle - Lignes Directrices
+
+| Condition | Exigences | Maximum |
+|-----------|-----------|---------|
+| **Adultes avec revenu** | Questions financières proposition | 30x revenu (18-30 ans) à 5x (66-70 ans) |
+| **Adultes sans revenu** | Questions financières | 500K$ ou 50% conjoint (<50 ans) |
+| **Personnes âgées (>70)** | Questions financières | 200 000 $ + valeur nette |
+| **Étudiants** | Questions financières | 500 000 $ (cas par cas >) |
+| **Enfants** | Questions financières | 500 000 $ (cas par cas >) |
+
+### Documents Requis par Montant
+
+| Montant Total | Documents Requis |
+|---------------|------------------|
+| **5M - 10M $** | Questionnaire financier |
+| **> 10M $** | Rapport d'enquête + Lettre de présentation |
+
+### Avoirs Étrangers
+
+| Aspect | Limite |
+|--------|--------|
+| **Maximum justifiable** | 50% du capital assuré |
+| **Maximum absolu** | 5 000 000 $ |
+| **Avoirs non-vérifiés** | 25% applicable |
+| **Avoirs vérifiés** | 50% applicable |
+
+---
+
+## Conditions Médicales - Accès Vie (Émission Simplifiée)
+
+### Guide de Référence Rapide
+
+| Condition | Accès Garanti | Différé | Différé Plus | Immédiat Plus |
+|-----------|---------------|---------|--------------|---------------|
+| **Cholestérol élevé** | ✅ | ✅ | ✅ | ✅ |
+| **Tension artérielle élevée** | ✅ | ✅ | ✅ | ✅ |
+| **Épilepsie** | ✅ | ✅ | ✅ | ✅ |
+| **Diabète (adulte)** | ✅ | ✅ | ⚠️ | ⚠️ |
+| **Dépression** | ✅ | ✅ | ⚠️ | ⚠️ |
+| **Crise cardiaque/Angine** | ✅ | ✅ | ⚠️ >3 ans | ⚠️ >3 ans |
+| **Cancer en rémission** | ✅ | ⚠️ >3 ans | ⚠️ >3 ans | ⚠️ >5 ans |
+| **Cirrhose/Hépatite C** | ✅ | ✅ | ❌ | ❌ |
+| **SIDA/VIH** | ✅ | ❌ | ❌ | ❌ |
+
+### Légende
+
+| Symbole | Signification |
+|---------|---------------|
+| ✅ | Admissible |
+| ⚠️ | Admissible avec conditions |
+| ❌ | Non admissible |
+
+### Conditions Non Médicales
+
+| Condition | Accès Garanti | Différé | Différé Plus | Immédiat Plus |
+|-----------|---------------|---------|--------------|---------------|
+| **Refus 2 dernières années** | ✅ | ✅ | ✅ | ✅ |
+| **Sports dangereux** | ✅ | ✅ | ✅ | ✅ |
+| **Immigrants** | ✅ | ✅ | ✅ | ✅ |
+| **Usage drogues dures** | ✅ | ⚠️ >12 mois | ⚠️ >12 mois | ⚠️ >12 mois |
+| **Cure désintoxication** | ✅ | ✅ | ⚠️ >5 ans | ⚠️ >5 ans |
+| **Voyage pays dangereux** | ✅ | ✅ | ✅ | ⚠️ Risque évalué |
+
+---
+
+## Conditions Médicales - Tarification Complète
+
+### Conditions Acceptables au Taux Standard
+
+Les conditions suivantes **peuvent** être acceptées au taux standard si bien contrôlées:
+
+- ✅ Hypertension artérielle (bien contrôlée)
+- ✅ Trait thalassémique / Trait falciforme
+- ✅ Diabète Type 2 (50-69 ans, bien contrôlé, sans complication)
+- ✅ Diabète gestationnel (antécédent, contrôle post-partum normal)
+- ✅ Épilepsie fébrile (≥4 ans, 2 ans post-événement)
+- ✅ Lupus discoïde (sans signe LED)
+
+### Conditions Typiquement avec Surprime
+
+| Condition | Vie | Maladies Graves |
+|-----------|-----|-----------------|
+| **Diabète Type 1** | +50% à refus | Refus |
+| **Diabète Type 2** (autres cas) | +75% à refus | +50-+150% ou refus |
+| **Apnée du sommeil obstructive** | Régulier à +100% | Régulier à refus |
+| **Asthme** | Régulier à +50% | Régulier à +25% |
+| **Dépression majeure** | +50-+200% | Standard à remis |
+| **Anxiété/Stress** | Régulier à +100% | Régulier à remis |
+| **Colite ulcéreuse/Crohn** | +0-+200% | +25-+75% avec exclusions |
+
+### Conditions Typiquement Refusées
+
+| Condition | Vie | Maladies Graves |
+|-----------|-----|-----------------|
+| **Maladie coronarienne** (<40 ans ou >1 infarctus) | Refus | Refus |
+| **Drépanocytose** (<30 ans) | Refus | Refus |
+| **Sclérose en plaques** (épisodes actifs) | Possible refus | Refus |
+| **Lupus érythémateux disséminé** (actif) | Possible refus | Refus |
+| **Cancer du côlon** | Surprime | Refus |
+| **Cancer du sein** | Surprime | Refus |
+
+---
+
+## Tableaux de Poids - Accès Vie
+
+### Étape 1 (Différé) - Poids Maximum
+
+| Taille | Poids Max (lb) | Poids Max (kg) |
+|--------|----------------|----------------|
+| 4'8" – 4'10" | 230 | 105 |
+| 4'11" – 5'1" | 260 | 118 |
+| 5'2" – 5'4" | 285 | 129 |
+| 5'5" – 5'7" | 310 | 141 |
+| 5'8" – 5'10" | 335 | 152 |
+| 5'11" – 6'1" | 365 | 165 |
+| 6'2" – 6'4" | 390 | 177 |
+| 6'5" – 6'7" | 415 | 188 |
+
+### Étape 2 (Différé Plus) - Poids Maximum
+
+| Taille | Poids Max (lb) | Poids Max (kg) |
+|--------|----------------|----------------|
+| 4'8" – 4'10" | 190 | 86 |
+| 4'11" – 5'1" | 200 | 91 |
+| 5'2" – 5'4" | 220 | 100 |
+| 5'5" – 5'7" | 240 | 109 |
+| 5'8" – 5'10" | 260 | 118 |
+| 5'11" – 6'1" | 280 | 127 |
+| 6'2" – 6'4" | 300 | 136 |
+| 6'5" – 6'7" | 330 | 149 |
+
+---
+
+## Cas Spéciaux
+
+### Enfants Adoptés
+
+| Situation | Exigences | Maximum |
+|-----------|-----------|---------|
+| **Adoption régulière** | Consentement parent bio/tuteur + Acte d'adoption | 50 000 $ |
+| **Adoption internationale (<3 ans au Canada)** | Acte + NAS/carte RP + Rapport médical si <1 an | 50 000 $ |
+| **Famille d'accueil (≥3 ans)** | Signature parent bio/tuteur | 50 000 $ |
+
+### Immigrants (<1 an au Canada)
+
+| Protection | Âge/Montant | Exigences |
+|------------|-------------|-----------|
+| **Vie** | 0-60 ans, ≤100K$ | Déclaration d'assurabilité |
+| **Vie** | >60 ans ou >100K$ | Entrevue + Signes vitaux + Profil sanguin |
+| **Invalidité** | 18-50 ans, ≤1K$/mois | Déclaration d'assurabilité |
+| **Invalidité** | Autres | Entrevue + Signes vitaux + Profil sanguin |
+
+### Validité des Exigences
+
+| Âge | Validité |
+|-----|----------|
+| 0-69 ans | 12 mois |
+| 70 ans et plus | 6 mois |
+
+---
+
+## FAQ
+
+### Q: Les exigences médicales peuvent-elles être partagées d'une autre compagnie?
+
+**R:** Les exigences médicales des 12 derniers mois sont acceptables.
+
+### Q: Comment accélérer l'obtention du RMT?
+
+**R:** Fournir info précise (nom/adresse/téléphone médecin); un appel du client peut aider.
+
+### Q: Les utilisateurs de marijuana obtiennent-ils les taux non-fumeur?
+
+**R:** Oui, la marijuana n'est pas considérée comme tabac pour la définition fumeur.
+
+### Q: Pourquoi refus maladie grave mais accepté vie?
+
+**R:** Éléments différents; vie = mortalité, maladie grave = incidence de la maladie.
+
+### Q: Client qui demeure/travaille à l'étranger est-il admissible?
+
+**R:** Non.
+
+### Q: Les prédéclarations sont-elles disponibles?
+
+**R:** Oui, elles accélèrent la demande du RMT.
+
+### Q: Les tests génétiques peuvent-ils être utilisés?
+
+**R:** Non, conformément à la loi sur la discrimination génétique.
+
+---
+
+## Frais
+
+### Frais de Police - Accès Vie
+
+| Frais | Montant |
+|-------|---------|
+| **Par contrat** | 60 $ |
+| **Garantis** | Tant que protections non libérées |
+
+---
+
+## Ressources
+
+### Portails en Ligne
+
+- **Site principal:** [ia.ca](https://www.ia.ca)
+- **Portail conseillers:** EVO (Extranet Centre documentation)
+
+### Documents de Référence
+
+| Document | Sujet |
+|----------|-------|
+| Guide de Tarification Accès Vie | Émission simplifiée - Troubles médicaux |
+| Guide de Tarification Vie et MG | Conditions médicales et non-médicales |
+| Tarification Financière | Exigences financières |
+| Exigences Médicales | Matrices par âge et montant |
+
+---
+
+## Notes Légales
+
+**Avertissement:** Les informations contenues dans ce guide sont fournies à titre indicatif seulement et ne constituent pas une garantie d'émission. Ce guide est sujet à modifications sans préavis.
+
+**Évaluation individuelle:** Chaque dossier est évalué individuellement. Les estimations de surprimes sont à titre indicatif.
+
+**Confidentialité:** iA se réserve le droit de demander des informations supplémentaires si nécessaire pour tarifer le client.
+
+---
+
+*Dernière mise à jour: 2024-01-01*
+

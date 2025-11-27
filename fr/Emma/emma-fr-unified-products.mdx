@@ -1,0 +1,1326 @@
+---
+# ═══════════════════════════════════════════════════════════════════════
+# UNIFIED INSURER DOCUMENT
+# ═══════════════════════════════════════════════════════════════════════
+
+# Document Metadata
+document_id: "emma-fr-unified-products-v1.0"
+document_type: unified_insurer_guide
+schema_version: "3.0"
+version: 1.0
+document_title: "Guide Unifié des Produits - Emma (Humania Assurance)"
+last_updated: "2024-01-15"
+effective_date: "2024-01-01"
+language: fr-CA
+region: QC
+
+# ═══════════════════════════════════════════════════════════════════════
+# INSURER PROFILE
+# ═══════════════════════════════════════════════════════════════════════
+insurer:
+  id: "humania"
+  name: "Humania Assurance Inc."
+  legal_name: "Humania Assurance Inc."
+  address: "1555, rue Girouard Ouest, Saint-Hyacinthe (Québec) J2S 2Z6"
+  amf_number: "2000737703"
+  complaints_url: "https://www.humania.ca/formuler-plainte"
+
+distributor:
+  id: "emma"
+  name: "Emma Services financiers Inc."
+  legal_name: "Emma Services financiers Inc."
+  address: "7900-300, Boul Pierre-Bertrand, Québec (QC) G2J 0C5"
+  amf_number: "603236"
+  specimen_url: "https://emma.ca/specimen-de-police"
+
+# ═══════════════════════════════════════════════════════════════════════
+# PRODUCTS CATALOG
+# ═══════════════════════════════════════════════════════════════════════
+products:
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 1: Emma T100
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "emma-t100"
+    name: "Emma T100"
+    name_en: "Emma T100 Permanent Life Insurance"
+    category: "permanent_life_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+    
+    use_cases:
+      - "Long-term estate planning"
+      - "Final expense coverage"
+      - "Wealth transfer"
+      - "Business succession"
+    
+    eligibility:
+      age_range: [18, 80]
+      residency: "Canadian permanent resident or citizen"
+      citizenship_required: false
+      language_requirement: "French or English"
+      occupation_restrictions: []
+      
+    coverage:
+      min_amount: 1000
+      max_amount: 5000000
+      currency: CAD
+      
+    premium_options:
+      - id: "to-100"
+        name: "Jusqu'à 100 ans"
+        description: "Primes payables jusqu'à 100 ans (paiement viager)"
+      - id: "to-65"
+        name: "Jusqu'à 65 ans"
+        description: "Primes payables jusqu'à 65 ans"
+      - id: "20-years"
+        name: "Durant 20 ans"
+        description: "Primes payables pendant 20 ans"
+    
+    features:
+      renewable: false
+      convertible: false
+      cash_value: false
+      participating: false
+    
+    exclusions:
+      standard:
+        - type: "suicide"
+          period_years: 2
+          description: "Suicide dans les 2 premières années"
+        - type: "misrepresentation"
+          description: "Fausse déclaration entraînant nullité du contrat"
+        - type: "criminal_act"
+          description: "Décès résultant d'un acte criminel"
+      dangerous_activities:
+        - "Alpinisme"
+        - "Escalade de glace"
+        - "Plongée sous-marine (hors centre de vacances)"
+        - "Parapente"
+        - "Paravoile"
+        - "Deltaplane"
+        - "Parachutisme"
+        - "Saut à l'élastique"
+        - "Héli-ski"
+        - "Ski hors-piste"
+        - "Motoneige hors-piste"
+        - "Aviation (sauf pilotes commerciaux)"
+        - "Course automobile"
+        - "Kitesurf"
+    
+    claims:
+      notice_period_days: 30
+      documents_deadline_days: 90
+    
+    cancellation:
+      free_period_days: 15
+      alternative_period_days: 60
+      fees_after_period: true
+    
+    source_documents:
+      - document_id: "emma-fr-sommaire-produit-assurance-vie.mdx"
+        type: "product_summary"
+      - document_id: "emma-fr-specimen-de-contrat.mdx"
+        type: "specimen_contract"
+    
+    tags:
+      - assurance-vie-permanente
+      - t100
+      - emma
+      - humania
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 2: Emma Temporaire
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "emma-term"
+    name: "Emma Temporaire"
+    name_en: "Emma Term Life Insurance"
+    category: "term_life_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+    
+    use_cases:
+      - "Income replacement"
+      - "Mortgage protection"
+      - "Debt coverage"
+      - "Family protection during working years"
+    
+    eligibility:
+      age_range: [18, 80]
+      residency: "Canadian permanent resident or citizen"
+      citizenship_required: false
+      language_requirement: "French or English"
+      occupation_restrictions: []
+      
+    coverage:
+      min_amount: 50000
+      max_amount: 5000000
+      currency: CAD
+    
+    term_flexibility:
+      type: "pick_a_term"
+      min_term: 10
+      max_term: 35
+      increment: 1
+      description: "Le conseiller peut choisir n'importe quel terme entre T10 et T35 (ex: T11, T17, T22, T33)"
+    
+    features:
+      renewable:
+        available: true
+        frequency: "annual"
+        until_age: 80
+        evidence_required: false
+      convertible:
+        available: true
+        until_age: 65
+        min_amount: 1000
+        target_product: "Assurance vie entière sans participation"
+        evidence_required: false
+      exchange_right:
+        available: true
+        period: "1st to 5th anniversary"
+        max_uses: 1
+        description: "Échanger pour un terme plus long sans preuve d'assurabilité"
+      cash_value: false
+      participating: false
+    
+    exclusions:
+      standard:
+        - type: "suicide"
+          period_years: 2
+          description: "Suicide dans les 2 premières années"
+        - type: "misrepresentation"
+          description: "Fausse déclaration entraînant nullité du contrat"
+        - type: "criminal_act"
+          description: "Décès résultant d'un acte criminel"
+      dangerous_activities:
+        - "Alpinisme"
+        - "Escalade de glace"
+        - "Plongée sous-marine (hors centre de vacances)"
+        - "Parapente"
+        - "Paravoile"
+        - "Deltaplane"
+        - "Parachutisme"
+        - "Saut à l'élastique"
+        - "Héli-ski"
+        - "Ski hors-piste"
+        - "Motoneige hors-piste"
+        - "Aviation (sauf pilotes commerciaux)"
+        - "Course automobile"
+        - "Kitesurf"
+    
+    source_documents:
+      - document_id: "emma-fr-sommaire-produit-assurance-vie.mdx"
+        type: "product_summary"
+      - document_id: "emma-fr-specimen-de-contrat.mdx"
+        type: "specimen_contract"
+      - document_id: "emma-fr-guide-de-tarification.mdx"
+        type: "underwriting_guide"
+    
+    tags:
+      - assurance-vie-temporaire
+      - renouvelable
+      - transformable
+      - emma
+      - humania
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 3: Emma GI (Guaranteed Issue)
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "emma-gi"
+    name: "Emma GI"
+    name_full: "Assurance vie temporaire 20 ans ou 100 ans Emma"
+    name_en: "Emma Guaranteed Issue Life Insurance"
+    category: "guaranteed_issue_life_insurance"
+    underwriting_type: "guaranteed"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+      secondary:
+        - clients
+        - seniors
+    
+    use_cases:
+      - "Final expense coverage"
+      - "Clients with health conditions"
+      - "Simplified application process"
+      - "No medical questions"
+    
+    variants:
+      - id: "gi-t20"
+        name: "Emma GI T20"
+        type: "term_life"
+        term_length: 20
+        age_range: [18, 60]
+        premium_payable_until: 80
+        renewable: true
+        convertible:
+          available: true
+          until_age: 65
+          min_amount: 5000
+      - id: "gi-t100"
+        name: "Emma GI T100"
+        type: "permanent_life"
+        term_length: 100
+        age_range: [18, 70]
+        premium_payable_until: 100
+        renewable: false
+        convertible: false
+    
+    eligibility:
+      age_range_t20: [18, 60]
+      age_range_t100: [18, 70]
+      residency: "Canadian permanent resident or citizen"
+      medical_questions: false
+      guaranteed_acceptance: true
+      
+    coverage:
+      min_amount: 5000
+      max_amount: 100000
+      currency: CAD
+      max_all_policies: 100000
+    
+    features:
+      graded_benefit:
+        enabled: true
+        period_years: 2
+        description: "Période différée de 2 ans - seul décès accidentel couvert, sinon remboursement des primes"
+      renewable:
+        available: true
+        applies_to: "gi-t20"
+        until_age: 80
+      convertible:
+        available: true
+        applies_to: "gi-t20"
+        until_age: 65
+        min_amount: 5000
+      cash_value: false
+      participating: false
+    
+    exclusions:
+      standard:
+        - type: "suicide"
+          period_years: 2
+          description: "Suicide dans les 2 premières années"
+        - type: "graded_death_benefit"
+          period_years: 2
+          description: "Période différée: décès non-accidentel = remboursement des primes uniquement"
+        - type: "misrepresentation"
+          description: "Fausse déclaration entraînant nullité du contrat"
+        - type: "criminal_act"
+          description: "Décès résultant d'un acte criminel"
+      dangerous_activities:
+        - "Alpinisme"
+        - "Escalade de glace"
+        - "Plongée sous-marine (hors centre de vacances)"
+        - "Parapente"
+        - "Paravoile"
+        - "Deltaplane"
+        - "Parachutisme"
+        - "Saut à l'élastique"
+        - "Héli-ski"
+        - "Ski hors-piste"
+        - "Motoneige hors-piste"
+        - "Aviation (sauf pilotes commerciaux)"
+        - "Course automobile"
+        - "Kitesurf"
+    
+    source_documents:
+      - document_id: "emma-fr-specimen-contrat-gi.md"
+        type: "specimen_contract"
+    
+    tags:
+      - assurance-vie
+      - emission-garantie
+      - guaranteed-issue
+      - sans-questions-medicales
+      - emma
+      - humania
+
+  # ─────────────────────────────────────────────────────────────────────
+  # RIDER 1: Avenant Personne à Charge
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "emma-dependent-rider"
+    name: "Avenant Assurance Vie pour Personne à Charge"
+    name_en: "Dependent Life Insurance Rider"
+    category: "rider"
+    parent_products: ["emma-t100", "emma-term"]
+    underwriting_type: "simplified"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+      secondary:
+        - clients
+    
+    use_cases:
+      - "Protection for all dependent children"
+      - "Automatic coverage for newborns"
+      - "Future insurability guarantee"
+    
+    eligibility:
+      dependent_definition:
+        - "Under 21 years old"
+        - "21-25 years old and full-time student"
+        - "Significant functional disability before age 21"
+      additional_criteria:
+        - "Not married or common-law"
+        - "Not employed full-time"
+        - "Permanent address in Canada"
+        - "Covered by provincial health insurance"
+      coverage_starts: "15 days after birth (if discharged from hospital)"
+      automatic_coverage: true
+      
+    coverage:
+      fixed_amounts: [15000, 20000, 25000]
+      currency: CAD
+      max_combined: 25000
+    
+    features:
+      convertible:
+        available: true
+        multiplier: 5
+        description: "Transformable en 5x le montant à l'échéance"
+        evidence_required: false
+    
+    limitations:
+      pre_existing_condition_period_months: 12
+      applies_to: "Enfants présents à la date d'effet"
+    
+    source_documents:
+      - document_id: "emma-fr-sommaire-produit-assurance-vie.mdx"
+        type: "product_summary"
+      - document_id: "emma-fr-specimen-de-contrat.mdx"
+        type: "specimen_contract"
+    
+    tags:
+      - avenant
+      - enfant-a-charge
+      - emma
+      - humania
+
+  # ─────────────────────────────────────────────────────────────────────
+  # RIDER 2: Avenant Cancer
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "emma-cancer-rider"
+    name: "Avenant Assurance Cancer"
+    name_en: "Cancer Insurance Rider"
+    category: "rider"
+    parent_products: ["emma-t100", "emma-term"]
+    underwriting_type: "simplified"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+      secondary:
+        - clients
+    
+    use_cases:
+      - "Lump sum payment upon cancer diagnosis"
+      - "Financial support during treatment"
+      - "Income replacement during recovery"
+    
+    eligibility:
+      age_range: [18, 70]
+      residency: "Canadian permanent resident or citizen"
+      
+    coverage:
+      min_amount: 10000
+      max_amount: 75000
+      currency: CAD
+      coverage_until_age: 80
+      max_all_policies: 75000
+    
+    covered_conditions:
+      cancer_major:
+        definition: "Tumeur maligne avec prolifération anarchique de cellules"
+        confirmation: "Test de pathologie requis"
+        types:
+          - "Carcinome"
+          - "Mélanome"
+          - "Leucémie"
+          - "Lymphome"
+          - "Sarcome"
+      cancer_minor:
+        payment: "One-time only"
+        reduction: "Déduit du montant cancer majeur"
+        types:
+          - "Carcinome in situ (Tis) ou stade Ta"
+          - "Mélanome ≤1mm sans ulcération"
+          - "Cancer de la peau sans mélanome"
+          - "Cancer prostate T1a/T1b"
+          - "Cancer thyroïde papillaire/folliculaire ≤2cm stade T1"
+          - "Leucémie lymphoïde chronique < stade 1 Rai"
+          - "Tumeurs stromales gastro-intestinales < stade 2 AJCC"
+    
+    limitations:
+      moratorium_period_days: 90
+      survival_period_days: 30
+      pre_existing_condition_period_months: 12
+      pre_existing_exclusion_period_months: 24
+    
+    source_documents:
+      - document_id: "emma-fr-sommaire-produit-assurance-vie.mdx"
+        type: "product_summary"
+      - document_id: "emma-fr-specimen-de-contrat.mdx"
+        type: "specimen_contract"
+    
+    tags:
+      - avenant
+      - cancer
+      - maladies-graves
+      - emma
+      - humania
+
+  # ─────────────────────────────────────────────────────────────────────
+  # RIDER 3: Avenant Invalidité Totale
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "emma-disability-rider"
+    name: "Avenant Assurance Invalidité Totale"
+    name_en: "Total Disability Insurance Rider"
+    category: "rider"
+    parent_products: ["emma-t100", "emma-term"]
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+    
+    use_cases:
+      - "Debt repayment during disability"
+      - "Mortgage protection"
+      - "Credit card/loan payments"
+    
+    eligibility:
+      age_range: [18, 60]
+      residency: "Canadian resident (6+ months/year)"
+      employment: "Full-time (21+ hours/week, 35+ weeks/year)"
+      
+    coverage:
+      min_monthly: 500
+      max_monthly: 3000
+      currency: CAD
+      coverage_until_age: 65
+      calculation: "Min(1.5% of life coverage, max by occupation category)"
+      use_restriction: "Exclusively for eligible debt repayment"
+    
+    benefit_periods:
+      - id: "2-years"
+        name: "2 ans"
+        max_payments: 60
+      - id: "5-years"
+        name: "5 ans"
+        max_payments: 84
+    
+    elimination_period:
+      days: 90
+      retroactive_to_day: 30
+    
+    eligible_debts:
+      included:
+        - "Prêt hypothécaire"
+        - "Marge de crédit hypothécaire"
+        - "Prêt personnel"
+        - "Prêt-auto"
+        - "Carte de crédit"
+        - "Marge de crédit"
+        - "Bail de location (véhicule)"
+        - "Taxes foncières et scolaires"
+        - "Loyer résidentiel (si pas d'hypothèque, max 2 ans)"
+      excluded:
+        - "Prêts entre individus"
+        - "Prêts commerciaux"
+        - "Créances contractées pendant l'invalidité"
+        - "Créances contractées dans les 90 jours avant l'invalidité"
+        - "Créances couvertes par autre assurance invalidité"
+    
+    presumption_of_disability:
+      conditions:
+        - "Perte totale et permanente de deux membres"
+        - "Perte totale de l'usage des deux mains ou pieds"
+        - "Perte totale et irréversible de l'ouïe (≥90 dB)"
+        - "Perte totale de la vue (acuité ≤20/200 ou champ <20°)"
+    
+    exclusions:
+      - "Tentative de suicide ou automutilation"
+      - "Acte illégal ou criminel"
+      - "Conduite sous influence (alcool/drogue)"
+      - "Toxicomanie ou abus d'alcool"
+      - "Service dans forces armées"
+      - "Voyage aérien non commercial"
+      - "Chirurgie esthétique ou élective"
+      - "Traitements expérimentaux"
+      - "Grossesse (sauf complication pathologique)"
+      - "Incarcération"
+    
+    restrictions:
+      bankruptcy: "Prestations cessent en cas de faillite pendant invalidité"
+      treatment_refusal: "Suspension possible si refus de traitement"
+    
+    recurrence_rules:
+      categories_B_1A_2A:
+        recovery_period_months: 6
+        description: "Nouvelle invalidité si rétabli 6+ mois"
+      categories_3A_4A:
+        recovery_period_months: 12
+        description: "Nouvelle invalidité si rétabli 12+ mois"
+    
+    death_benefit:
+      amount: "5x monthly benefit"
+      max: 10000
+      condition: "Si décès pendant période d'invalidité"
+    
+    source_documents:
+      - document_id: "emma-fr-sommaire-produit-assurance-vie.mdx"
+        type: "product_summary"
+      - document_id: "emma-fr-specimen-de-contrat.mdx"
+        type: "specimen_contract"
+    
+    tags:
+      - avenant
+      - invalidite
+      - dette
+      - emma
+      - humania
+
+# ═══════════════════════════════════════════════════════════════════════
+# UNDERWRITING REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════════════
+underwriting:
+  mib_verification: true
+  fast_decision_available: true
+  electronic_application: true
+  
+  requirements_matrix:
+    legend:
+      P: "Proposition"
+      PS: "Profil sanguin"
+      MU: "Analyse d'urine"
+      SV: "Signes vitaux (taille/poids, tension artérielle)"
+      RMT: "Rapport du médecin traitant"
+      ECG: "Électrocardiogramme"
+    
+    by_amount_and_age:
+      - amount_range: [0, 500000]
+        age_18_40: ["P"]
+        age_41_50: ["P"]
+        age_51_55: ["P"]
+        age_56_60: ["P"]
+        age_61_plus: ["P"]
+      - amount_range: [500001, 1000000]
+        age_18_40: ["P"]
+        age_41_50: ["P"]
+        age_51_55: ["P"]
+        age_56_60: ["P"]
+        age_61_plus: ["PS", "MU", "SV"]
+      - amount_range: [1000001, 1500000]
+        age_18_40: ["P"]
+        age_41_50: ["P"]
+        age_51_55: ["PS", "MU", "SV"]
+        age_56_60: ["PS", "MU", "SV"]
+        age_61_plus: ["PS", "MU", "SV"]
+      - amount_range: [1500001, 2000000]
+        age_18_40: ["P"]
+        age_41_50: ["P"]
+        age_51_55: ["PS", "MU", "SV"]
+        age_56_60: ["PS", "MU", "SV"]
+        age_61_plus: ["PS", "MU", "SV", "RMT", "ECG"]
+      - amount_range: [2000001, 3000000]
+        age_18_40: ["PS", "MU", "SV"]
+        age_41_50: ["PS", "MU", "SV"]
+        age_51_55: ["PS", "MU", "SV"]
+        age_56_60: ["PS", "MU", "SV", "RMT"]
+        age_61_plus: ["PS", "MU", "SV", "RMT", "ECG"]
+      - amount_range: [3000001, 4000000]
+        age_18_40: ["PS", "MU", "SV"]
+        age_41_50: ["PS", "MU", "SV"]
+        age_51_55: ["PS", "MU", "SV", "RMT"]
+        age_56_60: ["PS", "MU", "SV", "RMT"]
+        age_61_plus: ["PS", "MU", "SV", "RMT", "ECG"]
+      - amount_range: [4000001, 5000000]
+        age_18_40: ["PS", "MU", "SV"]
+        age_41_50: ["PS", "MU", "SV"]
+        age_51_55: ["PS", "MU", "SV", "RMT"]
+        age_56_60: ["PS", "MU", "SV", "RMT"]
+        age_61_plus: ["PS", "MU", "SV", "RMT", "ECG"]
+  
+  decision_types:
+    - id: "standard"
+      name: "Accepté Standard"
+      description: "Police émise aux taux standards sans surprime"
+    - id: "rated"
+      name: "Accepté avec Surprime"
+      description: "Police émise avec surprime permanente ou temporaire"
+    - id: "deferred"
+      name: "Différé"
+      description: "Reconsidération future possible selon conditions"
+    - id: "declined"
+      name: "Refus"
+      description: "Aucune offre ne peut être faite"
+  
+  smoker_definition: "N'a pas fait usage de tabac (cigarettes, vapoteuses, e-cigarettes, produits de nicotine, cigarillos, petits cigares, ou plus de 12 gros cigares) dans les 12 derniers mois"
+
+# ═══════════════════════════════════════════════════════════════════════
+# INELIGIBILITY CRITERIA
+# ═══════════════════════════════════════════════════════════════════════
+ineligibility:
+  automatic_decline:
+    - "En investigation médicale présentement"
+    - "Condamné pour conduite avec facultés affaiblies dans la dernière année"
+    - "Véhicule équipé d'un antidémarreur éthylométrique"
+    - "En attente d'une décision de la cour"
+    - "A reçu une sentence dans les deux dernières années"
+    - "En période de probation"
+    - "Porteur du VIH"
+  
+  prohibited_drugs:
+    - "Stéroïdes anabolisants"
+    - "Barbituriques"
+    - "Héroïne"
+    - "Morphine"
+    - "Opium"
+    - "Demerol"
+    - "Codéine"
+    - "Amphétamines (speed)"
+    - "Cocaïne"
+    - "Fentanyl"
+    - "Ecstasy"
+    - "LSD"
+    - "DMT"
+    - "Hallucinogènes"
+    - "Méthadone"
+
+# ═══════════════════════════════════════════════════════════════════════
+# MEDICAL CONDITIONS SUMMARY
+# ═══════════════════════════════════════════════════════════════════════
+medical_conditions:
+  total_conditions: 47
+  categories:
+    cardiovascular:
+      count: 4
+      conditions:
+        - name: "AIT/AVC"
+          standard_possible: false
+          typical_rating: "+50% to +150%"
+          decline_triggers: ["<40 years", "Smoker", "Diabetic", "Multiple AVC"]
+        - name: "Coronopathie/Infarctus"
+          standard_possible: false
+          typical_rating: "+125% to +275%"
+          decline_triggers: ["Multiple infarcts", "Smoker", "<40 at diagnosis"]
+        - name: "Fibrillation Auriculaire"
+          standard_possible: true
+          conditions: "After 60, no underlying cause, investigation normal"
+        - name: "Hypertension"
+          standard_possible: true
+          conditions: "Well controlled, BP within normal limits"
+    
+    respiratory:
+      count: 2
+      conditions:
+        - name: "Apnée du Sommeil"
+          standard_possible: true
+          conditions: "Treated, compliant, obstructive type"
+          decline_triggers: ["Central apnea", "Untreated"]
+        - name: "MPOC/Emphysème"
+          standard_possible: false
+          typical_rating: "+50% to +100%"
+          decline_triggers: ["Severe", "Smoker"]
+    
+    metabolic:
+      count: 2
+      conditions:
+        - name: "Diabète"
+          standard_possible: true
+          conditions: "Type 2, age 56+, well controlled"
+          typical_rating: "+50% to decline"
+        - name: "Hypercholestérolémie"
+          standard_possible: true
+          conditions: "Well controlled"
+    
+    cancer:
+      count: 9
+      standard_possible: ["Basal cell carcinoma"]
+      typically_rated: ["Thyroid", "Prostate (depending on stage)", "Breast (in situ)", "Colon"]
+      typically_declined: ["Lung (stage 2+)", "Blood cancers", "Recurrent"]
+    
+    mental_health:
+      count: 4
+      conditions:
+        - name: "Anxiety"
+          standard_possible: true
+          conditions: "No complications"
+        - name: "Depression"
+          typical_rating: "+50% to +100%"
+          deferral: "If currently disabled"
+        - name: "Bipolar"
+          typical_rating: "+50% to +150%"
+          deferral: "12 months post-diagnosis"
+        - name: "Schizophrenia"
+          typical_rating: "+100% to +300%"
+          deferral: "12 months post-episode"
+
+# ═══════════════════════════════════════════════════════════════════════
+# GENERAL POLICY PROVISIONS
+# ═══════════════════════════════════════════════════════════════════════
+general_provisions:
+  grace_period_days: 30
+  incontestability_period_years: 2
+  suicide_exclusion_years: 2
+  reinstatement_period_years: 2
+  reinstatement_quick_days: 90
+  minimum_refund_amount: 20
+  currency: "CAD"
+  participating: false
+  cash_value: false
+  termination_age: 80
+
+# ═══════════════════════════════════════════════════════════════════════
+# CONSUMER RIGHTS
+# ═══════════════════════════════════════════════════════════════════════
+consumer_rights:
+  cancellation:
+    legal_minimum_days: 10
+    extended_period_days: 15
+    alternative_period_days: 60
+    fees_after_period: true
+  
+  freedom_of_choice:
+    - "Not obligated to buy from designated provider"
+    - "Free to choose product and insurer"
+  
+  distributor_disclosure:
+    compensation_threshold_percent: 30
+    disclosure_required: true
+
+# ═══════════════════════════════════════════════════════════════════════
+# REGULATORY COMPLIANCE
+# ═══════════════════════════════════════════════════════════════════════
+regulatory:
+  authority: "AMF"
+  authority_full_name: "Autorité des marchés financiers"
+  authority_phone: "1-877-525-0337"
+  authority_url: "https://www.lautorite.qc.ca"
+  jurisdiction: "Quebec Insurance Act"
+
+# ═══════════════════════════════════════════════════════════════════════
+# DOCUMENT STATISTICS
+# ═══════════════════════════════════════════════════════════════════════
+statistics:
+  total_products: 6
+  main_products: 3
+  riders: 3
+  product_categories:
+    permanent_life: 1
+    term_life: 1
+    guaranteed_issue: 1
+    cancer_rider: 1
+    disability_rider: 1
+    dependent_rider: 1
+  coverage_range:
+    min: 1000
+    max: 5000000
+    currency: "CAD"
+  age_ranges:
+    main_products: [18, 80]
+    emma_gi_t20: [18, 60]
+    emma_gi_t100: [18, 70]
+    cancer_rider: [18, 70]
+    disability_rider: [18, 60]
+  medical_conditions_documented: 47
+  non_medical_conditions_documented: 8
+
+# ═══════════════════════════════════════════════════════════════════════
+# SOURCE DOCUMENTS
+# ═══════════════════════════════════════════════════════════════════════
+source_documents:
+  - id: "emma-fr-guide-de-tarification.mdx"
+    type: "underwriting_guide"
+    description: "Guide de tarification et présélection complet"
+  - id: "emma-fr-sommaire-produit-assurance-vie.mdx"
+    type: "product_summary"
+    description: "Sommaire des produits avec droits du consommateur"
+  - id: "emma-fr-specimen-de-contrat.mdx"
+    type: "specimen_contract"
+    description: "Spécimen de police avec termes et conditions"
+
+# Tags for Searchability
+tags:
+  - emma
+  - humania
+  - assurance-vie
+  - temporaire
+  - permanent
+  - t100
+  - guaranteed-issue
+  - emission-garantie
+  - cancer
+  - invalidite
+  - enfant-a-charge
+  - quebec
+  - unified-guide
+---
+
+# Emma - Guide Unifié des Produits
+
+## Vue d'ensemble
+
+**Emma** est une gamme de produits d'assurance vie distribués par **Emma Services financiers Inc.** et émis par **Humania Assurance Inc.** Ces produits sont offerts via une plateforme numérique moderne avec un processus de souscription efficace.
+
+### Relation Produit-Assureur
+
+| Élément | Détails |
+|---------|---------|
+| **Assureur / Émetteur** | Humania Assurance Inc. |
+| **Distributeur** | Emma Services financiers Inc. |
+| **Types de souscription** | Pleine sélection (Emma T100, Emma Temporaire) OU Émission garantie (Emma GI) |
+| **Vérification MIB** | Oui, pour produits à pleine sélection |
+
+---
+
+## Catalogue des Produits
+
+### Tableau Comparatif - Produits Principaux
+
+| Produit | Type | Souscription | Âge | Couverture | Renouvelable | Transformable |
+|---------|------|--------------|-----|------------|--------------|---------------|
+| **Emma T100** | Vie permanente | Pleine sélection | 18-80 | 1 000 $ - 5 M$ | Non | Non |
+| **Emma Temporaire** | Vie temporaire (T10-T35) | Pleine sélection | 18-80 | 50 000 $ - 5 M$ | Oui (→80 ans) | Oui (→65 ans) |
+| **Emma GI T20** | Vie temporaire 20 ans | Émission garantie | 18-60 | 5 000 $ - 100 000 $ | Oui (→80 ans) | Oui (→65 ans) |
+| **Emma GI T100** | Vie permanente T100 | Émission garantie | 18-70 | 5 000 $ - 100 000 $ | Non | Non |
+
+### Tableau Comparatif - Avenants (Riders)
+
+| Avenant | Type | Âge | Couverture | Particularités |
+|---------|------|-----|------------|----------------|
+| **Avenant Enfant** | Protection dépendants | N/A | 15 000 $ - 25 000 $ | Transformable 5x |
+| **Avenant Cancer** | Maladies graves | 18-70 | 10 000 $ - 75 000 $ | Période moratoire 90 jours |
+| **Avenant Invalidité** | Invalidité totale | 18-60 | 500 $ - 3 000 $/mois | Délai carence 90 jours |
+
+---
+
+## 1. Emma T100 - Assurance Vie Permanente
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie permanente T100 |
+| **Âge d'établissement** | 18 à 80 ans |
+| **Capital minimum** | 1 000 $ |
+| **Capital maximum** | 5 000 000 $ |
+| **Valeur de rachat** | Aucune |
+| **Participation aux bénéfices** | Non |
+
+### Options de Paiement des Primes
+
+1. **Jusqu'à 100 ans** - Paiement viager
+2. **Jusqu'à 65 ans** - Paiement limité
+3. **Durant 20 ans** - Paiement limité
+
+### Admissibilité
+
+- Résident permanent ou citoyen canadien
+- Doit comprendre et parler français ou anglais
+
+---
+
+## 2. Emma Temporaire - Assurance Vie Temporaire
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie temporaire renouvelable et transformable |
+| **Termes disponibles** | T10 à T35 (Pick-a-Term: choix libre entre 10 et 35 ans) |
+| **Âge d'établissement** | 18 à 80 ans |
+| **Capital minimum** | 50 000 $ |
+| **Capital maximum** | 5 000 000 $ |
+
+### Droits du Titulaire
+
+#### Droit de Renouvellement
+- **Fréquence:** Annuel après le terme initial
+- **Jusqu'à:** 80 ans
+- **Preuve d'assurabilité:** Non requise
+
+#### Droit de Transformation
+- **Disponible jusqu'à:** 65 ans
+- **Montant minimum:** 1 000 $
+- **Vers:** Assurance vie entière sans participation
+- **Preuve d'assurabilité:** Non requise
+
+#### Droit d'Échange
+- **Période:** 1er au 5e anniversaire
+- **Maximum:** Une seule fois
+- **Description:** Échanger pour un terme plus long sans preuve d'assurabilité
+
+---
+
+## 3. Emma GI - Assurance Vie à Émission Garantie
+
+### Fiche Technique
+
+| Caractéristique | Emma GI T20 | Emma GI T100 |
+|-----------------|-------------|--------------|
+| **Type** | Temporaire 20 ans | Permanente T100 |
+| **Souscription** | Émission garantie (sans questions médicales) | Émission garantie (sans questions médicales) |
+| **Âge d'établissement** | 18 à 60 ans | 18 à 70 ans |
+| **Capital minimum** | 5 000 $ | 5 000 $ |
+| **Capital maximum** | 100 000 $ | 100 000 $ |
+| **Primes payables jusqu'à** | 80 ans | 100 ans |
+| **Renouvelable** | Oui | Non |
+| **Transformable** | Oui (jusqu'à 65 ans) | Non |
+
+### Caractéristiques Clés
+
+#### Émission Garantie
+- **Aucune question médicale** requise
+- Acceptation garantie pour tous les candidats admissibles
+- Processus simplifié
+
+#### Période Différée (Graded Benefit)
+
+> ⚠️ **Important:** Ce produit comporte une **période différée de 2 ans**.
+
+| Cause du décès | Années 1-2 | Après 2 ans |
+|----------------|------------|-------------|
+| **Décès accidentel** | Capital assuré payé | Capital assuré payé |
+| **Décès non-accidentel** | Remboursement des primes seulement | Capital assuré payé |
+
+### Admissibilité
+
+- Résident permanent ou citoyen canadien
+- **T20:** 18 à 60 ans
+- **T100:** 18 à 70 ans
+
+### Droit de Transformation (T20 seulement)
+
+- **Disponible jusqu'à:** 65 ans
+- **Montant minimum:** 5 000 $
+- **Sans preuve d'assurabilité**
+
+### Limites de Couverture
+
+| Limite | Montant |
+|--------|---------|
+| **Minimum** | 5 000 $ |
+| **Maximum** | 100 000 $ |
+| **Maximum toutes polices Emma GI** | 100 000 $ |
+
+> Si la somme des montants d'assurance dépasse 100 000 $, Humania Assurance paie un maximum de 100 000 $, annule les contrats excédentaires et rembourse les primes en trop.
+
+### Exclusions
+
+- Suicide dans les 2 premières années
+- Fausse déclaration (nullité du contrat)
+- Participation à un acte criminel
+- Activités et sports dangereux (même liste que les autres produits Emma)
+
+---
+
+## 4. Avenant Assurance Vie pour Personne à Charge (Rider)
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Montants disponibles** | 15 000 $, 20 000 $, 25 000 $ |
+| **Couverture automatique** | Oui, pour tout nouvel enfant |
+| **Début de couverture** | 15 jours après naissance |
+| **Transformation** | 5x le montant à l'échéance |
+
+### Définition d'Enfant à Charge
+
+L'enfant doit répondre à **l'un** des critères suivants:
+- Moins de 21 ans
+- 21-25 ans et étudiant à temps plein
+- Déficience fonctionnelle importante (survenue avant 21 ans)
+
+**ET** respecter toutes ces conditions:
+- Non marié ou conjoint de fait
+- Sans emploi à temps plein
+- Adresse permanente au Canada
+- Couvert par l'assurance maladie provinciale
+
+### Limitation
+
+- **Clause préexistante:** 12 mois pour enfants présents à la date d'effet
+
+---
+
+## 5. Avenant Assurance Cancer (Rider)
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Âge d'établissement** | 18 à 70 ans |
+| **Couverture jusqu'à** | 80 ans |
+| **Montant minimum** | 10 000 $ |
+| **Montant maximum** | 75 000 $ |
+| **Maximum toutes polices** | 75 000 $ |
+
+### Périodes Importantes
+
+| Période | Durée | Description |
+|---------|-------|-------------|
+| **Moratoire** | 90 jours | Aucune indemnité si symptômes/diagnostic dans cette période |
+| **Survie** | 30 jours | L'assuré doit survivre 30 jours après le diagnostic |
+| **Préexistante** | 12 mois | Exclusion si condition préexistante |
+
+### Cancer Majeur vs Cancer Mineur
+
+- **Cancer mineur:** Payable une seule fois
+- **Réduction:** Le montant cancer mineur est déduit du cancer majeur
+
+---
+
+## 6. Avenant Assurance Invalidité Totale (Rider)
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Âge d'établissement** | 18 à 60 ans |
+| **Couverture jusqu'à** | 65 ans |
+| **Indemnité mensuelle** | 500 $ à 3 000 $ |
+| **Calcul** | Min(1,5% du capital vie, maximum par catégorie d'emploi) |
+| **Délai de carence** | 90 jours (rétroactif au 30e jour) |
+
+### Périodes de Couverture
+
+| Option | Versements Maximum |
+|--------|-------------------|
+| **2 ans** | 60 versements |
+| **5 ans** | 84 versements |
+
+### Utilisation des Indemnités
+
+⚠️ **Important:** Les indemnités sont payables **exclusivement** pour le remboursement de créances admissibles.
+
+### Créances Admissibles
+
+| Type | Inclus |
+|------|--------|
+| ✅ | Prêt hypothécaire |
+| ✅ | Marge de crédit hypothécaire |
+| ✅ | Prêt personnel / auto |
+| ✅ | Carte de crédit |
+| ✅ | Taxes foncières (si hypothèque) |
+| ✅ | Loyer (si pas d'hypothèque, max 2 ans) |
+| ❌ | Prêts entre individus |
+| ❌ | Prêts commerciaux |
+
+### Restriction Importante
+
+> **Faillite:** Si l'assuré fait faillite en cours d'invalidité, les prestations cessent immédiatement.
+
+---
+
+## Exigences de Tarification
+
+### Matrice des Exigences par Montant et Âge
+
+| Montant ($) | 18-40 | 41-50 | 51-55 | 56-60 | 61+ |
+|-------------|-------|-------|-------|-------|-----|
+| 0 - 500K | P | P | P | P | P |
+| 500K - 1M | P | P | P | P | PS, MU, SV |
+| 1M - 1.5M | P | P | PS, MU, SV | PS, MU, SV | PS, MU, SV |
+| 1.5M - 2M | P | P | PS, MU, SV | PS, MU, SV | PS, MU, SV, RMT, ECG |
+| 2M - 3M | PS, MU, SV | PS, MU, SV | PS, MU, SV | PS, MU, SV, RMT | PS, MU, SV, RMT, ECG |
+| 3M - 4M | PS, MU, SV | PS, MU, SV | PS, MU, SV, RMT | PS, MU, SV, RMT | PS, MU, SV, RMT, ECG |
+| 4M - 5M | PS, MU, SV | PS, MU, SV | PS, MU, SV, RMT | PS, MU, SV, RMT | PS, MU, SV, RMT, ECG |
+
+### Légende
+
+| Code | Signification |
+|------|---------------|
+| **P** | Proposition |
+| **PS** | Profil sanguin |
+| **MU** | Analyse d'urine |
+| **SV** | Signes vitaux (taille/poids, tension artérielle) |
+| **RMT** | Rapport du médecin traitant |
+| **ECG** | Électrocardiogramme |
+
+---
+
+## Critères d'Inadmissibilité
+
+### Situations Éliminatoires
+
+Le client **n'est pas admissible** s'il répond «oui» à l'une de ces questions:
+
+- ❌ Est-il en investigation médicale présentement?
+- ❌ A-t-il été condamné pour conduite avec facultés affaiblies dans la dernière année?
+- ❌ Le véhicule est-il équipé d'un antidémarreur éthylométrique?
+- ❌ Est-il en attente d'une décision de la cour?
+- ❌ A-t-il reçu une sentence dans les deux dernières années?
+- ❌ Est-il en période de probation?
+
+### Drogues Prohibées
+
+Usage de l'une de ces substances entraîne un refus automatique:
+
+| Drogues Éliminatoires |
+|-----------------------|
+| Stéroïdes anabolisants |
+| Barbituriques |
+| Héroïne, Morphine, Opium |
+| Codéine, Demerol, Fentanyl |
+| Cocaïne, Amphétamines |
+| Ecstasy, LSD, DMT |
+| Hallucinogènes |
+| Méthadone |
+
+---
+
+## Exclusions Communes
+
+### Activités et Sports Dangereux
+
+Aucune prestation si la réclamation découle de:
+
+| Catégorie | Activités Exclues |
+|-----------|-------------------|
+| **Alpinisme** | Alpinisme, Escalade de glace |
+| **Sports aériens** | Parapente, Paravoile, Deltaplane, Parachutisme, Saut à l'élastique |
+| **Aviation** | Toute aviation (sauf pilotes commerciaux sur vols réguliers) |
+| **Plongée** | Plongée sous-marine (hors centres de vacances) |
+| **Sports d'hiver** | Héli-ski, Ski hors-piste, Motoneige hors-piste |
+| **Sports motorisés** | Course automobile, Kitesurf |
+
+> ⚠️ Cette exclusion s'applique même si les activités sont pratiquées de façon récréative, encadrée, ou avec un instructeur.
+
+---
+
+## Conditions Acceptables au Taux Standard
+
+Les conditions suivantes **peuvent** être acceptées au taux standard si bien contrôlées:
+
+- ✅ Anxiété (sans complication)
+- ✅ Hypercholestérolémie (bien contrôlée)
+- ✅ Hypertension artérielle (bien contrôlée, BP normale)
+- ✅ Côlon irritable
+- ✅ Hépatite A (guérie, enzymes normales)
+- ✅ Carcinome basocellulaire
+- ✅ Fibrillation auriculaire (après 60 ans, investigation normale)
+
+---
+
+## Définition de Non-Fumeur
+
+Personne qui n'a pas fait usage de tabac, sous quelque forme que ce soit, au cours des **12 derniers mois**:
+
+- Cigarettes
+- Vapoteuses / Cigarettes électroniques
+- Produits de nicotine / Succédanés de nicotine
+- Cigarillos / Petits cigares
+- Plus de 12 gros cigares
+
+---
+
+## Dispositions Générales
+
+| Disposition | Délai |
+|-------------|-------|
+| **Délai de grâce** | 30 jours |
+| **Période d'incontestabilité** | 2 ans |
+| **Exclusion pour suicide** | 2 ans |
+| **Remise en vigueur** | Jusqu'à 2 ans après résiliation |
+| **Remise en vigueur rapide** | 90 jours (sans preuve d'assurabilité) |
+| **Âge de terminaison** | 80 ans |
+
+---
+
+## Droits du Consommateur
+
+### Droit d'Annulation
+
+| Type | Délai |
+|------|-------|
+| **Minimum légal** | 10 jours |
+| **Emma T100 - Option 1** | 15 jours après réception |
+| **Emma T100 - Option 2** | 60 jours après émission |
+
+### Liberté de Choix
+
+- Vous n'êtes **jamais obligé** d'acheter l'assurance qui vous est offerte
+- **C'est à vous de choisir** votre produit et votre assureur
+
+### Divulgation
+
+- Si la rémunération du distributeur est **supérieure à 30%**, il doit vous le dire
+
+---
+
+## Ressources
+
+
+
+### Documents de Référence
+
+- **Spécimen de police:** [https://emma.ca/specimen-de-police](https://emma.ca/specimen-de-police)
+- **Plaintes:** [https://www.humania.ca/formuler-plainte](https://www.humania.ca/formuler-plainte)
+
+---
+
+## FAQ
+
+### Q: Les patients atteints du VIH sont-ils acceptés?
+**R:** Non, Humania Assurance n'accepte pas les clients porteurs du VIH.
+
+### Q: Une femme enceinte est-elle assurable?
+**R:** Oui, s'il n'y a aucune complication reliée à la grossesse et pas d'antécédents de grossesse à risque.
+
+### Q: Pouvez-vous utiliser des résultats de tests génétiques?
+**R:** Non, conformément à la loi visant à interdire la discrimination génétique.
+
+### Q: Les clients avec un dossier criminel peuvent-ils être acceptés?
+**R:** Non si accusations en instance, en probation, ou infractions multiples.
+
+### Q: Avez-vous des lignes directrices pour les voyages?
+**R:** Les personnes voyageant fréquemment en zone à risque ne sont généralement pas assurables. Les voyages humanitaires sont refusés.
+
+---
+
+## Notes Légales
+
+**Avertissement:** Les informations contenues dans ce guide sont à titre indicatif seulement et n'engagent pas Humania Assurance inc.
+
+**Décisions finales:** Toutes les décisions de tarification sont prises au cas par cas.
+
+**Confidentialité:** Toutes les informations médicales et personnelles sont traitées de manière confidentielle.
+
+---
+
+*Dernière mise à jour: 2024-01-15*
+

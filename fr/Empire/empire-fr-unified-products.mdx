@@ -1,0 +1,1827 @@
+---
+# ═══════════════════════════════════════════════════════════════════════
+# UNIFIED INSURER DOCUMENT
+# ═══════════════════════════════════════════════════════════════════════
+
+# Document Metadata
+document_id: "empire-fr-unified-products-v1.0"
+document_type: unified_insurer_guide
+schema_version: "3.0"
+version: 1.0
+document_title: "Guide Unifié des Produits - Empire Vie"
+last_updated: "2024-09-01"
+effective_date: "2024-09-01"
+language: fr-CA
+region: QC
+
+# ═══════════════════════════════════════════════════════════════════════
+# INSURER PROFILE
+# ═══════════════════════════════════════════════════════════════════════
+insurer:
+  id: "empire"
+  name: "L'Empire, Compagnie d'Assurance-Vie"
+  legal_name: "L'Empire, Compagnie d'Assurance-Vie"
+  address: "259, rue King Est, Kingston ON K7L 3A8"
+  phone_toll_free: "1 877 548-1881"
+  phone_customer_service: "1 800 536-7683"
+  email: "info@empire.ca"
+  website: "https://empire.ca"
+  advisor_portal: "https://www.empire.ca/fr/advisor"
+
+# ═══════════════════════════════════════════════════════════════════════
+# PRODUCTS CATALOG
+# ═══════════════════════════════════════════════════════════════════════
+products:
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 1: Solution Series - Term Life Insurance
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "empire-solution-series"
+    name: "Assurance Temporaire Série Solution"
+    name_en: "Solution Series Term Life Insurance"
+    category: "term_life_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+    
+    use_cases:
+      - "Income replacement"
+      - "Mortgage protection"
+      - "Debt coverage"
+      - "Family protection"
+      - "Business key person insurance"
+    
+    eligibility:
+      age_range: [0, 75]
+      residency: "Canadian resident"
+      citizenship_required: false
+      language_requirement: "French or English"
+    
+    variants:
+      - id: "solution-10"
+        name: "Solution 10"
+        term_length: 10
+        renewable: true
+        convertible: true
+      - id: "solution-15"
+        name: "Solution 15"
+        term_length: 15
+        renewable: true
+        convertible: true
+      - id: "solution-20"
+        name: "Solution 20"
+        term_length: 20
+        renewable: true
+        convertible: true
+      - id: "solution-25"
+        name: "Solution 25"
+        term_length: 25
+        renewable: true
+        convertible: true
+      - id: "solution-30"
+        name: "Solution 30"
+        term_length: 30
+        renewable: true
+        convertible: true
+    
+    coverage:
+      min_amount: 0
+      max_amount: 20000000
+      currency: CAD
+    
+    rating_categories:
+      below_1M:
+        - id: "standard-non-smoker"
+          name: "Standard Non-fumeur"
+          description: "Santé moyenne, mode de vie à risque moyen, sans tabac (180 derniers mois)"
+        - id: "standard-smoker"
+          name: "Standard Fumeur"
+          description: "Santé moyenne, mode de vie à risque moyen, fumeur standard"
+      above_1M:
+        - id: "elite-non-smoker"
+          name: "Élite Non-fumeur"
+          description: "Santé exceptionnelle, mode de vie à risque minimal"
+          tobacco_free_months: 180
+        - id: "preferred-non-smoker"
+          name: "Privilégié Non-fumeur"
+          description: "Santé au-dessus de la moyenne, faible risque"
+          tobacco_free_months: 24
+        - id: "preferred-smoker"
+          name: "Privilégié Fumeur"
+          description: "Santé au-dessus de la moyenne, faible risque, fumeur standard"
+        - id: "standard-non-smoker"
+          name: "Standard Non-fumeur"
+          description: "Santé moyenne, risque moyen"
+        - id: "standard-smoker"
+          name: "Standard Fumeur"
+          description: "Santé moyenne, risque moyen"
+    
+    features:
+      renewable: true
+      convertible: true
+      cash_value: false
+      participating: false
+      preferred_rating_available: true
+      elite_rating_available: true
+      preferred_threshold: 1000001
+    
+    source_documents:
+      - document_id: "empire-fr-guide-de-tarification.mdx"
+        type: "underwriting_guide"
+      - document_id: "empire-fr-tarification-privilegiee-guide.mdx"
+        type: "preferred_rating_guide"
+      - document_id: "empire-fr-guide-de-tarification-elite-privilégie.mdx"
+        type: "elite_preferred_criteria"
+    
+    tags:
+      - assurance-vie-temporaire
+      - solution-series
+      - empire
+      - renouvelable
+      - transformable
+      - elite
+      - privilegie
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 2: AssurMax - Participating Whole Life
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "empire-assurmax"
+    name: "AssurMax"
+    name_en: "AssurMax Participating Whole Life Insurance"
+    category: "permanent_life_insurance"
+    subcategory: "participating_whole_life"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+    
+    use_cases:
+      - "Wealth building with long-term cash values"
+      - "Affordable permanent life insurance for families"
+      - "Estate planning with increasing death benefit"
+      - "Access to long-term cash values as retirement income"
+    
+    eligibility:
+      age_range: [0, 75]
+      age_calculation: "nearest_birthday"
+      residency: "Canadian resident"
+    
+    coverage:
+      min_amount_children: 10000
+      min_amount_adults: 25000
+      min_amount_seniors: 10000
+      age_thresholds:
+        children: [0, 17]
+        adults: [18, 65]
+        seniors: [66, 75]
+      currency: CAD
+    
+    variants:
+      - id: "assurmax-8"
+        name: "AssurMax 8 primes"
+        payment_years: 8
+        description: "Primes payables pendant les 8 premières années"
+      - id: "assurmax-10"
+        name: "AssurMax 10 primes"
+        payment_years: 10
+        description: "Primes payables pendant les 10 premières années"
+        oda_available: true
+      - id: "assurmax-20"
+        name: "AssurMax 20 primes"
+        payment_years: 20
+        description: "Primes payables pendant les 20 premières années"
+        oda_available: true
+      - id: "assurmax-100"
+        name: "AssurMax 100"
+        payment_until_age: 100
+        description: "Primes payables jusqu'à l'âge de 100 ans"
+        oda_available: true
+    
+    protection_types:
+      - id: "individual"
+        name: "Individuelle"
+      - id: "joint-first-to-die"
+        name: "Conjointe payable au premier décès (2 assurés)"
+      - id: "joint-second-to-die"
+        name: "Conjointe payable au deuxième décès (2 assurés)"
+    
+    features:
+      participating: true
+      guaranteed_premiums: true
+      cash_value:
+        available: true
+        start_year: 4
+      policy_loan:
+        available: true
+        minimum: 250
+      admin_fees_annual: 50
+      premium_tiers: false
+      dividend_options:
+        - id: "paid-up-additions"
+          name: "Bonifications d'assurance libérée"
+          description: "Achète de l'assurance vie additionnelle libérée avec participations"
+        - id: "enhanced-coverage"
+          name: "Protection enrichie"
+          description: "Achète assurance temporaire d'un an + bonifications libérées (garantie à vie)"
+        - id: "accumulated-dividends"
+          name: "Participations capitalisées"
+          description: "Déposées dans un compte avec intérêt (imposable)"
+        - id: "premium-reduction"
+          name: "Réduction de la prime annuelle"
+          description: "Appliquées à la prochaine prime exigible"
+        - id: "cash-payment"
+          name: "Versement en espèces"
+          description: "Versées au titulaire en somme unique"
+      auxiliary_account:
+        available: true
+        type: "non-exempt"
+        description: "Compte pour prépayer les primes futures, intérêt imposable"
+        max_deposit_formula: "(prime annuelle totale) × (100 - âge tarifié le plus jeune)"
+    
+    additional_deposit_option:
+      name: "Option de Dépôt Additionnel (ODA)"
+      available_variants: ["assurmax-10", "assurmax-20", "assurmax-100"]
+      age_range: [0, 75]
+      min_deposit_children: 
+        monthly: 25
+        annual: 300
+      min_deposit_adults:
+        monthly: 100
+        annual: 1000
+      max_rating_accepted: "200% sans surprime fixe"
+      participation_options_required: ["paid-up-additions", "enhanced-coverage"]
+    
+    supplementary_guarantees:
+      - id: "premium-waiver"
+        name: "Exonération des primes"
+        age_range: [16, 55]
+      - id: "payer-waiver"
+        name: "Exonération en cas de décès ou d'invalidité du payeur"
+        child_age_range: [0, 15]
+        payer_age_range: [16, 45]
+      - id: "guaranteed-insurability"
+        name: "Assurabilité garantie"
+        age_range: [0, 40]
+        min_amount: 5000
+        max_amount: 50000
+      - id: "accidental-death"
+        name: "Décès et mutilation accidentels"
+        age_range: [16, 55]
+        min_amount: 10000
+        max_amount: 250000
+      - id: "child-life"
+        name: "Protection vie pour enfants"
+        age_range_days_to_years: [15, 17]
+        min_amount: 1000
+        max_amount: 25000
+      - id: "child-critical-illness"
+        name: "Protection maladies graves pour enfants"
+        max_amount: 50000
+        conditions_covered: 15
+    
+    available_riders:
+      - "Solution TRA"
+      - "Solution 10"
+      - "Solution 20"
+      - "Solution 100"
+      - "Protection MG"
+      - "Protection MG Plus"
+      - "Avenant pour conjoint – Série Solution"
+      - "Avenant Protection crédit pour invalidité"
+    
+    source_documents:
+      - document_id: "datalab-output-INS-1350-ParticipatingProductGuide-FR-web_0.pdf.md"
+        type: "product_guide"
+      - document_id: "datalab-output-Sommaire-de-produit-AssurMax-INS-970-FR-web_0.pdf.md"
+        type: "product_summary"
+    
+    tags:
+      - assurance-vie-permanente
+      - avec-participation
+      - assurmax
+      - valeur-de-rachat
+      - empire
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 3: Optimax Patrimoine - Participating Whole Life
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "empire-optimax-patrimoine"
+    name: "Optimax Patrimoine"
+    name_en: "Optimax Patrimoine Participating Whole Life Insurance"
+    category: "permanent_life_insurance"
+    subcategory: "participating_whole_life"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+        - retirees
+    
+    use_cases:
+      - "Higher cash values in first 20 years"
+      - "Retirement income access via cash values"
+      - "Business asset with life protection and cash access"
+      - "Accumulate funds for child/grandchild education, business, home purchase"
+    
+    eligibility:
+      age_range: [0, 75]
+      age_calculation: "nearest_birthday"
+      residency: "Canadian resident"
+    
+    coverage:
+      min_amount_children: 10000
+      min_amount_adults: 25000
+      min_amount_seniors: 10000
+      age_thresholds:
+        children: [0, 17]
+        adults: [18, 65]
+        seniors: [66, 75]
+      currency: CAD
+    
+    variants:
+      - id: "optimax-8"
+        name: "Optimax Patrimoine 8 primes"
+        payment_years: 8
+        description: "Primes payables pendant les 8 premières années"
+      - id: "optimax-10"
+        name: "Optimax Patrimoine 10 primes"
+        payment_years: 10
+        description: "Primes payables pendant les 10 premières années"
+        oda_available: true
+      - id: "optimax-20"
+        name: "Optimax Patrimoine 20 primes"
+        payment_years: 20
+        description: "Primes payables pendant les 20 premières années"
+        oda_available: true
+      - id: "optimax-100"
+        name: "Optimax Patrimoine 100"
+        payment_until_age: 100
+        description: "Primes payables jusqu'à l'âge de 100 ans"
+        oda_available: true
+    
+    protection_types:
+      - id: "individual"
+        name: "Individuelle"
+      - id: "joint-first-to-die"
+        name: "Conjointe payable au premier décès (2 assurés)"
+      - id: "joint-second-to-die"
+        name: "Conjointe payable au deuxième décès (2 assurés)"
+    
+    features:
+      participating: true
+      guaranteed_premiums: true
+      cash_value:
+        available: true
+        start_year: 1
+        advantage: "Valeurs de rachat plus élevées durant les 20 premières années"
+      policy_loan:
+        available: true
+        minimum: 250
+      admin_fees_annual: 50
+      premium_tiers: false
+      dividend_options:
+        - id: "paid-up-additions"
+          name: "Bonifications d'assurance libérée"
+          description: "Achète de l'assurance vie additionnelle libérée avec participations"
+        - id: "enhanced-coverage"
+          name: "Protection enrichie"
+          description: "Achète assurance temporaire d'un an + bonifications libérées (garantie à vie)"
+        - id: "accumulated-dividends"
+          name: "Participations capitalisées"
+          description: "Déposées dans un compte avec intérêt (imposable)"
+        - id: "premium-reduction"
+          name: "Réduction de la prime annuelle"
+          description: "Appliquées à la prochaine prime exigible"
+        - id: "cash-payment"
+          name: "Versement en espèces"
+          description: "Versées au titulaire en somme unique"
+      auxiliary_account:
+        available: true
+        type: "non-exempt"
+        description: "Compte pour prépayer les primes futures, intérêt imposable"
+        max_deposit_formula: "(prime annuelle totale) × (100 - âge tarifié le plus jeune)"
+    
+    additional_deposit_option:
+      name: "Option de Dépôt Additionnel (ODA)"
+      available_variants: ["optimax-10", "optimax-20", "optimax-100"]
+      age_range: [0, 75]
+      min_deposit_children: 
+        monthly: 25
+        annual: 300
+      min_deposit_adults:
+        monthly: 100
+        annual: 1000
+      max_rating_accepted: "200% sans surprime fixe"
+      participation_options_required: ["paid-up-additions", "enhanced-coverage"]
+    
+    supplementary_guarantees:
+      - id: "premium-waiver"
+        name: "Exonération des primes"
+        age_range: [16, 55]
+      - id: "payer-waiver"
+        name: "Exonération en cas de décès ou d'invalidité du payeur"
+        child_age_range: [0, 15]
+        payer_age_range: [16, 45]
+      - id: "guaranteed-insurability"
+        name: "Assurabilité garantie"
+        age_range: [0, 40]
+        min_amount: 5000
+        max_amount: 50000
+      - id: "accidental-death"
+        name: "Décès et mutilation accidentels"
+        age_range: [16, 55]
+        min_amount: 10000
+        max_amount: 250000
+      - id: "child-life"
+        name: "Protection vie pour enfants"
+        age_range_days_to_years: [15, 17]
+        min_amount: 1000
+        max_amount: 25000
+      - id: "child-critical-illness"
+        name: "Protection maladies graves pour enfants"
+        max_amount: 50000
+        conditions_covered: 15
+    
+    available_riders:
+      - "Solution TRA"
+      - "Solution 10"
+      - "Solution 20"
+      - "Solution 100"
+      - "Protection MG"
+      - "Protection MG Plus"
+      - "Avenant pour conjoint – Série Solution"
+      - "Avenant Protection crédit pour invalidité"
+    
+    source_documents:
+      - document_id: "datalab-output-INS-1350-ParticipatingProductGuide-FR-web_0.pdf.md"
+        type: "product_guide"
+    
+    tags:
+      - assurance-vie-permanente
+      - avec-participation
+      - optimax-patrimoine
+      - valeur-de-rachat
+      - valeurs-elevees
+      - empire
+
+  # ─────────────────────────────────────────────────────────────────────
+  # PRODUCT 4: Critical Illness Insurance
+  # ─────────────────────────────────────────────────────────────────────
+  - id: "empire-critical-illness"
+    name: "Assurance Maladies Graves"
+    name_en: "Critical Illness Insurance"
+    category: "critical_illness_insurance"
+    underwriting_type: "full"
+    status: "active"
+    
+    audience:
+      primary:
+        - insurance_advisors
+        - agents
+        - underwriters
+      secondary:
+        - clients
+        - financial_planners
+    
+    use_cases:
+      - "Lump sum payment upon diagnosis"
+      - "Treatment costs coverage"
+      - "Income replacement during recovery"
+      - "Lifestyle modifications"
+    
+    eligibility:
+      age_range: [18, 65]
+      residency: "Canadian resident"
+      citizenship_required: false
+    
+    coverage:
+      min_amount: 0
+      max_amount: 2000000
+      currency: CAD
+    
+    features:
+      return_of_premium: true
+      preferred_rating_available: true
+    
+    source_documents:
+      - document_id: "empire-fr-guide-de-tarification.mdx"
+        type: "underwriting_guide"
+      - document_id: "empire-fr-guide-de-tarification-exigences-d-appreciation-des-risques.mdx"
+        type: "requirements_guide"
+    
+    tags:
+      - maladies-graves
+      - empire
+      - critical-illness
+
+# ═══════════════════════════════════════════════════════════════════════
+# UNDERWRITING REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════════════
+underwriting:
+  mib_verification: true
+  fast_decision_available: true
+  electronic_application: true
+  rapide_complet_available: true
+  
+  abbreviations:
+    NM: "Non médical"
+    EAP: "Entrevue téléphonique sur les Antécédents Personnels"
+    ESV: "Examen des Signes Vitaux"
+    PM: "Examen Paramédical"
+    EX: "Examen d'un Médecin"
+    Qes: "Questionnaire sur l'État de Santé (Rapide & Complet)"
+    PS: "Profil Sanguin"
+    UVIH: "Urine VIH"
+    ECG: "Électrocardiogramme"
+    EFF: "Électrocardiogramme à l'Effort sur tapis roulant"
+    DMT: "Déclaration du Médecin Traitant"
+    DC: "Dossier de Conduite"
+    QF: "Questionnaire Financier"
+    RE: "Rapport d'Enquête"
+  
+  requirements_matrix_life:
+    description: "Exigences selon l'âge et le montant de couverture pour l'assurance vie"
+    note: "Basé sur le total de toute assurance vie établie au cours des 6 derniers mois"
+    tiers:
+      - amount_range: [0, 99999]
+        age_0_17: ["EAP/Qes"]
+        age_18_40: ["EAP/Qes"]
+        age_41_50: ["EAP/Qes"]
+        age_51_55: ["EAP/Qes"]
+        age_56_60: ["EAP/Qes"]
+        age_61_70: ["EAP"]
+        age_71_75: ["EAP", "ESV", "PS"]
+      - amount_range: [100000, 300000]
+        age_0_17: ["EAP/Qes"]
+        age_18_40: ["EAP/Qes"]
+        age_41_50: ["EAP/Qes"]
+        age_51_55: ["EAP/Qes"]
+        age_56_60: ["EAP/Qes"]
+        age_61_70: ["EAP", "ESV", "PS"]
+        age_71_75: ["EAP", "ESV", "PS"]
+      - amount_range: [300001, 499999]
+        age_0_17: ["EAP/Qes"]
+        age_18_40: ["EAP/Qes"]
+        age_41_50: ["EAP/Qes"]
+        age_51_55: ["EAP/Qes"]
+        age_56_60: ["EAP", "ESV", "PS"]
+        age_61_70: ["EAP", "ESV", "PS"]
+        age_71_75: ["EAP", "ESV", "PS"]
+      - amount_range: [500000, 2000000]
+        age_0_17: ["EAP/Qes"]
+        age_18_40: ["EAP/Qes"]
+        age_41_50: ["EAP/Qes"]
+        age_51_55: ["EAP", "ESV", "PS"]
+        age_56_60: ["EAP", "ESV", "PS"]
+        age_61_70: ["EAP", "ESV", "PS"]
+        age_71_75: ["EAP", "ESV", "PS"]
+      - amount_range: [2000001, 3000000]
+        age_0_17: ["EAP/Qes"]
+        age_18_40: ["EAP", "ESV", "PS"]
+        age_41_50: ["EAP", "ESV", "PS"]
+        age_51_55: ["EAP", "ESV", "PS"]
+        age_56_60: ["EAP", "ESV", "PS"]
+        age_61_70: ["EAP", "ESV", "PS"]
+        age_71_75: ["EAP", "ESV", "PS"]
+      - amount_range: [3000001, 10000000]
+        age_0_17: ["EAP/Qes", "QF"]
+        age_18_40: ["EAP", "ESV", "PS", "DC", "QF"]
+        age_41_50: ["EAP", "ESV", "PS", "DC", "QF"]
+        age_51_55: ["EAP", "ESV", "PS", "DC", "QF"]
+        age_56_60: ["EAP", "ESV", "PS", "DC", "QF"]
+        age_61_70: ["EAP", "ESV", "PS", "DC", "QF"]
+        age_71_75: ["EAP", "ESV", "PS", "DC", "QF"]
+      - amount_range: [10000001, 20000000]
+        age_0_17: ["EAP/Qes", "QF"]
+        age_18_40: ["EAP", "ESV", "PS", "DC", "DMT", "RE"]
+        age_41_50: ["EAP", "ESV", "PS", "DC", "ECG", "DMT", "RE"]
+        age_51_55: ["EAP", "ESV", "PS", "DC", "EFF", "DMT", "RE"]
+        age_56_60: ["EAP", "ESV", "PS", "DC", "EFF", "DMT", "RE"]
+        age_61_70: ["EAP", "ESV", "PS", "DC", "EFF", "DMT", "RE"]
+        age_71_75: ["EAP", "ESV", "PS", "DC", "EFF", "DMT", "RE"]
+  
+  requirements_matrix_ci:
+    description: "Exigences selon l'âge et le montant de couverture pour l'assurance maladies graves"
+    tiers:
+      - amount_range: [0, 99999]
+        age_18_35: ["EAP/Qes"]
+        age_36_40: ["EAP/Qes"]
+        age_41_50: ["EAP/Qes"]
+        age_51_55: ["EAP", "ESV", "UVIH"]
+        age_56_60: ["EAP", "ESV", "PS"]
+        age_61_65: ["EAP", "ESV", "PS"]
+      - amount_range: [100000, 100000]
+        age_18_35: ["EAP/Qes"]
+        age_36_40: ["EAP/Qes"]
+        age_41_50: ["EAP", "ESV", "UVIH"]
+        age_51_55: ["EAP", "ESV", "UVIH"]
+        age_56_60: ["EAP", "ESV", "PS"]
+        age_61_65: ["EAP", "ESV", "PS", "ECG", "DMT"]
+      - amount_range: [100001, 250000]
+        age_18_35: ["EAP/Qes"]
+        age_36_40: ["EAP/Qes"]
+        age_41_50: ["EAP", "ESV", "UVIH"]
+        age_51_55: ["EAP", "ESV", "PS"]
+        age_56_60: ["EAP", "ESV", "PS"]
+        age_61_65: ["EAP", "ESV", "PS", "ECG", "DMT"]
+      - amount_range: [250001, 500000]
+        age_18_35: ["EAP", "UVIH"]
+        age_36_40: ["EAP", "ESV", "PS"]
+        age_41_50: ["EAP", "ESV", "PS"]
+        age_51_55: ["EAP", "ESV", "PS", "ECG"]
+        age_56_60: ["EAP", "ESV", "PS", "ECG"]
+        age_61_65: ["EAP", "ESV", "PS", "ECG", "DMT"]
+      - amount_range: [500001, 1000000]
+        age_18_35: ["EAP", "ESV", "PS"]
+        age_36_40: ["EAP", "ESV", "PS"]
+        age_41_50: ["EAP", "ESV", "PS", "ECG", "DMT"]
+        age_51_55: ["EAP", "ESV", "PS", "ECG", "DMT"]
+        age_56_60: ["EAP", "ESV", "PS", "ECG", "DMT"]
+        age_61_65: ["EX", "PS", "ECG", "DMT"]
+      - amount_range: [1000001, 2000000]
+        age_18_35: ["EAP", "ESV", "PS", "DMT"]
+        age_36_40: ["EAP", "ESV", "PS", "ECG", "DMT", "RE"]
+        age_41_50: ["EX", "PS", "ECG", "DMT", "RE"]
+        age_51_55: ["EX", "PS", "ECG", "DMT", "RE"]
+        age_56_60: ["EX", "PS", "ECG", "DMT", "RE"]
+        age_61_65: ["EX", "PS", "EFF", "DMT", "RE"]
+  
+  decision_types:
+    - id: "standard"
+      name: "Acceptation prime standard"
+      description: "Police émise aux taux standards sans surprime"
+    - id: "rated"
+      name: "Acceptation avec surprime et/ou exclusion"
+      description: "Police émise avec surprime permanente ou temporaire et/ou exclusion"
+    - id: "declined_reconsider"
+      name: "Refus avec possibilité de reconsidération"
+      description: "Refus actuel avec possibilité de nouvel examen à une date ultérieure"
+    - id: "declined"
+      name: "Refus"
+      description: "Aucune offre ne sera proposée maintenant ni plus tard"
+  
+  smoker_definition: "Un fumeur est une personne qui a, dans les 12 derniers mois, fumé plus de 12 cigares ou fait usage de tout autre produit du tabac, incluant la cigarette, la cigarette électronique, le cigarillo, la pipe, le tabac à chiquer, tout produit contenant de la nicotine ou les noix de bétel."
+  
+  marijuana_policy: "Les utilisateurs de marijuana et de hachisch peuvent être admissibles aux taux pour non-fumeurs s'ils n'ont pas fait usage de la cigarette électronique ou d'un produit du tabac ou de la nicotine sous quelque forme au cours des 12 derniers mois."
+
+# ═══════════════════════════════════════════════════════════════════════
+# PREFERRED RATING CRITERIA
+# ═══════════════════════════════════════════════════════════════════════
+preferred_rating:
+  minimum_coverage: 1000001
+  applicable_products: ["Solution 10", "Solution 15", "Solution 20", "Solution 25", "Solution 30"]
+  
+  criteria:
+    tobacco_nicotine:
+      elite_non_smoker:
+        requirement: "Aucun usage de produit du tabac ou de la nicotine"
+        period_months: 180
+      preferred_non_smoker:
+        requirement: "Aucun usage de produit du tabac ou de la nicotine"
+        period_months: 24
+      preferred_smoker:
+        requirement: "Fumeur selon définition standard"
+    
+    blood_pressure:
+      elite_non_smoker:
+        treatment: "Aucun traitement"
+        by_age:
+          - age_range: [18, 39]
+            max_systolic: 125
+            max_diastolic: 75
+          - age_range: [40, 55]
+            max_systolic: 130
+            max_diastolic: 80
+          - age_range: [56, 75]
+            max_systolic: 140
+            max_diastolic: 85
+      preferred:
+        treatment: "Avec ou sans traitement"
+        by_age:
+          - age_range: [18, 39]
+            max_systolic: 135
+            max_diastolic: 80
+          - age_range: [40, 55]
+            max_systolic: 140
+            max_diastolic: 85
+          - age_range: [56, 75]
+            max_systolic: 145
+            max_diastolic: 90
+    
+    cholesterol:
+      elite_non_smoker:
+        treatment: "Aucun traitement"
+        by_age_male:
+          - age_range: [18, 39]
+            max_total: 200
+            max_ratio: 4.5
+          - age_range: [40, 55]
+            max_total: 200
+            max_ratio: 5.0
+          - age_range: [56, 75]
+            max_total: 220
+            max_ratio: 5.5
+        by_age_female:
+          - age_range: [18, 39]
+            max_total: 200
+            max_ratio: 4.0
+          - age_range: [40, 55]
+            max_total: 200
+            max_ratio: 4.5
+          - age_range: [56, 75]
+            max_total: 220
+            max_ratio: 5.0
+      preferred:
+        treatment: "Avec ou sans traitement"
+        by_age:
+          - age_range: [18, 39]
+            max_total: 210
+            max_ratio: 5.0
+          - age_range: [40, 55]
+            max_total: 220
+            max_ratio: 5.5
+          - age_range: [56, 75]
+            max_total: 230
+            max_ratio: 6.0
+    
+    family_history:
+      conditions_checked:
+        - "Coronaropathie"
+        - "Accident vasculaire cérébral (AVC)"
+        - "Accident ischémique transitoire (AIT)"
+        - "Cancer (sauf carcinome basocellulaire)"
+      elite_non_smoker:
+        requirement: "Aucun diagnostic avant 65 ans chez un membre de la famille"
+        exception: "Cancers spécifiques au sexe (sein/prostate) possibles"
+      preferred:
+        requirement: "Maximum 1 membre de la famille diagnostiqué avant 60 ans"
+        exception: "Cancers spécifiques au sexe (sein/prostate) possibles"
+    
+    personal_history:
+      elite_non_smoker:
+        prohibited:
+          - "Cancer (sauf carcinome basocellulaire)"
+          - "Diabète"
+          - "Coronaropathie"
+          - "Accident vasculaire cérébral"
+          - "Accident ischémique transitoire"
+    
+    lifestyle:
+      sports_aviation:
+        elite: "Aucune surprime pour participation à un sport, passe-temps ou aviation"
+        preferred: "Aucune surprime"
+      alcohol_drugs:
+        elite:
+          requirement: "Aucun antécédent ni traitement"
+          period_years: 10
+        preferred:
+          requirement: "Aucun antécédent ni traitement"
+          period_years: 5
+      driving_record:
+        elite:
+          max_infractions: 1
+          period_years: 3
+        preferred:
+          max_infractions: 3
+          period_years: 3
+      impaired_driving:
+        elite:
+          requirement: "Aucune condamnation"
+          period_years: 10
+        preferred:
+          requirement: "Aucune condamnation"
+          period_years: 5
+      travel_residency:
+        elite: "Résident permanent du Canada, aucune surprime pour voyages"
+        preferred: "Résident permanent du Canada, aucune surprime pour voyages"
+      occupation:
+        elite: "Aucune surprime pour la profession"
+        preferred: "Aucune surprime pour la profession"
+
+# ═══════════════════════════════════════════════════════════════════════
+# BUILD TABLE (HEIGHT/WEIGHT)
+# ═══════════════════════════════════════════════════════════════════════
+build_tables:
+  standard_life_insurance:
+    description: "Tableau de corpulence pour l'assurance vie - Surprimes selon poids"
+    unit: "lb"
+    entries:
+      - height: "5'0\""
+        rating_150_200: "182-207"
+        rating_200_250: "208-222"
+        rating_250_300: "223-235"
+        rating_300_350: "236-246"
+        decline_above: 247
+      - height: "5'5\""
+        rating_150_200: "213-243"
+        rating_200_250: "244-261"
+        rating_250_300: "262-276"
+        rating_300_350: "277-309"
+        decline_above: 310
+      - height: "5'10\""
+        rating_150_200: "247-282"
+        rating_200_250: "283-303"
+        rating_250_300: "304-320"
+        rating_300_350: "321-359"
+        decline_above: 360
+      - height: "6'0\""
+        rating_150_200: "262-299"
+        rating_200_250: "300-321"
+        rating_250_300: "322-339"
+        rating_300_350: "340-379"
+        decline_above: 380
+      - height: "6'5\""
+        rating_150_200: "299-342"
+        rating_200_250: "343-367"
+        rating_250_300: "368-387"
+        rating_300_350: "388-434"
+        decline_above: 435
+  
+  elite_non_smoker:
+    description: "Poids maximal pour catégorie Élite Non-fumeur"
+    entries:
+      - height: "5'0\""
+        max_weight_lb: 138
+      - height: "5'5\""
+        max_weight_lb: 159
+      - height: "5'10\""
+        max_weight_lb: 185
+      - height: "6'0\""
+        max_weight_lb: 197
+      - height: "6'5\""
+        max_weight_lb: 220
+  
+  preferred:
+    description: "Poids maximal pour catégories Privilégié Non-fumeur et Fumeur"
+    entries:
+      - height: "5'0\""
+        max_weight_lb: 148
+      - height: "5'5\""
+        max_weight_lb: 170
+      - height: "5'10\""
+        max_weight_lb: 200
+      - height: "6'0\""
+        max_weight_lb: 213
+      - height: "6'5\""
+        max_weight_lb: 240
+
+# ═══════════════════════════════════════════════════════════════════════
+# IMMIGRATION GUIDELINES
+# ═══════════════════════════════════════════════════════════════════════
+immigration_guidelines:
+  common_requirements:
+    - "Toutes les personnes à assurer doivent résider au Canada"
+    - "Exigences médicales standard selon l'âge et le montant"
+    - "Profil sanguin (hépatites B et C) obligatoire pour 18 ans+ résidant au Canada depuis moins d'un an"
+  
+  statuses:
+    permanent_resident:
+      life_coverage: "Capital assuré maximal"
+      ci_coverage: "Capital assuré maximal"
+      additional_guarantees: "Toutes offertes"
+      preferred_rates: true
+      documents_required:
+        - "Citoyenneté canadienne ou carte de résident permanent"
+        - "Si pas de carte: Lettre d'acceptation (copie requise)"
+    
+    temporary_resident:
+      life_coverage: "500 000 $ (toutes sociétés); 1 000 000 $ si > 2 ans au Canada"
+      ci_coverage: "100 000 $ (toutes sociétés)"
+      additional_guarantees: false
+      residency_minimum_months: 3
+      documents_required:
+        - "Permis de travail valide"
+        - "Lettre d'intention de rester au Canada (≤ 500 000 $)"
+        - "Accusé de réception de demande de RP (> 500 000 $)"
+    
+    post_graduation_work:
+      life_coverage: "500 000 $"
+      ci_coverage: "100 000 $"
+      additional_guarantees: false
+      residency_minimum_months: 3
+      documents_required:
+        - "Lettre d'intention de rester au Canada"
+        - "Permis de travail post-diplôme valide"
+    
+    study_permit:
+      life_coverage: "250 000 $ (18 ans+)"
+      ci_coverage: false
+      additional_guarantees: false
+      residency_minimum_months: 3
+      documents_required:
+        - "Détails du programme d'études"
+        - "Lettre d'intention de rester après le diplôme"
+        - "Visa d'études valide"
+    
+    convention_refugee:
+      life_coverage: "250 000 $"
+      ci_coverage: false
+      additional_guarantees: false
+      requirements:
+        - "Résider au Canada depuis 1 an"
+        - "Travailler à temps plein"
+      documents_required:
+        - "Documentation confirmant le statut de réfugié"
+        - "Accusé de réception de demande de RP"
+        - "Permis de travail valide"
+    
+    foreign_trained_professionals:
+      description: "Médecins, infirmiers, avocats, ingénieurs, pharmaciens"
+      life_coverage: "2 000 000 $"
+      ci_coverage: "500 000 $"
+      premium_waiver: true
+      preferred_rates: true
+      residency_minimum_months: 0
+      documents_required:
+        - "Permis de travail valide"
+        - "Intention de rester au Canada"
+        - "Médecins: Contrat de travail + programme provincial"
+    
+    provincial_nominee:
+      life_coverage: "2 000 000 $"
+      ci_coverage: "500 000 $"
+      premium_waiver: true
+      preferred_rates: true
+      residency_ci_minimum_months: 3
+      documents_required:
+        - "Lettre d'acceptation au programme ou certificat de sélection du Québec"
+    
+    dependents:
+      coverage: "Maximum 50% du montant offert sur la vie du conjoint/parent"
+      documents_required:
+        - "Statut de résidence du conjoint/parent"
+        - "Accusé de réception de demande de RP"
+        - "Preuve de résidence au Canada"
+
+# ═══════════════════════════════════════════════════════════════════════
+# MEDICAL CONDITIONS SUMMARY
+# ═══════════════════════════════════════════════════════════════════════
+medical_conditions:
+  total_conditions: 47
+  categories:
+    cardiovascular:
+      count: 5
+      conditions:
+        - name: "Hypertension artérielle"
+          standard_possible: true
+          conditions: "Bien traitée, contrôlée, suivis réguliers"
+        - name: "Fibrillation atriale/flutter"
+          life_decision: "Constant: +150% ou refus; Intermittent: standard à refus"
+          ci_decision: "Constant: refus; Intermittent: +150% ou refus"
+        - name: "Maladie aortocoronarienne"
+          life_decision: "+200% ou refus"
+          ci_decision: "Refus"
+          decline_triggers: ["Diagnostic < 35 ans", "Chirurgie < 6 mois"]
+        - name: "AVC"
+          life_decision: "+150% ou refus"
+          ci_decision: "Refus"
+        - name: "AIT"
+          life_decision: "+150% ou refus"
+          ci_decision: "Refus"
+    
+    respiratory:
+      count: 3
+      conditions:
+        - name: "Asthme"
+          life_decision: "Léger: standard; Modéré: +150-250%; Grave: +250% ou refus"
+          ci_decision: "Léger: standard; Grave: +175% ou refus"
+        - name: "MPOC"
+          life_decision: "Légère: standard à +175%; Modérée: +200% ou refus; Grave: refus"
+          ci_decision: "Légère: +150-200%; Modérée: +200% ou refus; Grave: refus"
+          note: "Tabagisme entraîne surprime plus élevée"
+        - name: "Apnée du sommeil"
+          standard_possible: true
+          conditions: "Obstructive légère, bien traitée"
+    
+    mental_health:
+      count: 4
+      conditions:
+        - name: "Anxiété/Stress"
+          life_decision: "Arrêt travail: refus 1 an; Léger: standard; Modéré: +150%; Grave: +200% ou refus"
+          ci_decision: "Léger à modéré: standard; Grave: +150% ou refus"
+        - name: "Dépression"
+          life_decision: "Un épisode léger: standard possible; Autres: +150% ou refus"
+          ci_decision: "Légère à modérée: standard; Grave: refus 1 an puis +150-200%"
+          note: "Tentative de suicide: surprime fixe décroissante 7,50$/1000$"
+        - name: "TDAH"
+          standard_possible: true
+          conditions: "Adultes sans complication"
+        - name: "Autisme (TSA)"
+          life_decision: "≤8 ans: refus; >8 ans: standard à refus selon gravité"
+    
+    cancer:
+      count: 11
+      conditions:
+        - name: "Cancer du sein"
+          life_decision: "Stade 0 après 3 ans: standard possible"
+          ci_decision: "In situ seulement: exclusion; Autres: refus"
+        - name: "Cancer colorectal"
+          life_decision: "In situ après 3 ans: standard possible"
+          ci_decision: "In situ après 5 ans: exclusion; Stade 1 après 7 ans: exclusion"
+        - name: "Cancer du poumon"
+          life_decision: "Faible grade > 5 ans: standard possible; Fumeur: refus"
+          ci_decision: "Refus"
+        - name: "Cancer de la prostate"
+          life_decision: "Stade 1: standard après 1 an"
+          ci_decision: "Stade 1 après 10 ans: exclusion; Stades 2-4: refus"
+        - name: "Carcinome basocellulaire"
+          standard_possible: true
+          conditions: "Lésion < 5cm, retrait complet"
+        - name: "Carcinome squameux"
+          life_decision: "Stade 0-1: standard après retrait"
+          ci_decision: "Stade 0: standard; Stade 1: +150%; Stade 2: exclusion après 3 ans"
+        - name: "Mélanome"
+          life_decision: "In situ: refus 3 mois puis standard; Autres: surprime ou refus"
+          ci_decision: "Stade 0: exclusion après 3 mois; Stade 1A: exclusion après 4 ans; Autres: refus"
+        - name: "Cancer de la thyroïde"
+          life_decision: "Papillaire ≤2cm: standard après 3 ans"
+          ci_decision: "Critères stricts: exclusion après 5-10 ans; Autres: refus"
+        - name: "Lymphome de Hodgkin"
+          typical_rating: "Surprime ou refus selon stade"
+        - name: "Lymphome non hodgkinien"
+          typical_rating: "Surprime ou refus selon stade"
+    
+    digestive:
+      count: 6
+      conditions:
+        - name: "Maladie de Crohn"
+          life_decision: "Légère: +150-175%; Modérée: +150-200%; Grave: +200-300%"
+          ci_decision: "+150-200% avec exclusion; Chirurgie: refus 12 mois"
+        - name: "Colite ulcéreuse"
+          similar_to: "Maladie de Crohn"
+        - name: "Hépatite A"
+          standard_possible: true
+          conditions: "Guérie, enzymes hépatiques normales"
+        - name: "Hépatite B"
+          typical_rating: "Surprime ou refus selon statut"
+        - name: "Hépatite C"
+          typical_rating: "Surprime ou refus selon traitement"
+        - name: "Pontage gastrique"
+          life_decision: "Évaluation selon complications et stabilité du poids"
+    
+    endocrine:
+      count: 4
+      conditions:
+        - name: "Diabète Type 1"
+          life_decision: "+150% ou refus"
+          ci_decision: "Refus"
+        - name: "Diabète Type 2"
+          life_decision: "+150% ou refus selon contrôle"
+          ci_decision: "+150% ou refus"
+        - name: "Hyperthyroïdie"
+          standard_possible: true
+          conditions: "Bien traitée et contrôlée"
+        - name: "Hypothyroïdie"
+          standard_possible: true
+          conditions: "Bien traitée et contrôlée"
+    
+    neurological:
+      count: 3
+      conditions:
+        - name: "Sclérose en plaques"
+          typical_rating: "Surprime ou refus selon gravité"
+        - name: "Maladie de Parkinson"
+          typical_rating: "Surprime ou refus selon gravité"
+        - name: "Épilepsie"
+          typical_rating: "Standard possible si bien contrôlée"
+        - name: "Commotion cérébrale"
+          standard_possible: true
+          conditions: "Bénigne, rétablissement complet"
+    
+    substances:
+      count: 2
+      conditions:
+        - name: "Excès d'alcool"
+          life_decision: "≥5 consommations/jour sans traitement: +200% ou refus"
+          note: "Traitement + rechutes: refus; Traitement sans rechute après 1 an: surprime élevée"
+        - name: "Consommation de drogue"
+          typical_rating: "Selon type, fréquence, traitement"
+
+# ═══════════════════════════════════════════════════════════════════════
+# NON-MEDICAL RISKS
+# ═══════════════════════════════════════════════════════════════════════
+non_medical_risks:
+  categories:
+    aviation:
+      private_aviation:
+        considerations:
+          - "Type d'avion"
+          - "Heures de vol par an"
+          - "Vol à vue (VFR) vs vol aux instruments (IFR)"
+        typical_rating: "Surprime selon risque"
+      commercial_aviation:
+        pilot_requirements:
+          - "Licence valide"
+          - "Heures de vol"
+          - "Type d'aéronef"
+    
+    dangerous_activities:
+      alpinisme_escalade:
+        considerations:
+          - "Altitude maximale"
+          - "Fréquence"
+          - "Type d'escalade"
+        typical_rating: "Standard à surprime selon altitude"
+      plongee_sous_marine:
+        considerations:
+          - "Profondeur maximale"
+          - "Certification"
+          - "Fréquence"
+        typical_rating: "Standard si certifié et profondeur limitée"
+      ski_snowboard:
+        considerations:
+          - "Compétition vs récréatif"
+          - "Hors-piste"
+        typical_rating: "Standard si récréatif en station"
+    
+    occupation:
+      mining:
+        considerations:
+          - "Type de mine (surface vs souterraine)"
+          - "Exposition aux poussières"
+        typical_rating: "Surprime selon risque"
+      foreign_travel_work:
+        considerations:
+          - "Destinations"
+          - "Durée"
+          - "Type de travail"
+        typical_rating: "Selon destinations et durée"
+    
+    driving:
+      considerations:
+        - "Nombre d'infractions"
+        - "Conduite avec facultés affaiblies"
+        - "Accidents"
+      typical_decisions:
+        clean_record: "Standard"
+        minor_infractions: "Standard à +50%"
+        impaired_driving_recent: "Refus"
+        impaired_driving_old: "Surprime selon ancienneté"
+
+# ═══════════════════════════════════════════════════════════════════════
+# FAMILY HISTORY GUIDELINES
+# ═══════════════════════════════════════════════════════════════════════
+family_history:
+  applicable_conditions:
+    - "Coronaropathie"
+    - "Accident vasculaire cérébral"
+    - "Accident ischémique transitoire"
+    - "Cancer (sauf carcinome basocellulaire)"
+  
+  evaluation:
+    life_insurance:
+      description: "Impact sur tarification selon nombre de membres affectés et âge au diagnostic"
+    critical_illness:
+      description: "Impact plus important sur maladies graves, surtout pour cancers spécifiques au sexe"
+
+# ═══════════════════════════════════════════════════════════════════════
+# SPECIAL CASES
+# ═══════════════════════════════════════════════════════════════════════
+special_cases:
+  joint_protection:
+    below_1M: "Catégorie Standard"
+    above_1M: "Privilégié/Élite/Standard selon catégorie la plus faible"
+    calculation: "Âge équivalent unique calculé par type de régime, âge, sexe, statut fumeur, catégorie"
+  
+  risk_category_change:
+    eligibility: "Protection en vigueur depuis au moins 1 an"
+    process: "Soumettre demande de modification; exigences additionnelles possibles"
+  
+  coverage_reduction:
+    if_above_1M: "Catégorie Élite/Privilégié maintenue"
+    if_below_1M: "Passe à Standard"
+  
+  term_conversion:
+    new_permanent: "Catégorie Standard appliquée"
+  
+  guaranteed_insurability:
+    calculation: "Nombre d'unités AG × 2 000 $"
+    example: "5 unités AG = 10 000 $ pour déterminer les exigences"
+  
+  premium_waiver:
+    max_monthly: 2000
+    max_annual: 24000
+    currency: "CAD"
+  
+  medical_requirements_sharing:
+    validity_months: 12
+    condition: "Déclaration courante sans examen médical requise"
+
+# ═══════════════════════════════════════════════════════════════════════
+# FAQ
+# ═══════════════════════════════════════════════════════════════════════
+faq:
+  - question: "L'Empire Vie assure-t-elle les clients VIH positifs?"
+    answer: "L'Empire Vie offre des considérations individuelles pour les clients VIH positifs. Une DMT est requise pour évaluation."
+  
+  - question: "Quelles sont les exigences pour les montants de plus de 3 000 000 $?"
+    answer: "Un questionnaire financier (personnel ou relatif à une entreprise) est requis en plus des exigences médicales standard."
+  
+  - question: "Comment partager des exigences médicales d'une autre compagnie?"
+    answer: "Les exigences médicales des 12 derniers mois sont acceptables. Indiquez la société et le numéro de police dans la section 'Exigences d'appréciation des risques'."
+  
+  - question: "Comment obtenir les taux Privilégié ou Élite?"
+    answer: "Les catégories Privilégié et Élite s'appliquent aux protections Solution de 1 000 001 $ et plus. Des exigences incluant analyse de fluides sont requises."
+  
+  - question: "Quels sont les fournisseurs d'exigences médicales?"
+    answer: "L'Empire Vie travaille avec Solutions d'assurance Dynacare et ExamOne."
+  
+  - question: "Comment fonctionne le dossier de conduite pour l'Alberta?"
+    answer: "En Alberta, la personne assurée doit obtenir elle-même le rapport et le soumettre à L'Empire Vie."
+  
+  - question: "Les utilisateurs de marijuana peuvent-ils obtenir les taux non-fumeur?"
+    answer: "Oui, s'ils n'ont pas utilisé de cigarette électronique, tabac ou nicotine au cours des 12 derniers mois."
+
+# ═══════════════════════════════════════════════════════════════════════
+# DOCUMENT STATISTICS
+# ═══════════════════════════════════════════════════════════════════════
+statistics:
+  total_products: 4
+  main_products: 4
+  riders: 0
+  product_categories:
+    term_life: 1
+    participating_whole_life: 2
+    critical_illness: 1
+  term_variants: 5
+  participating_variants: 8
+  coverage_range:
+    min: 0
+    max: 20000000
+    currency: "CAD"
+  age_ranges:
+    life_insurance: [0, 75]
+    critical_illness: [18, 65]
+  rating_categories: 5
+  immigration_statuses_covered: 8
+  medical_conditions_documented: 47
+  non_medical_categories: 4
+  supplementary_guarantees: 6
+
+# ═══════════════════════════════════════════════════════════════════════
+# SOURCE DOCUMENTS
+# ═══════════════════════════════════════════════════════════════════════
+source_documents:
+  - id: "empire-fr-guide-de-tarification.mdx"
+    type: "underwriting_guide"
+    description: "Guide d'appréciation des risques complet avec conditions médicales et non-médicales"
+  - id: "empire-fr-guide-de-tarification-exigences-d-appreciation-des-risques.mdx"
+    type: "requirements_guide"
+    description: "Exigences d'appréciation des risques par âge et montant"
+  - id: "empire-fr-tarification-privilegiee-guide.mdx"
+    type: "preferred_rating_guide"
+    description: "Critères pour tarification privilégiée et élite"
+  - id: "empire-fr-personnes-immigrantes-guide.mdx"
+    type: "immigration_guide"
+    description: "Lignes directrices pour les personnes immigrantes"
+  - id: "empire-fr-guide-de-tarification-elite-privilégie.mdx"
+    type: "elite_criteria"
+    description: "Guide détaillé des critères Élite et Privilégié"
+  - id: "datalab-output-INS-1350-ParticipatingProductGuide-FR-web_0.pdf.md"
+    type: "participating_product_guide"
+    description: "Guide des produits d'assurance vie avec participation AssurMax et Optimax Patrimoine"
+  - id: "datalab-output-Sommaire-de-produit-AssurMax-INS-970-FR-web_0.pdf.md"
+    type: "product_summary"
+    description: "Sommaire du produit AssurMax"
+
+# Tags for Searchability
+tags:
+  - empire
+  - assurance-vie
+  - maladies-graves
+  - temporaire
+  - solution-series
+  - elite
+  - privilegie
+  - tarification
+  - immigration
+  - underwriting
+  - unified-guide
+  - avec-participation
+  - assurmax
+  - optimax-patrimoine
+  - valeur-de-rachat
+  - vie-entiere
+---
+
+# Empire Vie - Guide Unifié des Produits
+
+## Vue d'ensemble
+
+**L'Empire, Compagnie d'Assurance-Vie** est un assureur canadien établi offrant une gamme complète de produits d'assurance vie et maladies graves. Ce guide unifié regroupe toutes les informations essentielles pour les conseillers.
+
+### Informations sur l'Assureur
+
+| Élément | Détails |
+|---------|---------|
+| **Nom légal** | L'Empire, Compagnie d'Assurance-Vie |
+| **Siège social** | 259, rue King Est, Kingston ON K7L 3A8 |
+| **Téléphone (sans frais)** | 1 877 548-1881 |
+| **Service à la clientèle** | 1 800 536-7683 |
+| **Courriel** | info@empire.ca |
+| **Site web** | [empire.ca](https://empire.ca) |
+| **Portail conseillers** | [www.empire.ca/fr/advisor](https://www.empire.ca/fr/advisor) |
+
+---
+
+## Catalogue des Produits
+
+### Tableau Comparatif - Assurance Vie
+
+| Produit | Type | Âge | Couverture Min | Tarification Privilégiée |
+|---------|------|-----|----------------|--------------------------|
+| **Solution 10** | Temporaire 10 ans | 0-75 | Aucun | Oui (≥ 1 000 001 $) |
+| **Solution 15** | Temporaire 15 ans | 0-75 | Aucun | Oui (≥ 1 000 001 $) |
+| **Solution 20** | Temporaire 20 ans | 0-75 | Aucun | Oui (≥ 1 000 001 $) |
+| **Solution 25** | Temporaire 25 ans | 0-75 | Aucun | Oui (≥ 1 000 001 $) |
+| **Solution 30** | Temporaire 30 ans | 0-75 | Aucun | Oui (≥ 1 000 001 $) |
+| **AssurMax** | Vie entière avec participation | 0-75 | 10K$ - 25K$ | Non |
+| **Optimax Patrimoine** | Vie entière avec participation | 0-75 | 10K$ - 25K$ | Non |
+| **Maladies Graves** | Assurance MG | 18-65 | Aucun | Oui |
+
+### Produits avec Participation - Aperçu
+
+| Produit | Options de Primes | Valeur de Rachat | ODA Disponible | Clientèle Cible |
+|---------|-------------------|------------------|----------------|-----------------|
+| **AssurMax** | 8, 10, 20 primes ou jusqu'à 100 ans | Dès la 4e année | Oui (10, 20, 100) | Patrimoine à long terme |
+| **Optimax Patrimoine** | 8, 10, 20 primes ou jusqu'à 100 ans | Dès la 1re année | Oui (10, 20, 100) | Valeurs élevées à court terme |
+
+---
+
+## 1. Assurance Temporaire Série Solution
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie temporaire renouvelable et transformable |
+| **Termes disponibles** | 10, 15, 20, 25, 30 ans |
+| **Âge d'établissement** | 0 à 75 ans |
+| **Capital minimum** | Aucun minimum |
+| **Capital maximum** | 20 000 000 $ |
+| **Renouvelable** | Oui |
+| **Transformable** | Oui |
+
+### Catégories de Risque
+
+#### Pour couvertures < 1 000 001 $
+
+| Catégorie | Description |
+|-----------|-------------|
+| **Standard Non-fumeur** | Santé moyenne, risque moyen, sans tabac (180 derniers mois) |
+| **Standard Fumeur** | Santé moyenne, risque moyen, fumeur standard |
+
+#### Pour couvertures ≥ 1 000 001 $
+
+| Catégorie | Description | Sans Tabac |
+|-----------|-------------|------------|
+| **Élite Non-fumeur** | Santé exceptionnelle, risque minimal | 180 mois (15 ans) |
+| **Privilégié Non-fumeur** | Au-dessus de la moyenne, faible risque | 24 mois (2 ans) |
+| **Privilégié Fumeur** | Au-dessus de la moyenne, faible risque | N/A |
+| **Standard Non-fumeur** | Santé moyenne, risque moyen | 12 mois |
+| **Standard Fumeur** | Santé moyenne, risque moyen | N/A |
+
+---
+
+## 2. AssurMax - Assurance Vie Entière avec Participation
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie permanente avec participation |
+| **Âge d'établissement** | 0 à 75 ans (âge au plus proche anniversaire) |
+| **Capital minimum** | 10 000 $ (0-17 ans et 66+), 25 000 $ (18-65 ans) |
+| **Frais d'administration** | 50 $/an |
+| **Primes** | Garanties |
+| **Valeur de rachat garantie** | Dès la 4e année de la police |
+
+### Options de Primes
+
+| Option | Description |
+|--------|-------------|
+| **AssurMax 8 primes** | Primes payables pendant 8 ans (puis libérée) |
+| **AssurMax 10 primes** | Primes payables pendant 10 ans (puis libérée) |
+| **AssurMax 20 primes** | Primes payables pendant 20 ans (puis libérée) |
+| **AssurMax 100** | Primes payables jusqu'à l'âge de 100 ans |
+
+### Types de Protection
+
+- Vie unique (individuelle)
+- Conjointe payable au premier décès (2 assurés)
+- Conjointe payable au deuxième décès (2 assurés)
+
+### Options de Participation
+
+| Option | Description | Fiscalité |
+|--------|-------------|-----------|
+| **Bonifications d'assurance libérée** | Achète de l'assurance vie additionnelle sans prime | Non imposable |
+| **Protection enrichie** | Assurance temporaire 1 an + bonifications (garantie à vie) | Non imposable |
+| **Participations capitalisées** | Compte avec intérêt composé | Imposable |
+| **Réduction de la prime annuelle** | Appliquées à la prochaine prime | Variable |
+| **Versement en espèces** | Versées au titulaire | Peut être imposable |
+
+### Compte Auxiliaire (Non Exempté)
+
+- Permet de déposer des sommes pour financer les primes futures
+- Intérêt quotidien à taux favorable
+- **Intérêt imposable** - à déclarer dans la déclaration de revenus
+- Dépôt maximal = (prime annuelle totale) × (100 - âge tarifié le plus jeune)
+- Retrait possible en tout temps sans frais
+
+### Option de Dépôt Additionnel (ODA)
+
+> Disponible pour **AssurMax 10, 20 et 100** avec l'option de bonifications d'assurance libérée ou protection enrichie.
+
+| Critère | Enfants (0-17 ans) | Adultes (18-75 ans) |
+|---------|-------------------|---------------------|
+| **Dépôt minimum mensuel** | 25 $ | 100 $ |
+| **Dépôt minimum annuel** | 300 $ | 1 000 $ |
+
+**Caractéristiques ODA:**
+- Accepté jusqu'à 200% de surprime (sans surprime fixe)
+- Flexible: arrêt et reprise possibles
+- Achète des bonifications d'assurance libérée fréquemment (presque quotidiennement)
+
+### Clientèle Cible
+
+- Jeunes familles cherchant une protection permanente abordable
+- Personnes souhaitant bâtir un patrimoine avec valeurs de rachat à long terme
+- Planification successorale avec augmentation de protection
+- Accès à des valeurs de rachat en guise de revenu de retraite
+
+---
+
+## 3. Optimax Patrimoine - Assurance Vie Entière avec Participation
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance vie permanente avec participation |
+| **Âge d'établissement** | 0 à 75 ans (âge au plus proche anniversaire) |
+| **Capital minimum** | 10 000 $ (0-17 ans et 66+), 25 000 $ (18-65 ans) |
+| **Frais d'administration** | 50 $/an |
+| **Primes** | Garanties |
+| **Valeur de rachat garantie** | Dès la 1re année de la police |
+
+### Avantage Principal
+
+> 💡 **Valeurs de rachat plus élevées** durant les 20 premières années comparé à AssurMax.
+
+### Options de Primes
+
+| Option | Description |
+|--------|-------------|
+| **Optimax Patrimoine 8 primes** | Primes payables pendant 8 ans (puis libérée) |
+| **Optimax Patrimoine 10 primes** | Primes payables pendant 10 ans (puis libérée) |
+| **Optimax Patrimoine 20 primes** | Primes payables pendant 20 ans (puis libérée) |
+| **Optimax Patrimoine 100** | Primes payables jusqu'à l'âge de 100 ans |
+
+### Types de Protection
+
+- Vie unique (individuelle)
+- Conjointe payable au premier décès (2 assurés)
+- Conjointe payable au deuxième décès (2 assurés)
+
+### Options de Participation
+
+*Identiques à AssurMax* - voir section 2.
+
+### Compte Auxiliaire et ODA
+
+*Identiques à AssurMax* - voir section 2.
+
+### Clientèle Cible
+
+- Personnes souhaitant **accès rapide aux valeurs de rachat** (dès la 1re année)
+- Futurs retraités cherchant des valeurs en espèces à court terme
+- Parents/grands-parents accumulant pour études, entreprise ou maison d'un enfant
+- Propriétaires de petites entreprises nécessitant accès aux valeurs de rachat
+- Retraités souhaitant préserver leur patrimoine ou laisser un legs
+
+---
+
+## 4. Garanties Complémentaires (AssurMax et Optimax Patrimoine)
+
+### Tableau des Garanties
+
+| Garantie | Âge d'établissement | Montant Min/Max |
+|----------|---------------------|-----------------|
+| **Exonération des primes** | 16-55 ans | N/A |
+| **Exonération en cas de décès/invalidité du payeur** | Enfant: 0-15 ans; Payeur: 16-45 ans | N/A |
+| **Assurabilité garantie** | 0-40 ans | 5 000 $ - 50 000 $ |
+| **Décès et mutilation accidentels** | 16-55 ans | 10 000 $ - 250 000 $ |
+| **Protection vie pour enfants** | 15 jours - 17 ans | 1 000 $ - 25 000 $ |
+| **Protection maladies graves pour enfants** | Avenant familial | Max 50 000 $ (15 maladies) |
+
+### Avenants Disponibles
+
+- **Série Solution:** Solution TRA, Solution 10, Solution 20, Solution 100
+- **Maladies Graves:** Protection MG, Protection MG Plus
+- **Conjoint:** Avenant pour conjoint – Série Solution, Protection MG, Protection MG Plus
+- **Invalidité:** Avenant Protection crédit pour invalidité
+
+---
+
+## 5. Assurance Maladies Graves
+
+### Fiche Technique
+
+| Caractéristique | Détails |
+|-----------------|---------|
+| **Type** | Assurance maladies graves |
+| **Âge d'établissement** | 18 à 65 ans |
+| **Capital minimum** | Aucun minimum |
+| **Capital maximum** | 2 000 000 $ |
+| **Remboursement des primes** | Disponible |
+
+---
+
+## Critères de Tarification Privilégiée
+
+> ⚠️ **Seuil minimum:** Les catégories Privilégié et Élite s'appliquent uniquement aux couvertures de **1 000 001 $ et plus**.
+
+### Aperçu des Critères
+
+| Critère | Élite Non-fumeur | Privilégié Non-fumeur/Fumeur |
+|---------|------------------|------------------------------|
+| **Tabac/Nicotine** | Aucun (180 mois) | Non-fumeur: Aucun (24 mois); Fumeur: Standard |
+| **Tension artérielle** | Sans traitement | Avec ou sans traitement |
+| **Cholestérol** | Sans traitement | Avec ou sans traitement |
+| **Antécédents familiaux** | Aucun < 65 ans | Max 1 membre < 60 ans |
+| **Antécédents personnels** | Aucun cancer, diabète, AVC, coronaropathie | N/A |
+| **Abus alcool/drogues** | Aucun (10 ans) | Aucun (5 ans) |
+| **Dossier de conduite** | Max 1 infraction (3 ans) | Max 3 infractions (3 ans) |
+| **Conduite affaiblie** | Aucune (10 ans) | Aucune (5 ans) |
+| **Sports/Aviation** | Aucune surprime | Aucune surprime |
+| **Profession** | Aucune surprime | Aucune surprime |
+
+### Tension Artérielle - Limites
+
+#### Élite Non-fumeur (sans traitement)
+
+| Groupe d'Âge | Systolique/Diastolique |
+|--------------|------------------------|
+| 18-39 ans | 125/75 |
+| 40-55 ans | 130/80 |
+| 56-75 ans | 140/85 |
+
+#### Privilégié (avec ou sans traitement)
+
+| Groupe d'Âge | Systolique/Diastolique |
+|--------------|------------------------|
+| 18-39 ans | 135/80 |
+| 40-55 ans | 140/85 |
+| 56-75 ans | 145/90 |
+
+### Cholestérol - Limites
+
+#### Élite Non-fumeur (sans traitement)
+
+| Groupe d'Âge | Homme (Total/Ratio) | Femme (Total/Ratio) |
+|--------------|---------------------|---------------------|
+| 18-39 ans | 200/4.5 | 200/4.0 |
+| 40-55 ans | 200/5.0 | 200/4.5 |
+| 56-75 ans | 220/5.5 | 220/5.0 |
+
+#### Privilégié (avec ou sans traitement)
+
+| Groupe d'Âge | Total/Ratio |
+|--------------|-------------|
+| 18-39 ans | 210/5.0 |
+| 40-55 ans | 220/5.5 |
+| 56-75 ans | 230/6.0 |
+
+---
+
+## Exigences d'Appréciation des Risques
+
+### Assurance Vie - Par Montant et Âge
+
+| Montant ($) | 0-17 | 18-40 | 41-50 | 51-55 | 56-60 | 61-70 | 71-75 |
+|-------------|------|-------|-------|-------|-------|-------|-------|
+| 0 - 99K | EAP/Qes | EAP/Qes | EAP/Qes | EAP/Qes | EAP/Qes | EAP | EAP, ESV, PS |
+| 100K - 300K | EAP/Qes | EAP/Qes | EAP/Qes | EAP/Qes | EAP/Qes | EAP, ESV, PS | EAP, ESV, PS |
+| 300K - 500K | EAP/Qes | EAP/Qes | EAP/Qes | EAP/Qes | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS |
+| 500K - 2M | EAP/Qes | EAP/Qes | EAP/Qes | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS |
+| 2M - 3M | EAP/Qes | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS | EAP, ESV, PS |
+| 3M - 10M | EAP/Qes, QF | + DC, QF | + DC, QF | + DC, QF | + DC, QF | + DC, QF | + DC, QF |
+| 10M - 20M | EAP/Qes, QF | + DMT, RE | + ECG, DMT, RE | + EFF, DMT, RE | + EFF, DMT, RE | + EFF, DMT, RE | + EFF, DMT, RE |
+
+### Légende des Abréviations
+
+| Code | Signification |
+|------|---------------|
+| **EAP** | Entrevue téléphonique sur les Antécédents Personnels |
+| **Qes** | Questionnaire sur l'État de Santé (Rapide & Complet) |
+| **ESV** | Examen des Signes Vitaux |
+| **PM** | Examen Paramédical (substitut à EAP + ESV) |
+| **PS** | Profil Sanguin |
+| **UVIH** | Urine VIH |
+| **ECG** | Électrocardiogramme |
+| **EFF** | Électrocardiogramme à l'Effort (tapis roulant) |
+| **DMT** | Déclaration du Médecin Traitant |
+| **DC** | Dossier de Conduite |
+| **QF** | Questionnaire Financier |
+| **RE** | Rapport d'Enquête |
+
+> **Note:** L'entrevue téléphonique (EAP) avec examen des signes vitaux (ESV) peut être remplacée par un examen paramédical (PM).
+
+---
+
+## Définition de Fumeur
+
+Un **fumeur** est une personne qui a, dans les **12 derniers mois**, fait l'une des choses suivantes:
+
+- Fumé plus de 12 cigares
+- Utilisé la cigarette ou la cigarette électronique
+- Utilisé le cigarillo, la pipe ou le tabac à chiquer
+- Consommé tout produit contenant de la nicotine
+- Consommé les noix de bétel
+
+### Marijuana et Cannabis
+
+Les utilisateurs de marijuana et de hachisch **peuvent être admissibles aux taux non-fumeur** s'ils n'ont pas fait usage de:
+- Cigarette électronique
+- Produit du tabac
+- Nicotine sous quelque forme
+
+...au cours des **12 derniers mois**.
+
+---
+
+## Lignes Directrices pour les Personnes Immigrantes
+
+### Exigences Communes
+
+- Toutes les personnes à assurer **doivent résider au Canada**
+- Exigences médicales standard selon l'âge et le montant
+- **Profil sanguin** (incluant hépatites B et C) obligatoire pour:
+  - Personnes de 18 ans et plus
+  - Résidant au Canada depuis moins d'un an
+
+### Couvertures par Statut d'Immigration
+
+| Statut | Assurance Vie | Maladies Graves | Taux Privilégiés |
+|--------|---------------|-----------------|------------------|
+| **Résident permanent** | Maximum du régime | Maximum du régime | ✅ Oui |
+| **Résident temporaire** | 500K$ (1M$ si > 2 ans) | 100K$ | ❌ Non |
+| **Post-diplôme** | 500K$ | 100K$ | ❌ Non |
+| **Permis d'études** | 250K$ (18+) | Non offerte | ❌ Non |
+| **Réfugié** | 250K$ | Non offerte | ❌ Non |
+| **Professionnel étranger** | 2M$ | 500K$ | ✅ Oui |
+| **Candidat provincial** | 2M$ | 500K$ | ✅ Oui |
+| **Conjoint/enfant à charge** | 50% du principal | 50% du principal | Selon principal |
+
+---
+
+## Conditions Médicales - Résumé des Décisions
+
+### Conditions Acceptables au Taux Standard
+
+Les conditions suivantes **peuvent** être acceptées au taux standard si bien contrôlées:
+
+- ✅ Hypertension artérielle (bien traitée et contrôlée)
+- ✅ Asthme léger
+- ✅ Anxiété/stress léger (non associé à la dépression)
+- ✅ TDAH chez l'adulte (sans complication)
+- ✅ Carcinome basocellulaire (lésion < 5cm, retrait complet)
+- ✅ Hyperthyroïdie / Hypothyroïdie (bien traitée)
+- ✅ Apnée du sommeil obstructive légère (bien traitée)
+- ✅ Hépatite A (guérie)
+
+### Conditions Typiquement avec Surprime
+
+| Condition | Vie | Maladies Graves |
+|-----------|-----|-----------------|
+| Diabète Type 2 | +150% ou refus | +150% ou refus |
+| Dépression modérée | +150% | Standard possible |
+| Asthme modéré | +150-250% | +175% |
+| MPOC légère | Standard à +175% | +150-200% |
+| Maladie de Crohn | +150-300% | +150-200% avec exclusion |
+
+### Conditions Typiquement Refusées
+
+| Condition | Vie | Maladies Graves |
+|-----------|-----|-----------------|
+| Maladie aortocoronarienne | Étude au cas par cas | Refus |
+| AVC / AIT | Étude au cas par cas | Refus |
+| Cancer du poumon (fumeur) | Refus | Refus |
+| Diabète Type 1 | +150% ou refus | Refus |
+| MPOC grave | Refus | Refus |
+
+---
+
+## Risques Non Médicaux
+
+### Aviation Privée
+
+| Facteur | Évaluation |
+|---------|------------|
+| Type d'avion | Impact sur tarification |
+| Heures de vol/an | Impact sur tarification |
+| VFR vs IFR | IFR préférable |
+
+### Activités Dangereuses
+
+| Activité | Décision Typique |
+|----------|------------------|
+| Alpinisme (< 4500m) | Standard possible |
+| Alpinisme (> 4500m) | Surprime |
+| Plongée sous-marine (certifié, < 30m) | Standard |
+| Ski récréatif en station | Standard |
+| Ski hors-piste | Surprime possible |
+
+### Dossier de Conduite
+
+| Situation | Décision |
+|-----------|----------|
+| Aucune infraction | Standard |
+| 1-3 infractions mineures | Standard à +50% |
+| Conduite affaiblie (< 5 ans) | Refus |
+| Conduite affaiblie (> 5 ans) | Surprime selon ancienneté |
+
+---
+
+## Cas Spéciaux
+
+### Protection Conjointe
+
+- **< 1 000 001 $:** Catégorie Standard
+- **≥ 1 000 001 $:** Basée sur la catégorie la plus faible
+
+### Changement de Catégorie de Risque
+
+- Possible après **1 an** de protection en vigueur
+- Soumettre demande de modification
+- Exigences additionnelles possibles
+
+### Diminution du Montant
+
+- Si reste **≥ 1 000 001 $:** Catégorie Élite/Privilégié maintenue
+- Si **< 1 000 001 $:** Passe à Standard
+
+### Transformation d'Assurance Temporaire
+
+- Nouvelle protection permanente: **Catégorie Standard** appliquée
+
+---
+
+## Ressources
+
+### Portail Conseillers
+
+- **Accès principal:** [www.empire.ca/fr/advisor](https://www.empire.ca/fr/advisor)
+- **Souscription:** [www.empire.ca/fr/advisor/support/underwriting](https://www.empire.ca/fr/advisor/support/underwriting)
+- **Formulaires:** [www.empire.ca/fr/advisor/Support/Underwriting/Questionnaires-forms](https://www.empire.ca/fr/advisor/Support/Underwriting/Questionnaires-forms)
+
+### Fournisseurs d'Exigences Médicales
+
+- **Solutions d'assurance Dynacare**
+- **ExamOne**
+
+### Documents de Référence
+
+| Document | Code | Sujet |
+|----------|------|-------|
+| Guide des critères pour la tarification privilégiée | INS-2494 | Critères Privilégié et Élite |
+| Lignes directrices pour les personnes immigrantes | - | Nouveaux résidents |
+| Lignes directrices relatives à l'appréciation des risques financiers | - | Souscription financière |
+
+---
+
+## Notes Légales
+
+**Avertissement:** Les informations contenues dans ce guide sont fournies à des fins d'information uniquement. Elles peuvent changer sans préavis, et la décision définitive peut varier selon les détails fournis dans la proposition.
+
+**Marques de commerce:** 
+- <sup>MD</sup> Marque déposée de L'Empire, Compagnie d'Assurance-Vie
+- Les polices sont établies par L'Empire, Compagnie d'Assurance-Vie
+
+**Slogan:** *Avancez dans la vie en toute confiance – Assurance et placements*
+
+---
+
+*Dernière mise à jour: Septembre 2024*
+
