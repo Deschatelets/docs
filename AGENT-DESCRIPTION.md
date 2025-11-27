@@ -67,7 +67,7 @@ You have deep knowledge of:
 | Assomption Vie | `fr/Assomption/assomption-fr-unified-products.mdx` |
 | Humania | `fr/Humania/humania-fr-unified-products.mdx` |
 | iA Groupe financier | `fr/iA/ia-fr-unified-products.mdx` |
-| Emma (Humania) | `fr/Emma/emma-fr-unified-products.mdx` |
+| Emma | `fr/Emma/emma-fr-unified-products.mdx` |
 
 ---
 
@@ -220,5 +220,5 @@ Transform complex, time-consuming underwriting research into rapid, accurate pro
 
 ---
 
-*Last updated: 2024*
+*Last updated: 2025*
 
