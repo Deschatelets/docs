@@ -1,0 +1,1581 @@
+{
+  "document_metadata": {
+    "document_id": "emma-fr-unified-products-v1.0",
+    "document_type": "unified_insurer_guide",
+    "schema_version": "3.0",
+    "version": 1.0,
+    "document_title": "Guide Unifié des Produits - Emma",
+    "last_updated": "2025-12-29",
+    "effective_date": "2024-01-01",
+    "language": "fr-CA",
+    "region": "QC"
+  },
+
+  "insurer": {
+    "id": "Emma (Humania)",
+    "name": "Humania Assurance Inc.",
+    "legal_name": "Humania Assurance Inc.",
+    "address": "1555, rue Girouard Ouest, Saint-Hyacinthe (Québec) J2S 2Z6",
+    "amf_number": "2000737703",
+    "complaints_url": "https://www.humania.ca/formuler-plainte"
+  },
+
+  "distributor": {
+    "id": "emma",
+    "name": "Emma Services financiers Inc.",
+    "legal_name": "Emma Services financiers Inc.",
+    "address": "7900-300, Boul Pierre-Bertrand, Québec (QC) G2J 0C5",
+    "amf_number": "603236",
+    "specimen_url": "https://emma.ca/specimen-de-police"
+  },
+
+  "products": [
+    {
+      "id": "emma-t100",
+      "name": "Emma T100",
+      "name_en": "Emma T100 Permanent Life Insurance",
+      "category": "permanent_life_insurance",
+      "underwriting_type": "full",
+      "status": "active",
+      "audience": {
+        "primary": ["insurance_advisors", "agents", "underwriters"],
+        "secondary": ["clients", "financial_planners"]
+      },
+      "use_cases": [
+        "Long-term estate planning",
+        "Final expense coverage",
+        "Wealth transfer",
+        "Business succession"
+      ],
+      "eligibility": {
+        "age_range": [18, 80],
+        "residency": "Canadian permanent resident or citizen",
+        "citizenship_required": false,
+        "language_requirement": "French or English",
+        "occupation_restrictions": []
+      },
+      "coverage": {
+        "min_amount": 1000,
+        "max_amount": 5000000,
+        "currency": "CAD"
+      },
+      "premium_options": [
+        {
+          "id": "to-100",
+          "name": "Jusqu'à 100 ans",
+          "description": "Primes payables jusqu'à 100 ans (paiement viager)"
+        },
+        {
+          "id": "to-65",
+          "name": "Jusqu'à 65 ans",
+          "description": "Primes payables jusqu'à 65 ans"
+        },
+        {
+          "id": "20-years",
+          "name": "Durant 20 ans",
+          "description": "Primes payables pendant 20 ans"
+        }
+      ],
+      "features": {
+        "renewable": false,
+        "convertible": false,
+        "cash_value": false,
+        "participating": false
+      },
+      "exclusions": {
+        "standard": [
+          {
+            "type": "suicide",
+            "period_years": 2,
+            "description": "Suicide dans les 2 premières années"
+          },
+          {
+            "type": "misrepresentation",
+            "description": "Fausse déclaration entraînant nullité du contrat"
+          },
+          {
+            "type": "criminal_act",
+            "description": "Décès résultant d'un acte criminel"
+          }
+        ],
+        "dangerous_activities": [
+          "Alpinisme",
+          "Escalade de glace",
+          "Plongée sous-marine (hors centre de vacances)",
+          "Parapente",
+          "Paravoile",
+          "Deltaplane",
+          "Parachutisme",
+          "Saut à l'élastique",
+          "Héli-ski",
+          "Ski hors-piste",
+          "Motoneige hors-piste",
+          "Aviation (sauf pilotes commerciaux)",
+          "Course automobile",
+          "Kitesurf"
+        ]
+      },
+      "claims": {
+        "notice_period_days": 30,
+        "documents_deadline_days": 90
+      },
+      "cancellation": {
+        "free_period_days": 15,
+        "alternative_period_days": 60,
+        "fees_after_period": true
+      },
+      "source_documents": [
+        {
+          "document_id": "emma-fr-sommaire-produit-assurance-vie.mdx",
+          "type": "product_summary"
+        },
+        {
+          "document_id": "emma-fr-specimen-de-contrat.mdx",
+          "type": "specimen_contract"
+        }
+      ],
+      "tags": ["assurance-vie-permanente", "t100", "emma"]
+    },
+    {
+      "id": "emma-term",
+      "name": "Emma Temporaire",
+      "name_en": "Emma Term Life Insurance",
+      "category": "term_life_insurance",
+      "underwriting_type": "full",
+      "status": "active",
+      "audience": {
+        "primary": ["insurance_advisors", "agents", "underwriters"],
+        "secondary": ["clients", "financial_planners"]
+      },
+      "use_cases": [
+        "Income replacement",
+        "Mortgage protection",
+        "Debt coverage",
+        "Family protection during working years"
+      ],
+      "eligibility": {
+        "age_range": [18, 80],
+        "residency": "Canadian permanent resident or citizen",
+        "citizenship_required": false,
+        "language_requirement": "French or English",
+        "occupation_restrictions": []
+      },
+      "coverage": {
+        "min_amount": 50000,
+        "max_amount": 5000000,
+        "currency": "CAD"
+      },
+      "term_flexibility": {
+        "type": "pick_a_term",
+        "min_term": 10,
+        "max_term": 35,
+        "increment": 1,
+        "description": "Le conseiller peut choisir n'importe quel terme entre T10 et T35 (ex: T11, T17, T22, T33)"
+      },
+      "features": {
+        "renewable": {
+          "available": true,
+          "frequency": "annual",
+          "until_age": 80,
+          "evidence_required": false
+        },
+        "convertible": {
+          "available": true,
+          "until_age": 65,
+          "min_amount": 1000,
+          "target_product": "Assurance vie entière sans participation",
+          "evidence_required": false
+        },
+        "exchange_right": {
+          "available": true,
+          "period": "1st to 5th anniversary",
+          "max_uses": 1,
+          "description": "Échanger pour un terme plus long sans preuve d'assurabilité"
+        },
+        "cash_value": false,
+        "participating": false
+      },
+      "exclusions": {
+        "standard": [
+          {
+            "type": "suicide",
+            "period_years": 2,
+            "description": "Suicide dans les 2 premières années"
+          },
+          {
+            "type": "misrepresentation",
+            "description": "Fausse déclaration entraînant nullité du contrat"
+          },
+          {
+            "type": "criminal_act",
+            "description": "Décès résultant d'un acte criminel"
+          }
+        ],
+        "dangerous_activities": [
+          "Alpinisme",
+          "Escalade de glace",
+          "Plongée sous-marine (hors centre de vacances)",
+          "Parapente",
+          "Paravoile",
+          "Deltaplane",
+          "Parachutisme",
+          "Saut à l'élastique",
+          "Héli-ski",
+          "Ski hors-piste",
+          "Motoneige hors-piste",
+          "Aviation (sauf pilotes commerciaux)",
+          "Course automobile",
+          "Kitesurf"
+        ]
+      },
+      "source_documents": [
+        {
+          "document_id": "emma-fr-sommaire-produit-assurance-vie.mdx",
+          "type": "product_summary"
+        },
+        {
+          "document_id": "emma-fr-specimen-de-contrat.mdx",
+          "type": "specimen_contract"
+        },
+        {
+          "document_id": "emma-fr-guide-de-tarification.mdx",
+          "type": "underwriting_guide"
+        }
+      ],
+      "tags": ["assurance-vie-temporaire", "renouvelable", "transformable", "emma", "t10", "t20", "t25", "t30", "t35", "assurance-temporaire"]
+    },
+    {
+      "id": "emma-gi",
+      "name": "Emma GI",
+      "name_full": "Assurance vie temporaire 20 ans ou 100 ans Emma",
+      "name_en": "Emma Guaranteed Issue Life Insurance",
+      "category": "guaranteed_issue_life_insurance",
+      "underwriting_type": "guaranteed",
+      "status": "active",
+      "audience": {
+        "primary": ["insurance_advisors", "agents"],
+        "secondary": ["clients", "seniors"]
+      },
+      "use_cases": [
+        "Final expense coverage",
+        "Clients with health conditions",
+        "Simplified application process",
+        "No medical questions"
+      ],
+      "variants": [
+        {
+          "id": "gi-t20",
+          "name": "Emma GI T20",
+          "type": "term_life",
+          "term_length": 20,
+          "age_range": [18, 60],
+          "premium_payable_until": 80,
+          "renewable": true,
+          "convertible": {
+            "available": true,
+            "until_age": 65,
+            "min_amount": 5000
+          }
+        },
+        {
+          "id": "gi-t100",
+          "name": "Emma GI T100",
+          "type": "permanent_life",
+          "term_length": 100,
+          "age_range": [18, 70],
+          "premium_payable_until": 100,
+          "renewable": false,
+          "convertible": false
+        }
+      ],
+      "eligibility": {
+        "age_range_t20": [18, 60],
+        "age_range_t100": [18, 70],
+        "residency": "Canadian permanent resident or citizen",
+        "medical_questions": false,
+        "guaranteed_acceptance": true
+      },
+      "coverage": {
+        "min_amount": 5000,
+        "max_amount": 100000,
+        "currency": "CAD",
+        "max_all_policies": 100000
+      },
+      "features": {
+        "graded_benefit": {
+          "enabled": true,
+          "period_years": 2,
+          "description": "Période différée de 2 ans - seul décès accidentel couvert, sinon remboursement des primes"
+        },
+        "renewable": {
+          "available": true,
+          "applies_to": "gi-t20",
+          "until_age": 80
+        },
+        "convertible": {
+          "available": true,
+          "applies_to": "gi-t20",
+          "until_age": 65,
+          "min_amount": 5000
+        },
+        "cash_value": false,
+        "participating": false
+      },
+      "exclusions": {
+        "standard": [
+          {
+            "type": "suicide",
+            "period_years": 2,
+            "description": "Suicide dans les 2 premières années"
+          },
+          {
+            "type": "graded_death_benefit",
+            "period_years": 2,
+            "description": "Période différée: décès non-accidentel = remboursement des primes uniquement"
+          },
+          {
+            "type": "misrepresentation",
+            "description": "Fausse déclaration entraînant nullité du contrat"
+          },
+          {
+            "type": "criminal_act",
+            "description": "Décès résultant d'un acte criminel"
+          }
+        ],
+        "dangerous_activities": [
+          "Alpinisme",
+          "Escalade de glace",
+          "Plongée sous-marine (hors centre de vacances)",
+          "Parapente",
+          "Paravoile",
+          "Deltaplane",
+          "Parachutisme",
+          "Saut à l'élastique",
+          "Héli-ski",
+          "Ski hors-piste",
+          "Motoneige hors-piste",
+          "Aviation (sauf pilotes commerciaux)",
+          "Course automobile",
+          "Kitesurf"
+        ]
+      },
+      "source_documents": [
+        {
+          "document_id": "emma-fr-specimen-contrat-gi.md",
+          "type": "specimen_contract"
+        }
+      ],
+      "tags": ["assurance-vie", "emission-garantie", "guaranteed-issue", "sans-questions-medicales", "emma"]
+    }
+  ],
+
+  "riders": [
+    {
+      "id": "emma-dependent-rider",
+      "name": "Avenant Assurance Vie pour Personne à Charge",
+      "name_en": "Dependent Life Insurance Rider",
+      "category": "rider",
+      "parent_products": ["emma-t100", "emma-term"],
+      "underwriting_type": "simplified",
+      "status": "active",
+      "audience": {
+        "primary": ["insurance_advisors", "agents"],
+        "secondary": ["clients"]
+      },
+      "use_cases": [
+        "Protection for all dependent children",
+        "Automatic coverage for newborns",
+        "Future insurability guarantee"
+      ],
+      "eligibility": {
+        "dependent_definition": [
+          "Under 21 years old",
+          "21-25 years old and full-time student",
+          "Significant functional disability before age 21"
+        ],
+        "additional_criteria": [
+          "Not married or common-law",
+          "Not employed full-time",
+          "Permanent address in Canada",
+          "Covered by provincial health insurance"
+        ],
+        "coverage_starts": "15 days after birth (if discharged from hospital)",
+        "automatic_coverage": true
+      },
+      "coverage": {
+        "fixed_amounts": [15000, 20000, 25000],
+        "currency": "CAD",
+        "max_combined": 25000
+      },
+      "features": {
+        "convertible": {
+          "available": true,
+          "multiplier": 5,
+          "description": "Transformable en 5x le montant à l'échéance",
+          "evidence_required": false
+        }
+      },
+      "limitations": {
+        "pre_existing_condition_period_months": 12,
+        "applies_to": "Enfants présents à la date d'effet"
+      },
+      "source_documents": [
+        {
+          "document_id": "emma-fr-sommaire-produit-assurance-vie.mdx",
+          "type": "product_summary"
+        },
+        {
+          "document_id": "emma-fr-specimen-de-contrat.mdx",
+          "type": "specimen_contract"
+        }
+      ],
+      "tags": ["avenant", "enfant-a-charge", "emma"]
+    },
+    {
+      "id": "emma-cancer-rider",
+      "name": "Avenant Assurance Cancer",
+      "name_en": "Cancer Insurance Rider",
+      "category": "rider",
+      "parent_products": ["emma-t100", "emma-term"],
+      "underwriting_type": "simplified",
+      "status": "active",
+      "audience": {
+        "primary": ["insurance_advisors", "agents"],
+        "secondary": ["clients"]
+      },
+      "use_cases": [
+        "Lump sum payment upon cancer diagnosis",
+        "Financial support during treatment",
+        "Income replacement during recovery"
+      ],
+      "eligibility": {
+        "age_range": [18, 70],
+        "residency": "Canadian permanent resident or citizen"
+      },
+      "coverage": {
+        "min_amount": 10000,
+        "max_amount": 75000,
+        "currency": "CAD",
+        "coverage_until_age": 80,
+        "max_all_policies": 75000
+      },
+      "covered_conditions": {
+        "cancer_major": {
+          "definition": "Tumeur maligne avec prolifération anarchique de cellules",
+          "confirmation": "Test de pathologie requis",
+          "types": [
+            "Carcinome",
+            "Mélanome",
+            "Leucémie",
+            "Lymphome",
+            "Sarcome"
+          ]
+        },
+        "cancer_minor": {
+          "payment": "One-time only",
+          "reduction": "Déduit du montant cancer majeur",
+          "types": [
+            "Carcinome in situ (Tis) ou stade Ta",
+            "Mélanome ≤1mm sans ulcération",
+            "Cancer de la peau sans mélanome",
+            "Cancer prostate T1a/T1b",
+            "Cancer thyroïde papillaire/folliculaire ≤2cm stade T1",
+            "Leucémie lymphoïde chronique < stade 1 Rai",
+            "Tumeurs stromales gastro-intestinales < stade 2 AJCC"
+          ]
+        }
+      },
+      "limitations": {
+        "moratorium_period_days": 90,
+        "survival_period_days": 30,
+        "pre_existing_condition_period_months": 12,
+        "pre_existing_exclusion_period_months": 24
+      },
+      "source_documents": [
+        {
+          "document_id": "emma-fr-sommaire-produit-assurance-vie.mdx",
+          "type": "product_summary"
+        },
+        {
+          "document_id": "emma-fr-specimen-de-contrat.mdx",
+          "type": "specimen_contract"
+        }
+      ],
+      "tags": ["avenant", "cancer", "maladies-graves", "emma"]
+    },
+    {
+      "id": "emma-disability-rider",
+      "name": "Avenant Assurance Invalidité Totale",
+      "name_en": "Total Disability Insurance Rider",
+      "category": "rider",
+      "parent_products": ["emma-t100", "emma-term"],
+      "underwriting_type": "full",
+      "status": "active",
+      "audience": {
+        "primary": ["insurance_advisors", "agents", "underwriters"],
+        "secondary": ["clients"]
+      },
+      "use_cases": [
+        "Debt repayment during disability",
+        "Mortgage protection",
+        "Credit card/loan payments"
+      ],
+      "eligibility": {
+        "age_range": [18, 60],
+        "residency": "Canadian resident (6+ months/year)",
+        "employment": "Full-time (21+ hours/week, 35+ weeks/year)"
+      },
+      "coverage": {
+        "min_monthly": 500,
+        "max_monthly": 3000,
+        "currency": "CAD",
+        "coverage_until_age": 65,
+        "calculation": "Min(1.5% of life coverage, max by occupation category)",
+        "use_restriction": "Exclusively for eligible debt repayment"
+      },
+      "benefit_periods": [
+        {
+          "id": "2-years",
+          "name": "2 ans",
+          "max_payments": 60
+        },
+        {
+          "id": "5-years",
+          "name": "5 ans",
+          "max_payments": 84
+        }
+      ],
+      "elimination_period": {
+        "days": 90,
+        "retroactive_to_day": 30
+      },
+      "eligible_debts": {
+        "included": [
+          "Prêt hypothécaire",
+          "Marge de crédit hypothécaire",
+          "Prêt personnel",
+          "Prêt-auto",
+          "Carte de crédit",
+          "Marge de crédit",
+          "Bail de location (véhicule)",
+          "Taxes foncières et scolaires",
+          "Loyer résidentiel (si pas d'hypothèque, max 2 ans)"
+        ],
+        "excluded": [
+          "Prêts entre individus",
+          "Prêts commerciaux",
+          "Créances contractées pendant l'invalidité",
+          "Créances contractées dans les 90 jours avant l'invalidité",
+          "Créances couvertes par autre assurance invalidité"
+        ]
+      },
+      "presumption_of_disability": {
+        "conditions": [
+          "Perte totale et permanente de deux membres",
+          "Perte totale de l'usage des deux mains ou pieds",
+          "Perte totale et irréversible de l'ouïe (≥90 dB)",
+          "Perte totale de la vue (acuité ≤20/200 ou champ <20°)"
+        ]
+      },
+      "exclusions": [
+        "Tentative de suicide ou automutilation",
+        "Acte illégal ou criminel",
+        "Conduite sous influence (alcool/drogue)",
+        "Toxicomanie ou abus d'alcool",
+        "Service dans forces armées",
+        "Voyage aérien non commercial",
+        "Chirurgie esthétique ou élective",
+        "Traitements expérimentaux",
+        "Grossesse (sauf complication pathologique)",
+        "Incarcération"
+      ],
+      "restrictions": {
+        "bankruptcy": "Prestations cessent en cas de faillite pendant invalidité",
+        "treatment_refusal": "Suspension possible si refus de traitement"
+      },
+      "recurrence_rules": {
+        "categories_B_1A_2A": {
+          "recovery_period_months": 6,
+          "description": "Nouvelle invalidité si rétabli 6+ mois"
+        },
+        "categories_3A_4A": {
+          "recovery_period_months": 12,
+          "description": "Nouvelle invalidité si rétabli 12+ mois"
+        }
+      },
+      "death_benefit": {
+        "amount": "5x monthly benefit",
+        "max": 10000,
+        "condition": "Si décès pendant période d'invalidité"
+      },
+      "source_documents": [
+        {
+          "document_id": "emma-fr-sommaire-produit-assurance-vie.mdx",
+          "type": "product_summary"
+        },
+        {
+          "document_id": "emma-fr-specimen-de-contrat.mdx",
+          "type": "specimen_contract"
+        }
+      ],
+      "tags": ["avenant", "invalidite", "dette", "salaire", "emma"]
+    }
+  ],
+
+  "underwriting": {
+    "mib_verification": true,
+    "fast_decision_available": true,
+    "electronic_application": true,
+    "requirements_matrix": {
+      "legend": {
+        "P": "Proposition",
+        "PS": "Profil sanguin",
+        "MU": "Analyse d'urine",
+        "SV": "Signes vitaux (taille/poids, tension artérielle)",
+        "RMT": "Rapport du médecin traitant",
+        "ECG": "Électrocardiogramme"
+      },
+      "by_amount_and_age": [
+        {
+          "amount_range": [0, 500000],
+          "age_18_40": ["P"],
+          "age_41_50": ["P"],
+          "age_51_55": ["P"],
+          "age_56_60": ["P"],
+          "age_61_plus": ["P"]
+        },
+        {
+          "amount_range": [500001, 1000000],
+          "age_18_40": ["P"],
+          "age_41_50": ["P"],
+          "age_51_55": ["P"],
+          "age_56_60": ["P"],
+          "age_61_plus": ["PS", "MU", "SV"]
+        },
+        {
+          "amount_range": [1000001, 1500000],
+          "age_18_40": ["P"],
+          "age_41_50": ["P"],
+          "age_51_55": ["PS", "MU", "SV"],
+          "age_56_60": ["PS", "MU", "SV"],
+          "age_61_plus": ["PS", "MU", "SV"]
+        },
+        {
+          "amount_range": [1500001, 2000000],
+          "age_18_40": ["P"],
+          "age_41_50": ["P"],
+          "age_51_55": ["PS", "MU", "SV"],
+          "age_56_60": ["PS", "MU", "SV"],
+          "age_61_plus": ["PS", "MU", "SV", "RMT", "ECG"]
+        },
+        {
+          "amount_range": [2000001, 3000000],
+          "age_18_40": ["PS", "MU", "SV"],
+          "age_41_50": ["PS", "MU", "SV"],
+          "age_51_55": ["PS", "MU", "SV"],
+          "age_56_60": ["PS", "MU", "SV", "RMT"],
+          "age_61_plus": ["PS", "MU", "SV", "RMT", "ECG"]
+        },
+        {
+          "amount_range": [3000001, 4000000],
+          "age_18_40": ["PS", "MU", "SV"],
+          "age_41_50": ["PS", "MU", "SV"],
+          "age_51_55": ["PS", "MU", "SV", "RMT"],
+          "age_56_60": ["PS", "MU", "SV", "RMT"],
+          "age_61_plus": ["PS", "MU", "SV", "RMT", "ECG"]
+        },
+        {
+          "amount_range": [4000001, 5000000],
+          "age_18_40": ["PS", "MU", "SV"],
+          "age_41_50": ["PS", "MU", "SV"],
+          "age_51_55": ["PS", "MU", "SV", "RMT"],
+          "age_56_60": ["PS", "MU", "SV", "RMT"],
+          "age_61_plus": ["PS", "MU", "SV", "RMT", "ECG"]
+        }
+      ]
+    },
+    "decision_types": [
+      {
+        "id": "standard",
+        "name": "Accepté Standard",
+        "description": "Police émise aux taux standards sans surprime"
+      },
+      {
+        "id": "rated",
+        "name": "Accepté avec Surprime",
+        "description": "Police émise avec surprime permanente ou temporaire"
+      },
+      {
+        "id": "deferred",
+        "name": "Différé",
+        "description": "Reconsidération future possible selon conditions"
+      },
+      {
+        "id": "declined",
+        "name": "Refus",
+        "description": "Aucune offre ne peut être faite"
+      }
+    ],
+    "smoker_definition": "N'a pas fait usage de tabac (cigarettes, vapoteuses, e-cigarettes, produits de nicotine, cigarillos, petits cigares, ou plus de 12 gros cigares) dans les 12 derniers mois"
+  },
+
+  "ineligibility": {
+    "automatic_decline": [
+      "En investigation médicale présentement",
+      "Condamné pour conduite avec facultés affaiblies dans la dernière année",
+      "Véhicule équipé d'un antidémarreur éthylométrique",
+      "En attente d'une décision de la cour",
+      "A reçu une sentence dans les deux dernières années",
+      "En période de probation",
+      "Porteur du VIH"
+    ],
+    "prohibited_drugs": [
+      "Stéroïdes anabolisants",
+      "Barbituriques",
+      "Héroïne",
+      "Morphine",
+      "Opium",
+      "Demerol",
+      "Codéine",
+      "Amphétamines (speed)",
+      "Cocaïne",
+      "Fentanyl",
+      "Ecstasy",
+      "LSD",
+      "DMT",
+      "Hallucinogènes",
+      "Méthadone"
+    ]
+  },
+
+  "medical_conditions": {
+    "total_conditions": 47,
+    "categories": {
+      "cardiovascular": {
+        "count": 4,
+        "conditions": [
+          {
+            "name": "AIT/AVC",
+            "standard_possible": false,
+            "typical_rating": "+50% to +150%",
+            "decline_triggers": ["<40 years", "Smoker", "Diabetic", "Multiple AVC"]
+          },
+          {
+            "name": "Coronopathie/Infarctus",
+            "standard_possible": false,
+            "typical_rating": "+125% to +275%",
+            "decline_triggers": ["Multiple infarcts", "Smoker", "<40 at diagnosis"]
+          },
+          {
+            "name": "Fibrillation Auriculaire",
+            "standard_possible": true,
+            "conditions": "After 60, no underlying cause, investigation normal"
+          },
+          {
+            "name": "Hypertension",
+            "standard_possible": true,
+            "conditions": "Well controlled, BP within normal limits"
+          }
+        ]
+      },
+      "respiratory": {
+        "count": 2,
+        "conditions": [
+          {
+            "name": "Apnée du Sommeil",
+            "standard_possible": true,
+            "conditions": "Treated, compliant, obstructive type",
+            "decline_triggers": ["Central apnea", "Untreated"]
+          },
+          {
+            "name": "MPOC/Emphysème",
+            "standard_possible": false,
+            "typical_rating": "+50% to +100%",
+            "decline_triggers": ["Severe", "Smoker"]
+          }
+        ]
+      },
+      "metabolic": {
+        "count": 2,
+        "conditions": [
+          {
+            "name": "Diabète",
+            "standard_possible": true,
+            "conditions": "Type 2, age 56+, well controlled",
+            "typical_rating": "+50% to decline"
+          },
+          {
+            "name": "Hypercholestérolémie",
+            "standard_possible": true,
+            "conditions": "Well controlled"
+          }
+        ]
+      },
+      "cancer": {
+        "count": 9,
+        "standard_possible": ["Basal cell carcinoma"],
+        "typically_rated": ["Thyroid", "Prostate (depending on stage)", "Breast (in situ)", "Colon"],
+        "typically_declined": ["Lung (stage 2+)", "Blood cancers", "Recurrent"]
+      },
+      "mental_health": {
+        "count": 4,
+        "conditions": [
+          {
+            "name": "Anxiety",
+            "standard_possible": true,
+            "conditions": "No complications"
+          },
+          {
+            "name": "Depression",
+            "typical_rating": "+50% to +100%",
+            "deferral": "If currently disabled"
+          },
+          {
+            "name": "Bipolar",
+            "typical_rating": "+50% to +150%",
+            "deferral": "12 months post-diagnosis"
+          },
+          {
+            "name": "Schizophrenia",
+            "typical_rating": "+100% to +300%",
+            "deferral": "12 months post-episode"
+          }
+        ]
+      }
+    }
+  },
+
+  "general_provisions": {
+    "grace_period_days": 30,
+    "incontestability_period_years": 2,
+    "suicide_exclusion_years": 2,
+    "reinstatement_period_years": 2,
+    "reinstatement_quick_days": 90,
+    "minimum_refund_amount": 20,
+    "currency": "CAD",
+    "participating": false,
+    "cash_value": false,
+    "termination_age": 80
+  },
+
+  "consumer_rights": {
+    "cancellation": {
+      "legal_minimum_days": 10,
+      "extended_period_days": 15,
+      "alternative_period_days": 60,
+      "fees_after_period": true
+    },
+    "freedom_of_choice": [
+      "Not obligated to buy from designated provider",
+      "Free to choose product and insurer"
+    ],
+    "distributor_disclosure": {
+      "compensation_threshold_percent": 30,
+      "disclosure_required": true
+    }
+  },
+
+  "regulatory": {
+    "authority": "AMF",
+    "authority_full_name": "Autorité des marchés financiers",
+    "authority_phone": "1-877-525-0337",
+    "authority_url": "https://www.lautorite.qc.ca",
+    "jurisdiction": "Quebec Insurance Act"
+  },
+
+  "statistics": {
+    "total_products": 6,
+    "main_products": 3,
+    "riders": 3,
+    "product_categories": {
+      "permanent_life": 1,
+      "term_life": 1,
+      "guaranteed_issue": 1,
+      "cancer_rider": 1,
+      "disability_rider": 1,
+      "dependent_rider": 1
+    },
+    "coverage_range": {
+      "min": 1000,
+      "max": 5000000,
+      "currency": "CAD"
+    },
+    "age_ranges": {
+      "main_products": [18, 80],
+      "emma_gi_t20": [18, 60],
+      "emma_gi_t100": [18, 70],
+      "cancer_rider": [18, 70],
+      "disability_rider": [18, 60]
+    },
+    "medical_conditions_documented": 47,
+    "non_medical_conditions_documented": 8,
+    "health_questionnaire_questions": 32
+  },
+
+  "health_questionnaire": {
+    "total_questions": 32,
+    "language": "bilingual_fr_en",
+    "manual_underwriting_rule": {
+      "trigger": "additional_questionnaire",
+      "description_fr": "Toute réponse menant à 'Question suivante + questionnaire additionnel' implique une tarification manuelle par un tarificateur humain. Le dossier sera révisé individuellement et ne pourra pas bénéficier d'une décision automatique (FastTrack).",
+      "description_en": "Any response leading to 'Next question + additional questionnaire' requires manual underwriting by a human underwriter. The file will be reviewed individually and cannot benefit from an automatic decision (FastTrack)."
+    },
+    "structure": {
+      "section_a": {
+        "name": "Basic Eligibility / Admissibilité de base",
+        "coverage_range": "5,000$ - 100,000$ (GI)",
+        "questions": 6,
+        "purpose": "Guaranteed Issue eligibility screening"
+      },
+      "section_b": {
+        "name": "Full Underwriting / Souscription complète",
+        "coverage_range": "5,000$ - 5,000,000$",
+        "fasttrack_limit": "750,000$",
+        "questions": 24,
+        "sub_questions": 15,
+        "purpose": "Complete medical and lifestyle assessment"
+      }
+    },
+    "decision_outcomes": [
+      "ACCEPTED - Standard rates",
+      "ACCEPTED - Smoker rates",
+      "ACCEPTED - FastTrack (auto-decision up to 750K)",
+      "ACCEPTED - Manual underwriting required",
+      "DECLINED - GI offer only (T10, T20, T100 max 100K)",
+      "DECLINED - End of questionnaire",
+      "ADDITIONAL QUESTIONNAIRE - Further assessment needed"
+    ],
+    "section_a_questions": [
+      {
+        "id": "A1",
+        "category": "citizenship_residency",
+        "question_fr": "Êtes-vous citoyen canadien ou résident permanent du Canada?",
+        "question_en": "Are you a Canadian citizen or a permanent resident of Canada?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "next_question",
+          "no": "DECLINED - End of questionnaire"
+        }
+      },
+      {
+        "id": "A2",
+        "category": "province_territory",
+        "question_fr": "Dans quelle province ou territoire du Canada habitez-vous?",
+        "question_en": "In which province or territory of Canada do you live?",
+        "type": "dropdown",
+        "decisions": {
+          "any": "next_question"
+        }
+      },
+      {
+        "id": "A3",
+        "category": "age_eligibility",
+        "question_fr": "Quelle est votre date de naissance?",
+        "question_en": "What is your date of birth?",
+        "type": "date",
+        "decisions": {
+          "age_18_80": "next_question",
+          "otherwise": "DECLINED - End of questionnaire"
+        }
+      },
+      {
+        "id": "A4",
+        "category": "sex_at_birth",
+        "question_fr": "Quel est votre sexe à la naissance?",
+        "question_en": "What is your sex at birth?",
+        "type": "choice",
+        "options": ["Féminin", "Masculin"],
+        "decisions": {
+          "Féminin": "female_rates + next_question",
+          "Masculin": "male_rates + next_question"
+        }
+      },
+      {
+        "id": "A5",
+        "category": "tobacco_use",
+        "question_fr": "Au cours des 12 derniers mois, à l'exception de 12 gros cigares ou moins, avez-vous consommé du tabac sous quelque forme que ce soit, y compris, mais sans s'y limiter : Petits cigares; Cigarillos; Cigarettes électroniques (vapoteuse); Produits à base de nicotine; Substituts de nicotine tels que patchs ou gommes à mâcher; ou Consommation de marijuana, de cannabis ou de haschisch en combinaison avec le tabac?",
+        "question_en": "In the past 12 months, excluding 12 large cigars or less, have you used tobacco in any form, including but not limited to: Small cigars; Cigarillos; Electronic cigarettes (vaping); Nicotine products; Nicotine substitutes such as patch or gum; or Marijuana, cannabis, or hashish use in combination with tobacco?",
+        "type": "boolean",
+        "items_list": [
+          "Petits cigares / Small cigars",
+          "Cigarillos",
+          "Cigarettes électroniques (vapoteuse) / Electronic cigarettes (vaping)",
+          "Produits à base de nicotine / Nicotine products",
+          "Substituts de nicotine tels que patchs ou gommes à mâcher / Nicotine substitutes such as patch or gum",
+          "Consommation de marijuana, de cannabis ou de haschisch en combinaison avec le tabac / Marijuana, cannabis, or hashish use in combination with tobacco"
+        ],
+        "decisions": {
+          "yes": "SMOKER_RATES + next_question",
+          "no": "NON_SMOKER_RATES + next_question"
+        }
+      },
+      {
+        "id": "A6",
+        "category": "terminal_illness",
+        "question_fr": "Avez-vous reçu un diagnostic d'un médecin indiquant qu'il vous reste 24 mois ou moins à vivre, ou êtes-vous actuellement hospitalisé ou souffrez-vous d'une maladie en phase terminale?",
+        "question_en": "Have you received a diagnosis from a doctor indicating that you have 24 months or less to live, or are you currently hospitalized or suffering from a terminal illness?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "DECLINED - End of questionnaire",
+          "no": "GI_OFFER (T10, T20 or T100, max 100K$) OR continue_to_section_b"
+        }
+      }
+    ],
+    "section_b_questions": [
+      {
+        "id": "B1",
+        "category": "pregnancy",
+        "question_fr": "Êtes-vous actuellement enceinte ou avez-vous accouché au cours des 6 derniers mois?",
+        "question_en": "Are you currently pregnant or have you given birth in the last 6 months?",
+        "type": "boolean",
+        "condition": "A3 < 50 years AND A4 = Female",
+        "decisions": {
+          "yes": "B2 (use pre-pregnancy weight)",
+          "no": "B2 (use current weight)"
+        }
+      },
+      {
+        "id": "B2",
+        "category": "build_measurements_bmi",
+        "question_fr": "Quelle est votre taille?",
+        "question_en": "What is your height?",
+        "type": "dropdown",
+        "format": "feet/inches or meters",
+        "decisions": {
+          "any": "B3"
+        }
+      },
+      {
+        "id": "B3",
+        "category": "build_measurements_bmi",
+        "question_fr": "Quel est votre poids? / Quel était votre poids avant la grossesse?",
+        "question_en": "What is your weight? / What was your pre-pregnancy weight?",
+        "type": "numeric",
+        "bmi_calculation": true,
+        "decisions": {
+          "bmi_lte_17.0": "DECLINED - GI_OFFER (T10, T20 or T100, max 100K$)",
+          "bmi_17.1_37.9": "OK - automatic_decision",
+          "bmi_38.0_40.0": "OK - FastTrack up to 750K$",
+          "bmi_40.1_44.0": "OK - manual_underwriting (FastTrack_refused)",
+          "bmi_gte_44.1": "DECLINED - GI_OFFER (T10, T20 or T100, max 100K$)"
+        }
+      },
+      {
+        "id": "B4",
+        "category": "criminal_history",
+        "question_fr": "Au cours des dix dernières années, avez-vous été accusé ou condamné pour une infraction pénale, ou avez-vous actuellement des poursuites en cours, incluant pour la conduite avec un taux d'alcoolémie supérieur à la limite légale ou sous l'influence de drogues?",
+        "question_en": "In the last 10 years, have you been charged or convicted of a criminal offense, or do you currently have charges pending, including driving with a blood alcohol level above the legal limit or under the influence of drugs?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "DECLINED - GI_OFFER (T10, T20 or T100, max 100K$)",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B5",
+        "category": "immune_system",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Lupus; Sclérodermie; SIDA/VIH; Toute autre maladie ou trouble du système immunitaire?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for any of the following conditions: Lupus; Scleroderma; AIDS/HIV; Any other disease or disorder of the immune system?",
+        "type": "boolean",
+        "items_list": ["Lupus", "Sclérodermie / Scleroderma", "SIDA/VIH / AIDS/HIV", "Toute autre maladie ou trouble du système immunitaire / Any other disease or disorder of the immune system"],
+        "decisions": {
+          "yes": "DECLINED - GI_OFFER (T10, T20 or T100, max 100K$)",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B6",
+        "category": "epilepsy_seizures",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'épilepsie ou les convulsions?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for epilepsy or seizures?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "B6.1",
+          "no": "next_question"
+        },
+        "sub_questions": [
+          {
+            "id": "B6.1",
+            "question_fr": "Combien de convulsions avez-vous eu au cours des 12 derniers mois?",
+            "question_en": "How many seizures have you had in the last 12 months?",
+            "type": "choice",
+            "options": ["Aucune / None", "1 à 6 / 1 to 6", "7 ou plus / 7 or more"],
+            "decisions": {
+              "none": "next_question",
+              "1_to_6": "next_question + additional_questionnaire",
+              "7_or_more": "DECLINED - GI_OFFER"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B7",
+        "category": "drug_use_non_prescribed",
+        "question_fr": "À l'exception de la marijuana, du cannabis ou du haschisch, avez-vous consommé des drogues qui ne vous ont pas été prescrites, telles que : Stéroïdes anabolisants; Barbituriques; Héroïne; Morphine; Opium; Démérol; Codéine; Amphétamines; Cocaïne; Fentanyl; Ecstasy; Speed; LSD; DMT; Hallucinogènes; Méthadone?",
+        "question_en": "Excluding marijuana, cannabis or hashish, have you used any drugs that were not prescribed to you such as: Anabolic Steroids, Barbiturates, Heroin, Morphine, Opium, Demerol, Codeine, Amphetamines, Cocaine, Fentanyl, Ecstasy, Speed, LSD, DMT, Hallucinogens, Methadone?",
+        "type": "conditional",
+        "items_list": ["Stéroïdes anabolisants / Anabolic Steroids", "Barbituriques / Barbiturates", "Héroïne / Heroin", "Morphine", "Opium", "Démérol / Demerol", "Codéine / Codeine", "Amphétamines / Amphetamines", "Cocaïne / Cocaine", "Fentanyl", "Ecstasy", "Speed", "LSD", "DMT", "Hallucinogènes / Hallucinogens", "Méthadone / Methadone"],
+        "decisions": {
+          "yes_last_use_lt_2_years": "DECLINED - GI_OFFER",
+          "yes_last_use_gte_2_years": "B7.1",
+          "no": "next_question"
+        },
+        "sub_questions": [
+          {
+            "id": "B7.1",
+            "question_fr": "Depuis combien d'années n'avez-vous pas consommé?",
+            "question_en": "How many years since you last used?",
+            "type": "numeric",
+            "decisions": {
+              "lt_8_years": "next_question (FastTrack_refused) + additional_questionnaire",
+              "gte_8_years": "next_question"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B8",
+        "category": "alcohol_drug_treatment",
+        "question_fr": "Avez-vous déjà suivi un traitement (y compris la participation à un groupe de soutien) ou vous a-t-on conseillé de réduire votre consommation ou de suivre un traitement concernant la consommation d'alcool ou de drogue?",
+        "question_en": "Have you ever received treatment (including the participation in a support group) or were you advised to reduce your consumption or seek treatment regarding the use of alcohol or any drugs?",
+        "type": "conditional",
+        "decisions": {
+          "yes_last_treatment_lt_2_years": "DECLINED - GI_OFFER",
+          "yes_last_treatment_gte_2_years": "B8.1",
+          "no": "next_question"
+        },
+        "sub_questions": [
+          {
+            "id": "B8.1",
+            "question_fr": "Depuis combien d'années n'avez-vous pas eu de traitement?",
+            "question_en": "How many years since your last treatment?",
+            "type": "numeric",
+            "decisions": {
+              "lt_10_years": "next_question (FastTrack_refused) + additional_questionnaire",
+              "gte_10_years": "B8.2"
+            }
+          },
+          {
+            "id": "B8.2",
+            "question_fr": "Consommez-vous encore de l'alcool ou des drogues?",
+            "question_en": "Do you still consume alcohol or drugs?",
+            "type": "boolean",
+            "decisions": {
+              "yes": "next_question (FastTrack_refused) + additional_questionnaire",
+              "no": "next_question"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B9",
+        "category": "gastrointestinal",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Maladie de Crohn; Colite ulcéreuse; Hépatite (à l'exception de l'hépatite A); Pancréatite; Hémorragie rectale ou intestinale; Autres troubles de l'estomac, de l'intestin, du foie, du pancréas?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for any of the following conditions: Crohn's disease, Ulcerative colitis, Hepatitis (excluding hepatitis A), Pancreatitis, Rectal or intestinal bleeding, Other disorders of the stomach, intestine, liver, pancreas?",
+        "type": "boolean",
+        "items_list": ["Maladie de Crohn / Crohn's disease", "Colite ulcéreuse / Ulcerative colitis", "Hépatite (à l'exception de l'hépatite A) / Hepatitis (excluding hepatitis A)", "Pancréatite / Pancreatitis", "Hémorragie rectale ou intestinale / Rectal or intestinal bleeding", "Autres troubles de l'estomac, de l'intestin, du foie, du pancréas / Other disorders of the stomach, intestine, liver, pancreas"],
+        "decisions": {
+          "yes_bmi_lte_17.9": "DECLINED - GI_OFFER",
+          "yes_bmi_gt_17.9": "B9.1-B9.3",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B10",
+        "category": "cannabis_frequency",
+        "question_fr": "Au cours des 12 derniers mois, avez-vous consommé plus de 4 fois par semaine (ingestion ou inhalation) de la marijuana, du haschisch ou du cannabis sous quelque forme que ce soit?",
+        "question_en": "In the last 12 months, have you used more than 4 times per week (ingested or inhaled) marijuana, hashish or cannabis in any form?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "B10.1",
+          "no": "next_question"
+        },
+        "sub_questions": [
+          {
+            "id": "B10.1",
+            "question_fr": "Combien de fois par semaine consommez-vous?",
+            "question_en": "How many times per week do you consume?",
+            "type": "numeric",
+            "decisions": {
+              "lt_7_times": "next_question",
+              "gte_7_times": "next_question (FastTrack_refused) + additional_questionnaire"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B11",
+        "category": "cardiovascular",
+        "question_fr": "À l'exception de l'hypertension artérielle et/ou le cholestérol traité et contrôlé, avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Maladie cardiaque; Crise cardiaque; Angine de poitrine; Souffle cardiaque; Pouls anormal; Anévrisme; Caillots sanguins; Maladie cérébro-vasculaire (accident vasculaire cérébral ou mini accident vasculaire cérébral tel qu'un accident ischémique transitoire (AIT); Autres maladies du cœur ou des vaisseaux sanguins (angioplastie, pontage cardiaque, endoprothèse cardiaque (stent), maladie vasculaire périphérique)?",
+        "question_en": "Excluding treated and controlled high blood pressure and/or high cholesterol, have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for any of the following conditions: Heart disease, Heart attack, Angina, Heart murmur, Abnormal pulse, Aneurysm, Blood clots, Cerebrovascular disease (stroke or TIA), Any other heart or blood vessel disease?",
+        "type": "boolean",
+        "items_list": ["Maladie cardiaque / Heart disease", "Crise cardiaque / Heart attack", "Angine de poitrine / Angina", "Souffle cardiaque / Heart murmur", "Pouls anormal / Abnormal pulse", "Anévrisme / Aneurysm", "Caillots sanguins / Blood clots", "Maladie cérébro-vasculaire (AVC/AIT) / Cerebrovascular disease (stroke or TIA)", "Autres maladies du cœur ou des vaisseaux sanguins / Any other heart or blood vessel disease"],
+        "exclusions_note": "Excluding treated and controlled high blood pressure and/or high cholesterol",
+        "decisions": {
+          "yes": "B11.1",
+          "no": "next_question"
+        },
+        "sub_questions": [
+          {
+            "id": "B11.1",
+            "question_fr": "Vous a-t-on seulement diagnostiqué un souffle cardiaque fonctionnel qui a fait l'objet d'un examen complet et dont le résultat était normal?",
+            "question_en": "Have you only been diagnosed with a functional heart murmur that had a full investigation and the result was normal?",
+            "type": "boolean",
+            "decisions": {
+              "yes": "next_question",
+              "no": "next_question (FastTrack_refused) + additional_questionnaire"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B12",
+        "category": "diabetes",
+        "question_fr": "Avez-vous déjà été diagnostiqué ou présentez-vous des symptômes de diabète de type 1 ou de type 2 ou de toute autre forme de diabète nécessitant de l'insuline?",
+        "question_en": "Have you ever been diagnosed or do you have symptoms of diabetes type 1, or type 2 or any form of diabetes requiring insulin?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "B12.1-B12.3 (diabetes sub-questions)",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B13",
+        "category": "sleep_apnea",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'apnée du sommeil?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for sleep apnea?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "B13.1",
+          "no": "next_question"
+        },
+        "sub_questions": [
+          {
+            "id": "B13.1",
+            "question_fr": "Utilisiez-vous chaque jour un traitement tel qu'une BiPAP, une CPAP ou toute autre machine ou appareil buccal au cours d'au moins les douze (12) derniers mois ou plus?",
+            "question_en": "Have you been using daily treatment such as a BiPAP, CPAP or any other machine or oral device for at least the last twelve (12) months or more?",
+            "type": "boolean",
+            "decisions": {
+              "yes": "next_question",
+              "no": "next_question (FastTrack_refused) + additional_questionnaire"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B14",
+        "category": "mental_health_mild",
+        "question_fr": "Au cours des cinq (5) dernières années, avez-vous été diagnostiqué, présenté des symptômes, reçu un traitement, ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Anxiété généralisée; Dépression saisonnière; Dépression post-partum?",
+        "question_en": "In the last five (5) years, have you been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Generalized anxiety, Seasonal Depression, Post-partum depression?",
+        "type": "boolean",
+        "items_list": ["Anxiété généralisée / Generalized anxiety", "Dépression saisonnière / Seasonal Depression", "Dépression post-partum / Post-partum depression"],
+        "timeframe": "5 years",
+        "decisions": {
+          "yes": "B14.1-B14.3 (sub-questions)",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B15",
+        "category": "mental_health_severe",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Dépression; Trouble de la personnalité; Trouble bipolaire; Épuisement professionnel; Troubles de l'alimentation; Schizophrénie; Tentative de suicide?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Depression, Personality disorder, Bipolar disorder, Burnout, Eating disorder, Schizophrenia, Attempted suicide?",
+        "type": "boolean",
+        "items_list": ["Dépression / Depression", "Trouble de la personnalité / Personality disorder", "Trouble bipolaire / Bipolar disorder", "Épuisement professionnel / Burnout", "Troubles de l'alimentation / Eating disorder", "Schizophrénie / Schizophrenia", "Tentative de suicide / Attempted suicide"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B16",
+        "category": "weight_loss",
+        "question_fr": "Au cours des 12 derniers mois, à l'exclusion de la période post-partum ou d'une perte de poids intentionnelle suite à un régime ou exercice physique, avez-vous perdu plus de 10% de votre poids corporel?",
+        "question_en": "In the past 12 months, excluding post-partum or intentional weight loss such as diet or exercise, have you lost more than 10% of your body weight?",
+        "type": "boolean",
+        "exclusions_note": "Excluding post-partum or intentional weight loss (diet/exercise)",
+        "threshold": "10%",
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B17",
+        "category": "employment_status",
+        "question_fr": "Travaillez-vous actuellement?",
+        "question_en": "Are you employed?",
+        "type": "choice",
+        "options": ["OUI, je travaille / YES, I work", "OUI, en congé parental/maternité/paternité / YES, on parental/maternity/paternity leave", "NON, étudiant temps plein ou au foyer / NO, full-time student or homemaker", "NON, retraité (raison non médicale) / NO, retired (non-medical reason)", "NON / NO"],
+        "decisions": {
+          "yes_working": "B17.1",
+          "yes_parental_leave": "B17.1",
+          "no_student_homemaker": "next_question",
+          "no_retired_non_medical": "next_question (if < 55 years → manual_underwriting)",
+          "no": "next_question + additional_questionnaire"
+        },
+        "sub_questions": [
+          {
+            "id": "B17.1",
+            "question_fr": "Est-ce que votre occupation fait partie des fonctions suivantes?",
+            "question_en": "Does your occupation include any of the following duties?",
+            "type": "boolean",
+            "items_list": [
+              "Plongée commerciale / Commercial diving",
+              "Travail à des hauteurs supérieures à 10 mètres (30 pieds) / Working at heights over 30 ft (10m)",
+              "Pêche en haute mer / Offshore fishing",
+              "Exploitation minière souterraine ou en mer / Underground or offshore mining",
+              "Exploitation forestière ou sylviculture / Logging or forestry",
+              "Monteur de lignes électriques ou hydroélectriques / Hydro/power lineman",
+              "Pilote (sauf ligne aérienne commerciale) / Pilot (except commercial airline)",
+              "Diplomate / Diplomat",
+              "Politicien / Politician",
+              "Journaliste voyageant dans des pays à haut risque / Journalist travelling in high-risk countries",
+              "Personnel militaire déployé / Military personnel deployed",
+              "Cascadeur / Stunt work",
+              "Danseur exotique ou industrie des films pour adultes / Exotic dancer or adult film industry"
+            ],
+            "decisions": {
+              "yes": "next_question + additional_questionnaire",
+              "no": "next_question"
+            }
+          }
+        ]
+      },
+      {
+        "id": "B18",
+        "category": "family_history_hereditary",
+        "question_fr": "Avant l'âge de 65 ans, un membre de votre famille immédiate (père, mère, frère ou sœur) a-t-il été diagnostiqué avec l'une des conditions médicales suivantes : Sclérose latérale amyotrophique; Cardiomyopathie; Syndrome du cancer du côlon sans polypose héréditaire; Syndrome de Lynch; Maladie de Huntington; Dystrophie musculaire; Maladie polykystique des reins?",
+        "question_en": "Before the age of 65, have any of your immediate family member(s) (father, mother, brother or sister) been diagnosed with: Amyotrophic Lateral Sclerosis, Cardiomyopathy, Hereditary non-polyposis colon cancer syndrome, Lynch syndrome, Huntington's disease, Muscular dystrophy, Polycystic kidney disease?",
+        "type": "boolean",
+        "family_members": ["father", "mother", "brother", "sister"],
+        "age_threshold": 65,
+        "items_list": ["Sclérose latérale amyotrophique / ALS", "Cardiomyopathie / Cardiomyopathy", "Syndrome du cancer du côlon sans polypose héréditaire / Hereditary non-polyposis colon cancer syndrome", "Syndrome de Lynch / Lynch syndrome", "Maladie de Huntington / Huntington's disease", "Dystrophie musculaire / Muscular dystrophy", "Maladie polykystique des reins / Polycystic kidney disease"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B19",
+        "category": "family_history_multiple",
+        "question_fr": "Avant l'âge de 60 ans, deux ou plusieurs membres de votre famille immédiate (père, mère, frère, sœur) ont-ils été diagnostiqués avec la même des conditions médicales suivantes : Cancer; Accident vasculaire cérébral; Crise cardiaque; Angine de poitrine; Pontage cardiaque; Angioplastie; Sclérose en plaques; Maladie du motoneurone; Alzheimer; Démence?",
+        "question_en": "Before the age of 60, have 2 or more of your immediate family members (father, mother, brother, sister) been diagnosed with the same medical condition such as: Cancer, Stroke, Heart attack, Angina, Heart bypass, Angioplasty, Multiple sclerosis, Motor neuron disease, Alzheimer's, Dementia?",
+        "type": "conditional",
+        "family_members": ["father", "mother", "brother", "sister"],
+        "age_threshold": 60,
+        "requirement": "2 or more with SAME condition",
+        "items_list": ["Cancer", "Accident vasculaire cérébral / Stroke", "Crise cardiaque / Heart attack", "Angine de poitrine / Angina", "Pontage cardiaque / Heart bypass", "Angioplastie / Angioplasty", "Sclérose en plaques / Multiple sclerosis", "Maladie du motoneurone / Motor neuron disease", "Alzheimer", "Démence / Dementia"],
+        "decisions": {
+          "yes_two_members_same_condition": "next_question + additional_questionnaire",
+          "no_one_member_only": "next_question",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B20",
+        "category": "unconsulted_symptoms",
+        "question_fr": "À l'exclusion des examens annuels, des suivis de routine liés à la grossesse ou à l'accouchement dont les résultats sont normaux, des rhumes, grippes ou allergies saisonnières, des foulures ou entorses... Avez-vous des symptômes physiques ou mentaux pour lesquels vous n'avez pas encore consulté un professionnel de la santé?",
+        "question_en": "Excluding annual tests, routine pregnancy or childbirth-related follow-ups with normal results, common cold, flu or seasonal allergies, strains or sprains... Do you have any physical or mental symptoms for which you have not yet consulted a health professional?",
+        "type": "boolean",
+        "exclusions_note": "Excluding annual tests, routine pregnancy/childbirth follow-ups with normal results, common cold, flu, seasonal allergies, strains, sprains",
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B21",
+        "category": "pending_investigations",
+        "question_fr": "À l'exclusion des examens annuels, des suivis de routine liés à la grossesse ou à l'accouchement dont les résultats sont normaux, des rhumes, grippes ou allergies saisonnières, des foulures ou entorses... Au cours des 12 derniers mois, vous a-t-on avisé d'un résultat d'examen anormal, recommandé un traitement ou des examens qui ne sont pas encore commencés ou attendez-vous actuellement les résultats d'examens médicaux?",
+        "question_en": "Excluding annual tests, routine pregnancy or childbirth-related follow-ups with normal results, common cold, flu or seasonal allergies, strains or sprains... In the last 12 months, have you been advised of an abnormal test result, or to have treatment or investigations which have not yet started or been completed, or are you currently awaiting results of any medical investigations?",
+        "type": "boolean",
+        "timeframe": "12 months",
+        "exclusions_note": "Excluding annual tests, routine pregnancy/childbirth follow-ups with normal results, common cold, flu, seasonal allergies, strains, sprains",
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B22",
+        "category": "endocrine_disorders",
+        "question_fr": "À l'exception de l'hypothyroïdie et de l'hyperthyroïdie contrôlées, avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'un des troubles suivants : Glande surrénale; Glande parathyroïde; Glande pituitaire; Hémochromatose; Tout autre trouble de la glande endocrine, glandulaire ou métabolique?",
+        "question_en": "Excluding controlled hypothyroidism and hyperthyroidism, have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Adrenal, Parathyroid, Pituitary, Hemochromatosis, Any other endocrine, gland, or metabolic disorders?",
+        "type": "boolean",
+        "exclusions_note": "Excluding controlled hypothyroidism and hyperthyroidism",
+        "items_list": ["Glande surrénale / Adrenal", "Glande parathyroïde / Parathyroid", "Glande pituitaire / Pituitary", "Hémochromatose / Hemochromatosis", "Tout autre trouble endocrinien, glandulaire ou métabolique / Any other endocrine, gland, or metabolic disorders"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B23",
+        "category": "cancer_tumors",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Cancer; Polype(s); Kyste(s) malin(s); Tumeur(s); Maladie de Hodgkin; Lymphome; Leucémie; Mélanome; Toute autre croissance anormale ou tumeur maligne?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Cancer, Polyp(s), Malignant Cyst(s), Tumor(s), Hodgkin's disease, Lymphoma, Leukemia, Melanoma, Any other abnormal growth or malignancy?",
+        "type": "boolean",
+        "items_list": ["Cancer", "Polype(s) / Polyp(s)", "Kyste(s) malin(s) / Malignant Cyst(s)", "Tumeur(s) / Tumor(s)", "Maladie de Hodgkin / Hodgkin's disease", "Lymphome / Lymphoma", "Leucémie / Leukemia", "Mélanome / Melanoma", "Toute autre croissance anormale ou tumeur maligne / Any other abnormal growth or malignancy"],
+        "note": "Kyste bénin = répondre NON / Benign cyst = answer NO",
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B24",
+        "category": "respiratory",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Emphysème; Maladie pulmonaire obstructive chronique (MPOC); Bronchite chronique; Fibrose kystique?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Emphysema, Chronic Obstructive Pulmonary Disease (COPD), Chronic bronchitis, Cystic fibrosis?",
+        "type": "boolean",
+        "items_list": ["Emphysème / Emphysema", "Maladie pulmonaire obstructive chronique (MPOC) / COPD", "Bronchite chronique / Chronic bronchitis", "Fibrose kystique / Cystic fibrosis"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B25",
+        "category": "neurological_muscular",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Dystrophie musculaire; Engourdissement ou faiblesse d'un bras ou d'une jambe; Paralysie?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Muscular dystrophy, Numbness or weakness of an arm or leg, Paralysis?",
+        "type": "boolean",
+        "items_list": ["Dystrophie musculaire / Muscular dystrophy", "Engourdissement ou faiblesse d'un bras ou d'une jambe / Numbness or weakness of an arm or leg", "Paralysie / Paralysis"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B26",
+        "category": "multiple_sclerosis",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour la sclérose en plaques?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for multiple sclerosis?",
+        "type": "boolean",
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B27",
+        "category": "other_neurological",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Maladie du motoneurone; Autisme; Paralysie cérébrale; Syndrome de Down; Maladie de Parkinson?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Motor neuron disease, Autism, Cerebral palsy, Down syndrome, Parkinson's disease?",
+        "type": "boolean",
+        "items_list": ["Maladie du motoneurone / Motor neuron disease", "Autisme / Autism", "Paralysie cérébrale / Cerebral palsy", "Syndrome de Down / Down syndrome", "Maladie de Parkinson / Parkinson's disease"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B28",
+        "category": "genitourinary",
+        "question_fr_male": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Trouble de la prostate (à l'exception de la prostatite traitée par antibiotiques); Trouble des organes génitaux; Néphrite; Maladie polykystique des reins; Sucre ou sang dans les urines (au cours des 2 dernières années); Tout autre trouble génito-urinaire?",
+        "question_fr_female": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des conditions suivantes : Frottis vaginal (pap test) anormal au cours des 2 dernières années; Trouble des ovaires; Trouble de l'utérus ou des organes génitaux; Néphrite; Maladie polykystique des reins; Sucre ou de sang dans les urines au cours des 2 dernières années (à l'exclusion des menstruations); Tout autre trouble génito-urinaire?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for genitourinary disorders?",
+        "type": "boolean",
+        "sex_specific": true,
+        "items_list_male": ["Trouble de la prostate / Prostate disorder", "Trouble des organes génitaux / Genital disorder", "Néphrite / Nephritis", "Maladie polykystique des reins / Polycystic kidney disease", "Sucre ou sang dans les urines / Sugar or blood in urine", "Tout autre trouble génito-urinaire / Any other genitourinary disorder"],
+        "items_list_female": ["Frottis vaginal anormal / Abnormal pap test", "Trouble des ovaires / Ovarian disorder", "Trouble de l'utérus ou des organes génitaux / Uterine or genital disorder", "Néphrite / Nephritis", "Maladie polykystique des reins / Polycystic kidney disease", "Sucre ou sang dans les urines / Sugar or blood in urine", "Tout autre trouble génito-urinaire / Any other genitourinary disorder"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B29",
+        "category": "arthritic_disorders",
+        "question_fr": "Avez-vous déjà été diagnostiqué, présenté des symptômes, reçu un traitement ou vous a-t-on recommandé une thérapie ou des médicaments pour l'une des affections suivantes : Arthrite rhumatoïde; Arthrite psoriasique; Maladie du disque vertébral?",
+        "question_en": "Have you ever been diagnosed, shown symptoms, received treatment, or were you recommended therapy or medication for: Rheumatoid arthritis, Psoriatic arthritis, Spinal disc disease?",
+        "type": "boolean",
+        "items_list": ["Arthrite rhumatoïde / Rheumatoid arthritis", "Arthrite psoriasique / Psoriatic arthritis", "Maladie du disque vertébral / Spinal disc disease"],
+        "decisions": {
+          "yes": "next_question + additional_questionnaire",
+          "no": "next_question"
+        }
+      },
+      {
+        "id": "B30",
+        "category": "travel_plans",
+        "question_fr": "Au cours des 12 prochains mois, prévoyez-vous de voyager en dehors de l'Amérique du Nord, des Caraïbes (à l'exception d'Haïti), de l'Australie, de la Nouvelle-Zélande ou de l'Union européenne (y compris le Royaume-Uni), ou prévoyez-vous de résider en dehors du Canada pendant plus de 6 mois?",
+        "question_en": "In the next 12 months, do you plan to travel outside of North America, the Caribbean (excluding Haiti), Australia, New Zealand, or the European Union (including the United Kingdom) or do you plan to reside outside of Canada for more than 6 months?",
+        "type": "boolean",
+        "timeframe": "12 months",
+        "safe_destinations": ["North America", "Caribbean (excluding Haiti)", "Australia", "New Zealand", "European Union (including UK)"],
+        "residence_threshold": "6 months outside Canada",
+        "decisions": {
+          "yes": "END + additional_questionnaire",
+          "no": "END"
+        }
+      }
+    ],
+    "policy_exclusions": {
+      "note_fr": "Les activités suivantes ne sont plus posées sous forme de question mais sont exclues de la couverture dans les conditions de la police.",
+      "note_en": "The following activities are no longer asked as questions but are excluded from coverage in the policy conditions.",
+      "activities": [
+        "Alpinisme / Mountain climbing",
+        "Escalade de glace / Ice climbing",
+        "Plongée sous-marine (autre que dans un centre de vacances) / Scuba diving (other than at a vacation resort)",
+        "Parapente / Paragliding",
+        "Paravoile / Parasailing",
+        "Deltaplane / Hang gliding",
+        "Parachutisme / Skydiving",
+        "Saut à l'élastique / Bungee jumping",
+        "Héli-ski / Heli-skiing",
+        "Ski hors-piste / Backcountry skiing",
+        "Motoneige hors-piste / Backcountry snowmobiling",
+        "Aviation (à l'exception des pilotes commerciaux) / Aviation (excluding commercial pilot)",
+        "Course automobile / Motor racing",
+        "Kitesurf / Kitesurfing"
+      ]
+    }
+  },
+
+  "source_documents": [
+    {
+      "id": "emma-fr-guide-de-tarification.mdx",
+      "type": "underwriting_guide",
+      "description": "Guide de tarification et présélection complet"
+    },
+    {
+      "id": "emma-fr-sommaire-produit-assurance-vie.mdx",
+      "type": "product_summary",
+      "description": "Sommaire des produits avec droits du consommateur"
+    },
+    {
+      "id": "emma-fr-specimen-de-contrat.mdx",
+      "type": "specimen_contract",
+      "description": "Spécimen de police avec termes et conditions"
+    },
+    {
+      "id": "Questionnaire EMMA V2_EN & FR_20-06-2025_FD&Humania 02-09-2025.docx",
+      "type": "health_questionnaire",
+      "description": "Questionnaire de santé et d'admissibilité bilingue V2 (Section A: 6 questions, Section B: 24+ questions avec sous-questions)",
+      "version": "V2 - 2025-06-20"
+    }
+  ],
+
+  "tags": [
+    "emma",
+    "assurance-vie",
+    "temporaire",
+    "permanent",
+    "t100",
+    "t10",
+    "guaranteed-issue",
+    "emission-garantie",
+    "cancer",
+    "invalidite",
+    "enfant-a-charge",
+    "quebec",
+    "unified-guide",
+    "questionnaire-sante",
+    "health-questionnaire",
+    "eligibility",
+    "admissibilite"
+  ]
+}
+
