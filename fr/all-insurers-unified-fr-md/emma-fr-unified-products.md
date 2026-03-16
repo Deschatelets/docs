@@ -985,12 +985,12 @@ tags:
 
 ### Tableau Comparatif - Produits Principaux
 
-| Produit | Type | Souscription | Âge | Couverture | Renouvelable | Transformable |
-|---------|------|--------------|-----|------------|--------------|---------------|
-| **Emma T100** | Vie permanente | Pleine sélection | 18-80 | 1 000 $ - 5 M$ | Non | Non |
-| **Emma Temporaire** | Vie temporaire (T10-T35) | Pleine sélection | 18-80 | 50 000 $ - 5 M$ | Oui (→80 ans) | Oui (→65 ans) |
-| **Emma GI T20** | Vie temporaire 20 ans | Émission garantie | 18-60 | 5 000 $ - 100 000 $ | Oui (→80 ans) | Oui (→65 ans) |
-| **Emma GI T100** | Vie permanente T100 | Émission garantie | 18-70 | 5 000 $ - 100 000 $ | Non | Non |
+| Produit | Type | Souscription | Âge | Couverture | Renouvelable | Transformable | Droit d'échange |
+|---------|------|--------------|-----|------------|--------------|---------------|----------------|
+| **Emma T100** | Vie permanente | Pleine sélection | 18-80 | 1 000 $ - 5 M$ | Non | Non | Non |
+| **Emma Temporaire** | Vie temporaire (T10-T35) | Pleine sélection | 18-80 | 50 000 $ - 5 M$ | Oui (→80 ans) | Oui (→65 ans) | Oui |
+| **Emma GI T20** | Vie temporaire 20 ans | Émission garantie | 18-60 | 5 000 $ - 100 000 $ | Oui (→80 ans) | Oui (→65 ans) | Non |
+| **Emma GI T100** | Vie permanente T100 | Émission garantie | 18-70 | 5 000 $ - 100 000 $ | Non | Non | Non |
 
 ### Tableau Comparatif - Avenants (Riders)
 
