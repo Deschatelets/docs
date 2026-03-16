@@ -77,7 +77,7 @@ products:
     premium_options:
       - id: "to-100"
         name: "Jusqu'à 100 ans"
-        description: "Primes payables jusqu'à 100 ans (paiement viager)"
+        description: "Primes payables jusqu'à 100 ans (paiement nivelé viager)"
       - id: "to-65"
         name: "Jusqu'à 65 ans"
         description: "Primes payables jusqu'à 65 ans"
